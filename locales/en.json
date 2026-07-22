@@ -1,0 +1,353 @@
+{
+  "meta": {
+    "siteName": "Thibault Randrasana",
+    "defaultTitle": "Thibault M. E. Randrasana — International Trade & Public Policy Analyst",
+    "defaultDescription": "Analyst in international trade and public policy. Madagascar and the Indian Ocean. Impact studies for public institutions and donors, plus operational experience in liner shipping."
+  },
+  "nav": {
+    "home": "Home",
+    "missions": "Missions",
+    "expertise": "Expertise",
+    "recherche": "Research",
+    "contact": "Contact",
+    "languageSwitchLabel": "Switch to French",
+    "skipToContent": "Skip to content"
+  },
+  "footer": {
+    "tagline": "Analyst in international trade and public policy. Madagascar and the Indian Ocean.",
+    "availability": "Available for consulting assignments — freelance work alongside a full-time position.",
+    "rights": "All rights reserved.",
+    "linkedin": "LinkedIn",
+    "linkedinPlaceholder": "[TO COMPLETE: LinkedIn link]"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Professional portfolio",
+      "name": "Thibault M. E. Randrasana",
+      "positioning": "Analyst in international trade and public policy. Madagascar and the Indian Ocean.",
+      "subtitle": "Dual expertise: impact studies for public institutions and donors, and operational experience in liner shipping.",
+      "ctaPrimary": "Available for consulting assignments",
+      "ctaHref": "/contact",
+      "ctaNote": "Freelance work carried out alongside a full-time position.",
+      "secondaryCta": "View missions",
+      "secondaryCtaHref": "/missions"
+    },
+    "proof": {
+      "title": "Three verifiable facts",
+      "items": [
+        {
+          "id": "zlecaf",
+          "number": 6,
+          "suffix": " months",
+          "label": "AfCFTA study",
+          "detail": "AfCFTA study for the Ministry of Industrialisation — funded by the European Union — presented to the Presidency.",
+          "href": "/missions#zlecaf"
+        },
+        {
+          "id": "eastmed",
+          "number": 400,
+          "prefix": "~",
+          "suffix": " TEU / week",
+          "label": "EASTMED service",
+          "detail": "~400 TEU per week tracked on the EASTMED service via Le Havre (MSC).",
+          "href": "/missions#connectivite-maritime"
+        },
+        {
+          "id": "these",
+          "number": 120,
+          "suffix": " pages",
+          "label": "Research thesis",
+          "detail": "120-page thesis on the interdependence of shipping lines and island states.",
+          "href": "/recherche"
+        }
+      ]
+    },
+    "map": {
+      "title": "Shipping routes tracked",
+      "intro": "Europe – Mediterranean – Indian Ocean basin. Origin ports of the EASTMED service and destinations in the Eastern Mediterranean and North Africa.",
+      "leHavreLabel": "Le Havre",
+      "leHavreStat": "~400 TEU / week — 3 to 4 calls tracked",
+      "madagascarLabel": "Madagascar",
+      "mauriceLabel": "Mauritius",
+      "researchLinkLabel": "See related research",
+      "researchHref": "/recherche",
+      "mobileNotice": "Simplified version on mobile. Interactive map available on larger screens.",
+      "originsLabel": "Origin ports",
+      "destinationsLabel": "Destinations",
+      "destinationZoneLabel": "Eastern Mediterranean basin and North Africa",
+      "ports": [
+        { "id": "fos", "name": "Fos" },
+        { "id": "le-havre", "name": "Le Havre" },
+        { "id": "montoir", "name": "Montoir" },
+        { "id": "bordeaux", "name": "Bordeaux" },
+        { "id": "brest", "name": "Brest" },
+        { "id": "dunkerque", "name": "Dunkirk" },
+        { "id": "anvers", "name": "Antwerp" },
+        { "id": "rotterdam", "name": "Rotterdam" },
+        { "id": "hambourg", "name": "Hamburg" },
+        { "id": "barcelone", "name": "Barcelona" },
+        { "id": "genes", "name": "Genoa" }
+      ]
+    },
+    "sectionsPreview": {
+      "missions": {
+        "title": "Missions",
+        "text": "Four case studies: AfCFTA and the textile sector, maritime connectivity, economic diplomacy, entrepreneurship.",
+        "cta": "View missions"
+      },
+      "expertise": {
+        "title": "Expertise",
+        "text": "Areas of intervention, editorial production, languages, tools and education.",
+        "cta": "View expertise"
+      },
+      "recherche": {
+        "title": "Research",
+        "text": "Master's thesis on the interdependence of shipping lines and island nations.",
+        "cta": "Read the research"
+      }
+    }
+  },
+  "missions": {
+    "title": "Missions",
+    "intro": "Four case studies, presented in a common format: client, period, role, scope, deliverables, outcome.",
+    "format": {
+      "commanditaire": "Client",
+      "financement": "Funding",
+      "periode": "Period",
+      "role": "Role",
+      "perimetre": "Scope",
+      "livrables": "Deliverables",
+      "resultat": "Outcome"
+    },
+    "timeline": {
+      "title": "Career timeline",
+      "instructions": "Filter by nature or by area. Select a point to expand the full record.",
+      "filterNatureLabel": "Nature",
+      "filterZoneLabel": "Area",
+      "allLabel": "All",
+      "natures": {
+        "institutionnel": "Institutional",
+        "operationnel": "Operational",
+        "entrepreneurial": "Entrepreneurial"
+      },
+      "zones": {
+        "madagascar": "Madagascar",
+        "europe": "Europe",
+        "international": "International"
+      }
+    },
+    "caseStudies": [
+      {
+        "id": "zlecaf",
+        "featured": true,
+        "shortTitle": "AfCFTA and the textile-clothing sector",
+        "title": "Support to the Ministry of Industrialisation and Trade for the diagnostic study on opportunities offered by the AfCFTA for the textile and clothing sector in Madagascar",
+        "nature": "institutionnel",
+        "zones": ["madagascar"],
+        "periodeStart": 2025,
+        "periodeEnd": 2025,
+        "commanditaire": "Ministry of Industrialisation and Trade (Madagascar)",
+        "financement": "European Union, via the Support Programme for Export Development and Regional Integration in Madagascar",
+        "periode": "2025 — 6 months",
+        "role": "Support to a senior consultant: desk research, analysis, deliverable production.",
+        "perimetre": "African market under the AfCFTA regime, applied to the development of Madagascar's textile-clothing sector.",
+        "livrables": "Study report of approximately 50 pages; presentation materials for national consultations.",
+        "resultat": "Final closing presentation to the Presidency of the Republic of Madagascar.",
+        "mediaPlaceholder": "[REPORT EXCERPTS — anonymised slides]"
+      },
+      {
+        "id": "connectivite-maritime",
+        "featured": true,
+        "shortTitle": "Maritime connectivity and island economies",
+        "title": "Maritime connectivity and island economies — academic research and operational experience",
+        "nature": "operationnel",
+        "zones": ["europe", "international"],
+        "periodeStart": 2025,
+        "periodeEnd": null,
+        "recherche": {
+          "title": "Research",
+          "text": "Master's thesis, 120 pages: \"The interdependence of shipping lines and island nations — the cases of Madagascar and Mauritius\". Mixed methodology: interviews, data analysis, literature review. Leads to recommendations for Madagascar's logistics chain.",
+          "cta": "View the research",
+          "href": "/recherche"
+        },
+        "terrain": {
+          "title": "Field experience",
+          "text": "Commercial Liner EASTMED, Mediterranean Shipping Company (2025 – current).",
+          "bullets": [
+            "Pricing and capacity allocation on the EASTMED and North Africa trades",
+            "Portfolio of 50+ international clients, tenders and one-off requests, handled daily",
+            "Tracking a service of ~400 weekly TEU transiting through Le Havre, 3 to 4 calls tracked",
+            "Origin ports: Fos, Le Havre, Montoir, Bordeaux, Brest, Dunkirk, Antwerp, Rotterdam, Hamburg, Barcelona, Genoa",
+            "Destinations: Eastern Mediterranean basin and North Africa"
+          ]
+        },
+        "commanditaire": "Mediterranean Shipping Company (MSC)",
+        "periode": "2025 – current",
+        "role": "Commercial Liner EASTMED",
+        "perimetre": "EASTMED and North Africa trades; portfolio of 50+ international clients.",
+        "livrables": "Pricing and capacity allocation; responses to tenders and one-off requests, handled daily.",
+        "resultat": "Tracking a service of ~400 weekly TEU transiting through Le Havre (3 to 4 calls tracked)."
+      },
+      {
+        "id": "wtc",
+        "featured": true,
+        "shortTitle": "Economic diplomacy — WTC Antananarivo × WTC Ras Al Khaimah",
+        "title": "World Trade Center Antananarivo × World Trade Center Ras Al Khaimah",
+        "nature": "institutionnel",
+        "zones": ["madagascar", "international"],
+        "periodeStart": 2025,
+        "periodeEnd": 2025,
+        "commanditaire": "World Trade Center Antananarivo and World Trade Center Ras Al Khaimah (common owner)",
+        "periode": "2025 — 6 months",
+        "role": "Project Manager",
+        "perimetre": "Opening the business club to both WTCs and promoting both destinations to business circles. Stakeholders: the global WTC network, Madagascar's call-centre sector, government trade organisations, business-support institutions.",
+        "livrables": "Representation of both WTCs at the Global Forum — approximately 500 participants, around a hundred WTCs represented.",
+        "resultat": "Project interrupted due to the geopolitical context in Madagascar.",
+        "mediaPlaceholder": "[PHOTOS — Global Forum]"
+      },
+      {
+        "id": "entrepreneuriat",
+        "featured": true,
+        "shortTitle": "Entrepreneurship",
+        "title": "Entrepreneurship",
+        "nature": "entrepreneurial",
+        "zones": ["international", "europe"],
+        "note": "Presented as an operational complement, not as the core offering.",
+        "ploutos": {
+          "title": "Ploutos (2021–2025)",
+          "periodeStart": 2021,
+          "periodeEnd": 2025,
+          "zones": ["international"],
+          "commanditaire": "Co-founded — Web2/Web3 startup",
+          "periode": "2021–2025",
+          "role": "Co-founder",
+          "perimetre": "Team of 2 founders and 5 developers.",
+          "livrables": "One MVP delivered and one product video mockup. Testing limited to a close circle, no waitlist.",
+          "resultat": "Term sheet for €2M signed at pre-seed with a lead investor (Indo-Malagasy entrepreneur); release conditional on prototype delivery, not reached. Shortlisted for Forbes 30 Under 30 Europe, participation in InnoStartup.",
+          "lessonTitle": "Lesson learned",
+          "lesson": "The investment commitment created an expectation that removed any margin for error in the development plan; the schedule allowed for no failure scenario."
+        },
+        "popnbuy": {
+          "title": "PopnBuy OÜ (2025 – ongoing)",
+          "periodeStart": 2025,
+          "periodeEnd": null,
+          "zones": ["europe"],
+          "commanditaire": "Founder — company registered in Estonia",
+          "periode": "2025 – ongoing",
+          "role": "Founder",
+          "perimetre": "Live-commerce marketplace; site built in-house (popnbuy.eu).",
+          "livrables": "50 sellers contacted to date.",
+          "resultat": "Status: in development."
+        }
+      }
+    ]
+  },
+  "recherche": {
+    "title": "Research",
+    "subtitle": "The interdependence of shipping lines and island nations — the cases of Madagascar and Mauritius",
+    "type": "Master's thesis, 120 pages",
+    "methodologyTitle": "Methodology",
+    "methodology": "Mixed methodology: interviews, data analysis, literature review. Leads to recommendations for Madagascar's logistics chain.",
+    "tocTitle": "Chapter outline",
+    "tocPlaceholder": "[TO COMPLETE: detailed chapter outline]",
+    "summaryTitle": "Executive summary",
+    "summaryPlaceholder": "[TO COMPLETE: executive summary]",
+    "previewTitle": "Document preview",
+    "previewPlaceholder": "[TO COMPLETE: thesis PDF]",
+    "previewNote": "Readers should be able to judge the content before downloading the full document.",
+    "downloadLabel": "Download the thesis (PDF)",
+    "downloadUnavailable": "PDF not yet available online",
+    "backToMissions": "See the related mission: maritime connectivity",
+    "backToMissionsHref": "/missions#connectivite-maritime"
+  },
+  "expertise": {
+    "title": "Expertise",
+    "domains": {
+      "title": "Areas of intervention",
+      "items": [
+        "Trade policy and regional integration (AfCFTA, AGOA)",
+        "Liner shipping and international logistics",
+        "Sectoral impact studies",
+        "Economic development of island states"
+      ]
+    },
+    "geography": {
+      "title": "Geographic area",
+      "primary": "Madagascar and the Indian Ocean as a priority",
+      "secondary": "Europe and East Africa as a secondary focus"
+    },
+    "editorial": {
+      "title": "Editorial production",
+      "intro": "Capacity for regular, public writing on Madagascar-related topics, treated as a professional skill.",
+      "items": [
+        {
+          "role": "Editor-in-chief and columnist — Journal de l'Étudiant (2023–2024)",
+          "text": "Malagasy online outlet with approximately 50,000 followers across all social platforms combined [TO VERIFY]. Author of the weekly column \"La Société c'est toi\", devoted to Malagasy society — best engagement per post on the outlet [TO VERIFY]."
+        },
+        {
+          "role": "Editor-in-chief — Inskahier, INSCAE's student paper (2022–2023)",
+          "text": "Led a team of about ten columnists."
+        }
+      ],
+      "linksPlaceholder": "[LINKS TO PUBLISHED COLUMNS — TO COMPLETE]",
+      "verificationNote": "[TO VERIFY before publishing: the 50,000-follower figure and the engagement ranking of the column. If either cannot be documented, remove that figure and keep a qualitative statement without a metric.]"
+    },
+    "languages": {
+      "title": "Languages",
+      "items": [
+        "Malagasy (native language)",
+        "French (bilingual)",
+        "English (C1, TOEIC 980/990)"
+      ]
+    },
+    "tools": {
+      "title": "Tools",
+      "items": ["Excel", "Tableau", "Orange3", "Data Science Studio", "PowerPoint", "Figma"]
+    },
+    "education": {
+      "title": "Education",
+      "items": [
+        "Master in Purchasing and Supply Chain Management — INSEEC, Omnes Education",
+        "Bachelor in Business Management — CREA Geneva, Omnes Education — valedictorian, class of 2024",
+        "Economic development and policy in developing countries · public policy analysis · data analysis for management — London School of Economics and Political Science",
+        "Justice Course Certification — HarvardX"
+      ]
+    },
+    "engagements": {
+      "title": "Commitments",
+      "items": [
+        "Vice-president, MIRAY association (2020 – present) — material support to families affected by food insecurity in southern Madagascar",
+        "Madagascar national basketball team, U16–U18 (2015–2016) — point guard and shooting guard"
+      ]
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "intro": "Available for consulting assignments, freelance and alongside a full-time position.",
+    "emailLabel": "Email",
+    "emailPlaceholder": "[TO COMPLETE: professional email address]",
+    "phoneLabel": "Phone",
+    "phonePlaceholder": "[TO COMPLETE: phone number]",
+    "linkedinLabel": "LinkedIn",
+    "linkedinPlaceholder": "[TO COMPLETE: LinkedIn link]",
+    "cvTitle": "Curriculum vitae",
+    "cvFrLabel": "CV (French)",
+    "cvEnLabel": "CV (English)",
+    "cvUnavailable": "Document to be added",
+    "formTitle": "Or send a message directly",
+    "formName": "Name",
+    "formEmail": "Your email",
+    "formMessage": "Message",
+    "formSubmit": "Send by email",
+    "formNote": "This form opens your default email client; no data is sent to a server."
+  },
+  "common": {
+    "readMore": "Read more",
+    "close": "Close",
+    "expand": "Expand",
+    "collapse": "Collapse",
+    "back": "Back",
+    "loading": "Loading…",
+    "reducedMotionNotice": "Animations are disabled according to your system preferences."
+  }
+}
