@@ -113,9 +113,7 @@ Ces éléments sont volontairement laissés en placeholder — aucune donnée n'
 - **Téléphone** — `src/lib/contact-info.ts` → `PHONE`
 - **Lien LinkedIn** — `src/lib/contact-info.ts` → `LINKEDIN_URL`
 - **CV (FR)** et **CV (EN)** — fichiers PDF à déposer + `CV_FR_URL` / `CV_EN_URL`
-- **Thèse (PDF)** — fichier à déposer + `THESIS_PDF_URL` (active l'aperçu et le téléchargement sur `/recherche`)
-- **Sommaire détaillé des chapitres de la thèse** — `locales/fr.json` et `locales/en.json` → `recherche.tocPlaceholder`
-- **Résumé exécutif de la thèse** — `recherche.summaryPlaceholder`
+- **Thèse (PDF)** — fichier à déposer dans `public/documents/` + `THESIS_PDF_URL` dans `src/lib/contact-info.ts` (active l'aperçu intégré et le téléchargement sur `/recherche`). Exporter le PDF depuis Word pour préserver la page de couverture. Le sommaire des chapitres et le résumé exécutif sont déjà en ligne (extraits du mémoire).
 - **Liens vers les chroniques publiées** (Journal de l'Étudiant / Inskahier) — `expertise.editorial.linksPlaceholder`
 - **[À VÉRIFIER]** Chiffre de ~50 000 abonnés et « meilleur engagement par publication » pour la chronique *La Société c'est toi* — si l'un des deux n'est pas documentable, retirer le chiffre et garder une formulation qualitative (voir `expertise.editorial.verificationNote` et le texte de l'item lui-même)
 - **Visuels ZLECAf** (extraits de rapport / slides anonymisées) — à déposer dans `public/images/`, voir section ci-dessus

@@ -57,11 +57,31 @@ export default async function RecherchePage({
       </section>
 
       <section className="mt-10">
-        <Accordion summary={r.tocTitle}>
-          <p>{r.tocPlaceholder}</p>
+        <Accordion summary={r.tocTitle} defaultOpen>
+          <ol className="space-y-4">
+            {r.toc.map((part) => (
+              <li key={part.part}>
+                <p className="font-medium text-(--color-ink)">{part.part}</p>
+                {part.chapters.length > 0 && (
+                  <ul className="mt-2 space-y-1 pl-4">
+                    {part.chapters.map((chapter) => (
+                      <li key={chapter} className="flex gap-2">
+                        <span aria-hidden="true">—</span>
+                        <span>{chapter}</span>
+                      </li>
+                    ))}
+                  </ul>
+                )}
+              </li>
+            ))}
+          </ol>
         </Accordion>
         <Accordion summary={r.summaryTitle}>
-          <p>{r.summaryPlaceholder}</p>
+          <div className="space-y-3">
+            {r.summary.map((paragraph, i) => (
+              <p key={i}>{paragraph}</p>
+            ))}
+          </div>
         </Accordion>
       </section>
 

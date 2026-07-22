@@ -54,10 +54,11 @@
         },
         {
           "id": "these",
-          "number": 120,
+          "number": 140,
+          "prefix": "~",
           "suffix": " pages",
           "label": "Mémoire de recherche",
-          "detail": "Thèse de 120 pages sur l'interdépendance des compagnies maritimes et des États insulaires.",
+          "detail": "Thèse d'environ 140 pages sur l'interdépendance des compagnies maritimes et des États insulaires.",
           "href": "/recherche"
         }
       ]
@@ -166,7 +167,7 @@
         "periodeEnd": null,
         "recherche": {
           "title": "Recherche",
-          "text": "Mémoire de master, 120 pages : « L'interdépendance des compagnies maritimes et des pays insulaires — cas de Madagascar et Maurice ». Méthodologie mixte : entretiens, analyse de données, revue de littérature. Aboutit à des recommandations pour la chaîne logistique malgache.",
+          "text": "Mémoire de master, environ 140 pages : « L'interdépendance des compagnies maritimes et des pays insulaires — cas de Madagascar et Maurice ». Méthodologie mixte : entretiens, analyse de données, revue de littérature. Aboutit à des recommandations pour la chaîne logistique malgache.",
           "cta": "Consulter la recherche",
           "href": "/recherche"
         },
@@ -245,13 +246,58 @@
   "recherche": {
     "title": "Recherche",
     "subtitle": "L'interdépendance des compagnies maritimes et des pays insulaires — cas de Madagascar et Maurice",
-    "type": "Mémoire de master, 120 pages",
+    "type": "Mémoire de master, environ 140 pages",
     "methodologyTitle": "Méthodologie",
-    "methodology": "Méthodologie mixte : entretiens, analyse de données, revue de littérature. Aboutit à des recommandations pour la chaîne logistique malgache.",
+    "methodology": "Méthodologie mixte appliquée à une étude comparative de Madagascar et Maurice : revue de littérature, analyse de données de connectivité et de performance logistique (Liner Shipping Connectivity Index de la CNUCED, Logistics Performance Index de la Banque mondiale) et entretiens. Aboutit à des préconisations pour Madagascar, pour Maurice et pour les États insulaires en général.",
     "tocTitle": "Sommaire des chapitres",
-    "tocPlaceholder": "[À COMPLÉTER : sommaire détaillé des chapitres]",
+    "toc": [
+      {
+        "part": "Introduction générale",
+        "chapters": []
+      },
+      {
+        "part": "Partie I — Cadre théorique : puissance maritime, dépendance et pouvoir logistique",
+        "chapters": [
+          "1.1 La mer comme fondement historique du commerce mondial",
+          "1.2 Du pouvoir maritime des États au pouvoir maritime des compagnies privées",
+          "1.3 Définir la dépendance maritime : asymétrie, substitution et souveraineté logistique",
+          "1.4 Capitalisme logistique, dépendance économique et néocolonisation : cadres d'interprétation secondaires",
+          "1.5 Propositions de recherche et grille d'analyse comparative"
+        ]
+      },
+      {
+        "part": "Partie II — Étude comparative : Madagascar et Maurice face à la dépendance maritime insulaire",
+        "chapters": [
+          "2.1 Méthodologie, choix des cas et sources mobilisées",
+          "2.2 Résultats comparatifs : connectivité, performance logistique, capacité d'absorption, crises, rôle de l'État",
+          "2.3 Synthèse comparative des résultats"
+        ]
+      },
+      {
+        "part": "Partie III — Préconisations",
+        "chapters": [
+          "3.1 Pour Madagascar : construire une dépendance maritime mieux pilotée",
+          "3.2 Pour Maurice : consolider une dépendance maritime mieux organisée",
+          "3.3 Préconisations communes aux États insulaires",
+          "3.4 Limites des préconisations et voies de recherche futures"
+        ]
+      },
+      {
+        "part": "Conclusion générale",
+        "chapters": []
+      },
+      {
+        "part": "Bibliographie générale · Annexe : entretiens",
+        "chapters": []
+      }
+    ],
     "summaryTitle": "Résumé exécutif",
-    "summaryPlaceholder": "[À COMPLÉTER : résumé exécutif]",
+    "summary": [
+      "Le mémoire analyse la dépendance maritime des États insulaires face aux compagnies logistiques internationales, et la manière dont cette dépendance influence leur compétitivité commerciale, leur souveraineté économique et leur capacité de négociation.",
+      "Il repose sur une étude comparative de Madagascar et de Maurice, croisant revue de littérature, données de connectivité et de performance logistique (indices de la CNUCED et de la Banque mondiale) et entretiens.",
+      "Il conclut que la dépendance maritime des États insulaires est structurelle et souvent asymétrique, mais qu'elle se joue autant à l'intérieur — organisation portuaire, qualité des données, coordination des acteurs — qu'à l'extérieur. Madagascar présente une dépendance plus concentrée autour de Toamasina et une faible capacité de substitution ; Maurice organise davantage la sienne autour du hub de Port Louis.",
+      "La souveraineté logistique y est définie non comme une sortie de l'interdépendance, mais comme la capacité d'un État à connaître, mesurer et piloter sa dépendance. Les préconisations retiennent notamment, pour Madagascar, un observatoire national des flux, une approche en coût rendu complet et une diversification maritime régionale ; pour Maurice, la consolidation de la compétitivité de Port Louis ; et, à l'échelle régionale, des leviers communs aux États insulaires."
+    ],
     "previewTitle": "Aperçu du document",
     "previewPlaceholder": "[À COMPLÉTER : PDF de la thèse]",
     "previewNote": "Le lecteur doit pouvoir juger du contenu avant de télécharger le document complet.",
