@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 @theme {
-  --font-serif: var(--font-fraunces), ui-serif, Georgia, serif;
-  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-display), ui-sans-serif, system-ui, sans-serif;
+  --font-sans: var(--font-body), ui-sans-serif, system-ui, sans-serif;
 
   --color-paper: #faf6ef;
   --color-paper-dim: #f2ece0;
@@ -56,6 +56,8 @@ body {
 
 .font-serif-display {
   font-family: var(--font-serif);
+  letter-spacing: -0.02em;
+  font-weight: 600;
 }
 
 .measure {

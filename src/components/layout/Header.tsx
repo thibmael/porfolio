@@ -18,9 +18,13 @@ export function Header({ locale, dict }: { locale: Locale; dict: Dictionary }) {
         <Link href={localizedHref(locale, "/")} className="font-serif-display text-lg">
           Thibault Randrasana
         </Link>
-        <nav aria-label="Navigation principale" className="hidden items-center gap-6 md:flex">
+        <nav aria-label="Navigation principale" className="hidden items-center gap-1 md:flex">
           {links.map((link) => (
-            <Link key={link.href} href={link.href} className="link-underline text-sm">
+            <Link
+              key={link.href}
+              href={link.href}
+              className="rounded-full px-3 py-1.5 text-sm text-(--color-ink-soft) transition-colors hover:bg-(--color-paper-dim) hover:text-(--color-ink)"
+            >
               {link.label}
             </Link>
           ))}

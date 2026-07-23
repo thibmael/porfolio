@@ -105,7 +105,7 @@ export function Panel({
                 <h2 className="font-serif-display text-2xl leading-tight">{title}</h2>
               </div>
             )}
-            <div className="overflow-y-auto px-6 py-6">{children}</div>
+            <div className="overflow-y-auto px-6 py-8 sm:px-9 sm:py-10">{children}</div>
           </motion.div>
         </motion.div>
       )}

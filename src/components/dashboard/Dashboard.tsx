@@ -8,6 +8,7 @@ import { Panel } from "./Panel";
 import { Counter } from "@/components/home/Counter";
 import { Cover, type CoverVariant } from "@/components/visual/covers";
 import { ProjectCard } from "@/components/visual/ProjectCard";
+import { Hero3DObject } from "@/components/visual/Hero3DObject";
 import { MissionDetail } from "./panels/MissionDetail";
 import { RecherchePanel } from "./panels/RecherchePanel";
 import { ExpertisePanel } from "./panels/ExpertisePanel";
@@ -125,6 +126,7 @@ export function Dashboard({ dict }: { dict: Dictionary }) {
           <Cover variant="hero" />
         </div>
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-black/30" />
+        <Hero3DObject className="pointer-events-none absolute -right-6 top-1/2 hidden h-[26rem] w-[26rem] -translate-y-1/2 lg:block xl:right-10" />
         <div className="relative mx-auto flex max-w-6xl flex-col gap-8 px-6 py-16 sm:py-24">
           <div className="flex items-center gap-5">
             <div className="flex h-16 w-16 shrink-0 items-center justify-center overflow-hidden rounded-full border border-white/30 bg-white/10 backdrop-blur-sm sm:h-20 sm:w-20">
@@ -153,18 +155,23 @@ export function Dashboard({ dict }: { dict: Dictionary }) {
             <p className="measure mt-3 text-sm text-white/70 sm:text-base">{hero.subtitle}</p>
           </div>
 
-          <div className="flex flex-wrap items-end gap-x-10 gap-y-6">
+          <div className="flex flex-wrap gap-3">
             {dict.home.proof.items.map((item) => (
               <button
                 key={item.id}
                 type="button"
                 onClick={() => setPanel(statMap[item.id] ?? null)}
-                className="group text-left"
+                className="group flex flex-col rounded-2xl border border-white/15 bg-white/10 px-5 py-3 text-left backdrop-blur-md transition-colors hover:border-white/40 hover:bg-white/20"
               >
-                <p className="font-serif-display text-3xl tabular-nums text-white sm:text-4xl">
+                <span className="font-serif-display text-3xl tabular-nums text-white sm:text-4xl">
                   <Counter value={item.number} prefix={item.prefix} suffix={item.suffix} />
-                </p>
-                <p className="mt-1 text-xs text-white/70 group-hover:text-white">{item.label}</p>
+                </span>
+                <span className="mt-1 flex items-center gap-1.5 text-xs text-white/75 group-hover:text-white">
+                  {item.label}
+                  <span aria-hidden="true" className="opacity-0 transition-opacity group-hover:opacity-100">
+                    →
+                  </span>
+                </span>
               </button>
             ))}
           </div>
