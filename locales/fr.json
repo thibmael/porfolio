@@ -63,32 +63,18 @@
         }
       ]
     },
-    "map": {
-      "title": "Routes maritimes suivies",
-      "intro": "Bassin Europe – Méditerranée – océan Indien. Ports d'origine du service EASTMED et destinations en Méditerranée orientale et Afrique du Nord.",
-      "leHavreLabel": "Le Havre",
-      "leHavreStat": "~400 EVP / semaine — 3 à 4 escales suivies",
-      "madagascarLabel": "Madagascar",
-      "mauriceLabel": "Maurice",
-      "researchLinkLabel": "Voir la recherche associée",
-      "researchHref": "/recherche",
-      "mobileNotice": "Version simplifiée sur mobile. Carte interactive disponible sur écran large.",
-      "originsLabel": "Ports d'origine",
-      "destinationsLabel": "Destinations",
-      "destinationZoneLabel": "Bassin méditerranéen oriental et Afrique du Nord",
-      "ports": [
-        { "id": "fos", "name": "Fos" },
-        { "id": "le-havre", "name": "Le Havre" },
-        { "id": "montoir", "name": "Montoir" },
-        { "id": "bordeaux", "name": "Bordeaux" },
-        { "id": "brest", "name": "Brest" },
-        { "id": "dunkerque", "name": "Dunkerque" },
-        { "id": "anvers", "name": "Anvers" },
-        { "id": "rotterdam", "name": "Rotterdam" },
-        { "id": "hambourg", "name": "Hambourg" },
-        { "id": "barcelone", "name": "Barcelone" },
-        { "id": "genes", "name": "Gênes" }
-      ]
+    "dashboard": {
+      "hintExplore": "Explorer",
+      "hintContact": "Me contacter",
+      "eyebrows": {
+        "zlecaf": "Institutionnel · Union européenne",
+        "connectivite": "Opérationnel · MSC",
+        "wtc": "Institutionnel · WTC",
+        "entrepreneuriat": "Entrepreneurial",
+        "recherche": "Mémoire de master",
+        "expertise": "Compétences et formation",
+        "contact": "Disponible en freelance"
+      }
     },
     "sectionsPreview": {
       "missions": {

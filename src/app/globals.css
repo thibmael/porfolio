@@ -15,8 +15,11 @@
   --breakpoint-xs: 30rem;
 }
 
+/* Dark mode as a true runtime override. In Tailwind v4, `@theme` cannot be
+   nested inside a media query, so the dark palette is applied here as plain
+   custom-property overrides on :root. Light/ivory remains the default. */
 @media (prefers-color-scheme: dark) {
-  @theme {
+  :root {
     --color-paper: #16161a;
     --color-paper-dim: #1d1d22;
     --color-ink: #ede9e0;

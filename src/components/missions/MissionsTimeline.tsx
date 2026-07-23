@@ -108,6 +108,23 @@ export function MissionsTimeline({
 
   const activePoint = points.find((p) => p.id === activePointId) ?? null;
 
+  // Several missions share the year 2025; spread same-year points horizontally
+  // and stagger their labels above/below the axis so nothing overlaps.
+  const yearMeta = useMemo(() => {
+    const counts: Record<number, number> = {};
+    points.forEach((p) => {
+      counts[p.start] = (counts[p.start] ?? 0) + 1;
+    });
+    const seen: Record<number, number> = {};
+    const meta: Record<string, { index: number; count: number }> = {};
+    points.forEach((p) => {
+      const idx = seen[p.start] ?? 0;
+      meta[p.id] = { index: idx, count: counts[p.start] };
+      seen[p.start] = idx + 1;
+    });
+    return meta;
+  }, [points]);
+
   const natureEntries = Object.entries(timeline.natures) as [string, string][];
   const zoneEntries = Object.entries(timeline.zones) as [string, string][];
 
@@ -160,38 +177,61 @@ export function MissionsTimeline({
       </div>
 
       {/* Desktop horizontal timeline */}
-      <div className="relative mt-12 hidden h-24 sm:block">
+      <div className="relative mt-12 hidden h-40 sm:block">
         <div className="absolute left-0 right-0 top-1/2 h-px bg-(--color-line)" />
+        <span className="absolute left-0 top-1/2 mt-3 text-xs text-(--color-ink-soft)">
+          {minYear}
+        </span>
+        <span className="absolute right-0 top-1/2 mt-3 text-xs text-(--color-ink-soft)">
+          {maxYear}
+        </span>
         {points.map((point) => {
-          const leftPct = ((point.start - minYear) / span) * 100;
+          const meta = yearMeta[point.id];
+          const baseLeft = ((point.start - minYear) / span) * 100;
+          const gap = 6.5;
+          const offset = (meta.index - (meta.count - 1) / 2) * gap;
+          const leftPct = Math.min(Math.max(baseLeft + offset, 4), 96);
+          const labelAbove = meta.index % 2 === 0;
           const isMatch = matches(point);
           return (
-            <button
+            <div
               key={point.id}
-              type="button"
-              style={{ left: `${Math.min(Math.max(leftPct, 0), 100)}%` }}
-              className="absolute top-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col items-center gap-2 transition-opacity"
-              data-match={isMatch}
-              onClick={() => setActivePointId((current) => (current === point.id ? null : point.id))}
-              aria-expanded={activePointId === point.id}
-              aria-label={point.label}
+              style={{ left: `${leftPct}%` }}
+              className="absolute top-1/2 -translate-x-1/2 -translate-y-1/2"
             >
-              <span
-                className="h-3 w-3 rounded-full border-2 transition-colors"
-                style={{
-                  opacity: isMatch ? 1 : 0.25,
-                  backgroundColor:
-                    activePointId === point.id ? "var(--color-accent)" : "var(--color-paper)",
-                  borderColor: "var(--color-accent)",
-                }}
-              />
-              <span
-                className="max-w-[9rem] text-center text-xs text-(--color-ink-soft)"
-                style={{ opacity: isMatch ? 1 : 0.35 }}
+              <button
+                type="button"
+                className="relative block outline-none"
+                data-match={isMatch}
+                onClick={() =>
+                  setActivePointId((current) => (current === point.id ? null : point.id))
+                }
+                aria-expanded={activePointId === point.id}
+                aria-label={`${point.label} (${point.periode})`}
               >
-                {point.label}
-              </span>
-            </button>
+                <span
+                  className="block h-3 w-3 rounded-full border-2 transition-colors"
+                  style={{
+                    opacity: isMatch ? 1 : 0.25,
+                    backgroundColor:
+                      activePointId === point.id ? "var(--color-accent)" : "var(--color-paper)",
+                    borderColor: "var(--color-accent)",
+                  }}
+                />
+                <span
+                  className={`absolute left-1/2 w-32 -translate-x-1/2 text-center text-xs leading-tight ${
+                    labelAbove ? "bottom-full mb-2" : "top-full mt-2"
+                  } ${
+                    activePointId === point.id
+                      ? "font-medium text-(--color-ink)"
+                      : "text-(--color-ink-soft)"
+                  }`}
+                  style={{ opacity: isMatch ? 1 : 0.35 }}
+                >
+                  {point.label}
+                </span>
+              </button>
+            </div>
           );
         })}
       </div>

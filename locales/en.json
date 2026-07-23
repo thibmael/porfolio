@@ -63,32 +63,18 @@
         }
       ]
     },
-    "map": {
-      "title": "Shipping routes tracked",
-      "intro": "Europe – Mediterranean – Indian Ocean basin. Origin ports of the EASTMED service and destinations in the Eastern Mediterranean and North Africa.",
-      "leHavreLabel": "Le Havre",
-      "leHavreStat": "~400 TEU / week — 3 to 4 calls tracked",
-      "madagascarLabel": "Madagascar",
-      "mauriceLabel": "Mauritius",
-      "researchLinkLabel": "See related research",
-      "researchHref": "/recherche",
-      "mobileNotice": "Simplified version on mobile. Interactive map available on larger screens.",
-      "originsLabel": "Origin ports",
-      "destinationsLabel": "Destinations",
-      "destinationZoneLabel": "Eastern Mediterranean basin and North Africa",
-      "ports": [
-        { "id": "fos", "name": "Fos" },
-        { "id": "le-havre", "name": "Le Havre" },
-        { "id": "montoir", "name": "Montoir" },
-        { "id": "bordeaux", "name": "Bordeaux" },
-        { "id": "brest", "name": "Brest" },
-        { "id": "dunkerque", "name": "Dunkirk" },
-        { "id": "anvers", "name": "Antwerp" },
-        { "id": "rotterdam", "name": "Rotterdam" },
-        { "id": "hambourg", "name": "Hamburg" },
-        { "id": "barcelone", "name": "Barcelona" },
-        { "id": "genes", "name": "Genoa" }
-      ]
+    "dashboard": {
+      "hintExplore": "Explore",
+      "hintContact": "Get in touch",
+      "eyebrows": {
+        "zlecaf": "Institutional · European Union",
+        "connectivite": "Operational · MSC",
+        "wtc": "Institutional · WTC",
+        "entrepreneuriat": "Entrepreneurial",
+        "recherche": "Master's thesis",
+        "expertise": "Skills and education",
+        "contact": "Available freelance"
+      }
     },
     "sectionsPreview": {
       "missions": {
