@@ -9,6 +9,7 @@ export function Panel({
   title,
   eyebrow,
   closeLabel,
+  banner,
   children,
 }: {
   open: boolean;
@@ -16,6 +17,7 @@ export function Panel({
   title: string;
   eyebrow?: string;
   closeLabel: string;
+  banner?: ReactNode;
   children: ReactNode;
 }) {
   const rm = useReducedMotion();
@@ -63,8 +65,38 @@ export function Panel({
             exit={rm ? { opacity: 0 } : { opacity: 0, y: 24, scale: 0.98 }}
             transition={{ duration: rm ? 0 : 0.28, ease: [0.22, 1, 0.36, 1] }}
           >
-            <div className="flex items-start justify-between gap-4 border-b border-(--color-line) px-6 py-4">
-              <div>
+            <button
+              type="button"
+              onClick={onClose}
+              aria-label={closeLabel}
+              className="absolute right-4 top-4 z-10 shrink-0 rounded-full border border-white/30 bg-black/30 p-2 text-white backdrop-blur-sm transition-colors hover:bg-black/50"
+            >
+              <svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true">
+                <path
+                  d="M3 3l10 10M13 3L3 13"
+                  stroke="currentColor"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
+                />
+              </svg>
+            </button>
+            {banner ? (
+              <div className="relative h-40 shrink-0 overflow-hidden sm:h-52">
+                <div className="absolute inset-0">{banner}</div>
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent" />
+                <div className="absolute inset-x-0 bottom-0 p-6">
+                  {eyebrow && (
+                    <p className="text-xs font-medium uppercase tracking-widest text-white/80">
+                      {eyebrow}
+                    </p>
+                  )}
+                  <h2 className="font-serif-display text-2xl leading-tight text-white sm:text-3xl">
+                    {title}
+                  </h2>
+                </div>
+              </div>
+            ) : (
+              <div className="border-b border-(--color-line) px-6 py-4 pr-16">
                 {eyebrow && (
                   <p className="text-xs font-medium uppercase tracking-widest text-(--color-ink-soft)">
                     {eyebrow}
@@ -72,22 +104,7 @@ export function Panel({
                 )}
                 <h2 className="font-serif-display text-2xl leading-tight">{title}</h2>
               </div>
-              <button
-                type="button"
-                onClick={onClose}
-                aria-label={closeLabel}
-                className="shrink-0 rounded-full border border-(--color-line) p-2 text-(--color-ink-soft) transition-colors hover:bg-(--color-paper-dim)"
-              >
-                <svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true">
-                  <path
-                    d="M3 3l10 10M13 3L3 13"
-                    stroke="currentColor"
-                    strokeWidth="1.5"
-                    strokeLinecap="round"
-                  />
-                </svg>
-              </button>
-            </div>
+            )}
             <div className="overflow-y-auto px-6 py-6">{children}</div>
           </motion.div>
         </motion.div>
