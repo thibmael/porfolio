@@ -8,7 +8,6 @@
     "home": "Home",
     "missions": "Missions",
     "expertise": "Expertise",
-    "recherche": "Research",
     "contact": "Contact",
     "languageSwitchLabel": "Switch to French",
     "skipToContent": "Skip to content"
@@ -26,92 +25,51 @@
       "name": "Thibault M. E. Randrasana",
       "positioning": "Analyst in international trade and public policy. Madagascar and the Indian Ocean.",
       "subtitle": "Dual expertise: impact studies for public institutions and donors, and operational experience in liner shipping.",
+      "photoAlt": "Professional photograph of Thibault M. E. Randrasana",
+      "photoPlaceholder": "[PROFESSIONAL PHOTO — TO COMPLETE]",
       "ctaPrimary": "Available for consulting assignments",
-      "ctaHref": "/contact",
       "ctaNote": "Freelance work carried out alongside a full-time position.",
-      "secondaryCta": "View missions",
-      "secondaryCtaHref": "/missions"
+      "secondaryCta": "View missions"
     },
     "proof": {
       "title": "Three verifiable facts",
       "items": [
         {
-          "id": "zlecaf",
-          "number": 6,
-          "suffix": " months",
-          "label": "AfCFTA study",
+          "id": "report",
+          "number": 50,
+          "prefix": "~",
+          "suffix": " pages",
+          "label": "AfCFTA study report",
           "detail": "AfCFTA study for the Ministry of Industrialisation — funded by the European Union — presented to the Presidency.",
-          "href": "/missions#zlecaf"
+          "capsule": "gefp"
         },
         {
           "id": "eastmed",
           "number": 400,
           "prefix": "~",
           "suffix": " TEU / week",
-          "label": "EASTMED service",
+          "label": "EASTMED service via Le Havre",
           "detail": "~400 TEU per week tracked on the EASTMED service via Le Havre (MSC).",
-          "href": "/missions#connectivite-maritime"
+          "capsule": "msc"
         },
         {
           "id": "these",
-          "number": 140,
-          "prefix": "~",
+          "number": 120,
           "suffix": " pages",
           "label": "Research thesis",
-          "detail": "Thesis of about 140 pages on the interdependence of shipping lines and island states.",
-          "href": "/recherche"
+          "detail": "120-page thesis on the interdependence of shipping lines and island states.",
+          "capsule": "recherche"
         }
       ]
-    },
-    "dashboard": {
-      "hintExplore": "Explore",
-      "hintContact": "Get in touch",
-      "eyebrows": {
-        "zlecaf": "Institutional · European Union",
-        "connectivite": "Operational · MSC",
-        "wtc": "Institutional · WTC",
-        "entrepreneuriat": "Entrepreneurial",
-        "recherche": "Master's thesis",
-        "expertise": "Skills and education",
-        "contact": "Available freelance"
-      }
-    },
-    "sectionsPreview": {
-      "missions": {
-        "title": "Missions",
-        "text": "Four case studies: AfCFTA and the textile sector, maritime connectivity, economic diplomacy, entrepreneurship.",
-        "cta": "View missions"
-      },
-      "expertise": {
-        "title": "Expertise",
-        "text": "Areas of intervention, editorial production, languages, tools and education.",
-        "cta": "View expertise"
-      },
-      "recherche": {
-        "title": "Research",
-        "text": "Master's thesis on the interdependence of shipping lines and island nations.",
-        "cta": "Read the research"
-      }
     }
   },
   "missions": {
     "title": "Missions",
-    "intro": "Four case studies, presented in a common format: client, period, role, scope, deliverables, outcome.",
-    "format": {
-      "commanditaire": "Client",
-      "financement": "Funding",
-      "periode": "Period",
-      "role": "Role",
-      "perimetre": "Scope",
-      "livrables": "Deliverables",
-      "resultat": "Outcome"
-    },
-    "timeline": {
-      "title": "Career timeline",
-      "instructions": "Filter by nature or by area. Select a point to expand the full record.",
-      "filterNatureLabel": "Nature",
-      "filterZoneLabel": "Area",
-      "allLabel": "All",
+    "intro": "Six experiences, each presented as a self-contained capsule: one key figure, a summary, a diagram built from real data. Select a capsule to expand the full record.",
+    "filters": {
+      "natureLabel": "Nature",
+      "zoneLabel": "Area",
+      "all": "All",
       "natures": {
         "institutionnel": "Institutional",
         "operationnel": "Operational",
@@ -123,184 +81,266 @@
         "international": "International"
       }
     },
-    "caseStudies": [
+    "format": {
+      "commanditaire": "Client",
+      "financement": "Funding",
+      "periode": "Period",
+      "role": "Role",
+      "perimetre": "Scope",
+      "livrables": "Deliverables",
+      "resultat": "Outcome",
+      "enseignement": "Lesson learned"
+    },
+    "capsules": [
       {
-        "id": "zlecaf",
-        "featured": true,
-        "shortTitle": "AfCFTA and the textile-clothing sector",
-        "title": "Support to the Ministry of Industrialisation and Trade for the diagnostic study on opportunities offered by the AfCFTA for the textile and clothing sector in Madagascar",
+        "id": "gefp",
+        "teinte": "rose",
         "nature": "institutionnel",
         "zones": ["madagascar"],
-        "periodeStart": 2025,
-        "periodeEnd": 2025,
+        "diagramType": "process",
+        "org": "Ministry of Industrialisation and Trade",
+        "role": "Support to a senior consultant",
+        "periode": "2025 — 6 months",
+        "keyFigure": { "value": 50, "prefix": "~", "suffix": " p.", "label": "Study report" },
+        "shortTitle": "AfCFTA diagnostic study — textile-clothing sector",
+        "summary": "Diagnostic of the opportunities the AfCFTA offers Madagascar's textile-clothing sector, through to the presentation to the Presidency.",
         "commanditaire": "Ministry of Industrialisation and Trade (Madagascar)",
         "financement": "European Union, via the Support Programme for Export Development and Regional Integration in Madagascar",
-        "periode": "2025 — 6 months",
-        "role": "Support to a senior consultant: desk research, analysis, deliverable production.",
         "perimetre": "African market under the AfCFTA regime, applied to the development of Madagascar's textile-clothing sector.",
         "livrables": "Study report of approximately 50 pages; presentation materials for national consultations.",
         "resultat": "Final closing presentation to the Presidency of the Republic of Madagascar.",
-        "mediaPlaceholder": "[REPORT EXCERPTS — anonymised slides]"
-      },
-      {
-        "id": "connectivite-maritime",
-        "featured": true,
-        "shortTitle": "Maritime connectivity and island economies",
-        "title": "Maritime connectivity and island economies — academic research and operational experience",
-        "nature": "operationnel",
-        "zones": ["europe", "international"],
-        "periodeStart": 2025,
-        "periodeEnd": null,
-        "recherche": {
-          "title": "Research",
-          "text": "Master's thesis, about 140 pages: \"The interdependence of shipping lines and island nations — the cases of Madagascar and Mauritius\". Mixed methodology: interviews, data analysis, literature review. Leads to recommendations for Madagascar's logistics chain.",
-          "cta": "View the research",
-          "href": "/recherche"
-        },
-        "terrain": {
-          "title": "Field experience",
-          "text": "Commercial Liner EASTMED, Mediterranean Shipping Company (2025 – current).",
-          "bullets": [
-            "Pricing and capacity allocation on the EASTMED and North Africa trades",
-            "Portfolio of 50+ international clients, tenders and one-off requests, handled daily",
-            "Tracking a service of ~400 weekly TEU transiting through Le Havre, 3 to 4 calls tracked",
-            "Origin ports: Fos, Le Havre, Montoir, Bordeaux, Brest, Dunkirk, Antwerp, Rotterdam, Hamburg, Barcelona, Genoa",
-            "Destinations: Eastern Mediterranean basin and North Africa"
+        "diagram": {
+          "steps": [
+            "Desk research",
+            "Analysis",
+            "National consultations",
+            "Closing before the Presidency"
           ]
         },
-        "commanditaire": "Mediterranean Shipping Company (MSC)",
-        "periode": "2025 – current",
+        "media": {
+          "alt": "Report excerpts, anonymised slides",
+          "label": "[REPORT EXCERPTS — TO COMPLETE]",
+          "ratio": "4 / 3"
+        }
+      },
+      {
+        "id": "recherche",
+        "teinte": "mix",
+        "nature": "institutionnel",
+        "zones": ["madagascar", "international"],
+        "diagramType": "venn",
+        "org": "Academic research — master's thesis",
+        "role": "Author",
+        "periode": "120 pages",
+        "keyFigure": { "value": 120, "suffix": " p.", "label": "Master's thesis" },
+        "shortTitle": "The interdependence of shipping lines and island nations",
+        "summary": "Comparative Madagascar–Mauritius study of island states' maritime dependence. Mixed methodology, logistics recommendations.",
+        "commanditaire": "Academic research (master's thesis)",
+        "perimetre": "Interdependence of shipping lines and island states; the compared cases of Madagascar and Mauritius.",
+        "livrables": "120-page thesis; recommendations for Madagascar's logistics chain.",
+        "resultat": "Mixed methodology: interviews, data analysis, literature review.",
+        "diagram": {
+          "circles": ["Interviews", "Data", "Literature review"]
+        },
+        "media": {
+          "alt": "Master's thesis cover",
+          "label": "[THESIS COVER — TO COMPLETE]",
+          "ratio": "3 / 4"
+        },
+        "research": {
+          "subtitle": "The interdependence of shipping lines and island nations — the cases of Madagascar and Mauritius",
+          "methodologyTitle": "Methodology",
+          "methodology": "Mixed methodology applied to a comparative study of Madagascar and Mauritius: literature review, analysis of connectivity and logistics-performance data (UNCTAD Liner Shipping Connectivity Index, World Bank Logistics Performance Index) and interviews.",
+          "tocTitle": "Chapter outline",
+          "toc": [
+            { "part": "General introduction", "chapters": [] },
+            {
+              "part": "Part I — Theoretical framework: sea power, dependence and logistics power",
+              "chapters": [
+                "1.1 The sea as the historical foundation of world trade",
+                "1.2 From states' sea power to the sea power of private carriers",
+                "1.3 Defining maritime dependence: asymmetry, substitution and logistics sovereignty",
+                "1.4 Logistics capitalism, economic dependence and neo-colonisation: secondary frameworks",
+                "1.5 Research propositions and comparative analytical grid"
+              ]
+            },
+            {
+              "part": "Part II — Comparative study: Madagascar and Mauritius facing island maritime dependence",
+              "chapters": [
+                "2.1 Methodology, case selection and sources",
+                "2.2 Comparative results: connectivity, logistics performance, absorption capacity, crises, the state's role",
+                "2.3 Comparative synthesis of results"
+              ]
+            },
+            {
+              "part": "Part III — Recommendations",
+              "chapters": [
+                "3.1 For Madagascar: building a better-steered maritime dependence",
+                "3.2 For Mauritius: consolidating a better-organised maritime dependence",
+                "3.3 Recommendations common to island states",
+                "3.4 Limits of the recommendations and future research directions"
+              ]
+            },
+            { "part": "General conclusion", "chapters": [] },
+            { "part": "General bibliography · Appendix: interviews", "chapters": [] }
+          ],
+          "summaryTitle": "Executive summary",
+          "summary": [
+            "The thesis analyses the maritime dependence of island states on international logistics companies, and how that dependence shapes their commercial competitiveness, economic sovereignty and negotiating capacity.",
+            "It rests on a comparative study of Madagascar and Mauritius, combining a literature review, connectivity and logistics-performance data (UNCTAD and World Bank indices) and interviews.",
+            "It concludes that island states' maritime dependence is structural and often asymmetric, but that it plays out as much internally — port organisation, data quality, coordination of actors — as externally.",
+            "Logistics sovereignty is defined not as an exit from interdependence but as a state's capacity to know, measure and steer its dependence; the recommendations include a national flows observatory, a total-landed-cost approach and regional maritime diversification."
+          ],
+          "previewTitle": "Document preview",
+          "previewPlaceholder": "[TO COMPLETE: thesis PDF]",
+          "previewNote": "Readers should be able to judge the content before downloading the full document.",
+          "downloadLabel": "Download the thesis (PDF)",
+          "downloadUnavailable": "PDF not yet available online"
+        }
+      },
+      {
+        "id": "msc",
+        "teinte": "blue",
+        "nature": "operationnel",
+        "zones": ["europe", "international"],
+        "diagramType": "network",
+        "org": "Mediterranean Shipping Company (MSC)",
         "role": "Commercial Liner EASTMED",
+        "periode": "2025 — current",
+        "keyFigure": { "value": 400, "prefix": "~", "suffix": " TEU", "label": "per week via Le Havre" },
+        "shortTitle": "Commercial Liner EASTMED",
+        "summary": "Pricing and capacity allocation on the EASTMED and North Africa trades; tracking a ~400 weekly TEU service via Le Havre.",
+        "commanditaire": "Mediterranean Shipping Company (MSC)",
         "perimetre": "EASTMED and North Africa trades; portfolio of 50+ international clients.",
-        "livrables": "Pricing and capacity allocation; responses to tenders and one-off requests, handled daily.",
-        "resultat": "Tracking a service of ~400 weekly TEU transiting through Le Havre (3 to 4 calls tracked)."
+        "livrables": "Pricing and capacity allocation; responses to tenders and one-off requests, handled daily on a case-by-case basis.",
+        "resultat": "Tracking a ~400 weekly TEU service transiting through Le Havre, 3 to 4 calls followed.",
+        "diagram": {
+          "origins": [
+            "Fos",
+            "Le Havre",
+            "Montoir",
+            "Bordeaux",
+            "Brest",
+            "Dunkirk",
+            "Antwerp",
+            "Rotterdam",
+            "Hamburg",
+            "Barcelona",
+            "Genoa"
+          ],
+          "hub": "Le Havre",
+          "hubNote": "~400 TEU / week",
+          "destination": "EASTMED · North Africa"
+        }
       },
       {
         "id": "wtc",
-        "featured": true,
-        "shortTitle": "Economic diplomacy — WTC Antananarivo × WTC Ras Al Khaimah",
-        "title": "World Trade Center Antananarivo × World Trade Center Ras Al Khaimah",
+        "teinte": "rose",
         "nature": "institutionnel",
         "zones": ["madagascar", "international"],
-        "periodeStart": 2025,
-        "periodeEnd": 2025,
-        "commanditaire": "World Trade Center Antananarivo and World Trade Center Ras Al Khaimah (common owner)",
-        "periode": "2025 — 6 months",
+        "diagramType": "radial",
+        "org": "WTC Antananarivo × WTC Ras Al Khaimah",
         "role": "Project Manager",
-        "perimetre": "Opening the business club to both WTCs and promoting both destinations to business circles. Stakeholders: the global WTC network, Madagascar's call-centre sector, government trade organisations, business-support institutions.",
+        "periode": "2025 — 6 months",
+        "keyFigure": { "value": 500, "prefix": "~", "suffix": "", "label": "Global Forum participants" },
+        "shortTitle": "Economic diplomacy — WTC Antananarivo × Ras Al Khaimah",
+        "summary": "Opening a shared business club across both WTCs and promoting both destinations. Project interrupted by the geopolitical context.",
+        "commanditaire": "World Trade Center Antananarivo and World Trade Center Ras Al Khaimah (common owner)",
+        "perimetre": "Opening a business club shared by both WTCs and promoting both destinations to business circles.",
         "livrables": "Representation of both WTCs at the Global Forum — approximately 500 participants, around a hundred WTCs represented.",
         "resultat": "Project interrupted due to the geopolitical context in Madagascar.",
-        "mediaPlaceholder": "[PHOTOS — Global Forum]"
+        "diagram": {
+          "center": "Thibault",
+          "groups": [
+            "Global WTC network",
+            "Malagasy call centres",
+            "Government trade organisations",
+            "Business-facilitation institutions"
+          ]
+        },
+        "media": {
+          "alt": "Global Forum gallery",
+          "label": "[PHOTOS — GLOBAL FORUM — TO COMPLETE]",
+          "ratio": "4 / 3"
+        }
       },
       {
-        "id": "entrepreneuriat",
-        "featured": true,
-        "shortTitle": "Entrepreneurship",
-        "title": "Entrepreneurship",
+        "id": "ploutos",
+        "teinte": "blue",
         "nature": "entrepreneurial",
         "zones": ["international", "europe"],
-        "note": "Presented as an operational complement, not as the core offering.",
-        "ploutos": {
-          "title": "Ploutos (2021–2025)",
-          "periodeStart": 2021,
-          "periodeEnd": 2025,
-          "zones": ["international"],
-          "commanditaire": "Co-founded — Web2/Web3 startup",
-          "periode": "2021–2025",
-          "role": "Co-founder",
-          "perimetre": "Team of 2 founders and 5 developers.",
-          "livrables": "One MVP delivered and one product video mockup. Testing limited to a close circle, no waitlist.",
-          "resultat": "Term sheet for €2M signed at pre-seed with a lead investor (Indo-Malagasy entrepreneur); release conditional on prototype delivery, not reached. Shortlisted for Forbes 30 Under 30 Europe, participation in InnoStartup.",
-          "lessonTitle": "Lesson learned",
-          "lesson": "The investment commitment created an expectation that removed any margin for error in the development plan; the schedule allowed for no failure scenario."
+        "diagramType": "arc",
+        "org": "Ploutos — Web2/Web3 startup",
+        "role": "Co-founder",
+        "periode": "2021–2025",
+        "keyFigure": { "value": 2, "suffix": "M€", "label": "term sheet signed, funds not released" },
+        "shortTitle": "Ploutos — co-founding a Web2/Web3 startup",
+        "summary": "Term sheet for €2M signed at pre-seed; release conditional on the prototype, not reached. The failure was about timing, not the product.",
+        "commanditaire": "Co-founded — Web2/Web3 startup",
+        "perimetre": "Team of 2 founders and 5 developers.",
+        "livrables": "One MVP delivered and one product video mockup. Testing limited to a close circle, no waitlist.",
+        "resultat": "Term sheet for €2M signed at pre-seed; release conditional on prototype delivery, not reached. Shortlisted for Forbes 30 Under 30 Europe, participation in InnoStartup.",
+        "enseignement": "The investment commitment removed any margin for error in the development plan; the schedule allowed for no failure scenario.",
+        "diagram": {
+          "steps": [
+            "Term sheet signed",
+            "Prototype delivered",
+            "Judged insufficient",
+            "Funds not released"
+          ]
+        }
+      },
+      {
+        "id": "popnbuy",
+        "teinte": "blue",
+        "nature": "entrepreneurial",
+        "zones": ["europe"],
+        "diagramType": "progress",
+        "org": "PopnBuy OÜ — company registered in Estonia",
+        "role": "Founder",
+        "periode": "2025 — ongoing",
+        "keyFigure": { "value": 50, "suffix": "", "label": "sellers contacted" },
+        "shortTitle": "PopnBuy OÜ — live-commerce marketplace",
+        "summary": "Live-commerce marketplace, Estonian company, site built in-house. 50 sellers contacted to date.",
+        "commanditaire": "Founder — company registered in Estonia",
+        "perimetre": "Live-commerce marketplace; site built in-house with Claude Code and several skills (popnbuy.eu).",
+        "livrables": "50 sellers contacted to date.",
+        "resultat": "Status: in development.",
+        "diagram": {
+          "value": 50,
+          "unit": "sellers contacted",
+          "status": "In development"
         },
-        "popnbuy": {
-          "title": "PopnBuy OÜ (2025 – ongoing)",
-          "periodeStart": 2025,
-          "periodeEnd": null,
-          "zones": ["europe"],
-          "commanditaire": "Founder — company registered in Estonia",
-          "periode": "2025 – ongoing",
-          "role": "Founder",
-          "perimetre": "Live-commerce marketplace; site built in-house (popnbuy.eu).",
-          "livrables": "50 sellers contacted to date.",
-          "resultat": "Status: in development."
+        "media": {
+          "alt": "Screenshot of popnbuy.eu",
+          "label": "[SCREENSHOT — POPNBUY.EU — TO COMPLETE]",
+          "ratio": "16 / 10"
         }
       }
     ]
   },
-  "recherche": {
-    "title": "Research",
-    "subtitle": "The interdependence of shipping lines and island nations — the cases of Madagascar and Mauritius",
-    "type": "Master's thesis, about 140 pages",
-    "methodologyTitle": "Methodology",
-    "methodology": "Mixed methodology applied to a comparative study of Madagascar and Mauritius: literature review, analysis of maritime connectivity and logistics performance data (UNCTAD's Liner Shipping Connectivity Index, the World Bank's Logistics Performance Index) and interviews. Leads to recommendations for Madagascar, for Mauritius and for island states more broadly.",
-    "tocTitle": "Chapter outline",
-    "toc": [
-      {
-        "part": "General introduction",
-        "chapters": []
-      },
-      {
-        "part": "Part I — Theoretical framework: maritime power, dependence and logistical power",
-        "chapters": [
-          "1.1 The sea as a historical foundation of world trade",
-          "1.2 From the maritime power of states to the maritime power of private carriers",
-          "1.3 Defining maritime dependence: asymmetry, substitution and logistical sovereignty",
-          "1.4 Logistical capitalism, economic dependence and neo-colonisation: secondary interpretive frameworks",
-          "1.5 Research propositions and comparative analytical grid"
-        ]
-      },
-      {
-        "part": "Part II — Comparative study: Madagascar and Mauritius facing island maritime dependence",
-        "chapters": [
-          "2.1 Methodology, case selection and sources used",
-          "2.2 Comparative results: connectivity, logistics performance, absorption capacity, crises, the role of the state",
-          "2.3 Comparative synthesis of the results"
-        ]
-      },
-      {
-        "part": "Part III — Recommendations",
-        "chapters": [
-          "3.1 For Madagascar: building a better-steered maritime dependence",
-          "3.2 For Mauritius: consolidating a better-organised maritime dependence",
-          "3.3 Recommendations common to island states",
-          "3.4 Limits of the recommendations and avenues for future research"
-        ]
-      },
-      {
-        "part": "General conclusion",
-        "chapters": []
-      },
-      {
-        "part": "General bibliography · Appendix: interviews",
-        "chapters": []
-      }
-    ],
-    "summaryTitle": "Executive summary",
-    "summary": [
-      "The thesis analyses the maritime dependence of island states on international logistics companies, and how this dependence shapes their commercial competitiveness, economic sovereignty and negotiating capacity.",
-      "It is built on a comparative study of Madagascar and Mauritius, combining a literature review, maritime connectivity and logistics performance data (UNCTAD and World Bank indices) and interviews.",
-      "It concludes that the maritime dependence of island states is structural and often asymmetric, but that it plays out as much internally — port organisation, data quality, coordination among actors — as externally. Madagascar shows a dependence concentrated around Toamasina and a weak substitution capacity; Mauritius organises its own more deliberately around the hub of Port Louis.",
-      "Logistical sovereignty is defined not as an exit from interdependence, but as a state's capacity to know, measure and steer its dependence. The recommendations include, for Madagascar, a national freight-flow observatory, a total-landed-cost approach and regional maritime diversification; for Mauritius, consolidating the competitiveness of Port Louis; and, at the regional level, levers shared across island states."
-    ],
-    "previewTitle": "Document preview",
-    "previewPlaceholder": "[TO COMPLETE: thesis PDF]",
-    "previewNote": "Readers should be able to judge the content before downloading the full document.",
-    "downloadLabel": "Download the thesis (PDF)",
-    "downloadUnavailable": "PDF not yet available online",
-    "backToMissions": "See the related mission: maritime connectivity",
-    "backToMissionsHref": "/missions#connectivite-maritime"
-  },
   "expertise": {
     "title": "Expertise",
+    "intro": "Areas of intervention, geographic area, languages, tools, education, commitments and editorial production.",
     "domains": {
       "title": "Areas of intervention",
       "items": [
-        "Trade policy and regional integration (AfCFTA, AGOA)",
-        "Liner shipping and international logistics",
-        "Sectoral impact studies",
-        "Economic development of island states"
+        {
+          "label": "Trade policy and regional integration",
+          "desc": "AfCFTA, AGOA; sector diagnostics and market opportunities."
+        },
+        {
+          "label": "Liner shipping and international logistics",
+          "desc": "Pricing, capacity allocation, port connectivity."
+        },
+        {
+          "label": "Sectoral impact studies",
+          "desc": "Desk research, data analysis, deliverable production."
+        },
+        {
+          "label": "Economic development of island states",
+          "desc": "Logistics dependence, sovereignty, supply chains."
+        }
       ]
     },
     "geography": {
@@ -308,28 +348,12 @@
       "primary": "Madagascar and the Indian Ocean as a priority",
       "secondary": "Europe and East Africa as a secondary focus"
     },
-    "editorial": {
-      "title": "Editorial production",
-      "intro": "Capacity for regular, public writing on Madagascar-related topics, treated as a professional skill.",
-      "items": [
-        {
-          "role": "Editor-in-chief and columnist — Journal de l'Étudiant (2023–2024)",
-          "text": "Malagasy online outlet with approximately 50,000 followers across all social platforms combined [TO VERIFY]. Author of the weekly column \"La Société c'est toi\", devoted to Malagasy society — best engagement per post on the outlet [TO VERIFY]."
-        },
-        {
-          "role": "Editor-in-chief — Inskahier, INSCAE's student paper (2022–2023)",
-          "text": "Led a team of about ten columnists."
-        }
-      ],
-      "linksPlaceholder": "[LINKS TO PUBLISHED COLUMNS — TO COMPLETE]",
-      "verificationNote": "[TO VERIFY before publishing: the 50,000-follower figure and the engagement ranking of the column. If either cannot be documented, remove that figure and keep a qualitative statement without a metric.]"
-    },
     "languages": {
       "title": "Languages",
       "items": [
-        "Malagasy (native language)",
-        "French (bilingual)",
-        "English (C1, TOEIC 980/990)"
+        { "label": "Malagasy", "note": "Native language", "levelPct": 100 },
+        { "label": "French", "note": "Bilingual", "levelPct": 100 },
+        { "label": "English", "note": "C1, TOEIC 980/990", "levelPct": 90 }
       ]
     },
     "tools": {
@@ -339,18 +363,52 @@
     "education": {
       "title": "Education",
       "items": [
-        "Master in Purchasing and Supply Chain Management — INSEEC, Omnes Education",
-        "Bachelor in Business Management — CREA Geneva, Omnes Education — valedictorian, class of 2024",
-        "Economic development and policy in developing countries · public policy analysis · data analysis for management — London School of Economics and Political Science",
-        "Justice Course Certification — HarvardX"
+        {
+          "label": "Master in Purchasing and Supply Chain Management",
+          "org": "INSEEC, Omnes Education"
+        },
+        {
+          "label": "Bachelor in Business Management",
+          "org": "CREA Geneva, Omnes Education — valedictorian, class of 2024"
+        },
+        {
+          "label": "Economic development and policy in developing countries · public policy analysis · data analysis for management",
+          "org": "London School of Economics and Political Science"
+        },
+        {
+          "label": "Justice Course Certification",
+          "org": "HarvardX"
+        }
       ]
     },
     "engagements": {
       "title": "Commitments",
       "items": [
-        "Vice-president, MIRAY association (2020 – present) — material support to families affected by food insecurity in southern Madagascar",
-        "Madagascar national basketball team, U16–U18 (2015–2016) — point guard and shooting guard"
+        {
+          "label": "Vice-president, MIRAY association",
+          "note": "2020 – present — material support to families affected by food insecurity in southern Madagascar."
+        },
+        {
+          "label": "Madagascar national basketball team, U16–U18",
+          "note": "2015–2016 — point guard and shooting guard."
+        }
       ]
+    },
+    "editorial": {
+      "title": "Editorial production",
+      "intro": "Capacity for regular, public writing on Madagascar-related topics, treated as a professional skill.",
+      "items": [
+        {
+          "role": "Editor-in-chief and columnist — Journal de l'Étudiant (2023–2024)",
+          "text": "Malagasy online outlet with approximately 50,000 followers across all social platforms combined [TO VERIFY]. Author of the weekly column \"La Société c'est toi\" — best engagement per post on the outlet [TO VERIFY]."
+        },
+        {
+          "role": "Editor-in-chief — Inskahier, INSCAE's student paper (2022–2023)",
+          "text": "Led a team of about ten columnists."
+        }
+      ],
+      "linksPlaceholder": "[LINKS TO PUBLISHED COLUMNS — TO COMPLETE]",
+      "verificationNote": "[TO VERIFY before publishing: the 50,000-follower figure and the engagement ranking of the column. If either cannot be documented, remove that figure and keep a qualitative statement without a metric.]"
     }
   },
   "contact": {
@@ -379,7 +437,7 @@
     "expand": "Expand",
     "collapse": "Collapse",
     "back": "Back",
-    "loading": "Loading…",
-    "reducedMotionNotice": "Animations are disabled according to your system preferences."
+    "openFiche": "View record",
+    "loading": "Loading…"
   }
 }

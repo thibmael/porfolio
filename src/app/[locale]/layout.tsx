@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Bricolage_Grotesque, Instrument_Sans } from "next/font/google";
+import { Fraunces, Inter } from "next/font/google";
 import type { ReactNode } from "react";
 import { getDictionary } from "@/lib/dictionaries";
 import { isLocale, locales, type Locale } from "@/lib/i18n-config";
@@ -10,13 +10,13 @@ import { PageTransition } from "@/components/layout/PageTransition";
 import { CustomCursor } from "@/components/layout/CustomCursor";
 import "../globals.css";
 
-const bricolage = Bricolage_Grotesque({
+const fraunces = Fraunces({
   subsets: ["latin"],
   variable: "--font-display",
   display: "swap",
 });
 
-const instrument = Instrument_Sans({
+const inter = Inter({
   subsets: ["latin"],
   variable: "--font-body",
   display: "swap",
@@ -83,7 +83,7 @@ export default async function LocaleLayout({
   };
 
   return (
-    <html lang={locale} className={`${bricolage.variable} ${instrument.variable}`}>
+    <html lang={locale} className={`${fraunces.variable} ${inter.variable}`}>
       <body>
         <a href="#main-content" className="skip-link">
           {dict.nav.skipToContent}

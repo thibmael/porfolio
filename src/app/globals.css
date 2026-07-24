@@ -1,33 +1,25 @@
 @import "tailwindcss";
 
 @theme {
-  --font-serif: var(--font-display), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-display), ui-serif, Georgia, serif;
   --font-sans: var(--font-body), ui-sans-serif, system-ui, sans-serif;
 
-  --color-paper: #faf6ef;
-  --color-paper-dim: #f2ece0;
-  --color-ink: #1d1c1a;
-  --color-ink-soft: #46443f;
-  --color-accent: #223349;
-  --color-accent-soft: #3c5675;
-  --color-line: #d8d0c0;
+  /* Base: ivory paper, anthracite ink. The interface is always light. */
+  --color-paper: #f7f3ea;
+  --color-paper-dim: #efe9dc;
+  --color-ink: #1c1b19;
+  --color-ink-soft: #57534b;
+  --color-line: #e0d9ca;
+
+  /* Two desaturated pastel ACCENTS only — never a page/section background,
+     never body text, never the primary CTA. Used for thin capsule rules,
+     diagram nodes/segments, link underlines, small badges. */
+  --color-rose: #dfc2be; /* rose poudré — institutional experiences */
+  --color-rose-ink: #8f6a64; /* readable text tint of the same hue */
+  --color-blue: #b9c6d4; /* bleu brumeux — operational / entrepreneurial */
+  --color-blue-ink: #5d7085; /* readable text tint of the same hue */
 
   --breakpoint-xs: 30rem;
-}
-
-/* Dark mode as a true runtime override. In Tailwind v4, `@theme` cannot be
-   nested inside a media query, so the dark palette is applied here as plain
-   custom-property overrides on :root. Light/ivory remains the default. */
-@media (prefers-color-scheme: dark) {
-  :root {
-    --color-paper: #16161a;
-    --color-paper-dim: #1d1d22;
-    --color-ink: #ede9e0;
-    --color-ink-soft: #b7b3a8;
-    --color-accent: #9fb8d6;
-    --color-accent-soft: #7d97b8;
-    --color-line: #35342f;
-  }
 }
 
 html {
@@ -56,8 +48,7 @@ body {
 
 .font-serif-display {
   font-family: var(--font-serif);
-  letter-spacing: -0.02em;
-  font-weight: 600;
+  letter-spacing: -0.01em;
 }
 
 .measure {
@@ -68,7 +59,7 @@ body {
   position: absolute;
   left: 1rem;
   top: -3rem;
-  background: var(--color-accent);
+  background: var(--color-ink);
   color: var(--color-paper);
   padding: 0.5rem 1rem;
   border-radius: 0.25rem;

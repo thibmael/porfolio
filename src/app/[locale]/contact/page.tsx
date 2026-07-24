@@ -115,7 +115,7 @@ function CvLink({
     <a
       href={href}
       download
-      className="rounded-full border border-(--color-accent) px-5 py-2 text-sm font-medium text-(--color-accent) transition-colors hover:bg-(--color-accent) hover:text-(--color-paper)"
+      className="rounded-full border border-(--color-ink) px-5 py-2 text-sm font-medium text-(--color-ink) transition-colors hover:bg-(--color-ink) hover:text-(--color-paper)"
     >
       {label}
     </a>

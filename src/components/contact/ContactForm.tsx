@@ -55,7 +55,7 @@ export function ContactForm({
         type="submit"
         disabled={!email}
         aria-disabled={!email}
-        className="justify-self-start rounded-full bg-(--color-accent) px-6 py-3 text-sm font-medium text-(--color-paper) transition-colors hover:bg-(--color-accent-soft) disabled:cursor-not-allowed disabled:opacity-40"
+        className="justify-self-start rounded-full bg-(--color-ink) px-6 py-3 text-sm font-medium text-(--color-paper) transition-opacity hover:opacity-90 disabled:cursor-not-allowed disabled:opacity-40"
       >
         {contact.formSubmit}
       </button>

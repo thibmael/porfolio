@@ -9,7 +9,6 @@ export function Header({ locale, dict }: { locale: Locale; dict: Dictionary }) {
     { href: localizedHref(locale, "/"), label: dict.nav.home },
     { href: localizedHref(locale, "/missions"), label: dict.nav.missions },
     { href: localizedHref(locale, "/expertise"), label: dict.nav.expertise },
-    { href: localizedHref(locale, "/recherche"), label: dict.nav.recherche },
   ];
 
   return (
@@ -33,7 +32,7 @@ export function Header({ locale, dict }: { locale: Locale; dict: Dictionary }) {
           <LanguageSwitcher locale={locale} label={dict.nav.languageSwitchLabel} />
           <Link
             href={localizedHref(locale, "/contact")}
-            className="hidden rounded-full bg-(--color-accent) px-4 py-2 text-sm text-(--color-paper) transition-colors hover:bg-(--color-accent-soft) sm:inline-block"
+            className="hidden rounded-full bg-(--color-ink) px-4 py-2 text-sm text-(--color-paper) transition-colors hover:opacity-90 sm:inline-block"
           >
             {dict.nav.contact}
           </Link>
