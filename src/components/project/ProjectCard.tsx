@@ -6,6 +6,7 @@ import type { Project } from "@/lib/project-types";
 import { teinteBg, teinteInk } from "@/lib/project-types";
 import { PROJECT_MEDIA, SUGGESTED_COVER } from "@/lib/project-media";
 import { MediaPlaceholder } from "@/components/ui/MediaPlaceholder";
+import { Filigrane } from "@/components/ui/Filigrane";
 
 export function ProjectCard({
   project,
@@ -48,9 +49,11 @@ export function ProjectCard({
     </div>
   );
 
+  const filVariant = project.slug.charCodeAt(0) % 3;
   const Body = (
-    <div className={`flex flex-1 flex-col ${isCompact ? "gap-2 p-5" : "gap-3 p-6"}`}>
-      <div className="flex items-center gap-2">
+    <div className={`relative flex flex-1 flex-col ${isCompact ? "gap-2 p-5" : "gap-3 p-6"}`}>
+      <Filigrane teinte={project.teinte} variant={filVariant} />
+      <div className="relative flex items-center gap-2">
         <span
           className="rounded-full px-2.5 py-1 text-[0.65rem] font-semibold uppercase tracking-wide text-(--color-ink)"
           style={{ backgroundColor: teinteBg(project.teinte) }}

@@ -4,13 +4,13 @@
   --font-display: var(--font-jakarta), ui-sans-serif, system-ui, sans-serif;
   --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
 
-  /* Light, warm base */
-  --color-paper: #f7f5f0;
-  --color-paper-dim: #efe9dc;
-  --color-card: #fdfcf9;
+  /* White page, off-white "bubbles" (cards) */
+  --color-paper: #ffffff;
+  --color-paper-dim: #f2efe9;
+  --color-card: #f8f6f1;
   --color-ink: #1b1a17;
   --color-soft: #6b665d;
-  --color-line: #e5e0d5;
+  --color-line: #ece8e0;
 
   /* Two desaturated accents + one discreet third */
   --color-rose: #d9bbb7;

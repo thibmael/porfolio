@@ -30,7 +30,7 @@ export function MediaPlaceholder({
         <div
           role="img"
           aria-label={alt}
-          className="flex h-full w-full flex-col items-center justify-center gap-2 border border-dashed border-(--color-line) bg-(--color-paper) p-4 text-center"
+          className="flex h-full w-full flex-col items-center justify-center gap-2 border border-dashed border-(--color-line) bg-(--color-card) p-4 text-center"
         >
           <svg width="26" height="26" viewBox="0 0 24 24" fill="none" aria-hidden="true" className="text-(--color-soft)">
             <rect x="3" y="4" width="18" height="16" rx="2" stroke="currentColor" strokeWidth="1.3" />
