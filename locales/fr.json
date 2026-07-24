@@ -1,443 +1,527 @@
 {
   "meta": {
     "siteName": "Thibault Randrasana",
-    "defaultTitle": "Thibault M. E. Randrasana — Analyste commerce international et politiques publiques",
-    "defaultDescription": "Analyste en commerce international et politiques publiques. Madagascar et océan Indien. Études d'impact pour institutions publiques et bailleurs, expérience opérationnelle du transport maritime de ligne."
+    "defaultTitle": "Thibault M. E. Randrasana — Analyste commerce international, logistique et politiques publiques",
+    "defaultDescription": "Portfolio interactif de Thibault M. E. Randrasana : opérations maritimes, études économiques, projets internationaux, entrepreneuriat et recherche appliquée à Madagascar et dans l'océan Indien."
   },
   "nav": {
     "home": "Accueil",
-    "missions": "Missions",
-    "expertise": "Expertise",
+    "parcours": "Parcours",
+    "profil": "Profil",
     "contact": "Contact",
+    "cv": "CV",
     "languageSwitchLabel": "Passer en anglais",
     "skipToContent": "Aller au contenu"
   },
   "footer": {
-    "tagline": "Analyste en commerce international et politiques publiques. Madagascar et océan Indien.",
-    "availability": "Disponible pour missions de conseil — activité freelance en parallèle d'un poste à temps plein.",
+    "tagline": "Analyste en commerce international, logistique et politiques publiques.",
+    "availability": "Disponible en freelance, en parallèle d'un poste à temps plein.",
     "rights": "Tous droits réservés.",
     "linkedin": "LinkedIn",
     "linkedinPlaceholder": "[À COMPLÉTER : lien LinkedIn]"
   },
   "home": {
     "hero": {
-      "eyebrow": "Portfolio professionnel",
+      "eyebrow": "Portfolio",
       "name": "Thibault M. E. Randrasana",
-      "positioning": "Analyste en commerce international et politiques publiques. Madagascar et océan Indien.",
-      "subtitle": "Double compétence : études d'impact pour institutions publiques et bailleurs de fonds, et expérience opérationnelle du transport maritime de ligne.",
-      "photoAlt": "Photo professionnelle de Thibault M. E. Randrasana",
-      "photoPlaceholder": "[PHOTO PROFESSIONNELLE — À COMPLÉTER]",
-      "ctaPrimary": "Disponible pour missions de conseil",
-      "ctaNote": "Activité freelance menée en parallèle d'un poste à temps plein.",
-      "secondaryCta": "Voir les missions"
+      "title": "Analyste en commerce international, logistique et politiques publiques.",
+      "subtitle": "Un parcours entre opérations maritimes, études économiques, projets internationaux, entrepreneuriat et recherche appliquée à Madagascar et dans l'océan Indien.",
+      "personal": "J'explore les systèmes qui relient les entreprises, les institutions et les territoires — puis je transforme ces analyses en projets, recommandations et décisions opérationnelles.",
+      "photoAlt": "Photographie professionnelle de Thibault M. E. Randrasana",
+      "photoFile": "/images/profile/thibault-portrait.jpg",
+      "ctaExplore": "Explorer mon parcours",
+      "ctaCV": "Télécharger mon CV",
+      "ctaContact": "Me contacter"
     },
-    "proof": {
-      "title": "Trois éléments vérifiables",
-      "items": [
-        {
-          "id": "report",
-          "number": 50,
-          "prefix": "~",
-          "suffix": " pages",
-          "label": "Rapport d'étude ZLECAf",
-          "detail": "Étude ZLECAf pour le Ministère de l'Industrialisation — financement Union européenne — restitution à la Présidence.",
-          "capsule": "gefp"
-        },
-        {
-          "id": "eastmed",
-          "number": 400,
-          "prefix": "~",
-          "suffix": " EVP / semaine",
-          "label": "Service EASTMED via Le Havre",
-          "detail": "~400 EVP par semaine suivis sur le service EASTMED via Le Havre (MSC).",
-          "capsule": "msc"
-        },
-        {
-          "id": "these",
-          "number": 120,
-          "suffix": " pages",
-          "label": "Mémoire de recherche",
-          "detail": "Thèse de 120 pages sur l'interdépendance des compagnies maritimes et des États insulaires.",
-          "capsule": "recherche"
-        }
-      ]
-    }
+    "proofs": [
+      "Étude ZLECAf réalisée en appui pour le Ministère de l'Industrialisation et du Commerce de Madagascar",
+      "Environ 400 EVP suivis chaque semaine sur le service EASTMED via Le Havre",
+      "Mémoire de recherche de 120 pages sur la dépendance maritime de Madagascar et Maurice",
+      "Expériences et projets menés entre Madagascar, la Suisse, la France et l'international"
+    ],
+    "previewTitle": "Aperçu du parcours",
+    "previewCta": "Voir toutes les expériences et tous les projets",
+    "previewSlugs": ["msc-eastmed", "gefp-agoa", "memoire-master"]
   },
-  "missions": {
-    "title": "Missions",
-    "intro": "Six expériences, chacune présentée comme une capsule autonome : un chiffre clé, un résumé, un diagramme construit à partir de données réelles. Sélectionner une capsule pour déplier la fiche complète.",
+  "parcours": {
+    "title": "Parcours",
+    "intro": "Une galerie de projets et d'expériences concrets. Filtrer, puis cliquer sur une carte pour ouvrir la fiche détaillée.",
+    "othersTitle": "Autres expériences qui ont construit mon parcours",
     "filters": {
-      "natureLabel": "Nature",
+      "typeLabel": "Type",
       "zoneLabel": "Zone",
-      "all": "Tout",
-      "natures": {
-        "institutionnel": "Institutionnel",
-        "operationnel": "Opérationnel",
-        "entrepreneurial": "Entrepreneurial"
+      "periodLabel": "Période",
+      "all": "Toutes",
+      "types": {
+        "pro": "Expérience professionnelle",
+        "conseil": "Conseil et études",
+        "recherche": "Recherche",
+        "entrepreneuriat": "Entrepreneuriat",
+        "formation": "Formation",
+        "engagement": "Engagement"
       },
       "zones": {
         "madagascar": "Madagascar",
+        "france": "France",
+        "suisse": "Suisse",
         "europe": "Europe",
         "international": "International"
+      },
+      "periods": {
+        "recent": "Récent",
+        "old": "Ancien"
       }
     },
-    "format": {
-      "commanditaire": "Commanditaire",
-      "financement": "Financement",
-      "periode": "Période",
-      "role": "Rôle",
-      "perimetre": "Périmètre",
-      "livrables": "Livrables",
-      "resultat": "Résultat",
-      "enseignement": "Enseignement retenu"
-    },
-    "capsules": [
-      {
-        "id": "gefp",
-        "teinte": "rose",
-        "nature": "institutionnel",
-        "zones": ["madagascar"],
-        "diagramType": "process",
-        "org": "Ministère de l'Industrialisation et du Commerce",
-        "role": "Appui à un consultant senior",
-        "periode": "2025 — 6 mois",
-        "keyFigure": { "value": 50, "prefix": "~", "suffix": " p.", "label": "Rapport d'étude" },
-        "shortTitle": "Étude diagnostic ZLECAf — filière textile-habillement",
-        "summary": "Diagnostic des opportunités offertes par la ZLECAf pour le textile-habillement malgache, jusqu'à la restitution à la Présidence.",
-        "commanditaire": "Ministère de l'Industrialisation et du Commerce (Madagascar)",
-        "financement": "Union européenne, via le Programme d'appui au développement des exportations et de l'intégration régionale à Madagascar",
-        "perimetre": "Marché africain sous régime ZLECAf, appliqué au développement de la filière textile-habillement malgache.",
-        "livrables": "Rapport d'étude d'environ 50 pages ; supports de présentation pour les concertations nationales.",
-        "resultat": "Présentation finale de clôture devant la Présidence de la République de Madagascar.",
-        "diagram": {
-          "steps": [
-            "Recherche documentaire",
-            "Analyse",
-            "Concertations nationales",
-            "Clôture devant la Présidence"
-          ]
-        },
-        "media": {
-          "alt": "Extraits de rapport, slides anonymisées",
-          "label": "[EXTRAITS DE RAPPORT — À COMPLÉTER]",
-          "ratio": "4 / 3"
-        }
-      },
-      {
-        "id": "recherche",
-        "teinte": "mix",
-        "nature": "institutionnel",
-        "zones": ["madagascar", "international"],
-        "diagramType": "venn",
-        "org": "Recherche académique — mémoire de master",
-        "role": "Auteur",
-        "periode": "120 pages",
-        "keyFigure": { "value": 120, "suffix": " p.", "label": "Mémoire de master" },
-        "shortTitle": "L'interdépendance des compagnies maritimes et des pays insulaires",
-        "summary": "Étude comparative Madagascar–Maurice de la dépendance maritime des États insulaires. Méthodologie mixte, recommandations logistiques.",
-        "commanditaire": "Recherche académique (mémoire de master)",
-        "perimetre": "Interdépendance des compagnies maritimes et des États insulaires ; cas comparés de Madagascar et Maurice.",
-        "livrables": "Mémoire de 120 pages ; recommandations pour la chaîne logistique malgache.",
-        "resultat": "Méthodologie mixte : entretiens, analyse de données, revue de littérature.",
-        "diagram": {
-          "circles": ["Entretiens", "Données", "Revue de littérature"]
-        },
-        "media": {
-          "alt": "Couverture du mémoire de master",
-          "label": "[COUVERTURE DU MÉMOIRE — À COMPLÉTER]",
-          "ratio": "3 / 4"
-        },
-        "research": {
-          "subtitle": "L'interdépendance des compagnies maritimes et des pays insulaires — cas de Madagascar et Maurice",
-          "methodologyTitle": "Méthodologie",
-          "methodology": "Méthodologie mixte appliquée à une étude comparative de Madagascar et Maurice : revue de littérature, analyse de données de connectivité et de performance logistique (Liner Shipping Connectivity Index de la CNUCED, Logistics Performance Index de la Banque mondiale) et entretiens.",
-          "tocTitle": "Sommaire des chapitres",
-          "toc": [
-            { "part": "Introduction générale", "chapters": [] },
-            {
-              "part": "Partie I — Cadre théorique : puissance maritime, dépendance et pouvoir logistique",
-              "chapters": [
-                "1.1 La mer comme fondement historique du commerce mondial",
-                "1.2 Du pouvoir maritime des États au pouvoir maritime des compagnies privées",
-                "1.3 Définir la dépendance maritime : asymétrie, substitution et souveraineté logistique",
-                "1.4 Capitalisme logistique, dépendance économique et néocolonisation : cadres d'interprétation secondaires",
-                "1.5 Propositions de recherche et grille d'analyse comparative"
-              ]
-            },
-            {
-              "part": "Partie II — Étude comparative : Madagascar et Maurice face à la dépendance maritime insulaire",
-              "chapters": [
-                "2.1 Méthodologie, choix des cas et sources mobilisées",
-                "2.2 Résultats comparatifs : connectivité, performance logistique, capacité d'absorption, crises, rôle de l'État",
-                "2.3 Synthèse comparative des résultats"
-              ]
-            },
-            {
-              "part": "Partie III — Préconisations",
-              "chapters": [
-                "3.1 Pour Madagascar : construire une dépendance maritime mieux pilotée",
-                "3.2 Pour Maurice : consolider une dépendance maritime mieux organisée",
-                "3.3 Préconisations communes aux États insulaires",
-                "3.4 Limites des préconisations et voies de recherche futures"
-              ]
-            },
-            { "part": "Conclusion générale", "chapters": [] },
-            { "part": "Bibliographie générale · Annexe : entretiens", "chapters": [] }
-          ],
-          "summaryTitle": "Résumé exécutif",
-          "summary": [
-            "Le mémoire analyse la dépendance maritime des États insulaires face aux compagnies logistiques internationales, et la manière dont cette dépendance influence leur compétitivité commerciale, leur souveraineté économique et leur capacité de négociation.",
-            "Il repose sur une étude comparative de Madagascar et de Maurice, croisant revue de littérature, données de connectivité et de performance logistique (indices de la CNUCED et de la Banque mondiale) et entretiens.",
-            "Il conclut que la dépendance maritime des États insulaires est structurelle et souvent asymétrique, mais qu'elle se joue autant à l'intérieur — organisation portuaire, qualité des données, coordination des acteurs — qu'à l'extérieur.",
-            "La souveraineté logistique y est définie non comme une sortie de l'interdépendance, mais comme la capacité d'un État à connaître, mesurer et piloter sa dépendance ; les préconisations retiennent notamment un observatoire national des flux, une approche en coût rendu complet et une diversification maritime régionale."
-          ],
-          "previewTitle": "Aperçu du document",
-          "previewPlaceholder": "[À COMPLÉTER : PDF de la thèse]",
-          "previewNote": "Le lecteur doit pouvoir juger du contenu avant de télécharger le document complet.",
-          "downloadLabel": "Télécharger la thèse (PDF)",
-          "downloadUnavailable": "PDF non encore disponible en ligne"
-        }
-      },
-      {
-        "id": "msc",
-        "teinte": "blue",
-        "nature": "operationnel",
-        "zones": ["europe", "international"],
-        "diagramType": "network",
-        "org": "Mediterranean Shipping Company (MSC)",
-        "role": "Commercial Liner EASTMED",
-        "periode": "2025 — en poste",
-        "keyFigure": { "value": 400, "prefix": "~", "suffix": " EVP", "label": "par semaine via Le Havre" },
-        "shortTitle": "Commercial Liner EASTMED",
-        "summary": "Tarification et allocation de capacité sur les trades EASTMED et Afrique du Nord ; suivi d'un service à ~400 EVP hebdomadaires via Le Havre.",
-        "commanditaire": "Mediterranean Shipping Company (MSC)",
-        "perimetre": "Trades EASTMED et Afrique du Nord ; portefeuille de 50+ clients internationaux.",
-        "livrables": "Tarification et allocation de capacité ; réponses aux tenders et demandes ponctuelles, traitées quotidiennement au cas par cas.",
-        "resultat": "Suivi d'un service à ~400 EVP hebdomadaires transitant par Le Havre, 3 à 4 escales suivies.",
-        "diagram": {
-          "origins": [
-            "Fos",
-            "Le Havre",
-            "Montoir",
-            "Bordeaux",
-            "Brest",
-            "Dunkerque",
-            "Anvers",
-            "Rotterdam",
-            "Hambourg",
-            "Barcelone",
-            "Gênes"
-          ],
-          "hub": "Le Havre",
-          "hubNote": "~400 EVP / semaine",
-          "destination": "EASTMED · Afrique du Nord"
-        }
-      },
-      {
-        "id": "wtc",
-        "teinte": "rose",
-        "nature": "institutionnel",
-        "zones": ["madagascar", "international"],
-        "diagramType": "radial",
-        "org": "WTC Antananarivo × WTC Ras Al Khaimah",
-        "role": "Project Manager",
-        "periode": "2025 — 6 mois",
-        "keyFigure": { "value": 500, "prefix": "~", "suffix": "", "label": "participants au Global Forum" },
-        "shortTitle": "Diplomatie économique — WTC Antananarivo × Ras Al Khaimah",
-        "summary": "Ouverture d'un club d'entreprises commun aux deux WTC et promotion des deux destinations. Projet interrompu par le contexte géopolitique.",
-        "commanditaire": "World Trade Center Antananarivo et World Trade Center Ras Al Khaimah (propriétaire commun)",
-        "perimetre": "Ouverture d'un club d'entreprises commun aux deux WTC et promotion des deux destinations auprès des milieux d'affaires.",
-        "livrables": "Représentation des deux WTC au Global Forum — environ 500 participants, une centaine de WTC représentés.",
-        "resultat": "Projet interrompu en raison du contexte géopolitique à Madagascar.",
-        "diagram": {
-          "center": "Thibault",
-          "groups": [
-            "Réseau mondial des WTC",
-            "Centres d'appels malgaches",
-            "Organisations gouvernementales du commerce",
-            "Institutions de facilitation d'affaires"
-          ]
-        },
-        "media": {
-          "alt": "Galerie du Global Forum",
-          "label": "[PHOTOS — GLOBAL FORUM — À COMPLÉTER]",
-          "ratio": "4 / 3"
-        }
-      },
-      {
-        "id": "ploutos",
-        "teinte": "blue",
-        "nature": "entrepreneurial",
-        "zones": ["international", "europe"],
-        "diagramType": "arc",
-        "org": "Ploutos — startup Web2/Web3",
-        "role": "Cofondateur",
-        "periode": "2021–2025",
-        "keyFigure": { "value": 2, "suffix": " M€", "label": "term sheet signé, fonds non débloqués" },
-        "shortTitle": "Ploutos — cofondation d'une startup Web2/Web3",
-        "summary": "Term sheet de 2 M€ signé en pre-seed ; déblocage conditionné au prototype, non atteint. L'échec tient au calendrier, pas au produit.",
-        "commanditaire": "Cofondation — startup Web2/Web3",
-        "perimetre": "Équipe de 2 fondateurs et 5 développeurs.",
-        "livrables": "Un MVP livré et une maquette vidéo produit. Tests limités à un cercle proche, sans liste d'attente.",
-        "resultat": "Term sheet de 2 M€ signé en pre-seed ; déblocage conditionné à la livraison du prototype, non atteint. Présélection Forbes 30 Under 30 Europe, participation InnoStartup.",
-        "enseignement": "L'engagement d'investissement a supprimé la marge d'erreur du plan de développement ; le calendrier ne prévoyait aucun scénario d'échec.",
-        "diagram": {
-          "steps": [
-            "Term sheet signé",
-            "Prototype livré",
-            "Jugé insuffisant",
-            "Fonds non débloqués"
-          ]
-        }
-      },
-      {
-        "id": "popnbuy",
-        "teinte": "blue",
-        "nature": "entrepreneurial",
-        "zones": ["europe"],
-        "diagramType": "progress",
-        "org": "PopnBuy OÜ — société immatriculée en Estonie",
-        "role": "Fondateur",
-        "periode": "2025 — en cours",
-        "keyFigure": { "value": 50, "suffix": "", "label": "vendeurs contactés" },
-        "shortTitle": "PopnBuy OÜ — place de marché de live commerce",
-        "summary": "Marketplace de live commerce, société estonienne, site développé en propre. 50 vendeurs contactés à ce jour.",
-        "commanditaire": "Fondateur — société immatriculée en Estonie",
-        "perimetre": "Place de marché de live commerce ; site développé en propre avec Claude Code et plusieurs skills (popnbuy.eu).",
-        "livrables": "50 vendeurs contactés à ce jour.",
-        "resultat": "Statut : en développement.",
-        "diagram": {
-          "value": 50,
-          "unit": "vendeurs contactés",
-          "status": "En développement"
-        },
-        "media": {
-          "alt": "Capture d'écran de popnbuy.eu",
-          "label": "[CAPTURE — POPNBUY.EU — À COMPLÉTER]",
-          "ratio": "16 / 10"
-        }
-      }
-    ]
+    "cardCta": "Explorer",
+    "empty": "Aucun projet ne correspond à ces filtres."
   },
-  "expertise": {
-    "title": "Expertise",
-    "intro": "Domaines d'intervention, zone géographique, langues, outils, formation, engagements et production éditoriale.",
-    "domains": {
-      "title": "Domaines d'intervention",
-      "items": [
-        {
-          "label": "Politiques commerciales et intégration régionale",
-          "desc": "ZLECAf, AGOA ; diagnostic de filières et opportunités de marché."
-        },
-        {
-          "label": "Transport maritime de ligne et logistique internationale",
-          "desc": "Tarification, allocation de capacité, connectivité portuaire."
-        },
-        {
-          "label": "Études d'impact sectorielles",
-          "desc": "Recherche documentaire, analyse de données, production de livrables."
-        },
-        {
-          "label": "Développement économique des États insulaires",
-          "desc": "Dépendance logistique, souveraineté, chaînes d'approvisionnement."
-        }
-      ]
-    },
-    "geography": {
-      "title": "Zone géographique",
-      "primary": "Madagascar et océan Indien en priorité",
-      "secondary": "Europe et Afrique de l'Est en secondaire"
-    },
-    "languages": {
-      "title": "Langues",
-      "items": [
-        { "label": "Malgache", "note": "Langue maternelle", "levelPct": 100 },
-        { "label": "Français", "note": "Bilingue", "levelPct": 100 },
-        { "label": "Anglais", "note": "C1, TOEIC 980/990", "levelPct": 90 }
-      ]
-    },
-    "tools": {
-      "title": "Outils",
-      "items": ["Excel", "Tableau", "Orange3", "Data Science Studio", "PowerPoint", "Figma"]
-    },
-    "education": {
-      "title": "Formation",
-      "items": [
-        {
-          "label": "Master Achats et Supply Chain Management",
-          "org": "INSEEC, Omnes Education"
-        },
-        {
-          "label": "Bachelor Business Management",
-          "org": "CREA Genève, Omnes Education — major de promotion 2024"
-        },
-        {
-          "label": "Développement économique et politique des pays en développement · analyse des politiques publiques · analyse de données pour le management",
-          "org": "London School of Economics and Political Science"
-        },
-        {
-          "label": "Justice Course Certification",
-          "org": "HarvardX"
-        }
-      ]
-    },
-    "engagements": {
-      "title": "Engagements",
-      "items": [
-        {
-          "label": "Vice-président, association MIRAY",
-          "note": "2020 – présent — appui matériel aux familles touchées par l'insécurité alimentaire dans le sud de Madagascar."
-        },
-        {
-          "label": "Équipe nationale de basket-ball de Madagascar, U16–U18",
-          "note": "2015–2016 — meneur et arrière."
-        }
-      ]
-    },
-    "editorial": {
-      "title": "Production éditoriale",
-      "intro": "Capacité de production écrite régulière et publique sur le terrain malgache, traitée comme une compétence professionnelle.",
-      "items": [
-        {
-          "role": "Rédacteur en chef et chroniqueur — Journal de l'Étudiant (2023–2024)",
-          "text": "Média en ligne malgache réunissant environ 50 000 abonnés toutes plateformes sociales confondues [À VÉRIFIER]. Auteur de la chronique hebdomadaire « La Société c'est toi » — meilleur engagement par publication du support [À VÉRIFIER]."
-        },
-        {
-          "role": "Rédacteur en chef — Inskahier, journal de l'INSCAE (2022–2023)",
-          "text": "Direction d'une équipe d'une dizaine de chroniqueurs."
-        }
+  "detail": {
+    "contextTitle": "Contexte",
+    "roleTitle": "Mon rôle",
+    "workTitle": "Travail réalisé",
+    "resultsTitle": "Résultats",
+    "lessonTitle": "Ce que cette expérience m'a appris",
+    "galleryTitle": "Galerie et documents",
+    "factsRole": "Rôle",
+    "factsPeriod": "Période",
+    "factsLocation": "Localisation",
+    "factsClient": "Commanditaire",
+    "factsFunding": "Financement",
+    "factsCategory": "Catégorie",
+    "prev": "Projet précédent",
+    "back": "Retour au parcours",
+    "next": "Projet suivant",
+    "thesisTocTitle": "Sommaire du mémoire",
+    "thesisSummaryTitle": "Résumé exécutif",
+    "thesisMethodTitle": "Méthodologie",
+    "thesisDownload": "Télécharger le mémoire (PDF)",
+    "thesisUnavailable": "PDF non encore disponible en ligne",
+    "stepsTitle": "Étapes du projet",
+    "evolvingTitle": "Indicateurs (mis à jour au fil du projet)",
+    "portsTitle": "Ports du périmètre",
+    "externalLink": "Voir le site",
+    "mediaMore": "Emplacement visuel supplémentaire"
+  },
+  "projects": [
+    {
+      "slug": "msc-eastmed",
+      "format": "featured",
+      "teinte": "blue",
+      "type": "pro",
+      "zones": ["france", "international"],
+      "period": "recent",
+      "org": "Mediterranean Shipping Company (MSC)",
+      "role": "Commercial Liner EASTMED",
+      "periode": "2025 — en poste",
+      "location": "France · international",
+      "category": ["Expérience professionnelle", "Transport maritime"],
+      "summary": "Tarification, suivi commercial et allocation de capacité sur les trades EASTMED et Afrique du Nord.",
+      "metric": { "value": "~400 EVP", "label": "suivis chaque semaine via Le Havre" },
+      "tags": ["Shipping", "Pricing", "Capacité"],
+      "imageAlt": "Porte-conteneurs du service EASTMED",
+      "contexte": "Au sein de MSC, premier armateur mondial de transport conteneurisé, sur le service de ligne EASTMED reliant l'Europe à la Méditerranée orientale et à l'Afrique du Nord.",
+      "monRole": "Commercial Liner sur le périmètre EASTMED : suivi commercial quotidien, tarification et allocation de capacité, en coordination avec plusieurs ports et bureaux.",
+      "travail": [
+        "Tarification et réponse aux tenders et demandes ponctuelles, traitées quotidiennement au cas par cas",
+        "Allocation de capacité et suivi des flux sur les trades EASTMED et Afrique du Nord",
+        "Gestion d'un portefeuille de plus de 50 clients internationaux",
+        "Coordination avec plusieurs ports et bureaux du réseau"
       ],
-      "linksPlaceholder": "[LIENS VERS CHRONIQUES PUBLIÉES — À COMPLÉTER]",
-      "verificationNote": "[À VÉRIFIER avant mise en ligne : le chiffre de 50 000 abonnés et la position d'engagement de la chronique. Si l'un des deux n'est pas documentable, retirer le chiffre concerné et conserver une formulation qualitative sans métrique.]"
+      "resultats": [
+        "Suivi d'un service à environ 400 EVP hebdomadaires transitant par Le Havre, 3 à 4 escales suivies"
+      ],
+      "enseignement": "La logistique de ligne se joue dans l'arbitrage quotidien entre prix, capacité et fiabilité — un système où chaque décision commerciale a une contrepartie opérationnelle.",
+      "ports": ["Fos", "Le Havre", "Montoir", "Bordeaux", "Brest", "Dunkerque", "Anvers", "Rotterdam", "Hambourg", "Barcelone", "Gênes"]
+    },
+    {
+      "slug": "gefp-agoa",
+      "format": "wide",
+      "teinte": "rose",
+      "type": "conseil",
+      "zones": ["madagascar"],
+      "period": "recent",
+      "org": "Ministère de l'Industrialisation et du Commerce de Madagascar",
+      "role": "Appui à un consultant senior",
+      "periode": "2025 — 6 mois",
+      "location": "Antananarivo, Madagascar",
+      "category": ["Conseil et études", "Politiques publiques"],
+      "summary": "Étude diagnostic des opportunités de la ZLECAf pour la filière textile-habillement malgache.",
+      "metric": { "value": "~50 pages", "label": "de rapport, restitué à la Présidence" },
+      "tags": ["ZLECAf", "Textile", "Étude"],
+      "imageAlt": "Couverture du rapport d'étude ZLECAf",
+      "contexte": "Étude commandée par le Ministère de l'Industrialisation et du Commerce de Madagascar, financée par l'Union européenne via le Programme d'appui au développement des exportations et de l'intégration régionale à Madagascar.",
+      "monRole": "Appui à un consultant senior : recherche documentaire, analyse sectorielle, contribution à la rédaction et préparation des supports.",
+      "travail": [
+        "Recherche documentaire et analyse du marché africain sous régime ZLECAf",
+        "Analyse sectorielle appliquée au textile-habillement malgache",
+        "Contribution à la rédaction du rapport et préparation des supports",
+        "Participation aux concertations nationales et appui à la clôture de l'étude"
+      ],
+      "resultats": [
+        "Rapport d'étude d'environ 50 pages",
+        "Supports de présentation pour les concertations nationales",
+        "Présentation finale de clôture devant la Présidence de la République de Madagascar"
+      ],
+      "enseignement": "Une étude n'a de valeur que si elle est comprise par ceux qui décident : la restitution et la pédagogie comptent autant que l'analyse elle-même."
+    },
+    {
+      "slug": "memoire-master",
+      "format": "vertical",
+      "teinte": "rose",
+      "type": "recherche",
+      "zones": ["madagascar", "international"],
+      "period": "recent",
+      "org": "Mémoire de master",
+      "role": "Auteur",
+      "periode": "2024–2025",
+      "location": "Madagascar · Maurice",
+      "category": ["Recherche", "Logistique"],
+      "summary": "L'interdépendance des compagnies maritimes et des pays insulaires — cas de Madagascar et Maurice.",
+      "metric": { "value": "120 pages", "label": "méthodologie mixte" },
+      "tags": ["Recherche", "Maritime", "Insularité"],
+      "imageAlt": "Couverture du mémoire de master",
+      "contexte": "Mémoire de recherche de 120 pages sur la dépendance maritime des États insulaires, à partir d'une comparaison entre Madagascar et Maurice.",
+      "monRole": "Auteur : conception de la problématique, collecte et analyse des données, entretiens, rédaction et recommandations.",
+      "travail": [
+        "Revue de littérature sur la puissance maritime et la dépendance logistique",
+        "Analyse de données de connectivité et de performance logistique (indices CNUCED et Banque mondiale)",
+        "Entretiens avec des acteurs de la chaîne logistique",
+        "Formulation de recommandations pour la chaîne logistique malgache"
+      ],
+      "resultats": [
+        "Grille d'analyse comparative Madagascar–Maurice",
+        "Recommandations pour Madagascar, pour Maurice et pour les États insulaires"
+      ],
+      "enseignement": "La dépendance maritime des États insulaires se joue autant à l'intérieur — organisation portuaire, données, coordination — qu'à l'extérieur.",
+      "thesis": {
+        "subtitle": "L'interdépendance des compagnies maritimes et des pays insulaires — cas de Madagascar et Maurice",
+        "methodology": "Méthodologie mixte : revue de littérature, analyse de données de connectivité et de performance logistique (Liner Shipping Connectivity Index de la CNUCED, Logistics Performance Index de la Banque mondiale) et entretiens.",
+        "toc": [
+          { "part": "Introduction générale", "chapters": [] },
+          { "part": "Partie I — Cadre théorique : puissance maritime, dépendance et pouvoir logistique", "chapters": ["1.1 La mer comme fondement du commerce mondial", "1.2 Du pouvoir maritime des États aux compagnies privées", "1.3 Définir la dépendance maritime : asymétrie, substitution, souveraineté logistique", "1.4 Capitalisme logistique et néocolonisation : cadres secondaires", "1.5 Propositions de recherche et grille d'analyse"] },
+          { "part": "Partie II — Étude comparative : Madagascar et Maurice", "chapters": ["2.1 Méthodologie, choix des cas et sources", "2.2 Résultats comparatifs : connectivité, performance, crises, rôle de l'État", "2.3 Synthèse comparative"] },
+          { "part": "Partie III — Préconisations", "chapters": ["3.1 Pour Madagascar", "3.2 Pour Maurice", "3.3 Préconisations communes aux États insulaires", "3.4 Limites et voies de recherche"] },
+          { "part": "Conclusion générale", "chapters": [] }
+        ],
+        "summary": [
+          "Le mémoire analyse la dépendance maritime des États insulaires face aux compagnies logistiques internationales, et son influence sur la compétitivité commerciale, la souveraineté économique et la capacité de négociation.",
+          "À partir d'une comparaison Madagascar–Maurice, il définit la souveraineté logistique non comme une sortie de l'interdépendance, mais comme la capacité d'un État à connaître, mesurer et piloter sa dépendance.",
+          "Il propose un observatoire national des flux, une approche en coût rendu complet et une diversification maritime régionale."
+        ]
+      }
+    },
+    {
+      "slug": "wtc",
+      "format": "standard",
+      "teinte": "rose",
+      "type": "pro",
+      "zones": ["madagascar", "international"],
+      "period": "recent",
+      "org": "WTC Antananarivo × WTC Ras Al Khaimah",
+      "role": "Project Manager",
+      "periode": "2025 — 6 mois",
+      "location": "Madagascar · Ras Al Khaimah",
+      "category": ["Gestion de projet", "Développement international"],
+      "summary": "Ouverture d'un club d'entreprises commun aux deux World Trade Centers et promotion des deux destinations.",
+      "metric": { "value": "~500", "label": "participants au Global Business Forum" },
+      "tags": ["WTC", "Diplomatie économique", "Réseau"],
+      "imageAlt": "Global Business Forum des World Trade Centers",
+      "contexte": "Projet mené pour les World Trade Centers d'Antananarivo et de Ras Al Khaimah (propriétaire commun), visant à rapprocher leurs réseaux d'affaires respectifs.",
+      "monRole": "Project Manager : contribuer à l'ouverture d'un club d'entreprises commun et promouvoir Madagascar et Ras Al Khaimah auprès des deux réseaux.",
+      "travail": [
+        "Coordination avec le réseau World Trade Centers et les partenaires internationaux",
+        "Mobilisation du secteur malgache des centres d'appels et des institutions de facilitation d'affaires",
+        "Relation avec les organisations gouvernementales du commerce",
+        "Représentation des deux WTC au Global Business Forum"
+      ],
+      "resultats": [
+        "Participation au Global Business Forum — environ 500 participants, une centaine de World Trade Centers représentés"
+      ],
+      "issue": "Le projet a été interrompu en raison du contexte géopolitique à Madagascar.",
+      "enseignement": "Un projet international dépend d'un contexte qui le dépasse : savoir documenter ce qui a été construit compte, même quand le projet s'arrête."
+    },
+    {
+      "slug": "ploutos",
+      "format": "standard",
+      "teinte": "blue",
+      "type": "entrepreneuriat",
+      "zones": ["europe", "international"],
+      "period": "recent",
+      "org": "Ploutos",
+      "role": "Cofondateur",
+      "periode": "2021–2025",
+      "location": "Europe",
+      "category": ["Entrepreneuriat", "Start-up"],
+      "summary": "Cofondation d'une start-up Web2/Web3. Term sheet de 2 M€ signé en pre-seed ; déblocage conditionné au prototype, non atteint.",
+      "metric": { "value": "2 M€", "label": "term sheet signé, fonds non débloqués" },
+      "tags": ["Start-up", "Pre-seed", "Produit"],
+      "imageAlt": "Prototype de Ploutos",
+      "contexte": "Start-up cofondée avec une équipe de 2 fondateurs et 5 développeurs, présélectionnée Forbes 30 Under 30 Europe et présente à InnoStartup.",
+      "monRole": "Cofondateur : produit, développement du projet et relation investisseurs.",
+      "travail": [
+        "Livraison d'un MVP et d'une maquette vidéo produit",
+        "Tests limités au cercle proche, sans liste d'attente structurée",
+        "Présélection Forbes 30 Under 30 Europe et participation à InnoStartup"
+      ],
+      "resultats": [
+        "Term sheet de 2 M€ signé en pre-seed ; déblocage conditionné à la livraison du prototype, non atteint"
+      ],
+      "steps": [
+        "Term sheet signé",
+        "Prototype livré",
+        "Prototype jugé insuffisant",
+        "Fonds non débloqués",
+        "Arrêt du projet"
+      ],
+      "enseignement": "L'engagement d'investissement a supprimé la marge d'erreur du plan, qui ne prévoyait aucun scénario d'échec."
+    },
+    {
+      "slug": "popnbuy",
+      "format": "standard",
+      "teinte": "blue",
+      "type": "entrepreneuriat",
+      "zones": ["europe"],
+      "period": "recent",
+      "org": "PopnBuy OÜ",
+      "role": "Fondateur",
+      "periode": "2025 — en cours",
+      "location": "Estonie · Europe",
+      "category": ["Entrepreneuriat", "Produit digital"],
+      "summary": "Marketplace européenne de live commerce : vendre ses produits au cours de sessions vidéo en direct.",
+      "metric": { "value": "50", "label": "vendeurs contactés" },
+      "tags": ["Live commerce", "Marketplace", "Estonie"],
+      "imageAlt": "Page d'accueil de PopnBuy",
+      "externalLink": "https://popnbuy.eu",
+      "contexte": "Marketplace européenne de live commerce permettant à des vendeurs, marques, créateurs et revendeurs de vendre au cours de sessions vidéo en direct. Société immatriculée en Estonie, en développement.",
+      "monRole": "Fondateur : conception du produit et développement du site en propre, avec Claude Code et plusieurs skills.",
+      "travail": [
+        "Développement du site en propre (popnbuy.eu)",
+        "Immatriculation de la société en Estonie",
+        "Prise de contact avec les premiers vendeurs"
+      ],
+      "resultats": [
+        "50 vendeurs contactés",
+        "Site en ligne sur popnbuy.eu, projet en développement"
+      ],
+      "evolving": [
+        { "label": "Vendeurs contactés", "value": "50" },
+        { "label": "Vendeurs inscrits", "value": "[À COMPLÉTER]" },
+        { "label": "Premiers lives", "value": "[À COMPLÉTER]" },
+        { "label": "Volume de ventes", "value": "[À COMPLÉTER]" }
+      ],
+      "enseignement": "Construire seul un produit complet oblige à hiérarchiser brutalement ce qui compte pour les premiers utilisateurs."
+    },
+    {
+      "slug": "master-supply-chain",
+      "format": "compact",
+      "teinte": "sage",
+      "type": "formation",
+      "zones": ["france"],
+      "period": "recent",
+      "org": "INSEEC — Omnes Education",
+      "role": "Master Achats et Supply Chain Management",
+      "periode": "Marseille",
+      "location": "Marseille, France",
+      "category": ["Formation"],
+      "summary": "Master Achats et Supply Chain Management.",
+      "metric": { "value": "Master", "label": "Achats & Supply Chain" },
+      "tags": ["Supply Chain", "Achats"],
+      "imageAlt": "Logo INSEEC — Omnes Education",
+      "contexte": "Master Achats et Supply Chain Management à l'INSEEC (Omnes Education), Marseille.",
+      "monRole": "Étudiant."
+    },
+    {
+      "slug": "bachelor-crea",
+      "format": "compact",
+      "teinte": "sage",
+      "type": "formation",
+      "zones": ["suisse"],
+      "period": "recent",
+      "org": "CREA Genève — Omnes Education",
+      "role": "Bachelor Business Management",
+      "periode": "Major de promotion 2024",
+      "location": "Genève, Suisse",
+      "category": ["Formation"],
+      "summary": "Bachelor Business Management — major de promotion 2024.",
+      "metric": { "value": "Major", "label": "de promotion 2024" },
+      "tags": ["Business", "Management"],
+      "imageAlt": "Logo CREA Genève — Omnes Education",
+      "contexte": "Bachelor Business Management à CREA Genève (Omnes Education), major de promotion 2024.",
+      "monRole": "Étudiant."
+    },
+    {
+      "slug": "lse",
+      "format": "compact",
+      "teinte": "sage",
+      "type": "formation",
+      "zones": ["europe"],
+      "period": "recent",
+      "org": "London School of Economics",
+      "role": "Développement, politiques publiques, données",
+      "periode": "LSE",
+      "location": "Londres, Royaume-Uni",
+      "category": ["Formation"],
+      "summary": "Développement économique et politique des pays en développement, analyse des politiques publiques, analyse de données pour le management.",
+      "metric": { "value": "LSE", "label": "développement & politiques publiques" },
+      "tags": ["Développement", "Politiques publiques"],
+      "imageAlt": "Logo London School of Economics",
+      "contexte": "Axes étudiés à la London School of Economics : développement économique et politique des pays en développement, analyse des politiques publiques, analyse de données pour le management.",
+      "monRole": "Étudiant."
+    },
+    {
+      "slug": "harvardx",
+      "format": "compact",
+      "teinte": "sage",
+      "type": "formation",
+      "zones": ["international"],
+      "period": "recent",
+      "org": "HarvardX",
+      "role": "Justice Course Certification",
+      "periode": "Certification",
+      "location": "En ligne",
+      "category": ["Formation"],
+      "summary": "Justice Course Certification (HarvardX).",
+      "metric": { "value": "HarvardX", "label": "Justice Course Certification" },
+      "tags": ["Justice", "Certification"],
+      "imageAlt": "Logo HarvardX",
+      "contexte": "Justice Course Certification, HarvardX.",
+      "monRole": "Participant."
+    },
+    {
+      "slug": "miray",
+      "format": "compact",
+      "teinte": "rose",
+      "type": "engagement",
+      "zones": ["madagascar"],
+      "period": "recent",
+      "org": "Association MIRAY",
+      "role": "Vice-président",
+      "periode": "Depuis 2020",
+      "location": "Sud de Madagascar",
+      "category": ["Engagement"],
+      "summary": "Vice-président de l'association MIRAY, actions dans le sud de Madagascar.",
+      "metric": { "value": "Depuis 2020", "label": "vice-président" },
+      "tags": ["Association", "Madagascar"],
+      "imageAlt": "Logo de l'association MIRAY",
+      "contexte": "Association MIRAY : appui matériel aux familles touchées par l'insécurité alimentaire dans le sud de Madagascar.",
+      "monRole": "Vice-président depuis 2020."
+    },
+    {
+      "slug": "basket",
+      "format": "compact",
+      "teinte": "blue",
+      "type": "engagement",
+      "zones": ["madagascar"],
+      "period": "old",
+      "org": "Équipe nationale de basket-ball de Madagascar",
+      "role": "Meneur et arrière (U16–U18)",
+      "periode": "2015–2016",
+      "location": "Madagascar",
+      "category": ["Engagement"],
+      "summary": "Équipe nationale de basket-ball de Madagascar, catégories U16 à U18.",
+      "metric": { "value": "U16–U18", "label": "équipe nationale" },
+      "tags": ["Sport", "Compétition"],
+      "imageAlt": "Photographie de l'équipe nationale U16–U18",
+      "contexte": "Équipe nationale de basket-ball de Madagascar, catégories U16 à U18, 2015–2016.",
+      "monRole": "Meneur et arrière."
+    },
+    {
+      "slug": "journal-etudiant",
+      "format": "compact",
+      "teinte": "rose",
+      "type": "engagement",
+      "zones": ["madagascar"],
+      "period": "recent",
+      "org": "Journal de l'Étudiant",
+      "role": "Rédacteur en chef et chroniqueur",
+      "periode": "2023–2024",
+      "location": "Madagascar",
+      "category": ["Production éditoriale"],
+      "summary": "Média en ligne malgache, chronique « La Société c'est toi » — meilleur engagement par publication.",
+      "metric": { "value": "~50 000", "label": "abonnés toutes plateformes [À VÉRIFIER]" },
+      "tags": ["Média", "Chronique"],
+      "imageAlt": "Logo du Journal de l'Étudiant",
+      "contexte": "Média en ligne malgache réunissant environ 50 000 abonnés toutes plateformes confondues [À VÉRIFIER]. Rédacteur en chef et auteur de la chronique hebdomadaire « La Société c'est toi » — meilleur engagement par publication du support [À VÉRIFIER].",
+      "monRole": "Rédacteur en chef et chroniqueur (2023–2024)."
+    },
+    {
+      "slug": "inskahier",
+      "format": "compact",
+      "teinte": "blue",
+      "type": "engagement",
+      "zones": ["madagascar"],
+      "period": "recent",
+      "org": "Inskahier — INSCAE",
+      "role": "Rédacteur en chef",
+      "periode": "2022–2023",
+      "location": "Madagascar",
+      "category": ["Production éditoriale"],
+      "summary": "Journal de l'INSCAE, direction d'une dizaine de chroniqueurs.",
+      "metric": { "value": "~10", "label": "chroniqueurs encadrés" },
+      "tags": ["Média", "Rédaction"],
+      "imageAlt": "Logo d'Inskahier",
+      "contexte": "Inskahier, journal de l'INSCAE : direction d'une équipe d'une dizaine de chroniqueurs.",
+      "monRole": "Rédacteur en chef (2022–2023)."
     }
+  ],
+  "profil": {
+    "title": "Profil",
+    "intro": "Mon parcours s'est construit entre plusieurs environnements : les opérations maritimes, les études économiques, les institutions, l'entrepreneuriat et la recherche. Ce qui relie ces expériences est mon intérêt pour les systèmes complexes, les relations de dépendance et la manière dont les organisations peuvent reprendre de la marge de décision.",
+    "domainsTitle": "Domaines d'intervention",
+    "domains": [
+      { "label": "Politiques commerciales et intégration régionale", "desc": "ZLECAf, AGOA ; diagnostic de filières et opportunités de marché." },
+      { "label": "Transport maritime de ligne et logistique internationale", "desc": "Tarification, allocation de capacité, connectivité portuaire." },
+      { "label": "Études d'impact sectorielles", "desc": "Recherche documentaire, analyse, production de livrables." },
+      { "label": "Développement économique des États insulaires", "desc": "Dépendance logistique, souveraineté, chaînes d'approvisionnement." },
+      { "label": "Analyse de données", "desc": "Traitement, visualisation et lecture opérationnelle des données." },
+      { "label": "Gestion de projets internationaux", "desc": "Coordination d'acteurs publics et privés, multi-pays." }
+    ],
+    "zonesTitle": "Zones géographiques",
+    "zones": [
+      { "label": "Madagascar et océan Indien", "note": "en priorité" },
+      { "label": "Europe", "note": "France, Suisse" },
+      { "label": "Afrique de l'Est", "note": "secondaire" },
+      { "label": "International", "note": "projets multi-pays" }
+    ],
+    "langTitle": "Langues",
+    "langs": [
+      { "label": "Malgache", "note": "Langue maternelle", "levelPct": 100 },
+      { "label": "Français", "note": "Bilingue", "levelPct": 100 },
+      { "label": "Anglais", "note": "C1, TOEIC 980/990", "levelPct": 90 }
+    ],
+    "toolsTitle": "Outils",
+    "tools": ["Excel", "Tableau", "Orange3", "Data Science Studio", "PowerPoint", "Figma"]
   },
   "contact": {
-    "title": "Contact",
-    "intro": "Disponible pour missions de conseil, en freelance et en parallèle d'un poste à temps plein.",
+    "title": "Construisons quelque chose d'utile.",
+    "intro": "Je suis disponible pour échanger sur des missions d'étude, des projets de développement économique, des problématiques de logistique internationale ou des collaborations entrepreneuriales.",
     "emailLabel": "Email",
-    "emailPlaceholder": "[À COMPLÉTER : adresse email professionnelle]",
+    "emailPlaceholder": "[À COMPLÉTER : adresse email]",
     "phoneLabel": "Téléphone",
     "phonePlaceholder": "[À COMPLÉTER : numéro de téléphone]",
     "linkedinLabel": "LinkedIn",
     "linkedinPlaceholder": "[À COMPLÉTER : lien LinkedIn]",
-    "cvTitle": "Curriculum vitae",
-    "cvFrLabel": "CV (Français)",
-    "cvEnLabel": "CV (English)",
+    "locationLabel": "Localisation",
+    "location": "Madagascar · Europe",
+    "availabilityLabel": "Disponibilité",
+    "availability": "Freelance, en parallèle d'un poste à temps plein.",
+    "emailButton": "Envoyer un email",
+    "linkedinButton": "Voir LinkedIn",
+    "cvFr": "CV (Français)",
+    "cvEn": "CV (English)",
     "cvUnavailable": "Document à ajouter",
-    "formTitle": "Ou envoyer un message directement",
+    "formTitle": "Ou laisser un message",
     "formName": "Nom",
-    "formEmail": "Votre email",
+    "formEmail": "Email",
+    "formOrg": "Organisation",
     "formMessage": "Message",
-    "formSubmit": "Envoyer par email",
+    "formSubmit": "Envoyer",
     "formNote": "Ce formulaire ouvre votre client email par défaut ; aucune donnée n'est transmise à un serveur."
   },
   "common": {
-    "readMore": "Lire la suite",
     "close": "Fermer",
-    "expand": "Déplier",
-    "collapse": "Replier",
-    "back": "Retour",
-    "openFiche": "Voir la fiche",
-    "loading": "Chargement…"
+    "loading": "Chargement…",
+    "mediaPlaceholder": "Emplacement image",
+    "fileLabel": "Fichier attendu"
   }
 }

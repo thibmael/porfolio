@@ -16,11 +16,11 @@ export function Accordion({
     >
       <summary className="flex cursor-pointer list-none items-center justify-between gap-4 font-medium marker:content-none">
         <span>{summary}</span>
-        <span className="shrink-0 text-(--color-ink-soft) transition-transform group-open:rotate-45" aria-hidden="true">
+        <span className="shrink-0 text-(--color-soft) transition-transform group-open:rotate-45" aria-hidden="true">
           +
         </span>
       </summary>
-      <div className="measure mt-3 text-sm text-(--color-ink-soft) sm:text-base">{children}</div>
+      <div className="measure mt-3 text-sm text-(--color-soft) sm:text-base">{children}</div>
     </details>
   );
 }

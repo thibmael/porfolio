@@ -7,9 +7,9 @@ import { LINKEDIN_URL } from "@/lib/contact-info";
 export function Footer({ locale, dict }: { locale: Locale; dict: Dictionary }) {
   return (
     <footer className="border-t border-(--color-line) py-10">
-      <div className="mx-auto flex max-w-6xl flex-col gap-4 px-6 text-sm text-(--color-ink-soft) sm:flex-row sm:items-center sm:justify-between">
+      <div className="mx-auto flex max-w-6xl flex-col gap-4 px-6 text-sm text-(--color-soft) sm:flex-row sm:items-center sm:justify-between">
         <div>
-          <p className="font-serif-display text-base text-(--color-ink)">Thibault Randrasana</p>
+          <p className="display text-base text-(--color-ink)">Thibault Randrasana</p>
           <p className="measure mt-1">{dict.footer.tagline}</p>
           <p className="mt-1">{dict.footer.availability}</p>
         </div>

@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Fraunces, Inter } from "next/font/google";
+import { Plus_Jakarta_Sans, Inter } from "next/font/google";
 import type { ReactNode } from "react";
 import { getDictionary } from "@/lib/dictionaries";
 import { isLocale, locales, type Locale } from "@/lib/i18n-config";
@@ -10,15 +10,15 @@ import { PageTransition } from "@/components/layout/PageTransition";
 import { CustomCursor } from "@/components/layout/CustomCursor";
 import "../globals.css";
 
-const fraunces = Fraunces({
+const jakarta = Plus_Jakarta_Sans({
   subsets: ["latin"],
-  variable: "--font-display",
+  variable: "--font-jakarta",
   display: "swap",
 });
 
 const inter = Inter({
   subsets: ["latin"],
-  variable: "--font-body",
+  variable: "--font-inter",
   display: "swap",
 });
 
@@ -72,7 +72,7 @@ export default async function LocaleLayout({
     "@context": "https://schema.org",
     "@type": "Person",
     name: "Thibault M. E. Randrasana",
-    jobTitle: dict.home.hero.positioning,
+    jobTitle: dict.home.hero.title,
     description: dict.meta.defaultDescription,
     knowsLanguage: ["mg", "fr", "en"],
     alumniOf: [
@@ -83,7 +83,7 @@ export default async function LocaleLayout({
   };
 
   return (
-    <html lang={locale} className={`${fraunces.variable} ${inter.variable}`}>
+    <html lang={locale} className={`${jakarta.variable} ${inter.variable}`}>
       <body>
         <a href="#main-content" className="skip-link">
           {dict.nav.skipToContent}

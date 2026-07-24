@@ -1,136 +1,120 @@
-# Portfolio — Thibault M. E. Randrasana
+# Portfolio interactif — Thibault M. E. Randrasana
 
-Site portfolio statique (Next.js App Router + TypeScript + Tailwind CSS v4 +
-Motion), bilingue FR/EN, sans backend ni base de données. Déployé sur Vercel.
+Portfolio statique (Next.js App Router + TypeScript + Tailwind v4 + Motion),
+bilingue FR/EN, sans backend. Une **galerie de projets cliquables** : chaque
+expérience possède une carte et une page détaillée à son propre lien.
 
-## Démarrer en local
+## Démarrer
 
 ```bash
 npm install
 npm run dev     # http://localhost:3000 (redirige vers /fr ou /en)
-npm run build   # build de production
-npm run lint    # ESLint
+npm run build   # production
+npm run lint
 ```
 
-## Direction
+## Pages
 
-Éditorial institutionnel contemporain, illustré mais sobre. Fond ivoire, texte
-anthracite. **Deux teintes pastel très désaturées en accents seulement** — rose
-poudré (`--color-rose`) et bleu brumeux (`--color-blue`) — utilisées pour les
-liserés de capsule, les nœuds/segments des diagrammes, les badges et les
-soulignements. Elles ne servent **jamais** de fond de page ou de section, ni de
-texte courant, ni du CTA principal (qui reste anthracite). Les teintes sont
-définies dans `src/app/globals.css` — si l'une commence à paraître vive, la
-désaturer.
+- `/[locale]` — accueil (hero + preuves rapides + aperçu de 3 projets)
+- `/[locale]/parcours` — galerie mosaïque + filtres (type / zone / période)
+- `/[locale]/parcours/[slug]` — page détaillée d'un projet
+- `/[locale]/profil` — profil (domaines, zones, langues, outils)
+- `/[locale]/contact` — contact
 
 ## Modifier le contenu sans toucher au code
 
-Tout le texte vit dans deux fichiers JSON, à parité stricte de structure :
+Tout le texte vit dans `locales/fr.json` et `locales/en.json`, à **parité de
+structure stricte** (même chemin de clé dans les deux langues).
 
-```
-locales/fr.json
-locales/en.json
-```
+### Ajouter / modifier une carte-projet
 
-Chaque clé française a un équivalent exact (même chemin) en anglais. Grandes
-sections :
+Chaque projet est un objet du tableau `projects` (dans les deux fichiers de
+langue). Champs principaux :
 
-- `meta` — SEO par défaut
-- `nav`, `footer` — navigation et pied de page
-- `home` — accueil : `hero` + `proof` (les 3 compteurs)
-- `missions` — `filters` (nature / zone), `format` (libellés de fiche) et
-  `capsules[]` : **les six expériences**. Chaque capsule contient son en-tête
-  (`role`, `org`, `periode`), son `keyFigure`, son `summary`, sa `teinte`
-  (`rose` / `blue` / `mix`), sa `nature`, ses `zones`, sa fiche complète
-  (`commanditaire`, `financement`, `perimetre`, `livrables`, `resultat`,
-  `enseignement`), les données de son `diagram`, et un éventuel emplacement
-  `media`. La capsule `recherche` porte en plus le bloc `research` (méthodologie,
-  sommaire, résumé exécutif, aperçu PDF).
-- `expertise` — blocs de compétences (domaines, zone, langues, outils,
-  formation, engagements, production éditoriale)
-- `contact`, `common`
+- `slug` — identifiant d'URL (identique FR/EN)
+- `format` — `featured` · `wide` · `vertical` · `standard` · `compact`
+- `teinte` — `rose` · `blue` · `sage` (accent de la carte)
+- `type` — clé de filtre (`pro`, `conseil`, `recherche`, `entrepreneuriat`, `formation`, `engagement`)
+- `zones` — `["madagascar","france","suisse","europe","international"]`
+- `period` — `recent` · `old`
+- `org`, `role`, `periode`, `location`, `category`, `summary`, `metric`, `tags`
+- fiche : `contexte`, `monRole`, `travail[]`, `resultats[]`, `issue`, `enseignement`
+- spécifiques : `ports[]` (MSC), `steps[]` (Ploutos), `evolving[]` (PopnBuy), `thesis{}` (mémoire), `externalLink`
 
-Les **diagrammes-signatures** des capsules sont codés en SVG
-(`src/components/diagrams/CapsuleDiagram.tsx`) et se construisent automatiquement
-à partir des données `diagram` de chaque capsule dans le JSON — modifier les
-libellés dans le JSON suffit.
+Pour **créer une nouvelle carte** : ajouter un objet dans `projects` (fr **et**
+en, mêmes `slug`), puis une entrée dans `PROJECT_MEDIA` (voir ci-dessous). La
+page détaillée et la route sont générées automatiquement.
 
-### Coordonnées, documents et photo
+### Filtres
 
-Valeurs identiques dans les deux langues, regroupées dans un seul fichier :
+Les options de filtre viennent de `parcours.filters` (types / zones / periods)
+dans les fichiers de langue. Le `type`, les `zones` et le `period` de chaque
+projet doivent utiliser ces clés.
 
-```
-src/lib/contact-info.ts
-```
+## Images et logos (rien n'est généré)
 
-`EMAIL`, `PHONE`, `LINKEDIN_URL`, `CV_FR_URL`, `CV_EN_URL`, `THESIS_PDF_URL`,
-`PORTRAIT_URL`. Tant qu'une valeur est vide (`""`), le site affiche le
-placeholder correspondant ; dès qu'elle est renseignée, le lien (mailto, tel,
-LinkedIn, téléchargement, image) s'active seul.
+Aucune image n'est embarquée : chaque emplacement affiche un cadre soigné avec
+le **nom de fichier attendu**. Pour activer un visuel :
 
-## Emplacements visuels (aucune image n'est générée)
+1. Déposer le fichier dans le bon dossier de `public/images/`
+   (`profile/`, `experiences/`, `education/`, `engagements/`, `editorial/`).
+2. Renseigner le chemin dans **`src/lib/project-media.ts`** :
 
-Le site n'embarque **aucune** image, logo ou photo — uniquement des emplacements
-proprement dimensionnés (ratio fixé, texte alternatif, cadre vide soigné) via le
-composant `src/components/ui/ImagePlaceholder.tsx`. Pour activer un visuel :
-
-1. Déposer le fichier dans `public/images/`.
-2. Renseigner l'URL au bon endroit :
-   - **Photo professionnelle (hero, N&B)** → `PORTRAIT_URL` dans `contact-info.ts`.
-   - **Visuels de capsule** (extraits de rapport GEFP, couverture du mémoire,
-     galerie Global Forum WTC, capture PopnBuy) → le champ `media` de la capsule
-     concernée n'est pour l'instant qu'un placeholder ; ajouter le chemin de
-     l'image et adapter `ImagePlaceholder` (prop `src`) dans
-     `src/components/missions/CapsuleModal.tsx`.
-   - **Thèse (PDF)** → `THESIS_PDF_URL` (active le téléchargement dans la fiche
-     Recherche). Exporter le PDF depuis Word pour préserver la couverture.
-
-## Structure du projet
-
-```
-src/app/[locale]/            pages : accueil, missions, expertise, contact
-src/app/[locale]/layout.tsx  <html>/<body>, polices, header/footer, JSON-LD Person
-src/middleware.ts            redirection "/" vers "/fr" ou "/en"
-src/components/missions/     capsules : carte, fiche (modale), explorateur + filtres
-src/components/diagrams/     les six diagrammes-signatures SVG
-src/components/ui/           Modal, ImagePlaceholder, Accordion, SectionTitle
-src/components/layout/       header, footer, transitions, curseur, bascule FR/EN
-src/lib/                     i18n, dictionnaires, types de capsule, contact-info
-locales/                     contenu textuel FR/EN
-public/documents/            CV, thèse (à déposer)
-public/images/               photo, visuels de capsule (à déposer)
+```ts
+export const PROJECT_MEDIA = {
+  "msc-eastmed": { cover: "/images/experiences/msc-eastmed.jpg", logo: "", gallery: [] },
+  // ...
+};
 ```
 
-## Accessibilité et animation
+- `cover` — image de couverture de la carte et de la fiche
+- `logo` — logo carré (utilisé pour les cartes compactes)
+- `gallery` — plusieurs images pour la section « Galerie et documents »
+- `document` — PDF (ex. mémoire)
 
-- `prefers-reduced-motion: reduce` respecté partout : diagrammes et transitions
-  figés, site pleinement lisible sans mouvement.
-- Navigation clavier complète ; modales avec `role="dialog"`, fermeture Échap /
-  clic sur le fond ; accordéons natifs `<details>`.
-- Contraste AA (ivoire / anthracite ; les pastels ne portent jamais de texte).
+Le **texte alternatif** de chaque image reste dans les fichiers de langue
+(`imageAlt`), donc traduit. La **photo de profil** (hero) se règle via
+`PORTRAIT_URL` dans `src/lib/contact-info.ts`.
+
+## Coordonnées et documents
+
+`src/lib/contact-info.ts` : `EMAIL`, `PHONE`, `LINKEDIN_URL`, `CV_FR_URL`,
+`CV_EN_URL`, `THESIS_PDF_URL`, `PORTRAIT_URL`. Une valeur vide affiche son
+placeholder ; renseignée, le lien s'active seul.
+
+## Bilingue
+
+Bascule FR/EN sans rechargement, position de scroll conservée, filtre actif
+préservé (stocké dans l'URL). Les deux langues doivent rester équivalentes.
+
+## Direction & accessibilité
+
+- Typographie **sans-serif** (Plus Jakarta Sans + Inter), base claire, texte
+  anthracite, accents **rose poudré / bleu brumeux / vert sauge** désaturés,
+  jamais en fond de page.
+- Animations discrètes (`transform`/`opacity`), `prefers-reduced-motion`
+  respecté, navigation clavier, focus visibles, contraste AA.
 
 ## Déploiement
 
 Projet Next.js standard : import direct sur Vercel, aucune variable
 d'environnement requise.
 
-## À compléter / à vérifier avant mise en ligne
+## À compléter avant mise en ligne
 
-Tous laissés en placeholder — aucune donnée inventée :
+Placeholders visibles, rien inventé :
 
-- **Email pro**, **Téléphone**, **Lien LinkedIn** — `src/lib/contact-info.ts`
-- **CV (FR)** et **CV (EN)** — PDF à déposer + `CV_FR_URL` / `CV_EN_URL`
-- **Thèse (PDF)** — `THESIS_PDF_URL` (le sommaire et le résumé exécutif sont déjà
-  en ligne dans la fiche Recherche, extraits du mémoire)
-- **Photo professionnelle (hero)** — `PORTRAIT_URL`
-- **Visuels de capsule** — extraits de rapport GEFP, couverture du mémoire,
-  photos du Global Forum (WTC), capture de popnbuy.eu → `public/images/`
-- **Liens vers les chroniques publiées** (Journal de l'Étudiant / Inskahier) —
-  `expertise.editorial.linksPlaceholder`
-- **[À VÉRIFIER]** le chiffre de ~50 000 abonnés et « meilleur engagement par
-  publication » de la chronique *La Société c'est toi* — si l'un des deux n'est
-  pas documentable, retirer le chiffre et garder une formulation qualitative
-  (voir `expertise.editorial.verificationNote`).
+- **Email**, **téléphone**, **LinkedIn** — `src/lib/contact-info.ts`
+- **CV FR/EN**, **thèse PDF**, **photo de profil** — idem + fichiers dans `public/`
+- **Visuels de chaque projet** (couvertures, logos, galeries) — `public/images/*` + `src/lib/project-media.ts`.
+  Fichiers suggérés : `msc-eastmed.jpg`, `gefp-cover.jpg`, `master-thesis-cover.jpg`,
+  `wtc-global-forum.jpg`, `ploutos-prototype.jpg`, `popnbuy-platform.jpg`, et les logos
+  de formation / engagement / éditorial.
+- **[À VÉRIFIER]** : ~50 000 abonnés et « meilleur engagement par publication »
+  du *Journal de l'Étudiant* (carte `journal-etudiant`) — si non documentable,
+  retirer le chiffre.
+- **PopnBuy** — indicateurs `evolving` marqués `[À COMPLÉTER]` à mettre à jour au
+  fil du projet (vendeurs inscrits, premiers lives, volume de ventes).
 
-Aucun autre chiffre, qualificatif de séniorité ou montant n'a été ajouté au-delà
-du brief.
+Ces marqueurs `[À COMPLÉTER]` / `[À VÉRIFIER]` sont volontairement visibles pour
+être repérés avant déploiement.

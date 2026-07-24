@@ -1,23 +1,23 @@
 @import "tailwindcss";
 
 @theme {
-  --font-serif: var(--font-display), ui-serif, Georgia, serif;
-  --font-sans: var(--font-body), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-jakarta), ui-sans-serif, system-ui, sans-serif;
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
 
-  /* Base: ivory paper, anthracite ink. The interface is always light. */
-  --color-paper: #f7f3ea;
+  /* Light, warm base */
+  --color-paper: #f7f5f0;
   --color-paper-dim: #efe9dc;
-  --color-ink: #1c1b19;
-  --color-ink-soft: #57534b;
-  --color-line: #e0d9ca;
+  --color-card: #fdfcf9;
+  --color-ink: #1b1a17;
+  --color-soft: #6b665d;
+  --color-line: #e5e0d5;
 
-  /* Two desaturated pastel ACCENTS only — never a page/section background,
-     never body text, never the primary CTA. Used for thin capsule rules,
-     diagram nodes/segments, link underlines, small badges. */
-  --color-rose: #dfc2be; /* rose poudré — institutional experiences */
-  --color-rose-ink: #8f6a64; /* readable text tint of the same hue */
-  --color-blue: #b9c6d4; /* bleu brumeux — operational / entrepreneurial */
-  --color-blue-ink: #5d7085; /* readable text tint of the same hue */
+  /* Two desaturated accents + one discreet third */
+  --color-rose: #d9bbb7;
+  --color-rose-ink: #9a6f68;
+  --color-blue: #aebecd;
+  --color-blue-ink: #5f7182;
+  --color-sage: #b8c4ad;
 
   --breakpoint-xs: 30rem;
 }
@@ -44,15 +44,18 @@ body {
   background: var(--color-paper);
   color: var(--color-ink);
   font-family: var(--font-sans);
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
 }
 
-.font-serif-display {
-  font-family: var(--font-serif);
-  letter-spacing: -0.01em;
+.display {
+  font-family: var(--font-display);
+  letter-spacing: -0.02em;
+  font-weight: 700;
 }
 
 .measure {
-  max-width: 70ch;
+  max-width: 68ch;
 }
 
 .skip-link {
@@ -62,11 +65,10 @@ body {
   background: var(--color-ink);
   color: var(--color-paper);
   padding: 0.5rem 1rem;
-  border-radius: 0.25rem;
+  border-radius: 0.5rem;
   z-index: 100;
   transition: top 150ms ease;
 }
-
 .skip-link:focus {
   top: 1rem;
 }
@@ -75,26 +77,23 @@ body {
   position: relative;
   text-decoration: none;
 }
-
 .link-underline::after {
   content: "";
   position: absolute;
   left: 0;
-  bottom: -0.1em;
+  bottom: -0.15em;
   width: 100%;
-  height: 1px;
+  height: 1.5px;
   background: currentColor;
   transform: scaleX(0);
   transform-origin: right;
   transition: transform 220ms ease;
 }
-
 .link-underline:hover::after,
 .link-underline:focus-visible::after {
   transform: scaleX(1);
   transform-origin: left;
 }
-
 @media (prefers-reduced-motion: reduce) {
   .link-underline::after {
     transition: none;

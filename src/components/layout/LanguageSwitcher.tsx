@@ -13,7 +13,10 @@ export function LanguageSwitcher({ locale, label }: { locale: Locale; label: str
     const segments = pathname.split("/");
     segments[1] = target;
     const nextPath = segments.join("/") || `/${target}`;
-    router.push(nextPath, { scroll: false });
+    // keep the active filter (query) and any anchor when switching language
+    const suffix =
+      typeof window !== "undefined" ? window.location.search + window.location.hash : "";
+    router.push(nextPath + suffix, { scroll: false });
   }
 
   return (
