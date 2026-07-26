@@ -6,6 +6,7 @@ import { teinteBg, teinteInk } from "@/lib/project-types";
 import { localizedHref } from "@/lib/routing";
 import { PROJECT_MEDIA, SUGGESTED_COVER } from "@/lib/project-media";
 import { MediaPlaceholder } from "@/components/ui/MediaPlaceholder";
+import { Filigrane } from "@/components/ui/Filigrane";
 import { Accordion } from "@/components/ui/Accordion";
 import { ProjectNavigation } from "./ProjectNavigation";
 import { THESIS_PDF_URL } from "@/lib/contact-info";
@@ -63,8 +64,9 @@ export function ProjectDetail({
       </Link>
 
       {/* header */}
-      <header className="mt-6 grid gap-8 sm:grid-cols-[1.3fr_1fr] sm:items-end">
-        <div>
+      <header className="relative mt-6 grid gap-8 overflow-hidden sm:grid-cols-[1.3fr_1fr] sm:items-end">
+        <Filigrane teinte={project.teinte} variant={project.slug.charCodeAt(0)} opacity={0.08} className="pointer-events-none absolute -left-10 -top-8 h-52 w-52" />
+        <div className="relative">
           <div className="flex flex-wrap gap-2">
             {project.category.map((c) => (
               <span key={c} className="rounded-full px-3 py-1 text-xs font-semibold text-(--color-ink)" style={{ backgroundColor: teinteBg(project.teinte) }}>

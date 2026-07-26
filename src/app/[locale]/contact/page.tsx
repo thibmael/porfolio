@@ -3,6 +3,7 @@ import { getDictionary } from "@/lib/dictionaries";
 import { isLocale } from "@/lib/i18n-config";
 import { notFound } from "next/navigation";
 import { ContactForm } from "@/components/contact/ContactForm";
+import { Filigrane } from "@/components/ui/Filigrane";
 import { EMAIL, PHONE, LINKEDIN_URL, CV_FR_URL, CV_EN_URL } from "@/lib/contact-info";
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
@@ -37,9 +38,10 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
   ];
 
   return (
-    <div className="mx-auto max-w-4xl px-6 py-16">
-      <h1 className="display text-4xl leading-tight sm:text-5xl">{c.title}</h1>
-      <p className="measure mt-5 text-lg leading-relaxed text-(--color-soft)">{c.intro}</p>
+    <div className="relative mx-auto max-w-4xl overflow-hidden px-6 py-16">
+      <Filigrane teinte="rose" variant={2} opacity={0.07} className="pointer-events-none absolute -right-10 top-6 h-56 w-56" />
+      <h1 className="relative display text-4xl leading-tight sm:text-5xl">{c.title}</h1>
+      <p className="measure relative mt-5 text-lg leading-relaxed text-(--color-soft)">{c.intro}</p>
 
       <div className="mt-10 grid gap-10 sm:grid-cols-2">
         <div>

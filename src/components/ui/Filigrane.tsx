@@ -1,26 +1,29 @@
 import type { Teinte } from "@/lib/project-types";
 import { teinteBg } from "@/lib/project-types";
 
-/* A soft pastel watermark ("filigrane") for the off-white cards. Very low
-   opacity, purely decorative, sits behind the content. Colour follows the
-   card's teinte (rose / blue / sage). */
+/* A soft pastel watermark ("filigrane") — purely decorative, low opacity, sits
+   behind content and follows a teinte (rose / blue / sage). Position and size
+   are controlled by `className` on the wrapper so it can be dropped anywhere. */
 export function Filigrane({
   teinte,
   variant = 0,
-  className = "",
+  opacity = 0.12,
+  className = "absolute -right-6 -top-8 h-40 w-40",
 }: {
   teinte: Teinte;
   variant?: number;
+  opacity?: number;
   className?: string;
 }) {
   const c = teinteBg(teinte);
-  const v = variant % 3;
+  const v = ((variant % 3) + 3) % 3;
   return (
     <svg
       aria-hidden="true"
       viewBox="0 0 200 200"
-      className={`pointer-events-none absolute -right-6 -top-8 h-40 w-40 ${className}`}
-      style={{ opacity: 0.14 }}
+      preserveAspectRatio="xMidYMid meet"
+      className={`pointer-events-none ${className}`}
+      style={{ opacity }}
     >
       {v === 0 && (
         <g fill="none" stroke={c} strokeWidth="6">
@@ -39,12 +42,15 @@ export function Filigrane({
         </g>
       )}
       {v === 2 && (
-        <g fill="none" stroke={c} strokeWidth="6">
-          <path d="M20 150 Q 80 40 190 70" />
-          <path d="M20 175 Q 90 70 200 100" />
-          <path d="M40 195 Q 110 100 210 130" />
+        <g fill="none" stroke={c} strokeWidth="6" strokeLinecap="round">
+          <path d="M-10 150 Q 60 90 130 130 T 260 130" />
+          <path d="M-10 172 Q 60 112 130 152 T 260 152" />
+          <path d="M-10 128 Q 60 68 130 108 T 260 108" />
         </g>
       )}
     </svg>
   );
 }
+
+const TEINTES: Teinte[] = ["rose", "blue", "sage"];
+export const teinteByIndex = (i: number): Teinte => TEINTES[((i % 3) + 3) % 3];

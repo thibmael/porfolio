@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { getDictionary } from "@/lib/dictionaries";
 import { isLocale } from "@/lib/i18n-config";
 import { notFound } from "next/navigation";
+import { Filigrane, teinteByIndex } from "@/components/ui/Filigrane";
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
@@ -27,9 +28,10 @@ export default async function ProfilPage({ params }: { params: Promise<{ locale:
         <h2 className="display text-xl">{p.domainsTitle}</h2>
         <div className="mt-5 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {p.domains.map((d, i) => (
-            <div key={d.label} className="group overflow-hidden rounded-2xl border border-(--color-line) bg-(--color-card)">
+            <div key={d.label} className="group relative overflow-hidden rounded-2xl border border-(--color-line) bg-(--color-card)">
               <span className="block h-1 w-full" style={{ backgroundColor: tint(i) }} />
-              <div className="p-5">
+              <Filigrane teinte={teinteByIndex(i)} variant={i} opacity={0.1} className="pointer-events-none absolute -right-5 -top-6 h-28 w-28" />
+              <div className="relative p-5">
                 <p className="font-medium leading-snug">{d.label}</p>
                 <p className="mt-2 text-sm leading-relaxed text-(--color-soft) opacity-70 transition-opacity group-hover:opacity-100">{d.desc}</p>
               </div>

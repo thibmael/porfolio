@@ -4,6 +4,7 @@ import { isLocale } from "@/lib/i18n-config";
 import { localizedHref } from "@/lib/routing";
 import { notFound } from "next/navigation";
 import { MediaPlaceholder } from "@/components/ui/MediaPlaceholder";
+import { Filigrane } from "@/components/ui/Filigrane";
 import { ProjectCard } from "@/components/project/ProjectCard";
 import type { Project } from "@/lib/project-types";
 import { CV_FR_URL, CV_EN_URL, PORTRAIT_URL } from "@/lib/contact-info";
@@ -22,7 +23,10 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
   return (
     <>
       {/* Hero — asymmetric */}
-      <section className="mx-auto grid max-w-6xl gap-10 px-6 pb-14 pt-14 sm:pt-20 lg:grid-cols-[1.35fr_1fr] lg:items-center">
+      <section className="relative overflow-hidden">
+        <Filigrane teinte="blue" variant={2} opacity={0.07} className="pointer-events-none absolute -right-16 top-10 hidden h-80 w-80 lg:block" />
+        <Filigrane teinte="rose" variant={0} opacity={0.06} className="pointer-events-none absolute -left-16 bottom-0 h-64 w-64" />
+        <div className="relative mx-auto grid max-w-6xl gap-10 px-6 pb-14 pt-14 sm:pt-20 lg:grid-cols-[1.35fr_1fr] lg:items-center">
         <div>
           <p className="text-xs font-semibold uppercase tracking-widest text-(--color-soft)">{hero.eyebrow}</p>
           <p className="mt-3 text-sm font-medium text-(--color-soft)">{hero.name}</p>
@@ -54,11 +58,13 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
             rounded="rounded-[1.75rem]"
           />
         </div>
+        </div>
       </section>
 
       {/* Quick proofs */}
-      <section className="border-y border-(--color-line) bg-(--color-card)">
-        <div className="mx-auto grid max-w-6xl gap-6 px-6 py-10 sm:grid-cols-2 lg:grid-cols-4">
+      <section className="relative overflow-hidden border-y border-(--color-line) bg-(--color-card)">
+        <Filigrane teinte="sage" variant={1} opacity={0.1} className="pointer-events-none absolute right-6 top-1/2 hidden h-28 w-28 -translate-y-1/2 sm:block" />
+        <div className="relative mx-auto grid max-w-6xl gap-6 px-6 py-10 sm:grid-cols-2 lg:grid-cols-4">
           {dict.home.proofs.map((p, i) => (
             <div key={i} className="flex gap-3">
               <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full" style={{ backgroundColor: i % 2 ? "var(--color-blue)" : "var(--color-rose)" }} />
