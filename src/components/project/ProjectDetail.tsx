@@ -62,7 +62,7 @@ export function ProjectDetail({
 
       {/* cover banner */}
       <div className="relative mt-5 overflow-hidden rounded-3xl" style={{ aspectRatio: "16 / 7" }}>
-        <Cover slug={project.slug} src={cover || undefined} alt={project.imageAlt} />
+        <Cover slug={project.slug} src={cover || undefined} alt={project.imageAlt} hint={cover ? undefined : filename} hintClassName="left-5 top-5" />
         <div className="absolute inset-x-0 bottom-0 z-10 p-6 text-white sm:p-8">
           <div className="flex flex-wrap gap-2">
             {project.category.map((c) => (

@@ -36,7 +36,7 @@ export function ProjectCard({
       style={{ aspectRatio: ratio ?? ASPECT[project.format], opacity: dimmed ? 0.4 : 1 }}
     >
       <div className="absolute inset-0 transition-transform duration-500 group-hover:scale-[1.05]">
-        <Cover slug={project.slug} src={cover || undefined} alt={project.imageAlt} />
+        <Cover slug={project.slug} src={cover || undefined} alt={project.imageAlt} hint={cover ? undefined : true} hintClassName="bottom-3 right-3" />
       </div>
 
       {/* metric chip */}
