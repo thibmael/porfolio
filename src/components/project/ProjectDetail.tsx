@@ -2,6 +2,7 @@ import Link from "next/link";
 import type { Dictionary } from "@/lib/dictionaries";
 import type { Locale } from "@/lib/i18n-config";
 import type { Project } from "@/lib/project-types";
+import { teinteInk } from "@/lib/project-types";
 import { localizedHref } from "@/lib/routing";
 import { PROJECT_MEDIA, SUGGESTED_COVER } from "@/lib/project-media";
 import { MediaPlaceholder } from "@/components/ui/MediaPlaceholder";
@@ -23,12 +24,12 @@ function Section({ title, children }: { title: string; children: React.ReactNode
   );
 }
 
-function Bullets({ items }: { items: string[] }) {
+function Bullets({ items, accent }: { items: string[]; accent: string }) {
   return (
     <ul className="space-y-2.5">
       {items.map((it) => (
         <li key={it} className="flex gap-3 text-[0.95rem] leading-relaxed">
-          <span aria-hidden="true" className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-(--color-accent)" />
+          <span aria-hidden="true" className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full" style={{ backgroundColor: accent }} />
           <span>{it}</span>
         </li>
       ))}
@@ -55,6 +56,7 @@ export function ProjectDetail({
   const cover = media.cover || media.logo || "";
   const filename = SUGGESTED_COVER[project.slug] ?? media.logo ?? undefined;
   const backHref = localizedHref(locale, "/parcours");
+  const accent = teinteInk(project.teinte);
 
   return (
     <article className="mx-auto max-w-4xl px-6 py-10 sm:py-14">
@@ -101,7 +103,7 @@ export function ProjectDetail({
 
       {project.travail && project.travail.length > 0 && (
         <Section title={detail.workTitle}>
-          <Bullets items={project.travail} />
+          <Bullets items={project.travail} accent={accent} />
         </Section>
       )}
 
@@ -120,9 +122,9 @@ export function ProjectDetail({
 
       {project.resultats && project.resultats.length > 0 && (
         <Section title={detail.resultsTitle}>
-          <Bullets items={project.resultats} />
+          <Bullets items={project.resultats} accent={accent} />
           {project.issue && (
-            <p className="measure mt-4 rounded-2xl border-l-4 p-4 text-[0.95rem] leading-relaxed" style={{ borderColor: "var(--color-accent)", background: "var(--color-paper-dim)" }}>
+            <p className="measure mt-4 rounded-2xl border-l-4 p-4 text-[0.95rem] leading-relaxed" style={{ borderColor: accent, background: "var(--color-paper-dim)" }}>
               {project.issue}
             </p>
           )}
@@ -136,7 +138,7 @@ export function ProjectDetail({
             {project.steps.map((s, i) => (
               <li key={s} className="flex gap-4">
                 <div className="flex flex-col items-center">
-                  <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full text-xs font-semibold text-(--color-ink)" style={{ backgroundColor: "var(--color-accent)", color: "#fff" }}>
+                  <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full text-xs font-semibold" style={{ backgroundColor: accent, color: "#fff" }}>
                     {i + 1}
                   </span>
                   {i < project.steps!.length - 1 && <span className="my-1 w-px flex-1 bg-(--color-line)" style={{ minHeight: 18 }} />}
@@ -155,7 +157,7 @@ export function ProjectDetail({
             {project.evolving.map((e) => (
               <div key={e.label} className="rounded-2xl border border-(--color-line) p-4">
                 <dt className="text-xs text-(--color-soft)">{e.label}</dt>
-                <dd className="display mt-1 text-lg" style={{ color: "var(--color-accent)" }}>{e.value}</dd>
+                <dd className="display mt-1 text-lg" style={{ color: accent }}>{e.value}</dd>
               </div>
             ))}
           </dl>
@@ -202,7 +204,7 @@ export function ProjectDetail({
       {/* lesson */}
       {project.enseignement && (
         <Section title={detail.lessonTitle}>
-          <p className="measure rounded-2xl p-5 text-[0.98rem] leading-relaxed text-(--color-ink)" style={{ backgroundColor: "var(--color-accent)", color: "#fff" }}>
+          <p className="measure rounded-2xl p-5 text-[0.98rem] leading-relaxed" style={{ backgroundColor: accent, color: "#fff" }}>
             {project.enseignement}
           </p>
         </Section>
@@ -211,7 +213,7 @@ export function ProjectDetail({
       {/* external link */}
       {project.externalLink && (
         <div className="mt-8">
-          <a href={project.externalLink} target="_blank" rel="noreferrer" className="link-underline text-sm font-semibold" style={{ color: "var(--color-accent)" }}>
+          <a href={project.externalLink} target="_blank" rel="noreferrer" className="link-underline text-sm font-semibold" style={{ color: accent }}>
             {detail.externalLink} — {project.externalLink.replace("https://", "")} →
           </a>
         </div>

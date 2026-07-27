@@ -10,8 +10,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   return { title: getDictionary(locale).profil.title };
 }
 
-const TINTS = ["var(--color-rose)", "var(--color-blue)", "var(--color-sage)"];
-const tint = (i: number) => TINTS[i % 3];
+const TINTS = ["var(--color-accent)", "var(--color-accent-blue)"];
+const tint = (i: number) => TINTS[i % 2];
 
 export default async function ProfilPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;

@@ -36,12 +36,8 @@ export type Project = {
 };
 
 export function teinteBg(t: Teinte): string {
-  return t === "rose" ? "var(--color-rose)" : t === "blue" ? "var(--color-blue)" : "var(--color-sage)";
+  return t === "rose" ? "var(--color-rose)" : "var(--color-blue)";
 }
 export function teinteInk(t: Teinte): string {
-  return t === "rose"
-    ? "var(--color-rose-ink)"
-    : t === "blue"
-      ? "var(--color-blue-ink)"
-      : "#5f6f54";
+  return t === "rose" ? "var(--color-rose-ink)" : "var(--color-blue-ink)";
 }

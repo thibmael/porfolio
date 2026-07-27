@@ -52,5 +52,5 @@ export function Filigrane({
   );
 }
 
-const TEINTES: Teinte[] = ["rose", "blue", "sage"];
-export const teinteByIndex = (i: number): Teinte => TEINTES[((i % 3) + 3) % 3];
+const TEINTES: Teinte[] = ["rose", "blue"];
+export const teinteByIndex = (i: number): Teinte => TEINTES[((i % 2) + 2) % 2];

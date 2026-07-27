@@ -321,7 +321,7 @@
     {
       "slug": "master-supply-chain",
       "format": "compact",
-      "teinte": "sage",
+      "teinte": "blue",
       "type": "formation",
       "zones": ["france"],
       "period": "recent",
@@ -340,7 +340,7 @@
     {
       "slug": "bachelor-crea",
       "format": "compact",
-      "teinte": "sage",
+      "teinte": "rose",
       "type": "formation",
       "zones": ["suisse"],
       "period": "recent",
@@ -359,7 +359,7 @@
     {
       "slug": "lse",
       "format": "compact",
-      "teinte": "sage",
+      "teinte": "blue",
       "type": "formation",
       "zones": ["europe"],
       "period": "recent",
@@ -378,7 +378,7 @@
     {
       "slug": "harvardx",
       "format": "compact",
-      "teinte": "sage",
+      "teinte": "rose",
       "type": "formation",
       "zones": ["international"],
       "period": "recent",

@@ -62,7 +62,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
             <div key={i} className="bg-(--color-paper) p-5">
               <dt className="display text-3xl font-bold">
                 {s.value}
-                <span className="text-lg text-(--color-accent)">{s.unit}</span>
+                <span className="text-lg" style={{ color: i % 2 === 0 ? "var(--color-accent)" : "var(--color-accent-blue)" }}>{s.unit}</span>
               </dt>
               <dd className="mt-1 text-[0.8rem] leading-snug text-(--color-soft)">{s.label}</dd>
             </div>

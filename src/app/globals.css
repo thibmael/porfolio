@@ -4,22 +4,25 @@
   --font-display: var(--font-outfit), ui-sans-serif, system-ui, sans-serif;
   --font-sans: var(--font-work), ui-sans-serif, system-ui, sans-serif;
 
-  /* White page, light neutral cards, one dusty-rose accent (pastel signature). */
+  /* White page, light neutral cards, two pastel accents: rose + blue. */
   --color-paper: #ffffff;
-  --color-paper-dim: #f6f2f3;
+  --color-paper-dim: #f7f2f4;
   --color-card: #f6f3f4;
   --color-ink: #1a171a;
   --color-soft: #787174;
   --color-line: #ece6e8;
 
-  --color-accent: #9a5f6b;
-  --color-accent-soft: #c98f98;
+  /* Rose is the primary signature; blue is the co-accent (per-project teinte). */
+  --color-accent: #b05a75;
+  --color-accent-soft: #e7bccb;
+  --color-accent-blue: #5178a0;
+  --color-accent-blue-soft: #bcd0e2;
 
-  /* Secondary pastel tints for small details (chips, bars, filigranes). */
-  --color-rose: #d9bbb7;
-  --color-rose-ink: #9a6f68;
-  --color-blue: #aebecd;
-  --color-blue-ink: #5f7182;
+  /* Light pastel fills + readable inks for small details (chips, bars, filigranes). */
+  --color-rose: #eec9d6;
+  --color-rose-ink: #b05a75;
+  --color-blue: #c3d5e5;
+  --color-blue-ink: #5178a0;
   --color-sage: #b8c4ad;
 
   --breakpoint-xs: 30rem;
