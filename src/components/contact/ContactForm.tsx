@@ -17,7 +17,7 @@ export function ContactForm({ contact, email }: { contact: Dictionary["contact"]
     window.location.href = `mailto:${email}?subject=${subject}&body=${body}`;
   }
 
-  const field = "w-full rounded-xl border border-(--color-line) bg-(--color-card) px-3.5 py-2.5 text-sm outline-none focus:border-(--color-ink)";
+  const field = "w-full rounded-xl border border-(--color-line) bg-(--color-paper) px-3.5 py-2.5 text-sm outline-none transition-colors focus:border-(--color-accent-blue)";
 
   return (
     <form onSubmit={handleSubmit} className="grid gap-4 sm:grid-cols-2">

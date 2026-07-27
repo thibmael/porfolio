@@ -3,8 +3,13 @@ import { getDictionary } from "@/lib/dictionaries";
 import { isLocale } from "@/lib/i18n-config";
 import { notFound } from "next/navigation";
 import { ContactForm } from "@/components/contact/ContactForm";
-import { Filigrane } from "@/components/ui/Filigrane";
+import { SectionHeading } from "@/components/ui/SectionHeading";
 import { EMAIL, PHONE, LINKEDIN_URL, CV_FR_URL, CV_EN_URL } from "@/lib/contact-info";
+
+const ROSE_TINT = {
+  background: "color-mix(in srgb, var(--color-rose) 28%, var(--color-paper))",
+  borderColor: "color-mix(in srgb, var(--color-rose) 55%, var(--color-paper))",
+};
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
@@ -38,13 +43,12 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
   ];
 
   return (
-    <div className="relative mx-auto max-w-4xl overflow-hidden px-6 py-16">
-      <Filigrane teinte="rose" variant={2} opacity={0.07} className="pointer-events-none absolute -right-10 top-6 h-56 w-56" />
-      <h1 className="relative display text-4xl leading-tight sm:text-5xl">{c.title}</h1>
-      <p className="measure relative mt-5 text-lg leading-relaxed text-(--color-soft)">{c.intro}</p>
+    <div className="mx-auto max-w-4xl px-6 py-16">
+      <h1 className="display text-4xl leading-tight sm:text-5xl">{c.title}</h1>
+      <p className="measure mt-5 text-lg leading-relaxed text-(--color-soft)">{c.intro}</p>
 
-      <div className="mt-10 grid gap-10 sm:grid-cols-2">
-        <div>
+      <div className="mt-10 grid gap-8 sm:grid-cols-2 sm:items-start">
+        <div className="rounded-3xl border p-6" style={ROSE_TINT}>
           <dl className="grid gap-5">
             {rows.map((r) => (
               <div key={r.label}>
@@ -77,7 +81,7 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
         </div>
 
         <div>
-          <h2 className="display text-lg">{c.formTitle}</h2>
+          <SectionHeading title={c.formTitle} accent="var(--color-accent-blue)" />
           <div className="mt-4">
             <ContactForm contact={c} email={EMAIL} />
           </div>
