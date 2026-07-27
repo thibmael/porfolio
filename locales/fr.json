@@ -29,10 +29,17 @@
       "personal": "J'explore les systèmes qui relient les entreprises, les institutions et les territoires — puis je transforme ces analyses en projets, recommandations et décisions opérationnelles.",
       "photoAlt": "Photographie professionnelle de Thibault M. E. Randrasana",
       "photoFile": "/images/profile/thibault-portrait.jpg",
+      "available": "Disponible pour missions de conseil",
       "ctaExplore": "Explorer mon parcours",
       "ctaCV": "Télécharger mon CV",
       "ctaContact": "Me contacter"
     },
+    "stats": [
+      { "value": "~400", "unit": " EVP", "label": "suivis / semaine — service EASTMED via Le Havre" },
+      { "value": "120", "unit": " p.", "label": "mémoire de recherche · Madagascar & Maurice" },
+      { "value": "50", "unit": "+", "label": "clients internationaux gérés au quotidien" },
+      { "value": "6", "unit": " · 4", "label": "projets menés · dans 4 pays" }
+    ],
     "proofs": [
       "Étude ZLECAf réalisée en appui pour le Ministère de l'Industrialisation et du Commerce de Madagascar",
       "Environ 400 EVP suivis chaque semaine sur le service EASTMED via Le Havre",

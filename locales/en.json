@@ -29,10 +29,17 @@
       "personal": "I explore the systems that connect companies, institutions and territories — then turn those analyses into projects, recommendations and operational decisions.",
       "photoAlt": "Professional photograph of Thibault M. E. Randrasana",
       "photoFile": "/images/profile/thibault-portrait.jpg",
+      "available": "Available for consulting assignments",
       "ctaExplore": "Explore my work",
       "ctaCV": "Download my CV",
       "ctaContact": "Get in touch"
     },
+    "stats": [
+      { "value": "~400", "unit": " TEU", "label": "tracked / week — EASTMED service via Le Havre" },
+      { "value": "120", "unit": " p.", "label": "research thesis · Madagascar & Mauritius" },
+      { "value": "50", "unit": "+", "label": "international clients handled daily" },
+      { "value": "6", "unit": " · 4", "label": "projects delivered · across 4 countries" }
+    ],
     "proofs": [
       "AfCFTA study carried out in support of Madagascar's Ministry of Industrialisation and Trade",
       "Around 400 TEU tracked each week on the EASTMED service via Le Havre",

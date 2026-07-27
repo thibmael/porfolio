@@ -2,11 +2,10 @@ import Link from "next/link";
 import type { Dictionary } from "@/lib/dictionaries";
 import type { Locale } from "@/lib/i18n-config";
 import type { Project } from "@/lib/project-types";
-import { teinteBg, teinteInk } from "@/lib/project-types";
 import { localizedHref } from "@/lib/routing";
 import { PROJECT_MEDIA, SUGGESTED_COVER } from "@/lib/project-media";
 import { MediaPlaceholder } from "@/components/ui/MediaPlaceholder";
-import { Filigrane } from "@/components/ui/Filigrane";
+import { Cover } from "./Cover";
 import { Accordion } from "@/components/ui/Accordion";
 import { ProjectNavigation } from "./ProjectNavigation";
 import { THESIS_PDF_URL } from "@/lib/contact-info";
@@ -24,12 +23,12 @@ function Section({ title, children }: { title: string; children: React.ReactNode
   );
 }
 
-function Bullets({ items, teinte }: { items: string[]; teinte: Project["teinte"] }) {
+function Bullets({ items }: { items: string[] }) {
   return (
     <ul className="space-y-2.5">
       {items.map((it) => (
         <li key={it} className="flex gap-3 text-[0.95rem] leading-relaxed">
-          <span aria-hidden="true" className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full" style={{ backgroundColor: teinteBg(teinte) }} />
+          <span aria-hidden="true" className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-(--color-accent)" />
           <span>{it}</span>
         </li>
       ))}
@@ -58,35 +57,30 @@ export function ProjectDetail({
   const backHref = localizedHref(locale, "/parcours");
 
   return (
-    <article className="mx-auto max-w-4xl px-6 py-12 sm:py-16">
+    <article className="mx-auto max-w-4xl px-6 py-10 sm:py-14">
       <Link href={backHref} className="link-underline text-xs font-semibold uppercase tracking-wide text-(--color-soft)">
         ← {detail.back}
       </Link>
 
-      {/* header */}
-      <header className="relative mt-6 grid gap-8 overflow-hidden sm:grid-cols-[1.3fr_1fr] sm:items-end">
-        <Filigrane teinte={project.teinte} variant={project.slug.charCodeAt(0)} opacity={0.08} className="pointer-events-none absolute -left-10 -top-8 h-52 w-52" />
-        <div className="relative">
+      {/* cover banner */}
+      <div className="relative mt-5 overflow-hidden rounded-3xl" style={{ aspectRatio: "16 / 7" }}>
+        <Cover slug={project.slug} src={cover || undefined} alt={project.imageAlt} />
+        <span className="absolute left-5 top-5 z-10 rounded-full border border-white/25 bg-white/15 px-3 py-1 text-xs font-semibold text-white backdrop-blur-sm">
+          {project.metric.value}
+        </span>
+        <div className="absolute inset-x-0 bottom-0 z-10 p-6 text-white">
           <div className="flex flex-wrap gap-2">
             {project.category.map((c) => (
-              <span key={c} className="rounded-full px-3 py-1 text-xs font-semibold text-(--color-ink)" style={{ backgroundColor: teinteBg(project.teinte) }}>
+              <span key={c} className="rounded-full border border-white/25 bg-white/10 px-3 py-1 text-xs font-semibold backdrop-blur-sm">
                 {c}
               </span>
             ))}
           </div>
-          <h1 className="display mt-4 text-3xl leading-tight sm:text-4xl">{project.org}</h1>
-          <p className="mt-2 text-lg text-(--color-soft)">{project.role}</p>
-          <p className="measure mt-4 text-base leading-relaxed">{project.summary}</p>
+          <h1 className="display mt-3 text-3xl font-bold leading-tight sm:text-4xl">{project.org}</h1>
+          <p className="mt-1 text-white/85">{project.role}</p>
         </div>
-        <MediaPlaceholder
-          src={cover || undefined}
-          alt={project.imageAlt}
-          ratio="4 / 3"
-          filename={cover ? undefined : filename}
-          fileLabel={fileLabel}
-          rounded="rounded-2xl"
-        />
-      </header>
+      </div>
+      <p className="measure mt-6 text-lg leading-relaxed">{project.summary}</p>
 
       {/* facts */}
       <dl className="mt-8 grid grid-cols-2 gap-x-6 gap-y-4 border-y border-(--color-line) py-6 sm:grid-cols-4">
@@ -107,7 +101,7 @@ export function ProjectDetail({
 
       {project.travail && project.travail.length > 0 && (
         <Section title={detail.workTitle}>
-          <Bullets items={project.travail} teinte={project.teinte} />
+          <Bullets items={project.travail} />
         </Section>
       )}
 
@@ -126,9 +120,9 @@ export function ProjectDetail({
 
       {project.resultats && project.resultats.length > 0 && (
         <Section title={detail.resultsTitle}>
-          <Bullets items={project.resultats} teinte={project.teinte} />
+          <Bullets items={project.resultats} />
           {project.issue && (
-            <p className="measure mt-4 rounded-2xl border-l-4 p-4 text-[0.95rem] leading-relaxed" style={{ borderColor: teinteBg(project.teinte), background: "var(--color-paper-dim)" }}>
+            <p className="measure mt-4 rounded-2xl border-l-4 p-4 text-[0.95rem] leading-relaxed" style={{ borderColor: "var(--color-accent)", background: "var(--color-paper-dim)" }}>
               {project.issue}
             </p>
           )}
@@ -142,7 +136,7 @@ export function ProjectDetail({
             {project.steps.map((s, i) => (
               <li key={s} className="flex gap-4">
                 <div className="flex flex-col items-center">
-                  <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full text-xs font-semibold text-(--color-ink)" style={{ backgroundColor: teinteBg(project.teinte) }}>
+                  <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full text-xs font-semibold text-(--color-ink)" style={{ backgroundColor: "var(--color-accent)", color: "#fff" }}>
                     {i + 1}
                   </span>
                   {i < project.steps!.length - 1 && <span className="my-1 w-px flex-1 bg-(--color-line)" style={{ minHeight: 18 }} />}
@@ -161,7 +155,7 @@ export function ProjectDetail({
             {project.evolving.map((e) => (
               <div key={e.label} className="rounded-2xl border border-(--color-line) p-4">
                 <dt className="text-xs text-(--color-soft)">{e.label}</dt>
-                <dd className="display mt-1 text-lg" style={{ color: teinteInk(project.teinte) }}>{e.value}</dd>
+                <dd className="display mt-1 text-lg" style={{ color: "var(--color-accent)" }}>{e.value}</dd>
               </div>
             ))}
           </dl>
@@ -208,7 +202,7 @@ export function ProjectDetail({
       {/* lesson */}
       {project.enseignement && (
         <Section title={detail.lessonTitle}>
-          <p className="measure rounded-2xl p-5 text-[0.98rem] leading-relaxed text-(--color-ink)" style={{ backgroundColor: teinteBg(project.teinte) }}>
+          <p className="measure rounded-2xl p-5 text-[0.98rem] leading-relaxed text-(--color-ink)" style={{ backgroundColor: "var(--color-accent)", color: "#fff" }}>
             {project.enseignement}
           </p>
         </Section>
@@ -217,7 +211,7 @@ export function ProjectDetail({
       {/* external link */}
       {project.externalLink && (
         <div className="mt-8">
-          <a href={project.externalLink} target="_blank" rel="noreferrer" className="link-underline text-sm font-semibold" style={{ color: teinteInk(project.teinte) }}>
+          <a href={project.externalLink} target="_blank" rel="noreferrer" className="link-underline text-sm font-semibold" style={{ color: "var(--color-accent)" }}>
             {detail.externalLink} — {project.externalLink.replace("https://", "")} →
           </a>
         </div>

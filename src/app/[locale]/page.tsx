@@ -4,7 +4,6 @@ import { isLocale } from "@/lib/i18n-config";
 import { localizedHref } from "@/lib/routing";
 import { notFound } from "next/navigation";
 import { MediaPlaceholder } from "@/components/ui/MediaPlaceholder";
-import { Filigrane } from "@/components/ui/Filigrane";
 import { ProjectCard } from "@/components/project/ProjectCard";
 import type { Project } from "@/lib/project-types";
 import { CV_FR_URL, CV_EN_URL, PORTRAIT_URL } from "@/lib/contact-info";
@@ -22,79 +21,69 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
 
   return (
     <>
-      {/* Hero — asymmetric */}
-      <section className="relative overflow-hidden">
-        <Filigrane teinte="blue" variant={2} opacity={0.07} className="pointer-events-none absolute -right-16 top-10 hidden h-80 w-80 lg:block" />
-        <Filigrane teinte="rose" variant={0} opacity={0.06} className="pointer-events-none absolute -left-16 bottom-0 h-64 w-64" />
-        <div className="relative mx-auto grid max-w-6xl gap-10 px-6 pb-14 pt-14 sm:pt-20 lg:grid-cols-[1.35fr_1fr] lg:items-center">
+      {/* Hero */}
+      <section className="mx-auto grid max-w-6xl gap-10 px-6 pb-8 pt-12 lg:grid-cols-[1.05fr_0.92fr] lg:items-center">
         <div>
-          <p className="text-xs font-semibold uppercase tracking-widest text-(--color-soft)">{hero.eyebrow}</p>
-          <p className="mt-3 text-sm font-medium text-(--color-soft)">{hero.name}</p>
-          <h1 className="display mt-2 text-4xl leading-[1.08] sm:text-5xl">{hero.title}</h1>
+          <p className="inline-flex items-center gap-2 text-sm font-semibold text-(--color-accent)">
+            <span className="h-2 w-2 rounded-full bg-(--color-accent) shadow-[0_0_0_4px_rgba(15,90,78,0.15)]" />
+            {hero.available}
+          </p>
+          <p className="mt-4 text-xs font-semibold uppercase tracking-widest text-(--color-accent)">{hero.eyebrow}</p>
+          <h1 className="display mt-3 text-4xl leading-[1.03] sm:text-5xl">{hero.title}</h1>
           <p className="measure mt-5 text-lg leading-relaxed text-(--color-ink)">{hero.subtitle}</p>
-          <p className="measure mt-4 text-[0.98rem] leading-relaxed text-(--color-soft)">{hero.personal}</p>
 
-          <div className="mt-8 flex flex-wrap items-center gap-3">
-            <Link href={localizedHref(locale, "/parcours")} className="rounded-full bg-(--color-ink) px-6 py-3 text-sm font-medium text-(--color-paper) transition-opacity hover:opacity-90">
+          <div className="mt-7 flex flex-wrap items-center gap-3">
+            <Link href={localizedHref(locale, "/parcours")} className="rounded-full bg-(--color-ink) px-6 py-3 text-sm font-semibold text-(--color-paper) transition-opacity hover:opacity-90">
               {hero.ctaExplore}
             </Link>
-            <a href={cvUrl} className="rounded-full border border-(--color-ink) px-6 py-3 text-sm font-medium transition-colors hover:bg-(--color-ink) hover:text-(--color-paper)">
+            <a href={cvUrl} className="rounded-full border border-(--color-line) px-6 py-3 text-sm font-semibold transition-colors hover:border-(--color-ink)">
               {hero.ctaCV}
             </a>
-            <Link href={localizedHref(locale, "/contact")} className="link-underline text-sm font-medium">
-              {hero.ctaContact}
-            </Link>
           </div>
         </div>
 
-        <div className="mx-auto w-full max-w-sm lg:max-w-none">
+        <div className="mx-auto w-full max-w-md lg:max-w-none">
           <MediaPlaceholder
             src={PORTRAIT_URL || undefined}
             alt={hero.photoAlt}
-            ratio="4 / 5"
+            ratio="1 / 1"
             filename={hero.photoFile}
             fileLabel={dict.common.fileLabel}
             bw
-            rounded="rounded-[1.75rem]"
+            rounded="rounded-3xl"
           />
-        </div>
         </div>
       </section>
 
-      {/* Quick proofs */}
-      <section className="relative overflow-hidden border-y border-(--color-line) bg-(--color-card)">
-        <Filigrane teinte="sage" variant={1} opacity={0.1} className="pointer-events-none absolute right-6 top-1/2 hidden h-28 w-28 -translate-y-1/2 sm:block" />
-        <div className="relative mx-auto grid max-w-6xl gap-6 px-6 py-10 sm:grid-cols-2 lg:grid-cols-4">
-          {dict.home.proofs.map((p, i) => (
-            <div key={i} className="flex gap-3">
-              <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full" style={{ backgroundColor: i % 2 ? "var(--color-blue)" : "var(--color-rose)" }} />
-              <p className="text-sm leading-relaxed text-(--color-ink)">{p}</p>
+      {/* Stats band */}
+      <section className="mx-auto max-w-6xl px-6">
+        <dl className="grid grid-cols-2 gap-px overflow-hidden rounded-2xl border border-(--color-line) bg-(--color-line) sm:grid-cols-4">
+          {dict.home.stats.map((s, i) => (
+            <div key={i} className="bg-(--color-paper) p-5">
+              <dt className="display text-3xl font-bold">
+                {s.value}
+                <span className="text-lg text-(--color-accent)">{s.unit}</span>
+              </dt>
+              <dd className="mt-1 text-[0.8rem] leading-snug text-(--color-soft)">{s.label}</dd>
             </div>
           ))}
-        </div>
+        </dl>
       </section>
 
       {/* Preview */}
-      <section className="mx-auto max-w-6xl px-6 py-16">
-        <div className="flex items-end justify-between gap-4">
+      <section className="mx-auto max-w-6xl px-6 py-14">
+        <div className="flex items-end justify-between gap-4 border-t border-(--color-line) pt-6">
           <h2 className="display text-2xl sm:text-3xl">{dict.home.previewTitle}</h2>
           <Link href={localizedHref(locale, "/parcours")} className="link-underline hidden text-sm font-medium sm:block">
             {dict.home.previewCta} →
           </Link>
         </div>
-        <div className="mt-8 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
-          {preview.map((p, i) => (
-            <ProjectCard
-              key={p.slug}
-              project={p}
-              href={localizedHref(locale, `/parcours/${p.slug}`)}
-              cta={dict.parcours.cardCta}
-              fileLabel={dict.common.fileLabel}
-              index={i}
-            />
+        <div className="mt-7 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
+          {preview.map((p) => (
+            <ProjectCard key={p.slug} project={p} href={localizedHref(locale, `/parcours/${p.slug}`)} cta={dict.parcours.cardCta} />
           ))}
         </div>
-        <div className="mt-8 sm:hidden">
+        <div className="mt-7 sm:hidden">
           <Link href={localizedHref(locale, "/parcours")} className="link-underline text-sm font-medium">
             {dict.home.previewCta} →
           </Link>

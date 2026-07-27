@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Plus_Jakarta_Sans, Inter } from "next/font/google";
+import { Outfit, Work_Sans } from "next/font/google";
 import type { ReactNode } from "react";
 import { getDictionary } from "@/lib/dictionaries";
 import { isLocale, locales, type Locale } from "@/lib/i18n-config";
@@ -10,15 +10,15 @@ import { PageTransition } from "@/components/layout/PageTransition";
 import { CustomCursor } from "@/components/layout/CustomCursor";
 import "../globals.css";
 
-const jakarta = Plus_Jakarta_Sans({
+const outfit = Outfit({
   subsets: ["latin"],
-  variable: "--font-jakarta",
+  variable: "--font-outfit",
   display: "swap",
 });
 
-const inter = Inter({
+const work = Work_Sans({
   subsets: ["latin"],
-  variable: "--font-inter",
+  variable: "--font-work",
   display: "swap",
 });
 
@@ -83,7 +83,7 @@ export default async function LocaleLayout({
   };
 
   return (
-    <html lang={locale} className={`${jakarta.variable} ${inter.variable}`}>
+    <html lang={locale} className={`${outfit.variable} ${work.variable}`}>
       <body>
         <a href="#main-content" className="skip-link">
           {dict.nav.skipToContent}

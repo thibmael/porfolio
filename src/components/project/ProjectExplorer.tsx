@@ -19,12 +19,10 @@ export function ProjectExplorer({
   projects,
   parcours,
   locale,
-  fileLabel,
 }: {
   projects: Project[];
   parcours: Dictionary["parcours"];
   locale: Locale;
-  fileLabel: string;
 }) {
   const f = parcours.filters;
   const [type, setType] = useState<string | null>(null);
@@ -63,31 +61,27 @@ export function ProjectExplorer({
       </div>
 
       <div className="mt-10 grid grid-cols-1 gap-5 [grid-auto-flow:dense] sm:grid-cols-6 lg:grid-cols-12">
-        {mains.map((p, i) => (
+        {mains.map((p) => (
           <div key={p.slug} className={SPAN[p.format]}>
             <ProjectCard
               project={p}
               href={localizedHref(locale, `/parcours/${p.slug}`)}
               cta={parcours.cardCta}
-              fileLabel={fileLabel}
               dimmed={!matches(p)}
-              index={i}
             />
           </div>
         ))}
       </div>
 
       <h2 className="display mt-16 text-xl">{parcours.othersTitle}</h2>
-      <div className="mt-6 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
-        {others.map((p, i) => (
+      <div className="mt-6 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
+        {others.map((p) => (
           <ProjectCard
             key={p.slug}
             project={p}
             href={localizedHref(locale, `/parcours/${p.slug}`)}
             cta={parcours.cardCta}
-            fileLabel={parcours.filters.all === "Toutes" ? "Fichier" : "File"}
             dimmed={!matches(p)}
-            index={i}
           />
         ))}
       </div>

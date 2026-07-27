@@ -23,12 +23,7 @@ export default async function ParcoursPage({ params }: { params: Promise<{ local
       <p className="measure mt-4 text-(--color-soft)">{dict.parcours.intro}</p>
 
       <div className="mt-8">
-        <ProjectExplorer
-          projects={projects}
-          parcours={dict.parcours}
-          locale={locale as Locale}
-          fileLabel={dict.common.fileLabel}
-        />
+        <ProjectExplorer projects={projects} parcours={dict.parcours} locale={locale as Locale} />
       </div>
     </div>
   );

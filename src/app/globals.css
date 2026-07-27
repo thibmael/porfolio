@@ -1,18 +1,21 @@
 @import "tailwindcss";
 
 @theme {
-  --font-display: var(--font-jakarta), ui-sans-serif, system-ui, sans-serif;
-  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-outfit), ui-sans-serif, system-ui, sans-serif;
+  --font-sans: var(--font-work), ui-sans-serif, system-ui, sans-serif;
 
-  /* White page, off-white "bubbles" (cards) */
+  /* White page, light neutral cards, one deep-green accent. */
   --color-paper: #ffffff;
-  --color-paper-dim: #f2efe9;
-  --color-card: #f8f6f1;
-  --color-ink: #1b1a17;
-  --color-soft: #6b665d;
-  --color-line: #ece8e0;
+  --color-paper-dim: #f3f4f1;
+  --color-card: #f5f6f3;
+  --color-ink: #15171a;
+  --color-soft: #71766f;
+  --color-line: #e8eae6;
 
-  /* Two desaturated accents + one discreet third */
+  --color-accent: #0f5a4e;
+  --color-accent-soft: #1f7a68;
+
+  /* Secondary desaturated tints for small details (profil bars, filigranes). */
   --color-rose: #d9bbb7;
   --color-rose-ink: #9a6f68;
   --color-blue: #aebecd;
