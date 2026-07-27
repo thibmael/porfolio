@@ -128,7 +128,7 @@
       "highlights": ["50+ international clients handled", "11 ports across the perimeter", "EASTMED & North Africa trades"],
       "tags": ["Shipping", "Pricing", "Capacity"],
       "imageAlt": "Container ship on the EASTMED service",
-      "contexte": "At MSC, the world's largest container carrier, on the EASTMED liner service connecting Europe to the Eastern Mediterranean and North Africa.",
+      "contexte": "Embedded in the commercial team at MSC, the world's largest container carrier, on the EASTMED liner service connecting Europe to the Eastern Mediterranean and North Africa.",
       "monRole": "Commercial Liner on the EASTMED scope: daily commercial follow-up, rate-setting and capacity allocation, coordinating with the ports and offices in the network.",
       "travail": [
         "Building rate quotes and handling tenders and one-off requests, case by case and on a daily basis",
@@ -191,7 +191,7 @@
       "highlights": ["Madagascar–Mauritius comparison", "UNCTAD & World Bank indices", "Literature review + interviews"],
       "tags": ["Research", "Maritime", "Insularity"],
       "imageAlt": "Master's thesis cover",
-      "contexte": "A 120-page research thesis on the maritime dependence of island states, based on a comparison between Madagascar and Mauritius.",
+      "contexte": "A 120-page research thesis examining the maritime dependence of island states through a comparative study of Madagascar and Mauritius.",
       "monRole": "Author: building the research question, collecting and processing data, conducting interviews, writing and recommendations.",
       "travail": [
         "Literature review on sea power and the logistics dependence of island states",
@@ -238,7 +238,7 @@
       "highlights": ["~100 World Trade Centers represented", "Joint club across both WTCs", "Global Business Forum"],
       "tags": ["WTC", "Economic diplomacy", "Network"],
       "imageAlt": "World Trade Centers Global Business Forum",
-      "contexte": "Project run for the World Trade Centers of Antananarivo and Ras Al Khaimah (common owner), aiming to bring their respective business networks closer.",
+      "contexte": "Project run for the World Trade Centers of Antananarivo and Ras Al Khaimah, under common ownership, with the aim of bringing their respective business networks closer.",
       "monRole": "Project Manager: helping open a shared business club and promoting Madagascar and Ras Al Khaimah to both networks.",
       "travail": [
         "Coordination with the global World Trade Centers network and international partners",
@@ -306,7 +306,7 @@
       "tags": ["Live commerce", "Marketplace", "Estonia"],
       "imageAlt": "PopnBuy home page",
       "externalLink": "https://popnbuy.eu",
-      "contexte": "European live-commerce marketplace letting sellers, brands, creators and resellers sell during live video sessions. Company registered in Estonia, in development.",
+      "contexte": "European live-commerce marketplace letting sellers, brands, creators and resellers move their products during live video sessions. Company registered in Estonia, project in development.",
       "monRole": "Founder: product design and building the site in-house, with Claude Code and several skills.",
       "travail": [
         "Design and in-house development of the site (popnbuy.eu)",
@@ -474,7 +474,7 @@
       "metric": { "value": "~10", "label": "columnists led" },
       "tags": ["Media", "Editing"],
       "imageAlt": "Inskahier logo",
-      "contexte": "Inskahier, INSCAE's student paper: leading a team of about ten columnists.",
+      "contexte": "Inskahier, INSCAE's student paper: editorial mentoring of a team of about ten columnists.",
       "monRole": "Editor-in-chief (2022–2023)."
     }
   ],
