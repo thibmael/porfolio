@@ -123,18 +123,18 @@
       "periode": "2025 — current",
       "location": "France · international",
       "category": ["Professional experience", "Liner shipping"],
-      "summary": "Pricing, commercial follow-up and capacity allocation on the EASTMED and North Africa trades.",
+      "summary": "Rate-setting, commercial follow-up and capacity allocation on the EASTMED and North Africa trades.",
       "metric": { "value": "~400 TEU", "label": "tracked each week via Le Havre" },
       "highlights": ["50+ international clients handled", "11 ports across the perimeter", "EASTMED & North Africa trades"],
       "tags": ["Shipping", "Pricing", "Capacity"],
       "imageAlt": "Container ship on the EASTMED service",
       "contexte": "At MSC, the world's largest container carrier, on the EASTMED liner service connecting Europe to the Eastern Mediterranean and North Africa.",
-      "monRole": "Commercial Liner on the EASTMED scope: daily commercial follow-up, pricing and capacity allocation, coordinating across several ports and offices.",
+      "monRole": "Commercial Liner on the EASTMED scope: daily commercial follow-up, rate-setting and capacity allocation, coordinating with the ports and offices in the network.",
       "travail": [
-        "Pricing and responses to tenders and one-off requests, handled daily on a case-by-case basis",
-        "Capacity allocation and flow tracking on the EASTMED and North Africa trades",
+        "Building rate quotes and handling tenders and one-off requests, case by case and on a daily basis",
+        "Capacity allocation and commercial-flow monitoring on the EASTMED and North Africa trades",
         "Managing a portfolio of 50+ international clients",
-        "Coordination across several ports and offices in the network"
+        "Operational coordination with the ports and offices in the network"
       ],
       "resultats": [
         "Tracking a ~400 weekly TEU service transiting through Le Havre, 3 to 4 calls followed"
@@ -162,9 +162,9 @@
       "contexte": "Study commissioned by Madagascar's Ministry of Industrialisation and Trade, funded by the European Union via the Support Programme for Export Development and Regional Integration in Madagascar.",
       "monRole": "Support to a senior consultant: desk research, sector analysis, contribution to drafting and preparation of materials.",
       "travail": [
-        "Desk research and analysis of the African market under the AfCFTA regime",
-        "Sector analysis applied to Madagascar's textile-clothing industry",
-        "Contribution to drafting the report and preparing materials",
+        "Desk research and analysis of the continental African market under the AfCFTA framework",
+        "Sector analysis applied to Madagascar's textile-apparel industry",
+        "Contribution to drafting the report and preparing the presentation materials",
         "Participation in national consultations and support to the study's closing"
       ],
       "resultats": [
@@ -192,11 +192,11 @@
       "tags": ["Research", "Maritime", "Insularity"],
       "imageAlt": "Master's thesis cover",
       "contexte": "A 120-page research thesis on the maritime dependence of island states, based on a comparison between Madagascar and Mauritius.",
-      "monRole": "Author: framing the research question, collecting and analysing data, interviews, writing and recommendations.",
+      "monRole": "Author: building the research question, collecting and processing data, conducting interviews, writing and recommendations.",
       "travail": [
-        "Literature review on sea power and logistics dependence",
-        "Analysis of connectivity and logistics-performance data (UNCTAD and World Bank indices)",
-        "Interviews with actors in the logistics chain",
+        "Literature review on sea power and the logistics dependence of island states",
+        "Use of connectivity and logistics-performance data (UNCTAD and World Bank indices)",
+        "Conducting interviews with actors in the logistics chain",
         "Recommendations for Madagascar's logistics chain"
       ],
       "resultats": [
@@ -241,10 +241,10 @@
       "contexte": "Project run for the World Trade Centers of Antananarivo and Ras Al Khaimah (common owner), aiming to bring their respective business networks closer.",
       "monRole": "Project Manager: helping open a shared business club and promoting Madagascar and Ras Al Khaimah to both networks.",
       "travail": [
-        "Coordination with the World Trade Centers network and international partners",
-        "Mobilising Madagascar's call-centre sector and business-facilitation institutions",
+        "Coordination with the global World Trade Centers network and international partners",
+        "Mobilising Madagascar's call-centre industry and business-facilitation institutions",
         "Relations with government trade organisations",
-        "Representing both WTCs at the Global Business Forum"
+        "Representing both World Trade Centers at the Global Business Forum"
       ],
       "resultats": [
         "Participation in the Global Business Forum — approximately 500 participants, around a hundred World Trade Centers represented"
@@ -270,10 +270,10 @@
       "tags": ["Start-up", "Pre-seed", "Product"],
       "imageAlt": "Ploutos prototype",
       "contexte": "Start-up co-founded with a team of 2 founders and 5 developers, shortlisted for Forbes 30 Under 30 Europe and present at InnoStartup.",
-      "monRole": "Co-founder: product, project development and investor relations.",
+      "monRole": "Co-founder: product design, project development and investor relations.",
       "travail": [
         "Delivery of an MVP and a product video mockup",
-        "Testing limited to a close circle, no structured waitlist",
+        "Testing phase limited to a close circle, with no structured waitlist",
         "Shortlisted for Forbes 30 Under 30 Europe and participation in InnoStartup"
       ],
       "resultats": [
@@ -309,9 +309,9 @@
       "contexte": "European live-commerce marketplace letting sellers, brands, creators and resellers sell during live video sessions. Company registered in Estonia, in development.",
       "monRole": "Founder: product design and building the site in-house, with Claude Code and several skills.",
       "travail": [
-        "Building the site in-house (popnbuy.eu)",
+        "Design and in-house development of the site (popnbuy.eu)",
         "Registering the company in Estonia",
-        "Reaching out to the first sellers"
+        "Outreach to and first contact with early sellers"
       ],
       "resultats": [
         "50 sellers contacted",

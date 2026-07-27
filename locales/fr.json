@@ -123,18 +123,18 @@
       "periode": "2025 — en poste",
       "location": "France · international",
       "category": ["Expérience professionnelle", "Transport maritime"],
-      "summary": "Tarification, suivi commercial et allocation de capacité sur les trades EASTMED et Afrique du Nord.",
+      "summary": "Élaboration tarifaire, suivi commercial et allocation de capacité sur les trades EASTMED et Afrique du Nord.",
       "metric": { "value": "~400 EVP", "label": "suivis chaque semaine via Le Havre" },
       "highlights": ["50+ clients internationaux gérés", "11 ports du périmètre", "Trades EASTMED & Afrique du Nord"],
       "tags": ["Shipping", "Pricing", "Capacité"],
       "imageAlt": "Porte-conteneurs du service EASTMED",
       "contexte": "Au sein de MSC, premier armateur mondial de transport conteneurisé, sur le service de ligne EASTMED reliant l'Europe à la Méditerranée orientale et à l'Afrique du Nord.",
-      "monRole": "Commercial Liner sur le périmètre EASTMED : suivi commercial quotidien, tarification et allocation de capacité, en coordination avec plusieurs ports et bureaux.",
+      "monRole": "Commercial Liner sur le périmètre EASTMED : suivi commercial quotidien, élaboration tarifaire et allocation de capacité, en coordination avec les ports et les bureaux du réseau.",
       "travail": [
-        "Tarification et réponse aux tenders et demandes ponctuelles, traitées quotidiennement au cas par cas",
-        "Allocation de capacité et suivi des flux sur les trades EASTMED et Afrique du Nord",
+        "Élaboration de la tarification et traitement des appels d'offres (tenders) et demandes ponctuelles, au cas par cas et au quotidien",
+        "Allocation de capacité et suivi des flux commerciaux sur les trades EASTMED et Afrique du Nord",
         "Gestion d'un portefeuille de plus de 50 clients internationaux",
-        "Coordination avec plusieurs ports et bureaux du réseau"
+        "Coordination opérationnelle avec les ports et les bureaux du réseau"
       ],
       "resultats": [
         "Suivi d'un service à environ 400 EVP hebdomadaires transitant par Le Havre, 3 à 4 escales suivies"
@@ -162,9 +162,9 @@
       "contexte": "Étude commandée par le Ministère de l'Industrialisation et du Commerce de Madagascar, financée par l'Union européenne via le Programme d'appui au développement des exportations et de l'intégration régionale à Madagascar.",
       "monRole": "Appui à un consultant senior : recherche documentaire, analyse sectorielle, contribution à la rédaction et préparation des supports.",
       "travail": [
-        "Recherche documentaire et analyse du marché africain sous régime ZLECAf",
-        "Analyse sectorielle appliquée au textile-habillement malgache",
-        "Contribution à la rédaction du rapport et préparation des supports",
+        "Recherche documentaire et analyse du marché continental africain sous le régime de la ZLECAf",
+        "Analyse sectorielle appliquée à la filière textile-habillement malgache",
+        "Contribution à la rédaction du rapport et à la préparation des supports de restitution",
         "Participation aux concertations nationales et appui à la clôture de l'étude"
       ],
       "resultats": [
@@ -192,11 +192,11 @@
       "tags": ["Recherche", "Maritime", "Insularité"],
       "imageAlt": "Couverture du mémoire de master",
       "contexte": "Mémoire de recherche de 120 pages sur la dépendance maritime des États insulaires, à partir d'une comparaison entre Madagascar et Maurice.",
-      "monRole": "Auteur : conception de la problématique, collecte et analyse des données, entretiens, rédaction et recommandations.",
+      "monRole": "Auteur : construction de la problématique, collecte et exploitation des données, conduite d'entretiens, rédaction et recommandations.",
       "travail": [
-        "Revue de littérature sur la puissance maritime et la dépendance logistique",
-        "Analyse de données de connectivité et de performance logistique (indices CNUCED et Banque mondiale)",
-        "Entretiens avec des acteurs de la chaîne logistique",
+        "Revue de littérature sur la puissance maritime et la dépendance logistique des États insulaires",
+        "Exploitation de données de connectivité et de performance logistique (indices CNUCED et Banque mondiale)",
+        "Conduite d'entretiens avec des acteurs de la chaîne logistique",
         "Formulation de recommandations pour la chaîne logistique malgache"
       ],
       "resultats": [
@@ -241,10 +241,10 @@
       "contexte": "Projet mené pour les World Trade Centers d'Antananarivo et de Ras Al Khaimah (propriétaire commun), visant à rapprocher leurs réseaux d'affaires respectifs.",
       "monRole": "Project Manager : contribuer à l'ouverture d'un club d'entreprises commun et promouvoir Madagascar et Ras Al Khaimah auprès des deux réseaux.",
       "travail": [
-        "Coordination avec le réseau World Trade Centers et les partenaires internationaux",
-        "Mobilisation du secteur malgache des centres d'appels et des institutions de facilitation d'affaires",
-        "Relation avec les organisations gouvernementales du commerce",
-        "Représentation des deux WTC au Global Business Forum"
+        "Coordination avec le réseau mondial des World Trade Centers et les partenaires internationaux",
+        "Mobilisation de la filière malgache des centres d'appels et des institutions de facilitation des affaires",
+        "Relations avec les organisations gouvernementales du commerce",
+        "Représentation des deux World Trade Centers au Global Business Forum"
       ],
       "resultats": [
         "Participation au Global Business Forum — environ 500 participants, une centaine de World Trade Centers représentés"
@@ -270,11 +270,11 @@
       "tags": ["Start-up", "Pre-seed", "Produit"],
       "imageAlt": "Prototype de Ploutos",
       "contexte": "Start-up cofondée avec une équipe de 2 fondateurs et 5 développeurs, présélectionnée Forbes 30 Under 30 Europe et présente à InnoStartup.",
-      "monRole": "Cofondateur : produit, développement du projet et relation investisseurs.",
+      "monRole": "Cofondateur : conception produit, développement du projet et relation investisseurs.",
       "travail": [
-        "Livraison d'un MVP et d'une maquette vidéo produit",
-        "Tests limités au cercle proche, sans liste d'attente structurée",
-        "Présélection Forbes 30 Under 30 Europe et participation à InnoStartup"
+        "Livraison d'un MVP et d'une maquette vidéo du produit",
+        "Phase de test restreinte au cercle proche, sans liste d'attente structurée",
+        "Présélection au Forbes 30 Under 30 Europe et participation à InnoStartup"
       ],
       "resultats": [
         "Term sheet de 2 M€ signé en pre-seed ; déblocage conditionné à la livraison du prototype, non atteint"
@@ -309,9 +309,9 @@
       "contexte": "Marketplace européenne de live commerce permettant à des vendeurs, marques, créateurs et revendeurs de vendre au cours de sessions vidéo en direct. Société immatriculée en Estonie, en développement.",
       "monRole": "Fondateur : conception du produit et développement du site en propre, avec Claude Code et plusieurs skills.",
       "travail": [
-        "Développement du site en propre (popnbuy.eu)",
+        "Conception et développement du site en propre (popnbuy.eu)",
         "Immatriculation de la société en Estonie",
-        "Prise de contact avec les premiers vendeurs"
+        "Prospection et prise de contact avec les premiers vendeurs"
       ],
       "resultats": [
         "50 vendeurs contactés",
