@@ -15,6 +15,7 @@ export type Project = {
   category: string[];
   summary: string;
   metric: { value: string; label: string };
+  highlights?: string[];
   tags: string[];
   imageAlt: string;
   externalLink?: string;

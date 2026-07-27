@@ -78,7 +78,28 @@ export function ProjectDetail({
 
       {/* Lead: summary + key figure / facts card */}
       <div className="mt-8 grid gap-6 lg:mt-10 lg:grid-cols-[1.6fr_1fr] lg:items-start lg:gap-10">
-        <p className="text-xl leading-relaxed sm:text-2xl sm:leading-relaxed">{project.summary}</p>
+        <div>
+          <p className="text-xl leading-relaxed sm:text-2xl sm:leading-relaxed">{project.summary}</p>
+          {project.highlights && project.highlights.length > 0 && (
+            <div className="mt-7">
+              <Head title={detail.highlightsTitle} accent={accent} />
+              <ul className="mt-3 flex flex-col gap-2.5">
+                {project.highlights.map((h) => (
+                  <li key={h} className="flex items-center gap-3 text-[0.95rem] font-medium">
+                    <span
+                      aria-hidden="true"
+                      className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full text-[0.7rem] font-bold text-white"
+                      style={{ backgroundColor: accent }}
+                    >
+                      ✓
+                    </span>
+                    <span>{h}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+        </div>
 
         <aside className="rounded-3xl border p-6" style={{ background: tint, borderColor: tintLine }}>
           <p className="text-[0.65rem] font-semibold uppercase tracking-widest text-(--color-soft)">{project.metric.label}</p>
