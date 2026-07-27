@@ -25,7 +25,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
       <section className="mx-auto grid max-w-6xl gap-10 px-6 pb-8 pt-12 lg:grid-cols-[1.05fr_0.92fr] lg:items-center">
         <div>
           <p className="inline-flex items-center gap-2 text-sm font-semibold text-(--color-accent)">
-            <span className="h-2 w-2 rounded-full bg-(--color-accent) shadow-[0_0_0_4px_rgba(15,90,78,0.15)]" />
+            <span className="h-2 w-2 rounded-full bg-(--color-accent) shadow-[0_0_0_4px_rgba(154,95,107,0.18)]" />
             {hero.available}
           </p>
           <p className="mt-4 text-xs font-semibold uppercase tracking-widest text-(--color-accent)">{hero.eyebrow}</p>
@@ -80,7 +80,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
         </div>
         <div className="mt-7 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {preview.map((p) => (
-            <ProjectCard key={p.slug} project={p} href={localizedHref(locale, `/parcours/${p.slug}`)} cta={dict.parcours.cardCta} />
+            <ProjectCard key={p.slug} project={p} href={localizedHref(locale, `/parcours/${p.slug}`)} cta={dict.parcours.cardCta} ratio="4 / 5" />
           ))}
         </div>
         <div className="mt-7 sm:hidden">

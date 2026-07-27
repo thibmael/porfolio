@@ -1,25 +1,26 @@
 /* Duotone cover tone + monogram per project, used when no real image is set.
-   Dark gradients so overlaid white text stays legible. Once a real cover image
-   is added in project-media.ts it replaces the gradient. */
+   Dusty pastel gradients (rose / mauve / plum / clay / dusty-blue) — mid-depth
+   so overlaid white text stays legible. Once a real cover image is added in
+   project-media.ts it replaces the gradient. */
 export type Tone = { grad: [string, string]; mono: string };
 
-const FALLBACK: Tone = { grad: ["#233a34", "#3a5a50"], mono: "•" };
+const FALLBACK: Tone = { grad: ["#4a4152", "#665a70"], mono: "•" };
 
 export const COVER_TONES: Record<string, Tone> = {
-  "msc-eastmed": { grad: ["#20344a", "#3a5573"], mono: "MSC" },
-  "gefp-agoa": { grad: ["#54443a", "#87694d"], mono: "GE" },
-  "memoire-master": { grad: ["#0e3b33", "#1f6a5b"], mono: "MR" },
-  wtc: { grad: ["#382e46", "#5f4f74"], mono: "WT" },
-  ploutos: { grad: ["#1b3a3a", "#2f5e56"], mono: "PL" },
-  popnbuy: { grad: ["#282d49", "#46507a"], mono: "PB" },
-  "master-supply-chain": { grad: ["#2b4038", "#436054"], mono: "IN" },
-  "bachelor-crea": { grad: ["#33463b", "#4d6a58"], mono: "CR" },
-  lse: { grad: ["#294049", "#3f636f"], mono: "LSE" },
-  harvardx: { grad: ["#3a3330", "#5c504a"], mono: "HX" },
-  miray: { grad: ["#4a3a3a", "#6f5252"], mono: "MI" },
-  basket: { grad: ["#293a4a", "#41607a"], mono: "BB" },
-  "journal-etudiant": { grad: ["#463138", "#6e4b57"], mono: "JE" },
-  inskahier: { grad: ["#2a3448", "#465073"], mono: "IK" },
+  "msc-eastmed": { grad: ["#3c5165", "#5b7387"], mono: "MSC" },
+  "gefp-agoa": { grad: ["#6a4a42", "#8a6353"], mono: "GE" },
+  "memoire-master": { grad: ["#463a54", "#665073"], mono: "MR" },
+  wtc: { grad: ["#514455", "#73607a"], mono: "WT" },
+  ploutos: { grad: ["#5e4550", "#7e6070"], mono: "PL" },
+  popnbuy: { grad: ["#3f4260", "#5a5e82"], mono: "PB" },
+  "master-supply-chain": { grad: ["#3f4a5a", "#5c6a7e"], mono: "IN" },
+  "bachelor-crea": { grad: ["#5e4650", "#805f6e"], mono: "CR" },
+  lse: { grad: ["#3d4f5e", "#5a7080"], mono: "LSE" },
+  harvardx: { grad: ["#4f453f", "#6e6057"], mono: "HX" },
+  miray: { grad: ["#5f4646", "#82605f"], mono: "MI" },
+  basket: { grad: ["#3e4f5f", "#5c7183"], mono: "BB" },
+  "journal-etudiant": { grad: ["#513744", "#734e5f"], mono: "JE" },
+  inskahier: { grad: ["#3b3e5a", "#565a7c"], mono: "IK" },
 };
 
 export function tone(slug: string): Tone {

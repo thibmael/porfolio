@@ -16,11 +16,13 @@ export function ProjectCard({
   href,
   cta,
   dimmed = false,
+  ratio,
 }: {
   project: Project;
   href: string;
   cta: string;
   dimmed?: boolean;
+  ratio?: string;
 }) {
   const media = PROJECT_MEDIA[project.slug] ?? {};
   const cover = media.cover || media.logo || "";
@@ -31,7 +33,7 @@ export function ProjectCard({
       href={href}
       aria-label={`${project.org} — ${project.role}`}
       className="group relative block overflow-hidden rounded-2xl shadow-[0_18px_40px_-26px_rgba(15,23,20,0.55)] transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_30px_60px_-30px_rgba(15,23,20,0.65)]"
-      style={{ aspectRatio: ASPECT[project.format], opacity: dimmed ? 0.4 : 1 }}
+      style={{ aspectRatio: ratio ?? ASPECT[project.format], opacity: dimmed ? 0.4 : 1 }}
     >
       <div className="absolute inset-0 transition-transform duration-500 group-hover:scale-[1.05]">
         <Cover slug={project.slug} src={cover || undefined} alt={project.imageAlt} />
