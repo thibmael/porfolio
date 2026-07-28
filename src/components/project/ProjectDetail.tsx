@@ -40,6 +40,7 @@ export function ProjectDetail({
 }) {
   const media = PROJECT_MEDIA[project.slug] ?? {};
   const cover = media.cover || media.logo || "";
+  const gallery = media.gallery ?? [];
   const filename = SUGGESTED_COVER[project.slug] ?? media.logo ?? undefined;
   const backHref = localizedHref(locale, "/parcours");
   const accent = teinteInk(project.teinte);
@@ -292,7 +293,14 @@ export function ProjectDetail({
         <Head title={detail.galleryTitle} accent={accent} />
         <div className="mt-4 grid grid-cols-2 gap-4 sm:grid-cols-3">
           {[0, 1, 2].map((i) => (
-            <MediaPlaceholder key={i} alt={`${project.imageAlt} — ${i + 1}`} ratio="4 / 3" fileLabel={fileLabel} filename={i === 0 ? filename : undefined} />
+            <MediaPlaceholder
+              key={i}
+              src={gallery[i] || undefined}
+              alt={`${project.imageAlt} — ${i + 1}`}
+              ratio="4 / 3"
+              fileLabel={fileLabel}
+              filename={!gallery[i] && i === 0 ? filename : undefined}
+            />
           ))}
         </div>
       </section>
