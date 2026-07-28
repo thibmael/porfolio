@@ -3,7 +3,7 @@
 // Fill these in once available; every empty value renders as a placeholder
 // on the site until then. See README.md for details.
 
-export const EMAIL = "";
+export const EMAIL = "rthibaultme@popnbuy.eu";
 export const PHONE = "";
 export const LINKEDIN_URL = "";
 

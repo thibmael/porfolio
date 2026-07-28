@@ -13,6 +13,16 @@ import { THESIS_PDF_URL } from "@/lib/contact-info";
 
 type DetailDict = Dictionary["detail"];
 
+function DownloadGlyph() {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-4 w-4" aria-hidden="true">
+      <path d="M12 3v12" />
+      <path d="M7 10l5 5 5-5" />
+      <path d="M5 21h14" />
+    </svg>
+  );
+}
+
 /* Section heading with a short accent bar for structure. */
 function Head({ title, accent }: { title: string; accent: string }) {
   return (
@@ -231,41 +241,67 @@ export function ProjectDetail({
         </section>
       )}
 
-      {/* thesis */}
+      {/* thesis — highlighted research panel */}
       {project.thesis && (
         <section className="mt-12">
           <Head title={detail.thesisMethodTitle} accent={accent} />
-          <p className="mt-3 measure text-[0.95rem] leading-relaxed text-(--color-soft)">{project.thesis.methodology}</p>
-          <div className="mt-5 border-y border-(--color-line)">
-            <Accordion summary={detail.thesisTocTitle} defaultOpen>
-              <ol className="space-y-3">
-                {project.thesis.toc.map((part) => (
-                  <li key={part.part}>
-                    <p className="font-medium text-(--color-ink)">{part.part}</p>
-                    {part.chapters.length > 0 && (
-                      <ul className="mt-1 space-y-1 pl-4">
-                        {part.chapters.map((c) => (
-                          <li key={c} className="flex gap-2"><span aria-hidden="true">—</span><span>{c}</span></li>
-                        ))}
-                      </ul>
-                    )}
-                  </li>
-                ))}
-              </ol>
-            </Accordion>
-            <Accordion summary={detail.thesisSummaryTitle}>
-              <div className="space-y-3">
-                {project.thesis.summary.map((p, i) => <p key={i}>{p}</p>)}
+          <div className="mt-4 overflow-hidden rounded-3xl border" style={{ borderColor: tintLine }}>
+            {/* header: page count + subtitle + download */}
+            <div className="flex flex-wrap items-start justify-between gap-4 p-6 sm:p-7" style={{ background: tint }}>
+              <div className="max-w-md">
+                <p className="display text-3xl font-bold leading-none" style={{ color: accent }}>{project.metric.value}</p>
+                <p className="mt-2 text-sm leading-relaxed text-(--color-soft)">{project.thesis.subtitle}</p>
               </div>
-            </Accordion>
+              {THESIS_PDF_URL ? (
+                <a
+                  href={THESIS_PDF_URL}
+                  download
+                  className="inline-flex items-center gap-2 rounded-full px-5 py-2.5 text-sm font-semibold text-white transition-opacity hover:opacity-90"
+                  style={{ backgroundColor: accent }}
+                >
+                  <DownloadGlyph />
+                  {detail.thesisDownload}
+                </a>
+              ) : (
+                <span className="inline-flex items-center gap-2 self-center rounded-full border border-dashed px-4 py-2 text-xs text-(--color-soft)" style={{ borderColor: tintLine }}>
+                  <DownloadGlyph />
+                  {detail.thesisUnavailable}
+                </span>
+              )}
+            </div>
+            {/* methodology + outline */}
+            <div className="border-t bg-(--color-paper) px-6 pt-5 sm:px-7" style={{ borderColor: tintLine }}>
+              <p className="text-[0.95rem] leading-relaxed text-(--color-soft)">{project.thesis.methodology}</p>
+              <div className="mt-2">
+                <Accordion summary={detail.thesisTocTitle} defaultOpen>
+                  <ol className="space-y-4">
+                    {project.thesis.toc.map((part, i) => (
+                      <li key={part.part} className="flex gap-3">
+                        <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full text-[0.7rem] font-bold text-white" style={{ backgroundColor: accent }}>
+                          {i + 1}
+                        </span>
+                        <div>
+                          <p className="font-medium text-(--color-ink)">{part.part}</p>
+                          {part.chapters.length > 0 && (
+                            <ul className="mt-1 space-y-1 text-(--color-soft)">
+                              {part.chapters.map((c) => (
+                                <li key={c} className="flex gap-2"><span aria-hidden="true">—</span><span>{c}</span></li>
+                              ))}
+                            </ul>
+                          )}
+                        </div>
+                      </li>
+                    ))}
+                  </ol>
+                </Accordion>
+                <Accordion summary={detail.thesisSummaryTitle}>
+                  <div className="space-y-3">
+                    {project.thesis.summary.map((p, i) => <p key={i}>{p}</p>)}
+                  </div>
+                </Accordion>
+              </div>
+            </div>
           </div>
-          {THESIS_PDF_URL ? (
-            <a href={THESIS_PDF_URL} download className="mt-5 inline-block rounded-full bg-(--color-ink) px-5 py-2.5 text-sm font-medium text-(--color-paper) transition-opacity hover:opacity-90">
-              {detail.thesisDownload}
-            </a>
-          ) : (
-            <p className="mt-5 text-sm text-(--color-soft)">{detail.thesisUnavailable}</p>
-          )}
         </section>
       )}
 

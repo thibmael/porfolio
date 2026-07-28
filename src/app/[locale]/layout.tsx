@@ -35,13 +35,21 @@ export async function generateMetadata({
   if (!isLocale(locale)) return {};
   const dict = getDictionary(locale);
 
+  // Absolute base for OG/Twitter image URLs. Auto-detected on Vercel; set
+  // NEXT_PUBLIC_SITE_URL to your domain for a custom deploy.
+  const siteUrl =
+    process.env.NEXT_PUBLIC_SITE_URL ||
+    (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : "http://localhost:3000");
+
   return {
+    metadataBase: new URL(siteUrl),
     title: {
       default: dict.meta.defaultTitle,
       template: `%s — Thibault Randrasana`,
     },
     description: dict.meta.defaultDescription,
     alternates: {
+      canonical: `/${locale}`,
       languages: {
         fr: "/fr",
         en: "/en",
@@ -50,8 +58,19 @@ export async function generateMetadata({
     openGraph: {
       title: dict.meta.defaultTitle,
       description: dict.meta.defaultDescription,
+      url: `/${locale}`,
+      siteName: "Thibault M. E. Randrasana",
       locale: locale === "fr" ? "fr_FR" : "en_US",
       type: "website",
+      images: [
+        { url: "/og.jpg", width: 1200, height: 630, alt: dict.meta.defaultTitle },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: dict.meta.defaultTitle,
+      description: dict.meta.defaultDescription,
+      images: ["/og.jpg"],
     },
   };
 }
