@@ -241,17 +241,16 @@ export function ProjectDetail({
         </section>
       )}
 
-      {/* thesis — highlighted research panel */}
+      {/* thesis — research deep-dive: analysis & significance foregrounded */}
       {project.thesis && (
         <section className="mt-12">
-          <Head title={detail.thesisMethodTitle} accent={accent} />
+          <Head title={detail.thesisSummaryTitle} accent={accent} />
           <div className="mt-4 overflow-hidden rounded-3xl border" style={{ borderColor: tintLine }}>
-            {/* header: page count + subtitle + download */}
-            <div className="flex flex-wrap items-start justify-between gap-4 p-6 sm:p-7" style={{ background: tint }}>
-              <div className="max-w-md">
-                <p className="display text-3xl font-bold leading-none" style={{ color: accent }}>{project.metric.value}</p>
-                <p className="mt-2 text-sm leading-relaxed text-(--color-soft)">{project.thesis.subtitle}</p>
-              </div>
+            {/* header: small meta + download (no vanity page count) */}
+            <div className="flex flex-wrap items-center justify-between gap-3 px-6 py-4 sm:px-7" style={{ background: tint }}>
+              <p className="text-xs font-semibold uppercase tracking-widest text-(--color-soft)">
+                {project.metric.value} · {project.metric.label}
+              </p>
               {THESIS_PDF_URL ? (
                 <a
                   href={THESIS_PDF_URL}
@@ -263,17 +262,30 @@ export function ProjectDetail({
                   {detail.thesisDownload}
                 </a>
               ) : (
-                <span className="inline-flex items-center gap-2 self-center rounded-full border border-dashed px-4 py-2 text-xs text-(--color-soft)" style={{ borderColor: tintLine }}>
+                <span className="inline-flex items-center gap-2 rounded-full border border-dashed px-4 py-2 text-xs text-(--color-soft)" style={{ borderColor: tintLine }}>
                   <DownloadGlyph />
                   {detail.thesisUnavailable}
                 </span>
               )}
             </div>
-            {/* methodology + outline */}
-            <div className="border-t bg-(--color-paper) px-6 pt-5 sm:px-7" style={{ borderColor: tintLine }}>
-              <p className="text-[0.95rem] leading-relaxed text-(--color-soft)">{project.thesis.methodology}</p>
+            {/* body: the analysis and its significance, shown openly */}
+            <div className="bg-(--color-paper) px-6 py-6 sm:px-7">
+              <div className="measure space-y-3">
+                {project.thesis.summary.map((p, i) => (
+                  <p
+                    key={i}
+                    className={i === 0 ? "text-lg leading-relaxed text-(--color-ink)" : "text-[0.98rem] leading-relaxed text-(--color-soft)"}
+                  >
+                    {p}
+                  </p>
+                ))}
+              </div>
+              <p className="measure mt-5 border-t border-(--color-line) pt-4 text-[0.85rem] leading-relaxed text-(--color-soft)">
+                <span className="font-semibold text-(--color-ink)">{detail.thesisMethodTitle} — </span>
+                {project.thesis.methodology}
+              </p>
               <div className="mt-2">
-                <Accordion summary={detail.thesisTocTitle} defaultOpen>
+                <Accordion summary={detail.thesisTocTitle}>
                   <ol className="space-y-4">
                     {project.thesis.toc.map((part, i) => (
                       <li key={part.part} className="flex gap-3">
@@ -293,11 +305,6 @@ export function ProjectDetail({
                       </li>
                     ))}
                   </ol>
-                </Accordion>
-                <Accordion summary={detail.thesisSummaryTitle}>
-                  <div className="space-y-3">
-                    {project.thesis.summary.map((p, i) => <p key={i}>{p}</p>)}
-                  </div>
                 </Accordion>
               </div>
             </div>

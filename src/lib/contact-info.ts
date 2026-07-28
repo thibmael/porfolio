@@ -4,8 +4,8 @@
 // on the site until then. See README.md for details.
 
 export const EMAIL = "rthibaultme@popnbuy.eu";
-export const PHONE = "";
-export const LINKEDIN_URL = "";
+export const PHONE = "+33 7 44 42 28 14";
+export const LINKEDIN_URL = "https://www.linkedin.com/in/thibault-mahafaly";
 
 export const CV_FR_URL = "";
 export const CV_EN_URL = "";
