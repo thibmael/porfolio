@@ -49,7 +49,6 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
             ratio="1 / 1"
             filename={hero.photoFile}
             fileLabel={dict.common.fileLabel}
-            bw
             rounded="rounded-3xl"
           />
         </div>
