@@ -4,7 +4,7 @@ import type { Locale } from "@/lib/i18n-config";
 import type { Project } from "@/lib/project-types";
 import { teinteInk, teinteBg } from "@/lib/project-types";
 import { localizedHref } from "@/lib/routing";
-import { PROJECT_MEDIA, SUGGESTED_COVER } from "@/lib/project-media";
+import { PROJECT_MEDIA, SUGGESTED_COVER, SUGGESTED_GALLERY } from "@/lib/project-media";
 import { MediaPlaceholder } from "@/components/ui/MediaPlaceholder";
 import { Cover } from "./Cover";
 import { Accordion } from "@/components/ui/Accordion";
@@ -41,6 +41,7 @@ export function ProjectDetail({
   const media = PROJECT_MEDIA[project.slug] ?? {};
   const cover = media.cover || media.logo || "";
   const gallery = media.gallery ?? [];
+  const galleryHints = SUGGESTED_GALLERY[project.slug] ?? [];
   const filename = SUGGESTED_COVER[project.slug] ?? media.logo ?? undefined;
   const backHref = localizedHref(locale, "/parcours");
   const accent = teinteInk(project.teinte);
@@ -299,7 +300,7 @@ export function ProjectDetail({
               alt={`${project.imageAlt} — ${i + 1}`}
               ratio="4 / 3"
               fileLabel={fileLabel}
-              filename={!gallery[i] && i === 0 ? filename : undefined}
+              filename={gallery[i] ? undefined : galleryHints[i]}
             />
           ))}
         </div>

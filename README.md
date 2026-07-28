@@ -33,7 +33,7 @@ langue). Champs principaux :
 
 - `slug` — identifiant d'URL (identique FR/EN)
 - `format` — `featured` · `wide` · `vertical` · `standard` · `compact`
-- `teinte` — `rose` · `blue` · `sage` (accent de la carte)
+- `teinte` — `rose` · `blue` (accent pastel de la carte et de la fiche)
 - `type` — clé de filtre (`pro`, `conseil`, `recherche`, `entrepreneuriat`, `formation`, `engagement`)
 - `zones` — `["madagascar","france","suisse","europe","international"]`
 - `period` — `recent` · `old`
@@ -67,10 +67,16 @@ export const PROJECT_MEDIA = {
 };
 ```
 
-- `cover` — image de couverture de la carte et de la fiche
-- `logo` — logo carré (utilisé pour les cartes compactes)
-- `gallery` — plusieurs images pour la section « Galerie et documents »
+- `cover` — image de couverture (carte du parcours **et** bannière de la fiche)
+- `logo` — logo carré (fallback des cartes compactes)
+- `gallery` — images de la section « Galerie et documents » (jusqu'à 3 affichées)
 - `document` — PDF (ex. mémoire)
+
+Les **14 projets** sont prêts pour les photos : chacun a un slot `cover` et
+`gallery`. Tant qu'un slot est vide, un repère discret indique où déposer la
+photo (picto appareil sur les cartes, nom de fichier attendu sur la bannière et
+la galerie) ; il disparaît dès qu'un vrai fichier est renseigné. Les noms
+suggérés vivent dans `SUGGESTED_COVER` et `SUGGESTED_GALLERY` du même fichier.
 
 Le **texte alternatif** de chaque image reste dans les fichiers de langue
 (`imageAlt`), donc traduit. La **photo de profil** (hero) se règle via
@@ -89,9 +95,9 @@ préservé (stocké dans l'URL). Les deux langues doivent rester équivalentes.
 
 ## Direction & accessibilité
 
-- Typographie **sans-serif** (Plus Jakarta Sans + Inter), base claire, texte
-  anthracite, accents **rose poudré / bleu brumeux / vert sauge** désaturés,
-  jamais en fond de page.
+- Typographie **sans-serif** (Outfit en titres + Work Sans en texte), page
+  blanche, texte anthracite, **deux accents pastel — rose poudré `#b05a75` et
+  bleu poudré `#5178a0`** ; chaque projet prend le sien selon sa `teinte`.
 - Animations discrètes (`transform`/`opacity`), `prefers-reduced-motion`
   respecté, navigation clavier, focus visibles, contraste AA.
 
@@ -106,10 +112,12 @@ Placeholders visibles, rien inventé :
 
 - **Email**, **téléphone**, **LinkedIn** — `src/lib/contact-info.ts`
 - **CV FR/EN**, **thèse PDF**, **photo de profil** — idem + fichiers dans `public/`
-- **Visuels de chaque projet** (couvertures, logos, galeries) — `public/images/*` + `src/lib/project-media.ts`.
-  Fichiers suggérés : `msc-eastmed.jpg`, `gefp-cover.jpg`, `master-thesis-cover.jpg`,
-  `wtc-global-forum.jpg`, `ploutos-prototype.jpg`, `popnbuy-platform.jpg`, et les logos
-  de formation / engagement / éditorial.
+- **Visuels de chaque projet** (couvertures + galeries des 14 projets) —
+  `public/images/{experiences,education,engagements,editorial}/` +
+  `src/lib/project-media.ts`. Les noms de fichiers attendus s'affichent
+  directement dans les emplacements vides ; ils sont listés dans
+  `SUGGESTED_COVER` / `SUGGESTED_GALLERY`. La **photo de profil** va dans
+  `PORTRAIT_URL` (`src/lib/contact-info.ts`).
 - **[À VÉRIFIER]** : ~50 000 abonnés et « meilleur engagement par publication »
   du *Journal de l'Étudiant* (carte `journal-etudiant`) — si non documentable,
   retirer le chiffre.
