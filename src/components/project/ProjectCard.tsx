@@ -44,6 +44,13 @@ export function ProjectCard({
         {project.metric.value}
       </span>
 
+      {/* practice sub-tag */}
+      {project.practice && (
+        <span className="absolute right-4 top-4 z-10 rounded-full border border-white/25 bg-white/15 px-2.5 py-1 text-[0.62rem] font-semibold uppercase tracking-wide text-white backdrop-blur-sm">
+          {project.practice}
+        </span>
+      )}
+
       {/* bottom content */}
       <div className="absolute inset-x-0 bottom-0 z-10 p-4 text-white sm:p-5">
         <p className="text-[0.68rem] font-semibold uppercase tracking-widest text-white/80">

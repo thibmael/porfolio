@@ -38,7 +38,7 @@
       { "value": "~400", "unit": " EVP", "label": "suivis / semaine — service EASTMED via Le Havre" },
       { "value": "120", "unit": " p.", "label": "mémoire de recherche · Madagascar & Maurice" },
       { "value": "50", "unit": "+", "label": "clients internationaux gérés au quotidien" },
-      { "value": "6", "unit": " · 4", "label": "projets menés · dans 4 pays" }
+      { "value": "7", "unit": " · 4", "label": "projets menés · dans 4 pays" }
     ],
     "proofs": [
       "Étude ZLECAf réalisée en appui pour le Ministère de l'Industrialisation et du Commerce de Madagascar",
@@ -143,38 +143,6 @@
       "ports": ["Fos", "Le Havre", "Montoir", "Bordeaux", "Brest", "Dunkerque", "Anvers", "Rotterdam", "Hambourg", "Barcelone", "Gênes"]
     },
     {
-      "slug": "gefp-agoa",
-      "format": "wide",
-      "teinte": "rose",
-      "type": "conseil",
-      "zones": ["madagascar"],
-      "period": "recent",
-      "org": "Ministère de l'Industrialisation et du Commerce de Madagascar",
-      "role": "Appui à un consultant senior",
-      "periode": "2025 — 6 mois",
-      "location": "Antananarivo, Madagascar",
-      "category": ["Conseil et études", "Politiques publiques"],
-      "summary": "Étude diagnostic des opportunités de la ZLECAf pour la filière textile-habillement malgache.",
-      "metric": { "value": "~50 pages", "label": "de rapport, restitué à la Présidence" },
-      "highlights": ["Étude ZLECAf textile-habillement", "Restitution devant la Présidence", "Appui aux concertations nationales"],
-      "tags": ["ZLECAf", "Textile", "Étude"],
-      "imageAlt": "Couverture du rapport d'étude ZLECAf",
-      "contexte": "Étude commandée par le Ministère de l'Industrialisation et du Commerce de Madagascar, financée par l'Union européenne via le Programme d'appui au développement des exportations et de l'intégration régionale à Madagascar.",
-      "monRole": "Appui à un consultant senior : recherche documentaire, analyse sectorielle, contribution à la rédaction et préparation des supports.",
-      "travail": [
-        "Recherche documentaire et analyse du marché continental africain sous le régime de la ZLECAf",
-        "Analyse sectorielle appliquée à la filière textile-habillement malgache",
-        "Contribution à la rédaction du rapport et à la préparation des supports de restitution",
-        "Participation aux concertations nationales et appui à la clôture de l'étude"
-      ],
-      "resultats": [
-        "Rapport d'étude d'environ 50 pages",
-        "Supports de présentation pour les concertations nationales",
-        "Présentation finale de clôture devant la Présidence de la République de Madagascar"
-      ],
-      "enseignement": "Une étude n'a de valeur que si elle est comprise par ceux qui décident : la restitution et la pédagogie comptent autant que l'analyse elle-même."
-    },
-    {
       "slug": "memoire-master",
       "format": "vertical",
       "teinte": "rose",
@@ -220,6 +188,68 @@
           "Il propose un observatoire national des flux, une approche en coût rendu complet et une diversification maritime régionale."
         ]
       }
+    },
+    {
+      "slug": "gefp-agoa",
+      "format": "wide",
+      "teinte": "rose",
+      "practice": "Consultant",
+      "type": "conseil",
+      "zones": ["madagascar"],
+      "period": "recent",
+      "org": "Ministère de l'Industrialisation et du Commerce de Madagascar",
+      "role": "Appui à un consultant senior",
+      "periode": "2025 — 6 mois",
+      "location": "Antananarivo, Madagascar",
+      "category": ["Conseil et études", "Politiques publiques"],
+      "summary": "Étude diagnostic des opportunités de la ZLECAf pour la filière textile-habillement malgache.",
+      "metric": { "value": "~50 pages", "label": "de rapport, restitué à la Présidence" },
+      "highlights": ["Étude ZLECAf textile-habillement", "Restitution devant la Présidence", "Appui aux concertations nationales"],
+      "tags": ["ZLECAf", "Textile", "Étude"],
+      "imageAlt": "Couverture du rapport d'étude ZLECAf",
+      "contexte": "Étude commandée par le Ministère de l'Industrialisation et du Commerce de Madagascar, financée par l'Union européenne via le Programme d'appui au développement des exportations et de l'intégration régionale à Madagascar.",
+      "monRole": "Appui à un consultant senior : recherche documentaire, analyse sectorielle, contribution à la rédaction et préparation des supports.",
+      "travail": [
+        "Recherche documentaire et analyse du marché continental africain sous le régime de la ZLECAf",
+        "Analyse sectorielle appliquée à la filière textile-habillement malgache",
+        "Contribution à la rédaction du rapport et à la préparation des supports de restitution",
+        "Participation aux concertations nationales et appui à la clôture de l'étude"
+      ],
+      "resultats": [
+        "Rapport d'étude d'environ 50 pages",
+        "Supports de présentation pour les concertations nationales",
+        "Présentation finale de clôture devant la Présidence de la République de Madagascar"
+      ],
+      "enseignement": "Une étude n'a de valeur que si elle est comprise par ceux qui décident : la restitution et la pédagogie comptent autant que l'analyse elle-même."
+    },
+    {
+      "slug": "galaxam-mid",
+      "format": "standard",
+      "teinte": "blue",
+      "practice": "Consultant",
+      "type": "conseil",
+      "zones": ["madagascar"],
+      "period": "recent",
+      "org": "Galaxam Logistics × USAID",
+      "role": "Consultant supply chain & business development",
+      "periode": "depuis mai 2026",
+      "location": "Madagascar",
+      "category": ["Conseil et études", "Logistique"],
+      "summary": "Distribution en dernier kilomètre (Last Mile Delivery) de moustiquaires imprégnées durables (MID) à l'échelle nationale, pour une mission financée par l'USAID.",
+      "metric": { "value": "1 662 CSB", "label": "63 districts couverts" },
+      "highlights": ["Réseau national de 1 662 CSB", "63 districts couverts", "989 250 MID — opération en cours"],
+      "tags": ["Last Mile Delivery", "USAID", "Santé publique"],
+      "imageAlt": "Répartition des centres de santé de base couverts par la distribution",
+      "contexte": "Mission financée par l'USAID et menée pour Galaxam Logistics SARL, société de transit malgache forte de 25 ans d'expérience.",
+      "monRole": "Consultant supply chain et business development.",
+      "travail": [
+        "Appui à la distribution en dernier kilomètre (Last Mile Delivery) sur un réseau national de 1 662 centres de santé de base (CSB)",
+        "Coordination de la couverture des 63 districts concernés",
+        "Volet business development de la mission"
+      ],
+      "resultats": [
+        "Opérations de distribution en cours, sur un volume total de 989 250 unités de MID"
+      ]
     },
     {
       "slug": "wtc",

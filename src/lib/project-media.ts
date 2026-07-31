@@ -20,6 +20,7 @@ export type ProjectMedia = {
 export const PROJECT_MEDIA: Record<string, ProjectMedia> = {
   "msc-eastmed": { cover: "", logo: "", gallery: [] },
   "gefp-agoa": { cover: "", logo: "", gallery: [] },
+  "galaxam-mid": { cover: "", logo: "", gallery: [] },
   "memoire-master": { cover: "", document: "", gallery: [] },
   wtc: { cover: "", logo: "", gallery: [] },
   ploutos: { cover: "", logo: "", gallery: [] },
@@ -38,6 +39,7 @@ export const PROJECT_MEDIA: Record<string, ProjectMedia> = {
 export const SUGGESTED_COVER: Record<string, string> = {
   "msc-eastmed": "/images/experiences/msc-eastmed.jpg",
   "gefp-agoa": "/images/experiences/gefp-cover.jpg",
+  "galaxam-mid": "/images/experiences/galaxam-mid-cover.jpg",
   "memoire-master": "/images/experiences/master-thesis-cover.jpg",
   wtc: "/images/experiences/wtc-global-forum.jpg",
   ploutos: "/images/experiences/ploutos-prototype.jpg",
@@ -63,6 +65,7 @@ export const SUGGESTED_GALLERY: Record<string, string[]> = {
     "/images/experiences/msc-operations.jpg",
   ],
   "gefp-agoa": gal("experiences", "gefp"),
+  "galaxam-mid": gal("experiences", "galaxam-mid"),
   "memoire-master": gal("experiences", "master-thesis"),
   wtc: gal("experiences", "wtc"),
   ploutos: gal("experiences", "ploutos"),

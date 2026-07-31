@@ -1,4 +1,8 @@
 import { tone } from "@/lib/cover-tones";
+import { ScatterCloud } from "./ScatterCloud";
+
+/* Projects whose cover is a built-in data diagram rather than a photo slot. */
+const DIAGRAM_SLUGS = new Set(["galaxam-mid"]);
 
 function ImageGlyph() {
   return (
@@ -35,6 +39,7 @@ export function Cover({
   hintClassName?: string;
 }) {
   const t = tone(slug);
+  const diagram = !src && DIAGRAM_SLUGS.has(slug);
   return (
     <div
       className={`absolute inset-0 h-full w-full ${className}`}
@@ -43,6 +48,8 @@ export function Cover({
       {src ? (
         // eslint-disable-next-line @next/next/no-img-element
         <img src={src} alt={alt} loading="lazy" className="absolute inset-0 h-full w-full object-cover" />
+      ) : diagram ? (
+        <ScatterCloud />
       ) : (
         <span
           aria-hidden="true"
@@ -55,7 +62,7 @@ export function Cover({
       {overlay && (
         <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/65 via-black/10 to-black/0" />
       )}
-      {!src && hint && (
+      {!src && hint && !diagram && (
         <span
           className={`pointer-events-none absolute z-10 inline-flex items-center gap-1.5 rounded-full bg-black/35 px-2.5 py-1 text-[0.62rem] font-medium text-white/80 backdrop-blur-sm ${hintClassName}`}
         >

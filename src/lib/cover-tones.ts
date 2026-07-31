@@ -9,6 +9,7 @@ const FALLBACK: Tone = { grad: ["#4a4152", "#665a70"], mono: "•" };
 export const COVER_TONES: Record<string, Tone> = {
   "msc-eastmed": { grad: ["#3c5165", "#5b7387"], mono: "MSC" },
   "gefp-agoa": { grad: ["#6a4650", "#8a6270"], mono: "GE" },
+  "galaxam-mid": { grad: ["#33405c", "#4a5675"], mono: "MID" },
   "memoire-master": { grad: ["#4c3a52", "#6e5170"], mono: "MR" },
   wtc: { grad: ["#514455", "#73607a"], mono: "WT" },
   ploutos: { grad: ["#414a63", "#5d6f8c"], mono: "PL" },

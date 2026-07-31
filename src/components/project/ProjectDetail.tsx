@@ -77,6 +77,11 @@ export function ProjectDetail({
         <Cover slug={project.slug} src={cover || undefined} alt={project.imageAlt} hint={cover ? undefined : filename} hintClassName="left-5 top-5" />
         <div className="absolute inset-x-0 bottom-0 z-10 p-6 text-white sm:p-8">
           <div className="flex flex-wrap gap-2">
+            {project.practice && (
+              <span className="rounded-full px-3 py-1 text-xs font-semibold text-white" style={{ backgroundColor: accent }}>
+                {project.practice}
+              </span>
+            )}
             {project.category.map((c) => (
               <span key={c} className="rounded-full border border-white/25 bg-white/10 px-3 py-1 text-xs font-semibold backdrop-blur-sm">
                 {c}

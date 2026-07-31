@@ -38,7 +38,7 @@
       { "value": "~400", "unit": " TEU", "label": "tracked / week — EASTMED service via Le Havre" },
       { "value": "120", "unit": " p.", "label": "research thesis · Madagascar & Mauritius" },
       { "value": "50", "unit": "+", "label": "international clients handled daily" },
-      { "value": "6", "unit": " · 4", "label": "projects delivered · across 4 countries" }
+      { "value": "7", "unit": " · 4", "label": "projects delivered · across 4 countries" }
     ],
     "proofs": [
       "AfCFTA study carried out in support of Madagascar's Ministry of Industrialisation and Trade",
@@ -143,38 +143,6 @@
       "ports": ["Fos", "Le Havre", "Montoir", "Bordeaux", "Brest", "Dunkirk", "Antwerp", "Rotterdam", "Hamburg", "Barcelona", "Genoa"]
     },
     {
-      "slug": "gefp-agoa",
-      "format": "wide",
-      "teinte": "rose",
-      "type": "conseil",
-      "zones": ["madagascar"],
-      "period": "recent",
-      "org": "Ministry of Industrialisation and Trade of Madagascar",
-      "role": "Support to a senior consultant",
-      "periode": "2025 — 6 months",
-      "location": "Antananarivo, Madagascar",
-      "category": ["Consulting & studies", "Public policy"],
-      "summary": "Diagnostic study of the AfCFTA opportunities for Madagascar's textile-clothing sector.",
-      "metric": { "value": "~50 pages", "label": "report, presented to the Presidency" },
-      "highlights": ["AfCFTA textile-apparel study", "Presented to the Presidency", "Support to national consultations"],
-      "tags": ["AfCFTA", "Textile", "Study"],
-      "imageAlt": "Cover of the AfCFTA study report",
-      "contexte": "Study commissioned by Madagascar's Ministry of Industrialisation and Trade, funded by the European Union via the Support Programme for Export Development and Regional Integration in Madagascar.",
-      "monRole": "Support to a senior consultant: desk research, sector analysis, contribution to drafting and preparation of materials.",
-      "travail": [
-        "Desk research and analysis of the continental African market under the AfCFTA framework",
-        "Sector analysis applied to Madagascar's textile-apparel industry",
-        "Contribution to drafting the report and preparing the presentation materials",
-        "Participation in national consultations and support to the study's closing"
-      ],
-      "resultats": [
-        "Study report of approximately 50 pages",
-        "Presentation materials for national consultations",
-        "Final closing presentation to the Presidency of the Republic of Madagascar"
-      ],
-      "enseignement": "A study is only worth as much as decision-makers understand of it: the presentation and the teaching matter as much as the analysis itself."
-    },
-    {
       "slug": "memoire-master",
       "format": "vertical",
       "teinte": "rose",
@@ -220,6 +188,68 @@
           "It proposes a national flows observatory, a total-landed-cost approach and regional maritime diversification."
         ]
       }
+    },
+    {
+      "slug": "gefp-agoa",
+      "format": "wide",
+      "teinte": "rose",
+      "practice": "Consultant",
+      "type": "conseil",
+      "zones": ["madagascar"],
+      "period": "recent",
+      "org": "Ministry of Industrialisation and Trade of Madagascar",
+      "role": "Support to a senior consultant",
+      "periode": "2025 — 6 months",
+      "location": "Antananarivo, Madagascar",
+      "category": ["Consulting & studies", "Public policy"],
+      "summary": "Diagnostic study of the AfCFTA opportunities for Madagascar's textile-clothing sector.",
+      "metric": { "value": "~50 pages", "label": "report, presented to the Presidency" },
+      "highlights": ["AfCFTA textile-apparel study", "Presented to the Presidency", "Support to national consultations"],
+      "tags": ["AfCFTA", "Textile", "Study"],
+      "imageAlt": "Cover of the AfCFTA study report",
+      "contexte": "Study commissioned by Madagascar's Ministry of Industrialisation and Trade, funded by the European Union via the Support Programme for Export Development and Regional Integration in Madagascar.",
+      "monRole": "Support to a senior consultant: desk research, sector analysis, contribution to drafting and preparation of materials.",
+      "travail": [
+        "Desk research and analysis of the continental African market under the AfCFTA framework",
+        "Sector analysis applied to Madagascar's textile-apparel industry",
+        "Contribution to drafting the report and preparing the presentation materials",
+        "Participation in national consultations and support to the study's closing"
+      ],
+      "resultats": [
+        "Study report of approximately 50 pages",
+        "Presentation materials for national consultations",
+        "Final closing presentation to the Presidency of the Republic of Madagascar"
+      ],
+      "enseignement": "A study is only worth as much as decision-makers understand of it: the presentation and the teaching matter as much as the analysis itself."
+    },
+    {
+      "slug": "galaxam-mid",
+      "format": "standard",
+      "teinte": "blue",
+      "practice": "Consultant",
+      "type": "conseil",
+      "zones": ["madagascar"],
+      "period": "recent",
+      "org": "Galaxam Logistics × USAID",
+      "role": "Supply chain & business development consultant",
+      "periode": "since May 2026",
+      "location": "Madagascar",
+      "category": ["Consulting & studies", "Logistics"],
+      "summary": "Last-mile delivery of long-lasting insecticidal nets (LLINs) nationwide, for a USAID-funded mission.",
+      "metric": { "value": "1,662 HCs", "label": "63 districts covered" },
+      "highlights": ["Nationwide network of 1,662 health centres", "63 districts covered", "989,250 LLINs — operation under way"],
+      "tags": ["Last-mile delivery", "USAID", "Public health"],
+      "imageAlt": "Distribution of the basic health centres covered",
+      "contexte": "USAID-funded mission carried out for Galaxam Logistics SARL, a Malagasy freight-forwarding company with 25 years of experience.",
+      "monRole": "Supply chain and business development consultant.",
+      "travail": [
+        "Support to last-mile delivery across a nationwide network of 1,662 basic health centres (HCs)",
+        "Coordination of coverage across the 63 districts concerned",
+        "Business-development side of the mission"
+      ],
+      "resultats": [
+        "Distribution operations under way, over a total volume of 989,250 LLINs"
+      ]
     },
     {
       "slug": "wtc",
