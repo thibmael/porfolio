@@ -191,7 +191,7 @@
     },
     {
       "slug": "gefp-agoa",
-      "format": "wide",
+      "format": "half",
       "teinte": "rose",
       "practice": "Consultant",
       "type": "conseil",
@@ -224,7 +224,7 @@
     },
     {
       "slug": "galaxam-mid",
-      "format": "standard",
+      "format": "half",
       "teinte": "blue",
       "practice": "Consultant",
       "type": "conseil",

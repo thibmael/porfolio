@@ -6,6 +6,7 @@ import { Cover } from "./Cover";
 const ASPECT: Record<Format, string> = {
   featured: "16 / 9",
   wide: "16 / 8",
+  half: "16 / 10",
   vertical: "3 / 4",
   standard: "4 / 3",
   compact: "5 / 4",
@@ -26,7 +27,7 @@ export function ProjectCard({
 }) {
   const media = PROJECT_MEDIA[project.slug] ?? {};
   const cover = media.cover || media.logo || "";
-  const big = project.format === "featured" || project.format === "wide";
+  const big = project.format === "featured" || project.format === "wide" || project.format === "half";
 
   return (
     <Link

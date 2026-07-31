@@ -10,6 +10,7 @@ import { ProjectCard } from "./ProjectCard";
 const SPAN: Record<Format, string> = {
   featured: "sm:col-span-6 lg:col-span-8",
   wide: "sm:col-span-6 lg:col-span-8",
+  half: "sm:col-span-3 lg:col-span-6",
   vertical: "sm:col-span-3 lg:col-span-4",
   standard: "sm:col-span-3 lg:col-span-4",
   compact: "",

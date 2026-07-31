@@ -1,5 +1,5 @@
 export type Teinte = "rose" | "blue" | "sage";
-export type Format = "featured" | "wide" | "vertical" | "compact" | "standard";
+export type Format = "featured" | "wide" | "half" | "vertical" | "compact" | "standard";
 
 export type Project = {
   slug: string;
