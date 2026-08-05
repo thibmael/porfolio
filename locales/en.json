@@ -77,6 +77,10 @@
       "periods": {
         "recent": "Recent",
         "old": "Earlier"
+      },
+      "practiceLabel": "Practice",
+      "practices": {
+        "Consultant": "Consultant"
       }
     },
     "cardCta": "Explore",
@@ -337,7 +341,7 @@
       "imageAlt": "PopnBuy home page",
       "externalLink": "https://popnbuy.eu",
       "contexte": "European live-commerce marketplace letting sellers, brands, creators and resellers move their products during live video sessions. Company registered in Estonia, project in development.",
-      "monRole": "Founder: product design and building the site in-house, with Claude Code and several skills.",
+      "monRole": "Founder: product design and building the site in-house, with AI-assisted development.",
       "travail": [
         "Design and in-house development of the site (popnbuy.eu)",
         "Registering the company in Estonia",
@@ -364,7 +368,7 @@
       "period": "recent",
       "org": "INSEEC — Omnes Education",
       "role": "Master in Purchasing & Supply Chain Management",
-      "periode": "Marseille",
+      "periode": "[TO COMPLETE]",
       "location": "Marseille, France",
       "category": ["Education"],
       "summary": "Master in Purchasing and Supply Chain Management.",
@@ -383,7 +387,7 @@
       "period": "recent",
       "org": "CREA Geneva — Omnes Education",
       "role": "Bachelor in Business Management",
-      "periode": "Valedictorian 2024",
+      "periode": "2024",
       "location": "Geneva, Switzerland",
       "category": ["Education"],
       "summary": "Bachelor in Business Management — valedictorian, class of 2024.",
@@ -402,7 +406,7 @@
       "period": "recent",
       "org": "London School of Economics",
       "role": "Development, public policy, data",
-      "periode": "LSE",
+      "periode": "[TO COMPLETE]",
       "location": "London, United Kingdom",
       "category": ["Education"],
       "summary": "Economic development and policy in developing countries, public policy analysis, data analysis for management.",
@@ -421,7 +425,7 @@
       "period": "recent",
       "org": "HarvardX",
       "role": "Justice Course Certification",
-      "periode": "Certification",
+      "periode": "[TO COMPLETE]",
       "location": "Online",
       "category": ["Education"],
       "summary": "Justice Course Certification (HarvardX).",

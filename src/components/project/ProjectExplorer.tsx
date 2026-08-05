@@ -29,6 +29,7 @@ export function ProjectExplorer({
   const [type, setType] = useState<string | null>(null);
   const [zone, setZone] = useState<string | null>(null);
   const [period, setPeriod] = useState<string | null>(null);
+  const [practice, setPractice] = useState<string | null>(null);
 
   // hydrate filters from URL (so the FR/EN switch, which keeps the query, restores them)
   useEffect(() => {
@@ -36,6 +37,7 @@ export function ProjectExplorer({
     setType(p.get("type"));
     setZone(p.get("zone"));
     setPeriod(p.get("period"));
+    setPractice(p.get("practice"));
   }, []);
 
   useEffect(() => {
@@ -43,12 +45,16 @@ export function ProjectExplorer({
     if (type) p.set("type", type);
     if (zone) p.set("zone", zone);
     if (period) p.set("period", period);
+    if (practice) p.set("practice", practice);
     const qs = p.toString();
     window.history.replaceState(null, "", qs ? `?${qs}` : window.location.pathname);
-  }, [type, zone, period]);
+  }, [type, zone, period, practice]);
 
   const matches = (pr: Project) =>
-    (!type || pr.type === type) && (!zone || pr.zones.includes(zone)) && (!period || pr.period === period);
+    (!type || pr.type === type) &&
+    (!zone || pr.zones.includes(zone)) &&
+    (!period || pr.period === period) &&
+    (!practice || pr.practice === practice);
 
   const mains = projects.filter((p) => p.format !== "compact");
   const others = projects.filter((p) => p.format === "compact");
@@ -57,6 +63,7 @@ export function ProjectExplorer({
     <>
       <div className="flex flex-col gap-4 border-y border-(--color-line) py-6">
         <FilterRow label={f.typeLabel} all={f.all} active={type} entries={Object.entries(f.types)} onChange={setType} />
+        <FilterRow label={f.practiceLabel} all={f.all} active={practice} entries={Object.entries(f.practices)} onChange={setPractice} />
         <FilterRow label={f.zoneLabel} all={f.all} active={zone} entries={Object.entries(f.zones)} onChange={setZone} />
         <FilterRow label={f.periodLabel} all={f.all} active={period} entries={Object.entries(f.periods)} onChange={setPeriod} />
       </div>

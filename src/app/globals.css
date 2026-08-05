@@ -28,6 +28,32 @@
   --breakpoint-xs: 30rem;
 }
 
+/* Dark theme — follows the operating system. Accents lighten for contrast on
+   the dark surface; tinted cards (built with color-mix over --color-paper)
+   adapt automatically. */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-paper: #17151b;
+    --color-paper-dim: #201c24;
+    --color-card: #221e28;
+    --color-ink: #f1edf0;
+    --color-soft: #a49ba2;
+    --color-line: #332d37;
+
+    --color-accent: #d98aa0;
+    --color-accent-soft: #7a4a58;
+    --color-accent-blue: #86a9cc;
+    --color-accent-blue-soft: #3f5a72;
+
+    --color-rose: #d98aa0;
+    --color-rose-ink: #d98aa0;
+    --color-blue: #86a9cc;
+    --color-blue-ink: #86a9cc;
+
+    color-scheme: dark;
+  }
+}
+
 html {
   scroll-behavior: smooth;
 }

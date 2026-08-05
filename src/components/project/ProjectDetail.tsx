@@ -78,7 +78,7 @@ export function ProjectDetail({
         <div className="absolute inset-x-0 bottom-0 z-10 p-6 text-white sm:p-8">
           <div className="flex flex-wrap gap-2">
             {project.practice && (
-              <span className="rounded-full px-3 py-1 text-xs font-semibold text-white" style={{ backgroundColor: accent }}>
+              <span className="rounded-full px-3 py-1 text-xs font-semibold text-(--color-paper)" style={{ backgroundColor: accent }}>
                 {project.practice}
               </span>
             )}
@@ -105,7 +105,7 @@ export function ProjectDetail({
                   <li key={h} className="flex items-center gap-3 text-[0.95rem] font-medium">
                     <span
                       aria-hidden="true"
-                      className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full text-[0.7rem] font-bold text-white"
+                      className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full text-[0.7rem] font-bold text-(--color-paper)"
                       style={{ backgroundColor: accent }}
                     >
                       ✓
@@ -194,7 +194,7 @@ export function ProjectDetail({
               <li key={it} className="flex gap-3 rounded-2xl p-5 text-[0.95rem] leading-relaxed" style={{ background: tint }}>
                 <span
                   aria-hidden="true"
-                  className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full text-[0.7rem] font-bold text-white"
+                  className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full text-[0.7rem] font-bold text-(--color-paper)"
                   style={{ backgroundColor: accent }}
                 >
                   ✓
@@ -219,7 +219,7 @@ export function ProjectDetail({
             {project.steps.map((s, i) => (
               <li key={s} className="flex gap-4">
                 <div className="flex flex-col items-center">
-                  <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full text-xs font-semibold text-white" style={{ backgroundColor: accent }}>
+                  <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full text-xs font-semibold text-(--color-paper)" style={{ backgroundColor: accent }}>
                     {i + 1}
                   </span>
                   {i < project.steps!.length - 1 && <span className="my-1 w-px flex-1 bg-(--color-line)" style={{ minHeight: 18 }} />}
@@ -260,7 +260,7 @@ export function ProjectDetail({
                 <a
                   href={THESIS_PDF_URL}
                   download
-                  className="inline-flex items-center gap-2 rounded-full px-5 py-2.5 text-sm font-semibold text-white transition-opacity hover:opacity-90"
+                  className="inline-flex items-center gap-2 rounded-full px-5 py-2.5 text-sm font-semibold text-(--color-paper) transition-opacity hover:opacity-90"
                   style={{ backgroundColor: accent }}
                 >
                   <DownloadGlyph />
@@ -294,7 +294,7 @@ export function ProjectDetail({
                   <ol className="space-y-4">
                     {project.thesis.toc.map((part, i) => (
                       <li key={part.part} className="flex gap-3">
-                        <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full text-[0.7rem] font-bold text-white" style={{ backgroundColor: accent }}>
+                        <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full text-[0.7rem] font-bold text-(--color-paper)" style={{ backgroundColor: accent }}>
                           {i + 1}
                         </span>
                         <div>
@@ -322,8 +322,8 @@ export function ProjectDetail({
         <section className="mt-12">
           <Head title={detail.lessonTitle} accent={accent} />
           <blockquote className="relative mt-4 overflow-hidden rounded-3xl p-6 sm:p-8" style={{ background: accent }}>
-            <span aria-hidden="true" className="display absolute -top-3 right-4 text-8xl leading-none text-white/15">”</span>
-            <p className="relative text-lg font-medium leading-relaxed text-white sm:text-xl">{project.enseignement}</p>
+            <span aria-hidden="true" className="display absolute -top-3 right-4 text-8xl leading-none text-(--color-paper)" style={{ opacity: 0.15 }}>”</span>
+            <p className="relative text-lg font-medium leading-relaxed text-(--color-paper) sm:text-xl">{project.enseignement}</p>
           </blockquote>
         </section>
       )}

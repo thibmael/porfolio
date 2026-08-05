@@ -77,6 +77,10 @@
       "periods": {
         "recent": "Récent",
         "old": "Ancien"
+      },
+      "practiceLabel": "Pratique",
+      "practices": {
+        "Consultant": "Consultant"
       }
     },
     "cardCta": "Explorer",
@@ -337,7 +341,7 @@
       "imageAlt": "Page d'accueil de PopnBuy",
       "externalLink": "https://popnbuy.eu",
       "contexte": "Marketplace européenne de live commerce permettant à des vendeurs, marques, créateurs et revendeurs d'écouler leurs produits au cours de sessions vidéo en direct. Société immatriculée en Estonie, projet en développement.",
-      "monRole": "Fondateur : conception du produit et développement du site en propre, avec Claude Code et plusieurs skills.",
+      "monRole": "Fondateur : conception du produit et développement du site en propre, avec l'appui d'outils d'IA.",
       "travail": [
         "Conception et développement du site en propre (popnbuy.eu)",
         "Immatriculation de la société en Estonie",
@@ -364,7 +368,7 @@
       "period": "recent",
       "org": "INSEEC — Omnes Education",
       "role": "Master Achats et Supply Chain Management",
-      "periode": "Marseille",
+      "periode": "[À COMPLÉTER]",
       "location": "Marseille, France",
       "category": ["Formation"],
       "summary": "Master Achats et Supply Chain Management.",
@@ -383,7 +387,7 @@
       "period": "recent",
       "org": "CREA Genève — Omnes Education",
       "role": "Bachelor Business Management",
-      "periode": "Major de promotion 2024",
+      "periode": "2024",
       "location": "Genève, Suisse",
       "category": ["Formation"],
       "summary": "Bachelor Business Management — major de promotion 2024.",
@@ -402,7 +406,7 @@
       "period": "recent",
       "org": "London School of Economics",
       "role": "Développement, politiques publiques, données",
-      "periode": "LSE",
+      "periode": "[À COMPLÉTER]",
       "location": "Londres, Royaume-Uni",
       "category": ["Formation"],
       "summary": "Développement économique et politique des pays en développement, analyse des politiques publiques, analyse de données pour le management.",
@@ -421,7 +425,7 @@
       "period": "recent",
       "org": "HarvardX",
       "role": "Justice Course Certification",
-      "periode": "Certification",
+      "periode": "[À COMPLÉTER]",
       "location": "En ligne",
       "category": ["Formation"],
       "summary": "Justice Course Certification (HarvardX).",
