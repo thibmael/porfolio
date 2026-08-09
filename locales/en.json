@@ -41,6 +41,13 @@
       { "value": "50", "unit": "+", "label": "international clients handled daily" },
       { "value": "7", "unit": " · 4", "label": "projects delivered · across 4 countries" }
     ],
+    "orgsTitle": "Institutions & organisations",
+    "orgs": [
+      { "id": "wtca", "name": "WTC Association", "alt": "World Trade Centers Association" },
+      { "id": "lse", "name": "LSE", "alt": "London School of Economics" },
+      { "id": "msc", "name": "MSC", "alt": "Mediterranean Shipping Company" },
+      { "id": "eu", "name": "European Union", "alt": "European Union" }
+    ],
     "proofs": [
       "AfCFTA study carried out in support of Madagascar's Ministry of Industrialisation and Trade",
       "Around 400 TEU tracked each week on the EASTMED service via Le Havre",

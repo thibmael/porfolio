@@ -7,6 +7,7 @@ import { MediaPlaceholder } from "@/components/ui/MediaPlaceholder";
 import { ProjectCard } from "@/components/project/ProjectCard";
 import type { Project } from "@/lib/project-types";
 import { CV_FR_URL, CV_EN_URL, PORTRAIT_URL } from "@/lib/contact-info";
+import { LOGO_FILES } from "@/lib/logos";
 
 export default async function HomePage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
@@ -54,8 +55,41 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
         </div>
       </section>
 
+      {/* References band */}
+      <section className="mx-auto max-w-6xl px-6 pt-2" data-reveal>
+        <div className="rounded-2xl border border-(--color-line) bg-(--color-paper-dim) px-6 py-5">
+          <p className="text-center text-[0.7rem] font-semibold uppercase tracking-widest text-(--color-soft)">
+            {dict.home.orgsTitle}
+          </p>
+          <ul className="mt-4 grid grid-cols-2 items-center gap-x-6 gap-y-5 sm:grid-cols-4">
+            {dict.home.orgs.map((o) => {
+              const logo = LOGO_FILES[o.id] || "";
+              return (
+                <li key={o.id} className="flex h-12 items-center justify-center">
+                  {logo ? (
+                    // eslint-disable-next-line @next/next/no-img-element
+                    <img
+                      src={logo}
+                      alt={o.alt}
+                      className="max-h-9 w-auto object-contain opacity-70 grayscale transition duration-300 hover:opacity-100 hover:grayscale-0"
+                    />
+                  ) : (
+                    <span
+                      className="display text-center text-lg font-bold leading-tight text-(--color-ink) sm:text-xl"
+                      title={o.alt}
+                    >
+                      {o.name}
+                    </span>
+                  )}
+                </li>
+              );
+            })}
+          </ul>
+        </div>
+      </section>
+
       {/* Stats band */}
-      <section className="mx-auto max-w-6xl px-6" data-reveal>
+      <section className="mx-auto max-w-6xl px-6 pt-6" data-reveal>
         <dl className="grid grid-cols-2 gap-px overflow-hidden rounded-2xl border border-(--color-line) bg-(--color-line) sm:grid-cols-4">
           {dict.home.stats.map((s, i) => (
             <div key={i} className="bg-(--color-paper) p-5">
