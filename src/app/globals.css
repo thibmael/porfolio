@@ -58,6 +58,17 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Responsive card aspect: compact uniform tiles on mobile, art-directed
+   mosaic ratio from the sm breakpoint up. */
+.ar-responsive {
+  aspect-ratio: var(--ar-m);
+}
+@media (min-width: 640px) {
+  .ar-responsive {
+    aspect-ratio: var(--ar-d);
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;

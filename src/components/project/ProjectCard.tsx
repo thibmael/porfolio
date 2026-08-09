@@ -28,13 +28,20 @@ export function ProjectCard({
   const media = PROJECT_MEDIA[project.slug] ?? {};
   const cover = media.cover || media.logo || "";
   const big = project.format === "featured" || project.format === "wide" || project.format === "half";
+  // Uniform, compact tiles on mobile (2-up grid); the art-directed mosaic
+  // aspect only kicks in from sm upward.
+  const arStyle = {
+    "--ar-m": "4 / 5",
+    "--ar-d": ratio ?? ASPECT[project.format],
+    opacity: dimmed ? 0.4 : 1,
+  } as React.CSSProperties;
 
   return (
     <Link
       href={href}
       aria-label={`${project.org} — ${project.role}`}
-      className="group relative block overflow-hidden rounded-2xl shadow-[0_18px_40px_-26px_rgba(15,23,20,0.55)] transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_30px_60px_-30px_rgba(15,23,20,0.65)]"
-      style={{ aspectRatio: ratio ?? ASPECT[project.format], opacity: dimmed ? 0.4 : 1 }}
+      className="ar-responsive group relative block overflow-hidden rounded-2xl shadow-[0_18px_40px_-26px_rgba(15,23,20,0.55)] transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_30px_60px_-30px_rgba(15,23,20,0.65)]"
+      style={arStyle}
     >
       <div className="absolute inset-0 transition-transform duration-500 group-hover:scale-[1.05]">
         <Cover slug={project.slug} src={cover || undefined} alt={project.imageAlt} hint={cover ? undefined : true} hintClassName="bottom-3 right-3" />
@@ -58,10 +65,10 @@ export function ProjectCard({
           {project.category[0]}
           <span className="text-white/50"> · {project.periode}</span>
         </p>
-        <h3 className={`display mt-1 font-bold leading-tight ${big ? "text-2xl" : "text-lg"}`}>
+        <h3 className={`display mt-1 font-bold leading-tight ${big ? "text-lg sm:text-2xl" : "text-base sm:text-lg"}`}>
           {project.org}
         </h3>
-        {big && <p className="mt-1 text-sm text-white/85">{project.summary}</p>}
+        {big && <p className="mt-1 hidden text-sm text-white/85 sm:block">{project.summary}</p>}
         <span className="mt-2 inline-flex items-center gap-1 text-xs font-semibold text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
           {cta}
           <span aria-hidden="true">→</span>

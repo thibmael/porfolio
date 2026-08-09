@@ -68,7 +68,7 @@ export function ProjectExplorer({
         <FilterRow label={f.periodLabel} all={f.all} active={period} entries={Object.entries(f.periods)} onChange={setPeriod} />
       </div>
 
-      <div className="mt-10 grid grid-cols-1 gap-5 [grid-auto-flow:dense] sm:grid-cols-6 lg:grid-cols-12">
+      <div className="mt-10 grid grid-cols-2 gap-3 [grid-auto-flow:dense] sm:grid-cols-6 sm:gap-5 lg:grid-cols-12">
         {mains.map((p) => (
           <div key={p.slug} className={SPAN[p.format]}>
             <ProjectCard
