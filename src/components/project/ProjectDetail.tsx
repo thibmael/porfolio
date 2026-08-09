@@ -155,7 +155,7 @@ export function ProjectDetail({
 
       {/* Travail — card grid */}
       {project.travail && project.travail.length > 0 && (
-        <section className="mt-12">
+        <section className="mt-12" data-reveal>
           <Head title={detail.workTitle} accent={accent} />
           <ul className="mt-4 grid gap-3 sm:grid-cols-2">
             {project.travail.map((it) => (
@@ -173,7 +173,7 @@ export function ProjectDetail({
 
       {/* MSC ports */}
       {project.ports && (
-        <section className="mt-12">
+        <section className="mt-12" data-reveal>
           <Head title={detail.portsTitle} accent={accent} />
           <ul className="mt-4 flex flex-wrap gap-2">
             {project.ports.map((p) => (
@@ -187,7 +187,7 @@ export function ProjectDetail({
 
       {/* Résultats — highlighted cards */}
       {project.resultats && project.resultats.length > 0 && (
-        <section className="mt-12">
+        <section className="mt-12" data-reveal>
           <Head title={detail.resultsTitle} accent={accent} />
           <ul className="mt-4 grid gap-4 sm:grid-cols-2">
             {project.resultats.map((it) => (
@@ -213,7 +213,7 @@ export function ProjectDetail({
 
       {/* Ploutos steps — timeline */}
       {project.steps && (
-        <section className="mt-12">
+        <section className="mt-12" data-reveal>
           <Head title={detail.stepsTitle} accent={accent} />
           <ol className="mt-4 space-y-0">
             {project.steps.map((s, i) => (
@@ -233,7 +233,7 @@ export function ProjectDetail({
 
       {/* PopnBuy evolving indicators */}
       {project.evolving && (
-        <section className="mt-12">
+        <section className="mt-12" data-reveal>
           <Head title={detail.evolvingTitle} accent={accent} />
           <dl className="mt-4 grid grid-cols-2 gap-3 sm:grid-cols-4">
             {project.evolving.map((e) => (
@@ -248,7 +248,7 @@ export function ProjectDetail({
 
       {/* thesis — research deep-dive: analysis & significance foregrounded */}
       {project.thesis && (
-        <section className="mt-12">
+        <section className="mt-12" data-reveal>
           <Head title={detail.thesisSummaryTitle} accent={accent} />
           <div className="mt-4 overflow-hidden rounded-3xl border" style={{ borderColor: tintLine }}>
             {/* header: small meta + download (no vanity page count) */}
@@ -319,7 +319,7 @@ export function ProjectDetail({
 
       {/* lesson — pull quote */}
       {project.enseignement && (
-        <section className="mt-12">
+        <section className="mt-12" data-reveal>
           <Head title={detail.lessonTitle} accent={accent} />
           <blockquote className="relative mt-4 overflow-hidden rounded-3xl p-6 sm:p-8" style={{ background: accent }}>
             <span aria-hidden="true" className="display absolute -top-3 right-4 text-8xl leading-none text-(--color-paper)" style={{ opacity: 0.15 }}>”</span>

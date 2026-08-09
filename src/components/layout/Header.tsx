@@ -3,6 +3,7 @@ import type { Dictionary } from "@/lib/dictionaries";
 import type { Locale } from "@/lib/i18n-config";
 import { localizedHref } from "@/lib/routing";
 import { LanguageSwitcher } from "./LanguageSwitcher";
+import { ThemeToggle } from "./ThemeToggle";
 import { CV_FR_URL, CV_EN_URL } from "@/lib/contact-info";
 
 export function Header({ locale, dict }: { locale: Locale; dict: Dictionary }) {
@@ -31,7 +32,8 @@ export function Header({ locale, dict }: { locale: Locale; dict: Dictionary }) {
             </Link>
           ))}
         </nav>
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-3">
+          <ThemeToggle label={dict.nav.themeToggle} />
           <LanguageSwitcher locale={locale} label={dict.nav.languageSwitchLabel} />
           <a
             href={cvUrl}

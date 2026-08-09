@@ -55,7 +55,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
       </section>
 
       {/* Stats band */}
-      <section className="mx-auto max-w-6xl px-6">
+      <section className="mx-auto max-w-6xl px-6" data-reveal>
         <dl className="grid grid-cols-2 gap-px overflow-hidden rounded-2xl border border-(--color-line) bg-(--color-line) sm:grid-cols-4">
           {dict.home.stats.map((s, i) => (
             <div key={i} className="bg-(--color-paper) p-5">
@@ -70,7 +70,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
       </section>
 
       {/* Preview */}
-      <section className="mx-auto max-w-6xl px-6 py-14">
+      <section className="mx-auto max-w-6xl px-6 py-14" data-reveal>
         <div className="flex items-end justify-between gap-4 border-t border-(--color-line) pt-6">
           <h2 className="display text-2xl sm:text-3xl">{dict.home.previewTitle}</h2>
           <Link href={localizedHref(locale, "/parcours")} className="link-underline hidden text-sm font-medium sm:block">

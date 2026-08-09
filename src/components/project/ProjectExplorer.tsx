@@ -69,8 +69,8 @@ export function ProjectExplorer({
       </div>
 
       <div className="mt-10 grid grid-cols-2 gap-3 [grid-auto-flow:dense] sm:grid-cols-6 sm:gap-5 lg:grid-cols-12">
-        {mains.map((p) => (
-          <div key={p.slug} className={SPAN[p.format]}>
+        {mains.map((p, i) => (
+          <div key={p.slug} className={SPAN[p.format]} data-reveal style={{ "--reveal-delay": `${(i % 4) * 50}ms` } as React.CSSProperties}>
             <ProjectCard
               project={p}
               href={localizedHref(locale, `/parcours/${p.slug}`)}
@@ -83,14 +83,15 @@ export function ProjectExplorer({
 
       <h2 className="display mt-16 text-xl">{parcours.othersTitle}</h2>
       <div className="mt-6 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
-        {others.map((p) => (
-          <ProjectCard
-            key={p.slug}
-            project={p}
-            href={localizedHref(locale, `/parcours/${p.slug}`)}
-            cta={parcours.cardCta}
-            dimmed={!matches(p)}
-          />
+        {others.map((p, i) => (
+          <div key={p.slug} data-reveal style={{ "--reveal-delay": `${(i % 4) * 50}ms` } as React.CSSProperties}>
+            <ProjectCard
+              project={p}
+              href={localizedHref(locale, `/parcours/${p.slug}`)}
+              cta={parcours.cardCta}
+              dimmed={!matches(p)}
+            />
+          </div>
         ))}
       </div>
     </>

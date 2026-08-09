@@ -8,7 +8,11 @@ import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { PageTransition } from "@/components/layout/PageTransition";
 import { CustomCursor } from "@/components/layout/CustomCursor";
+import { ScrollReveal } from "@/components/layout/ScrollReveal";
 import "../globals.css";
+
+// Set the saved theme before paint to avoid a flash of the wrong theme.
+const themeInit = `try{var t=localStorage.getItem('theme');if(t==='dark'||t==='light')document.documentElement.dataset.theme=t;}catch(e){}`;
 
 const outfit = Outfit({
   subsets: ["latin"],
@@ -104,9 +108,11 @@ export default async function LocaleLayout({
   return (
     <html lang={locale} className={`${outfit.variable} ${work.variable}`}>
       <body>
+        <script dangerouslySetInnerHTML={{ __html: themeInit }} />
         <a href="#main-content" className="skip-link">
           {dict.nav.skipToContent}
         </a>
+        <ScrollReveal />
         <CustomCursor />
         <Header locale={locale as Locale} dict={dict} />
         <main id="main-content">

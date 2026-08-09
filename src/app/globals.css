@@ -28,29 +28,68 @@
   --breakpoint-xs: 30rem;
 }
 
-/* Dark theme — follows the operating system. Accents lighten for contrast on
-   the dark surface; tinted cards (built with color-mix over --color-paper)
-   adapt automatically. */
+/* Dark theme — follows the operating system by default, unless the visitor
+   forces a theme via the toggle (data-theme on <html>). Accents lighten for
+   contrast; tinted cards (color-mix over --color-paper) adapt automatically. */
 @media (prefers-color-scheme: dark) {
-  :root {
+  :root:not([data-theme="light"]) {
     --color-paper: #17151b;
     --color-paper-dim: #201c24;
     --color-card: #221e28;
     --color-ink: #f1edf0;
     --color-soft: #a49ba2;
     --color-line: #332d37;
-
     --color-accent: #d98aa0;
     --color-accent-soft: #7a4a58;
     --color-accent-blue: #86a9cc;
     --color-accent-blue-soft: #3f5a72;
-
     --color-rose: #d98aa0;
     --color-rose-ink: #d98aa0;
     --color-blue: #86a9cc;
     --color-blue-ink: #86a9cc;
-
     color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --color-paper: #17151b;
+  --color-paper-dim: #201c24;
+  --color-card: #221e28;
+  --color-ink: #f1edf0;
+  --color-soft: #a49ba2;
+  --color-line: #332d37;
+  --color-accent: #d98aa0;
+  --color-accent-soft: #7a4a58;
+  --color-accent-blue: #86a9cc;
+  --color-accent-blue-soft: #3f5a72;
+  --color-rose: #d98aa0;
+  --color-rose-ink: #d98aa0;
+  --color-blue: #86a9cc;
+  --color-blue-ink: #86a9cc;
+  color-scheme: dark;
+}
+:root[data-theme="light"] {
+  color-scheme: light;
+}
+
+/* Scroll-reveal — only active when JS runs (html.js), so content stays visible
+   without JS. Respects reduced-motion. */
+.js [data-reveal] {
+  opacity: 0;
+  transform: translateY(16px);
+  transition: opacity 0.55s ease, transform 0.55s ease;
+  transition-delay: var(--reveal-delay, 0ms);
+  will-change: opacity, transform;
+}
+.js [data-reveal].reveal-in {
+  opacity: 1;
+  transform: none;
+}
+@media (prefers-reduced-motion: reduce) {
+  .js [data-reveal],
+  .js [data-reveal].reveal-in {
+    opacity: 1;
+    transform: none;
+    transition: none;
   }
 }
 
