@@ -351,12 +351,6 @@
         "50 vendeurs contactés",
         "Site en ligne sur popnbuy.eu, projet en développement"
       ],
-      "evolving": [
-        { "label": "Vendeurs contactés", "value": "50" },
-        { "label": "Vendeurs inscrits", "value": "[À COMPLÉTER]" },
-        { "label": "Premiers lives", "value": "[À COMPLÉTER]" },
-        { "label": "Volume de ventes", "value": "[À COMPLÉTER]" }
-      ],
       "enseignement": "Construire seul un produit complet oblige à hiérarchiser brutalement ce qui compte pour les premiers utilisateurs."
     },
     {
@@ -485,11 +479,11 @@
       "periode": "2023–2024",
       "location": "Madagascar",
       "category": ["Production éditoriale"],
-      "summary": "Média en ligne malgache, chronique « La Société c'est toi » — meilleur engagement par publication.",
-      "metric": { "value": "~50 000", "label": "abonnés toutes plateformes [À VÉRIFIER]" },
+      "summary": "Média en ligne malgache réunissant environ 50 000 abonnés sur les réseaux sociaux, avec la chronique hebdomadaire « La Société c'est toi ».",
+      "metric": { "value": "~50 000", "label": "abonnés sur les réseaux sociaux" },
       "tags": ["Média", "Chronique"],
       "imageAlt": "Logo du Journal de l'Étudiant",
-      "contexte": "Média en ligne malgache réunissant environ 50 000 abonnés toutes plateformes confondues [À VÉRIFIER]. Rédacteur en chef et auteur de la chronique hebdomadaire « La Société c'est toi » — meilleur engagement par publication du support [À VÉRIFIER].",
+      "contexte": "Média en ligne malgache réunissant environ 50 000 abonnés sur les réseaux sociaux. Rédacteur en chef et auteur de la chronique hebdomadaire « La Société c'est toi ».",
       "monRole": "Rédacteur en chef et chroniqueur (2023–2024)."
     },
     {

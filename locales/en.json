@@ -351,12 +351,6 @@
         "50 sellers contacted",
         "Site live on popnbuy.eu, project in development"
       ],
-      "evolving": [
-        { "label": "Sellers contacted", "value": "50" },
-        { "label": "Sellers registered", "value": "[TO COMPLETE]" },
-        { "label": "First live sessions", "value": "[TO COMPLETE]" },
-        { "label": "Sales volume", "value": "[TO COMPLETE]" }
-      ],
       "enseignement": "Building a full product alone forces you to brutally prioritise what matters to the first users."
     },
     {
@@ -485,11 +479,11 @@
       "periode": "2023–2024",
       "location": "Madagascar",
       "category": ["Editorial production"],
-      "summary": "Malagasy online outlet, weekly column \"La Société c'est toi\" — best engagement per post.",
-      "metric": { "value": "~50,000", "label": "followers across platforms [TO VERIFY]" },
+      "summary": "Malagasy online outlet with around 50,000 followers on social media, home to the weekly column \"La Société c'est toi\".",
+      "metric": { "value": "~50,000", "label": "followers on social media" },
       "tags": ["Media", "Column"],
       "imageAlt": "Journal de l'Étudiant logo",
-      "contexte": "Malagasy online outlet with approximately 50,000 followers across all platforms combined [TO VERIFY]. Editor-in-chief and author of the weekly column \"La Société c'est toi\" — best engagement per post on the outlet [TO VERIFY].",
+      "contexte": "Malagasy online outlet with around 50,000 followers on social media. Editor-in-chief and author of the weekly column \"La Société c'est toi\".",
       "monRole": "Editor-in-chief and columnist (2023–2024)."
     },
     {
