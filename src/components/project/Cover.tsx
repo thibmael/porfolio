@@ -51,13 +51,30 @@ export function Cover({
       ) : diagram ? (
         <ScatterCloud />
       ) : (
-        <span
-          aria-hidden="true"
-          className="display pointer-events-none absolute right-3 top-0 font-bold leading-none text-white/15"
-          style={{ fontSize: "clamp(44px, 13vw, 150px)" }}
-        >
-          {t.mono}
-        </span>
+        <>
+          {/* Fine dot grid — a deliberate designed surface, not an empty fill. */}
+          <span
+            aria-hidden="true"
+            className="pointer-events-none absolute inset-0"
+            style={{
+              backgroundImage: "radial-gradient(rgba(255,255,255,0.16) 1px, transparent 1.4px)",
+              backgroundSize: "14px 14px",
+            }}
+          />
+          {/* Soft corner glow adds depth to the duotone. */}
+          <span
+            aria-hidden="true"
+            className="pointer-events-none absolute inset-0"
+            style={{ backgroundImage: "radial-gradient(120% 90% at 15% 0%, rgba(255,255,255,0.18), transparent 55%)" }}
+          />
+          <span
+            aria-hidden="true"
+            className="display pointer-events-none absolute right-3 top-0 font-bold leading-none text-white/15"
+            style={{ fontSize: "clamp(44px, 13vw, 150px)" }}
+          >
+            {t.mono}
+          </span>
+        </>
       )}
       {overlay && (
         <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/65 via-black/10 to-black/0" />

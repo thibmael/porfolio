@@ -31,7 +31,7 @@ export function ScrollReveal() {
           }
         });
       },
-      { rootMargin: "0px 0px -8% 0px", threshold: 0.05 },
+      { rootMargin: "0px 0px 14% 0px", threshold: 0.01 },
     );
 
     // Reveal already-visible elements synchronously (no flash on load); observe
@@ -39,7 +39,7 @@ export function ScrollReveal() {
     const vh = window.innerHeight;
     els.forEach((el) => {
       const rect = el.getBoundingClientRect();
-      if (rect.top < vh * 0.92 && rect.bottom > 0) el.classList.add("reveal-in");
+      if (rect.top < vh * 1.05 && rect.bottom > 0) el.classList.add("reveal-in");
       else io.observe(el);
     });
     return () => io.disconnect();

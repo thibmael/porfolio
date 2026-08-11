@@ -55,44 +55,42 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
         </div>
       </section>
 
-      {/* References band */}
-      <section className="mx-auto max-w-6xl px-6 pt-2" data-reveal>
-        <div className="rounded-2xl border border-(--color-line) bg-(--color-paper-dim) px-6 py-5">
-          <p className="text-center text-[0.7rem] font-semibold uppercase tracking-widest text-(--color-soft)">
-            {dict.home.orgsTitle}
-          </p>
-          <ul className="mt-4 grid grid-cols-2 items-center gap-x-6 gap-y-5 sm:grid-cols-4">
-            {dict.home.orgs.map((o) => {
-              const logo = LOGO_FILES[o.id] || "";
-              return (
-                <li key={o.id} className="flex h-12 items-center justify-center">
-                  {logo ? (
-                    // eslint-disable-next-line @next/next/no-img-element
-                    <img
-                      src={logo}
-                      alt={o.alt}
-                      className="max-h-9 w-auto object-contain opacity-70 grayscale transition duration-300 hover:opacity-100 hover:grayscale-0"
-                    />
-                  ) : (
-                    <span
-                      className="display text-center text-lg font-bold leading-tight text-(--color-ink) sm:text-xl"
-                      title={o.alt}
-                    >
-                      {o.name}
-                    </span>
-                  )}
-                </li>
-              );
-            })}
-          </ul>
-        </div>
+      {/* References band — quiet, borderless strip: a line of trust, not a box */}
+      <section className="mx-auto max-w-6xl px-6 pt-10" data-reveal>
+        <p className="text-center text-[0.7rem] font-semibold uppercase tracking-widest text-(--color-soft)">
+          {dict.home.orgsTitle}
+        </p>
+        <ul className="mt-6 grid grid-cols-2 items-center gap-x-6 gap-y-6 sm:grid-cols-4">
+          {dict.home.orgs.map((o) => {
+            const logo = LOGO_FILES[o.id] || "";
+            return (
+              <li key={o.id} className="flex h-10 items-center justify-center">
+                {logo ? (
+                  // eslint-disable-next-line @next/next/no-img-element
+                  <img
+                    src={logo}
+                    alt={o.alt}
+                    className="max-h-8 w-auto object-contain opacity-60 grayscale transition duration-300 hover:opacity-100 hover:grayscale-0"
+                  />
+                ) : (
+                  <span
+                    className="display text-center text-base font-bold leading-tight text-(--color-soft) transition-colors duration-300 hover:text-(--color-ink) sm:text-lg"
+                    title={o.alt}
+                  >
+                    {o.name}
+                  </span>
+                )}
+              </li>
+            );
+          })}
+        </ul>
       </section>
 
-      {/* Stats band */}
-      <section className="mx-auto max-w-6xl px-6 pt-6" data-reveal>
+      {/* Stats band — the bold, structured counterpart to the quiet logo strip */}
+      <section className="mx-auto max-w-6xl px-6 pt-12" data-reveal>
         <dl className="grid grid-cols-2 gap-px overflow-hidden rounded-2xl border border-(--color-line) bg-(--color-line) sm:grid-cols-4">
           {dict.home.stats.map((s, i) => (
-            <div key={i} className="bg-(--color-paper) p-5">
+            <div key={i} className="bg-(--color-paper) p-6">
               <dt className="display text-3xl font-bold">
                 {s.value}
                 <span className="text-lg" style={{ color: i % 2 === 0 ? "var(--color-accent)" : "var(--color-accent-blue)" }}>{s.unit}</span>
