@@ -82,9 +82,13 @@ export function ProjectExplorer({
       </div>
 
       <h2 className="display mt-16 text-xl">{parcours.othersTitle}</h2>
-      <div className="mt-6 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
-        {others.map((p, i) => (
-          <div key={p.slug} data-reveal style={{ "--reveal-delay": `${(i % 4) * 50}ms` } as React.CSSProperties}>
+      {/* Horizontal swipe rail on mobile; grid from sm up. */}
+      <div
+        data-reveal
+        className="no-scrollbar -mx-6 mt-6 flex snap-x snap-mandatory gap-4 overflow-x-auto px-6 pb-3 [-webkit-overflow-scrolling:touch] sm:mx-0 sm:grid sm:snap-none sm:grid-cols-3 sm:gap-4 sm:overflow-visible sm:px-0 sm:pb-0 lg:grid-cols-4"
+      >
+        {others.map((p) => (
+          <div key={p.slug} className="min-w-[46%] shrink-0 snap-start xs:min-w-[42%] sm:min-w-0 sm:shrink">
             <ProjectCard
               project={p}
               href={localizedHref(locale, `/parcours/${p.slug}`)}

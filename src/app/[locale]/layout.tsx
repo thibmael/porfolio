@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Outfit, Work_Sans } from "next/font/google";
 import type { ReactNode } from "react";
 import { getDictionary } from "@/lib/dictionaries";
@@ -29,6 +29,13 @@ const work = Work_Sans({
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
 }
+
+export const viewport: Viewport = {
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#ffffff" },
+    { media: "(prefers-color-scheme: dark)", color: "#17151b" },
+  ],
+};
 
 export async function generateMetadata({
   params,
