@@ -51,6 +51,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
             filename={hero.photoFile}
             fileLabel={dict.common.fileLabel}
             rounded="rounded-3xl"
+            objectPosition="center 22%"
           />
         </div>
       </section>
