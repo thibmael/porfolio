@@ -94,7 +94,7 @@
 #### Ploutos — Cofondateur — *2021–2025*
 
 - **Couverture** → `public/images/experiences/ploutos-prototype.jpg`
-  ↳ Capture du prototype Ploutos (écran d'accueil).  ☐
+  ↳ Capture du prototype Ploutos (écran d'accueil).  ✔ FOURNI (+ galerie : showroom 3D)
 - **Galerie** (jusqu'à 3) :
   1. `public/images/experiences/ploutos-1.jpg` — Écran d'une fonctionnalité clé  ☐
   2. `public/images/experiences/ploutos-2.jpg` — Parcours utilisateur / mobile  ☐
@@ -123,7 +123,7 @@
 #### CREA Genève — Omnes Education — Bachelor Business Management — *2024*
 
 - **Couverture** → `public/images/education/crea-geneva.jpg`
-  ↳ Logo CREA Genève · Omnes (ou photo du campus).  ☐
+  ↳ Logo CREA Genève · Omnes (ou photo du campus).  ✔ FOURNI (remise de diplôme)
 - **Galerie** (jusqu'à 3) :
   1. `public/images/education/crea-1.jpg` — Campus CREA Genève  ☐
   2. `public/images/education/crea-2.jpg` — Un projet du bachelor  ☐
@@ -161,7 +161,7 @@
 #### Équipe nationale de basket-ball de Madagascar — Meneur et arrière (U16–U18) — *2015–2016*
 
 - **Couverture** → `public/images/engagements/basket-madagascar.jpg`
-  ↳ Photo de l'équipe nationale U16–U18.  ☐
+  ↳ Photo de l'équipe nationale U16–U18.  ✔ FOURNI (+ galerie : ambiance tribune)
 - **Galerie** (jusqu'à 3) :
   1. `public/images/engagements/basket-1.jpg` — Vous en action / en match  ☐
   2. `public/images/engagements/basket-2.jpg` — La sélection nationale (photo d'équipe)  ☐
