@@ -29,10 +29,10 @@ export const PROJECT_MEDIA: Record<string, ProjectMedia> = {
   "master-supply-chain": { cover: "", logo: "", gallery: [] },
   "bachelor-crea": { cover: "/images/education/crea-geneva.jpg", logo: "", gallery: [] },
   lse: { cover: "", logo: "", gallery: [] },
-  harvardx: { cover: "", logo: "", gallery: [] },
-  miray: { cover: "", logo: "", gallery: [] },
+  harvardx: { cover: "/images/education/harvardx.jpg", logo: "", gallery: [] },
+  miray: { cover: "/images/engagements/miray.jpg", logo: "", gallery: ["/images/engagements/miray-1.jpg"] },
   basket: { cover: "/images/engagements/basket-madagascar.jpg", logo: "", gallery: ["/images/engagements/basket-1.jpg"] },
-  "journal-etudiant": { cover: "", logo: "", gallery: [] },
+  "journal-etudiant": { cover: "/images/editorial/journal-etudiant.jpg", logo: "", gallery: ["/images/editorial/journal-etudiant-1.jpg"] },
   inskahier: { cover: "", logo: "", gallery: [] },
 };
 

@@ -141,7 +141,7 @@
 #### HarvardX — Justice Course Certification — *2023*
 
 - **Couverture** → `public/images/education/harvardx.jpg`
-  ↳ Logo HarvardX.  ☐
+  ↳ Logo HarvardX.  ✔ FOURNI
 - **Galerie** (jusqu'à 3) :
   1. `public/images/education/harvardx-1.jpg` — Certificat du cours Justice  ☐
   2. `public/images/education/harvardx-2.jpg` — Visuel du cours (Sandel / Harvard)  ☐
@@ -152,7 +152,7 @@
 #### Association MIRAY — Vice-président — *Depuis 2020*
 
 - **Couverture** → `public/images/engagements/miray.jpg`
-  ↳ Logo de l'association MIRAY.  ☐
+  ↳ Logo de l'association MIRAY.  ✔ FOURNI (photo terrain en couverture + logo en galerie)
 - **Galerie** (jusqu'à 3) :
   1. `public/images/engagements/miray-1.jpg` — Une action associative sur le terrain  ☐
   2. `public/images/engagements/miray-2.jpg` — L'équipe / les bénévoles  ☐
@@ -170,7 +170,7 @@
 #### Journal de l'Étudiant — Rédacteur en chef et chroniqueur — *2023–2024*
 
 - **Couverture** → `public/images/editorial/journal-etudiant.jpg`
-  ↳ Logo ou couverture du Journal de l'Étudiant.  ☐
+  ↳ Logo ou couverture du Journal de l'Étudiant.  ✔ FOURNI (chronique « La société c'est toi » + logo en galerie)
 - **Galerie** (jusqu'à 3) :
   1. `public/images/editorial/journal-etudiant-1.jpg` — Une couverture / la une  ☐
   2. `public/images/editorial/journal-etudiant-2.jpg` — Un de vos articles ou chroniques  ☐
