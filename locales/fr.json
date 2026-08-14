@@ -46,6 +46,7 @@
       { "id": "wtca", "name": "WTC Association", "alt": "World Trade Centers Association" },
       { "id": "lse", "name": "LSE", "alt": "London School of Economics" },
       { "id": "msc", "name": "MSC", "alt": "Mediterranean Shipping Company" },
+      { "id": "sig", "name": "SIG", "alt": "Services Industriels de Genève" },
       { "id": "eu", "name": "Union européenne", "alt": "Union européenne" }
     ],
     "proofs": [

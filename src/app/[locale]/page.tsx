@@ -61,7 +61,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
         <p className="text-center text-[0.7rem] font-semibold uppercase tracking-widest text-(--color-soft)">
           {dict.home.orgsTitle}
         </p>
-        <ul className="mt-6 grid grid-cols-2 items-center gap-x-6 gap-y-6 sm:grid-cols-4">
+        <ul className="mt-6 grid grid-cols-2 items-center gap-x-6 gap-y-6 sm:grid-cols-3 lg:grid-cols-5">
           {dict.home.orgs.map((o) => {
             const logo = LOGO_FILES[o.id] || "";
             return (

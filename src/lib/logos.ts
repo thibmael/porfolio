@@ -7,6 +7,7 @@ export const LOGO_FILES: Record<string, string> = {
   wtca: "",
   lse: "",
   msc: "",
+  sig: "",
   eu: "",
 };
 
@@ -15,5 +16,6 @@ export const SUGGESTED_LOGO: Record<string, string> = {
   wtca: "/images/logos/wtca.svg",
   lse: "/images/logos/lse.svg",
   msc: "/images/logos/msc.svg",
+  sig: "/images/logos/sig.svg",
   eu: "/images/logos/eu.svg",
 };

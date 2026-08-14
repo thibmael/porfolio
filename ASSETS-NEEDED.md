@@ -21,7 +21,8 @@
 | 1 | World Trade Centers Association | `public/images/logos/wtca.svg` | ☐ |
 | 2 | London School of Economics | `public/images/logos/lse.svg` | ☐ |
 | 3 | Mediterranean Shipping Company (MSC) | `public/images/logos/msc.svg` | ☐ |
-| 4 | Union européenne | `public/images/logos/eu.svg` | ☐ |
+| 4 | Services Industriels de Genève (SIG) | `public/images/logos/sig.svg` | ☐ |
+| 5 | Union européenne | `public/images/logos/eu.svg` | ☐ |
 
 ---
 
