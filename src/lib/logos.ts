@@ -4,11 +4,11 @@
    live in locales under home.orgs). Drop files in /public/images/logos/. */
 
 export const LOGO_FILES: Record<string, string> = {
-  wtca: "",
-  lse: "",
-  msc: "",
-  sig: "",
-  eu: "",
+  wtca: "/images/logos/wtca.jpg",
+  lse: "/images/logos/lse.png",
+  msc: "/images/logos/msc.jpg",
+  sig: "/images/logos/sig.jpg",
+  eu: "/images/logos/eu.jpg",
 };
 
 /* Suggested filenames for each logo slot. */

@@ -13,16 +13,16 @@
 
 ---
 
-## 1. Logos institutions — bandeau « références » de l'accueil
-*Dossier : `public/images/logos/` · SVG de préférence*
+## 1. Logos institutions — bandeau « références » de l'accueil ✅ FOURNIS
+*Dossier : `public/images/logos/`*
 
-| # | Organisation | Fichier attendu | Fourni ? |
+| # | Organisation | Fichier | Fourni ? |
 |---|---|---|---|
-| 1 | World Trade Centers Association | `public/images/logos/wtca.svg` | ☐ |
-| 2 | London School of Economics | `public/images/logos/lse.svg` | ☐ |
-| 3 | Mediterranean Shipping Company (MSC) | `public/images/logos/msc.svg` | ☐ |
-| 4 | Services Industriels de Genève (SIG) | `public/images/logos/sig.svg` | ☐ |
-| 5 | Union européenne | `public/images/logos/eu.svg` | ☐ |
+| 1 | World Trade Centers Association | `public/images/logos/wtca.jpg` | ✔ |
+| 2 | London School of Economics | `public/images/logos/lse.png` | ✔ |
+| 3 | Mediterranean Shipping Company (MSC) | `public/images/logos/msc.jpg` | ✔ |
+| 4 | Services Industriels de Genève (SIG) | `public/images/logos/sig.jpg` | ✔ |
+| 5 | Union européenne | `public/images/logos/eu.jpg` | ✔ |
 
 ---
 

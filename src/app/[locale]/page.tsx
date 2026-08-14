@@ -61,26 +61,21 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
         <p className="text-center text-[0.7rem] font-semibold uppercase tracking-widest text-(--color-soft)">
           {dict.home.orgsTitle}
         </p>
-        <ul className="mt-6 grid grid-cols-2 items-center gap-x-6 gap-y-6 sm:grid-cols-3 lg:grid-cols-5">
+        <ul className="mt-6 grid grid-cols-2 items-stretch gap-3 sm:grid-cols-3 lg:grid-cols-5">
           {dict.home.orgs.map((o) => {
             const logo = LOGO_FILES[o.id] || "";
             return (
-              <li key={o.id} className="flex h-10 items-center justify-center">
-                {logo ? (
-                  // eslint-disable-next-line @next/next/no-img-element
-                  <img
-                    src={logo}
-                    alt={o.alt}
-                    className="max-h-8 w-auto object-contain opacity-60 grayscale transition duration-300 hover:opacity-100 hover:grayscale-0"
-                  />
-                ) : (
-                  <span
-                    className="display text-center text-base font-bold leading-tight text-(--color-soft) transition-colors duration-300 hover:text-(--color-ink) sm:text-lg"
-                    title={o.alt}
-                  >
-                    {o.name}
-                  </span>
-                )}
+              <li key={o.id}>
+                <div className="flex h-16 items-center justify-center rounded-xl bg-white px-4 shadow-sm ring-1 ring-black/[0.06] transition-transform duration-300 hover:-translate-y-0.5">
+                  {logo ? (
+                    // eslint-disable-next-line @next/next/no-img-element
+                    <img src={logo} alt={o.alt} className="max-h-9 w-auto max-w-full object-contain" />
+                  ) : (
+                    <span className="display text-center text-base font-bold leading-tight text-[#1a171a] sm:text-lg" title={o.alt}>
+                      {o.name}
+                    </span>
+                  )}
+                </div>
               </li>
             );
           })}
