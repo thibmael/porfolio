@@ -48,7 +48,7 @@
   2. `public/images/experiences/wtc-2.jpg` — Networking, stand, ou délégation  ☐
   3. `public/images/experiences/wtc-3.jpg` — Signature / rencontre officielle  ☐
 
-#### Services Industriels de Genève — Stagiaire Gestion de projets / études clients — *2024 — 6 mois*
+#### Services Industriels de Genève — Stagiaire Gestion de projets / études clients — *2024*
 
 - **Couverture** → `public/images/experiences/sig-geneve.jpg`
   ↳ Locaux / bureaux des SIG à Genève, ou une vue du workboard de suivi des études.  ☐
