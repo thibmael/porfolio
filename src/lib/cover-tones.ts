@@ -12,6 +12,7 @@ export const COVER_TONES: Record<string, Tone> = {
   "galaxam-mid": { grad: ["#33405c", "#4a5675"], mono: "MID" },
   "memoire-master": { grad: ["#4c3a52", "#6e5170"], mono: "MR" },
   wtc: { grad: ["#514455", "#73607a"], mono: "WT" },
+  "sig-geneve": { grad: ["#3a4d5c", "#57707f"], mono: "SIG" },
   ploutos: { grad: ["#414a63", "#5d6f8c"], mono: "PL" },
   popnbuy: { grad: ["#3f4260", "#5a5e82"], mono: "PB" },
   "master-supply-chain": { grad: ["#3f4a5a", "#5c6a7e"], mono: "IN" },

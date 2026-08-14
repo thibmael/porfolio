@@ -295,6 +295,36 @@
       "enseignement": "An international project depends on a context beyond it: documenting what was built matters, even when the project stops."
     },
     {
+      "slug": "sig-geneve",
+      "format": "standard",
+      "teinte": "blue",
+      "type": "pro",
+      "zones": ["suisse"],
+      "period": "recent",
+      "org": "Services Industriels de Genève",
+      "role": "Intern — Research & Customer Studies Project Management",
+      "periode": "2024 — 6 months",
+      "location": "Geneva, Switzerland",
+      "category": ["Customer studies", "Customer relations"],
+      "summary": "Steering and synthesising the customer studies of the Customer Relations Division, and building a cross-cutting tracking tool.",
+      "metric": { "value": "5+", "label": "customer studies tracked, across all fields" },
+      "highlights": ["Workboard to track customer studies", "One-page summaries per study", "Satisfaction, soft mobility, water"],
+      "tags": ["Customer studies", "Data & synthesis", "Project management"],
+      "imageAlt": "Services Industriels de Genève — steering customer studies",
+      "contexte": "A six-month internship within the Customer Relations Division of Services Industriels de Genève (SIG), the multi-utility provider (electricity, water, gas, heat) of the Canton of Geneva. The division runs customer studies across all of the group's activities.",
+      "monRole": "Intern in research and customer-studies project management: making the full set of ongoing studies legible and steerable, across all fields.",
+      "travail": [
+        "Designed a workboard-style tracking tool to visualise every ongoing customer study, across all fields — presented to internal clients",
+        "Wrote one-page summaries (\"one-pagers\") for each study to make them easier for teams to read",
+        "Contributed to more than five customer studies on varied topics: customer satisfaction, soft mobility, water"
+      ],
+      "resultats": [
+        "A single steering board giving an overview of all customer studies, adopted as an internal presentation support",
+        "Reusable one-page summaries that sped up teams' uptake of the studies"
+      ],
+      "enseignement": "Making scattered information legible and actionable is worth as much as the study itself: the synthesis is a deliverable in its own right."
+    },
+    {
       "slug": "ploutos",
       "format": "standard",
       "teinte": "blue",

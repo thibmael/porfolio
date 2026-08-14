@@ -48,6 +48,15 @@
   2. `public/images/experiences/wtc-2.jpg` — Networking, stand, ou délégation  ☐
   3. `public/images/experiences/wtc-3.jpg` — Signature / rencontre officielle  ☐
 
+#### Services Industriels de Genève — Stagiaire Gestion de projets / études clients — *2024 — 6 mois*
+
+- **Couverture** → `public/images/experiences/sig-geneve.jpg`
+  ↳ Locaux / bureaux des SIG à Genève, ou une vue du workboard de suivi des études.  ☐
+- **Galerie** (jusqu'à 3) :
+  1. `public/images/experiences/sig-geneve-1.jpg` — Le workboard / outil de suivi des études clients  ☐
+  2. `public/images/experiences/sig-geneve-2.jpg` — Un « one-pager » de synthèse  ☐
+  3. `public/images/experiences/sig-geneve-3.jpg` — Toi aux SIG / la Direction Relations Clients  ☐
+
 ### Conseil & études
 
 #### Ministère de l'Industrialisation et du Commerce de Madagascar — Appui à un consultant senior — *2025 — 6 mois*
@@ -191,10 +200,10 @@
 ## 📊 Récapitulatif
 - **Portrait + carte de partage** : 2 (fournis ✔)
 - **Logos institutions** : 4
-- **Couvertures de projets** : 15
-- **Photos de galerie** : 45
+- **Couvertures de projets** : 16
+- **Photos de galerie** : 48
 - **Documents PDF** : 3
-- **Total visuels à fournir** : 64 images + 3 PDF
+- **Total visuels à fournir** : 68 images + 3 PDF
 
 ## 🎯 Si vous ne fournissez que l'essentiel d'abord
 1. Les **4 logos** (§1) — les plus visibles.

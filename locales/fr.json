@@ -295,6 +295,36 @@
       "enseignement": "Un projet international dépend d'un contexte qui le dépasse : savoir documenter ce qui a été construit compte, même quand le projet s'arrête."
     },
     {
+      "slug": "sig-geneve",
+      "format": "standard",
+      "teinte": "blue",
+      "type": "pro",
+      "zones": ["suisse"],
+      "period": "recent",
+      "org": "Services Industriels de Genève",
+      "role": "Stagiaire — Gestion de projets de recherche et études clients",
+      "periode": "2024 — 6 mois",
+      "location": "Genève, Suisse",
+      "category": ["Études clients", "Relations clients"],
+      "summary": "Pilotage et synthèse des études clients de la Direction Relations Clients, et conception d'un outil de suivi transversal.",
+      "metric": { "value": "5+", "label": "études clients suivies, tous domaines" },
+      "highlights": ["Workboard de suivi des études clients", "One-pagers de synthèse par étude", "Satisfaction, mobilité douce, eau"],
+      "tags": ["Études clients", "Data & synthèse", "Gestion de projet"],
+      "imageAlt": "Services Industriels de Genève — pilotage des études clients",
+      "contexte": "Stage de six mois au sein de la Direction Relations Clients des Services Industriels de Genève (SIG), fournisseur multi-énergies (électricité, eau, gaz, chaleur) du canton de Genève. La direction conduit des études clients sur l'ensemble des activités du groupe.",
+      "monRole": "Stagiaire en gestion de projets de recherche et études clients : rendre lisible et pilotable l'ensemble des études en cours, tous domaines confondus.",
+      "travail": [
+        "Conception d'un outil de suivi type workboard pour visualiser toutes les études clients en cours, tous domaines confondus — présenté aux clients internes",
+        "Rédaction de synthèses d'une page (« one-pagers ») pour chaque étude, afin d'en faciliter la lecture par les équipes",
+        "Contribution à plus de cinq études clients sur des thématiques variées : satisfaction client, mobilité douce, eau"
+      ],
+      "resultats": [
+        "Un tableau de pilotage unique offrant une vue d'ensemble des études clients, adopté comme support de présentation en interne",
+        "Des synthèses d'une page réutilisables, accélérant l'appropriation des études par les équipes"
+      ],
+      "enseignement": "Rendre une information dispersée lisible et actionnable a autant de valeur que l'étude elle-même : la synthèse est un livrable à part entière."
+    },
+    {
       "slug": "ploutos",
       "format": "standard",
       "teinte": "blue",
