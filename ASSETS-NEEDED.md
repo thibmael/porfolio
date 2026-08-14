@@ -34,7 +34,7 @@
 #### Mediterranean Shipping Company (MSC) — Commercial Liner EASTMED — *2025 — en poste*
 
 - **Couverture** → `public/images/experiences/msc-eastmed.jpg`
-  ↳ Un porte-conteneurs du service EASTMED (quai, mer, ou terminal du Havre).  ☐
+  ↳ Un porte-conteneurs du service EASTMED (quai, mer, ou terminal du Havre).  ✔ FOURNI
 - **Galerie** (jusqu'à 3) :
   1. `public/images/experiences/msc-service-eastmed.jpg` — Carte / visuel du service EASTMED  ☐
   2. `public/images/experiences/msc-service-levant.jpg` — Le service Levant (escales, ligne)  ☐
@@ -43,7 +43,7 @@
 #### WTC Antananarivo × WTC Ras Al Khaimah — Project Manager — *2025 — 6 mois*
 
 - **Couverture** → `public/images/experiences/wtc-global-forum.jpg`
-  ↳ Une photo du Global Business Forum des World Trade Centers.  ☐
+  ↳ Une photo du Global Business Forum des World Trade Centers.  ✔ FOURNI
 - **Galerie** (jusqu'à 3) :
   1. `public/images/experiences/wtc-1.jpg` — Séance plénière / scène du forum  ☐
   2. `public/images/experiences/wtc-2.jpg` — Networking, stand, ou délégation  ☐
@@ -52,7 +52,7 @@
 #### Services Industriels de Genève — Stagiaire Gestion de projets / études clients — *2024*
 
 - **Couverture** → `public/images/experiences/sig-geneve.jpg`
-  ↳ Locaux / bureaux des SIG à Genève, ou une vue du workboard de suivi des études.  ☐
+  ↳ Locaux / bureaux des SIG à Genève, ou une vue du workboard de suivi des études.  ✔ FOURNI
 - **Galerie** (jusqu'à 3) :
   1. `public/images/experiences/sig-geneve-1.jpg` — Le workboard / outil de suivi des études clients  ☐
   2. `public/images/experiences/sig-geneve-2.jpg` — Un « one-pager » de synthèse  ☐
@@ -63,7 +63,7 @@
 #### Ministère de l'Industrialisation et du Commerce de Madagascar — Appui à un consultant senior — *2025 — 6 mois*
 
 - **Couverture** → `public/images/experiences/gefp-cover.jpg`
-  ↳ Logo du Ministère, ou la couverture du rapport d'étude ZLECAf.  ☐
+  ↳ Logo du Ministère, ou la couverture du rapport d'étude ZLECAf.  ✔ FOURNI (page de titre du rapport)
 - **Galerie** (jusqu'à 3) :
   1. `public/images/experiences/gefp-1.jpg` — Atelier / réunion de travail au ministère  ☐
   2. `public/images/experiences/gefp-2.jpg` — La filière textile-habillement malgache (atelier, usine)  ☐
@@ -72,7 +72,7 @@
 #### Galaxam Logistics × USAID — Consultant supply chain & business development — *depuis mai 2026*
 
 - **Couverture** → `public/images/experiences/galaxam-mid-cover.jpg`
-  ↳ Optionnel — le diagramme intégré (nuage de points) sert déjà de visuel. Sinon : entrepôt / logistique santé.  ☐
+  ↳ Optionnel — le diagramme intégré (nuage de points) sert déjà de visuel. Sinon : entrepôt / logistique santé.  ✔ FOURNI (équipe entrepôt MID)
 - **Galerie** (jusqu'à 3) :
   1. `public/images/experiences/galaxam-mid-1.jpg` — Entrepôt ou chaîne logistique médicale  ☐
   2. `public/images/experiences/galaxam-mid-2.jpg` — Distribution vers les centres de santé de base  ☐

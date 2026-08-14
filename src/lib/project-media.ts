@@ -18,12 +18,12 @@ export type ProjectMedia = {
 /* Every project exposes a cover + gallery slot so each record is photo-ready.
    Fill `cover` for the card/banner visual and `gallery` for the detail grid. */
 export const PROJECT_MEDIA: Record<string, ProjectMedia> = {
-  "msc-eastmed": { cover: "", logo: "", gallery: [] },
-  "gefp-agoa": { cover: "", logo: "", gallery: [] },
-  "galaxam-mid": { cover: "", logo: "", gallery: [] },
+  "msc-eastmed": { cover: "/images/experiences/msc-eastmed.jpg", logo: "", gallery: [] },
+  "gefp-agoa": { cover: "/images/experiences/gefp-cover.jpg", logo: "", gallery: [] },
+  "galaxam-mid": { cover: "/images/experiences/galaxam-mid-cover.jpg", logo: "", gallery: [] },
   "memoire-master": { cover: "", document: "", gallery: [] },
-  wtc: { cover: "", logo: "", gallery: [] },
-  "sig-geneve": { cover: "", logo: "", gallery: [] },
+  wtc: { cover: "/images/experiences/wtc-global-forum.jpg", logo: "", gallery: [] },
+  "sig-geneve": { cover: "/images/experiences/sig-geneve.jpg", logo: "", gallery: [] },
   ploutos: { cover: "", logo: "", gallery: [] },
   popnbuy: { cover: "", logo: "", gallery: [] },
   "master-supply-chain": { cover: "", logo: "", gallery: [] },

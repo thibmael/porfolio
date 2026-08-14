@@ -77,7 +77,7 @@ export function Cover({
         </>
       )}
       {overlay && (
-        <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/65 via-black/10 to-black/0" />
+        <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/85 via-black/30 to-black/5" />
       )}
       {!src && hint && !diagram && (
         <span
