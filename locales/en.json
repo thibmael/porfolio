@@ -39,7 +39,7 @@
       { "value": "~400", "unit": " TEU", "label": "tracked / week — EASTMED service via Le Havre" },
       { "value": "2", "unit": " economies", "label": "island economies compared · research thesis" },
       { "value": "50", "unit": "+", "label": "international clients handled daily" },
-      { "value": "7", "unit": " · 4", "label": "projects delivered · across 4 countries" }
+      { "value": "7", "unit": " projects", "label": "delivered across 4 countries" }
     ],
     "orgsTitle": "Institutions & organisations",
     "orgs": [

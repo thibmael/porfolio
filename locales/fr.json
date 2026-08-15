@@ -39,7 +39,7 @@
       { "value": "~400", "unit": " EVP", "label": "suivis / semaine — service EASTMED via Le Havre" },
       { "value": "2", "unit": " économies", "label": "insulaires comparées · mémoire de recherche" },
       { "value": "50", "unit": "+", "label": "clients internationaux gérés au quotidien" },
-      { "value": "7", "unit": " · 4", "label": "projets menés · dans 4 pays" }
+      { "value": "7", "unit": " projets", "label": "menés dans 4 pays" }
     ],
     "orgsTitle": "Institutions et organisations",
     "orgs": [

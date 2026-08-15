@@ -67,12 +67,12 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
             const logo = LOGO_FILES[o.id] || "";
             return (
               <li key={o.id}>
-                <div className="flex h-16 items-center justify-center rounded-xl bg-white px-4 shadow-sm ring-1 ring-black/[0.06] transition-transform duration-300 hover:-translate-y-0.5">
+                <div className="flex h-20 items-center justify-center rounded-xl bg-white px-4 shadow-sm ring-1 ring-black/[0.06] transition-transform duration-300 hover:-translate-y-0.5 sm:h-24 sm:px-5">
                   {logo ? (
                     // eslint-disable-next-line @next/next/no-img-element
-                    <img src={logo} alt={o.alt} className="max-h-9 w-auto max-w-full object-contain" />
+                    <img src={logo} alt={o.alt} className="max-h-12 w-auto max-w-full object-contain sm:max-h-16" />
                   ) : (
-                    <span className="display text-center text-base font-bold leading-tight text-[#1a171a] sm:text-lg" title={o.alt}>
+                    <span className="display text-center text-lg font-bold leading-tight text-[#1a171a] sm:text-xl" title={o.alt}>
                       {o.name}
                     </span>
                   )}
