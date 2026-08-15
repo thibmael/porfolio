@@ -37,7 +37,7 @@
     },
     "stats": [
       { "value": "~400", "unit": " TEU", "label": "tracked / week — EASTMED service via Le Havre" },
-      { "value": "120", "unit": " p.", "label": "research thesis · Madagascar & Mauritius" },
+      { "value": "2", "unit": " economies", "label": "island economies compared · research thesis" },
       { "value": "50", "unit": "+", "label": "international clients handled daily" },
       { "value": "7", "unit": " · 4", "label": "projects delivered · across 4 countries" }
     ],
@@ -52,12 +52,12 @@
     "proofs": [
       "AfCFTA study carried out in support of Madagascar's Ministry of Industrialisation and Trade",
       "Around 400 TEU tracked each week on the EASTMED service via Le Havre",
-      "120-page research thesis on the maritime dependence of Madagascar and Mauritius",
+      "Research thesis on the maritime dependence of island states — Madagascar & Mauritius",
       "Experiences and projects across Madagascar, Switzerland, France and internationally"
     ],
     "previewTitle": "A glimpse of the work",
     "previewCta": "See all experiences and projects",
-    "previewSlugs": ["msc-eastmed", "gefp-agoa", "memoire-master"]
+    "previewSlugs": ["msc-eastmed", "wtc", "galaxam-mid"]
   },
   "parcours": {
     "title": "Work",
@@ -168,11 +168,11 @@
       "location": "Madagascar · Mauritius",
       "category": ["Research", "Logistics"],
       "summary": "The interdependence of shipping lines and island nations — the cases of Madagascar and Mauritius.",
-      "metric": { "value": "120 pages", "label": "mixed methodology" },
+      "metric": { "value": "2 countries", "label": "comparative study · mixed methods" },
       "highlights": ["Madagascar–Mauritius comparison", "UNCTAD & World Bank indices", "Literature review + interviews"],
       "tags": ["Research", "Maritime", "Insularity"],
       "imageAlt": "Master's thesis cover",
-      "contexte": "A 120-page research thesis examining the maritime dependence of island states through a comparative study of Madagascar and Mauritius.",
+      "contexte": "A research thesis examining the maritime dependence of island states through a comparative study of Madagascar and Mauritius.",
       "monRole": "Author: building the research question, collecting and processing data, conducting interviews, writing and recommendations.",
       "travail": [
         "Literature review on sea power and the logistics dependence of island states",

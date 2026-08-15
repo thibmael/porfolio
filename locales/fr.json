@@ -37,7 +37,7 @@
     },
     "stats": [
       { "value": "~400", "unit": " EVP", "label": "suivis / semaine — service EASTMED via Le Havre" },
-      { "value": "120", "unit": " p.", "label": "mémoire de recherche · Madagascar & Maurice" },
+      { "value": "2", "unit": " économies", "label": "insulaires comparées · mémoire de recherche" },
       { "value": "50", "unit": "+", "label": "clients internationaux gérés au quotidien" },
       { "value": "7", "unit": " · 4", "label": "projets menés · dans 4 pays" }
     ],
@@ -52,12 +52,12 @@
     "proofs": [
       "Étude ZLECAf réalisée en appui pour le Ministère de l'Industrialisation et du Commerce de Madagascar",
       "Environ 400 EVP suivis chaque semaine sur le service EASTMED via Le Havre",
-      "Mémoire de recherche de 120 pages sur la dépendance maritime de Madagascar et Maurice",
+      "Mémoire de recherche sur la dépendance maritime des États insulaires — Madagascar & Maurice",
       "Expériences et projets menés entre Madagascar, la Suisse, la France et l'international"
     ],
     "previewTitle": "Aperçu du parcours",
     "previewCta": "Voir toutes les expériences et tous les projets",
-    "previewSlugs": ["msc-eastmed", "gefp-agoa", "memoire-master"]
+    "previewSlugs": ["msc-eastmed", "wtc", "galaxam-mid"]
   },
   "parcours": {
     "title": "Parcours",
@@ -168,11 +168,11 @@
       "location": "Madagascar · Maurice",
       "category": ["Recherche", "Logistique"],
       "summary": "L'interdépendance des compagnies maritimes et des pays insulaires — cas de Madagascar et Maurice.",
-      "metric": { "value": "120 pages", "label": "méthodologie mixte" },
+      "metric": { "value": "2 pays", "label": "étude comparative · méthode mixte" },
       "highlights": ["Cas comparé Madagascar–Maurice", "Indices CNUCED & Banque mondiale", "Revue de littérature + entretiens"],
       "tags": ["Recherche", "Maritime", "Insularité"],
       "imageAlt": "Couverture du mémoire de master",
-      "contexte": "Mémoire de recherche de 120 pages interrogeant la dépendance maritime des États insulaires, à travers une étude comparée de Madagascar et de Maurice.",
+      "contexte": "Mémoire de recherche interrogeant la dépendance maritime des États insulaires, à travers une étude comparée de Madagascar et de Maurice.",
       "monRole": "Auteur : construction de la problématique, collecte et exploitation des données, conduite d'entretiens, rédaction et recommandations.",
       "travail": [
         "Revue de littérature sur la puissance maritime et la dépendance logistique des États insulaires",
