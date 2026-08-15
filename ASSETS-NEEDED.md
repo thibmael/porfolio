@@ -114,7 +114,7 @@
 #### INSEEC — Omnes Education — Master Achats et Supply Chain Management — *2025–2026*
 
 - **Couverture** → `public/images/education/inseec-supply-chain.jpg`
-  ↳ Logo INSEEC · Omnes Education (ou une photo du campus).  ☐
+  ↳ Logo INSEEC · Omnes Education (ou une photo du campus).  ✔ FOURNI (campus)
 - **Galerie** (jusqu'à 3) :
   1. `public/images/education/inseec-1.jpg` — Campus / salle INSEEC  ☐
   2. `public/images/education/inseec-2.jpg` — Un projet ou une mise en situation du master  ☐
