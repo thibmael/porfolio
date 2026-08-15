@@ -103,7 +103,7 @@
 #### PopnBuy OÜ — Fondateur — *2025 — en cours*
 
 - **Couverture** → `public/images/experiences/popnbuy-platform.jpg`
-  ↳ Capture de la plateforme PopnBuy (dès qu'elle existe).  ☐
+  ↳ Capture de la plateforme PopnBuy (dès qu'elle existe).  ✔ FOURNI (hero live-shopping)
 - **Galerie** (jusqu'à 3) :
   1. `public/images/experiences/popnbuy-1.jpg` — Landing page  ☐
   2. `public/images/experiences/popnbuy-2.jpg` — Un parcours produit  ☐

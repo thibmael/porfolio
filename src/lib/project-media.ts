@@ -25,7 +25,7 @@ export const PROJECT_MEDIA: Record<string, ProjectMedia> = {
   wtc: { cover: "/images/experiences/wtc-global-forum.jpg", logo: "", gallery: [] },
   "sig-geneve": { cover: "/images/experiences/sig-geneve.jpg", logo: "", gallery: [] },
   ploutos: { cover: "/images/experiences/ploutos-prototype.jpg", logo: "", gallery: ["/images/experiences/ploutos-1.jpg"] },
-  popnbuy: { cover: "", logo: "", gallery: [] },
+  popnbuy: { cover: "/images/experiences/popnbuy-platform.png", logo: "", gallery: [] },
   "master-supply-chain": { cover: "/images/education/inseec-supply-chain.webp", logo: "", gallery: [] },
   "bachelor-crea": { cover: "/images/education/crea-geneva.jpg", logo: "", gallery: [] },
   lse: { cover: "/images/logos/lse.png", logo: "", gallery: [] },
