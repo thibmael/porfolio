@@ -85,17 +85,34 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
 
       {/* Stats band — the bold, structured counterpart to the quiet logo strip */}
       <section className="mx-auto max-w-6xl px-6 pt-12" data-reveal>
-        <dl className="grid grid-cols-2 gap-px overflow-hidden rounded-2xl border border-(--color-line) bg-(--color-line) sm:grid-cols-4">
-          {dict.home.stats.map((s, i) => (
-            <div key={i} className="bg-(--color-paper) p-6">
-              <dt className="display text-3xl font-bold">
-                {s.value}
-                <span className="text-lg" style={{ color: i % 2 === 0 ? "var(--color-accent)" : "var(--color-accent-blue)" }}>{s.unit}</span>
-              </dt>
-              <dd className="mt-1 text-[0.8rem] leading-snug text-(--color-soft)">{s.label}</dd>
-            </div>
-          ))}
-        </dl>
+        <div className="grid grid-cols-2 gap-px overflow-hidden rounded-2xl border border-(--color-line) bg-(--color-line) sm:grid-cols-4">
+          {dict.home.stats.map((s, i) => {
+            const content = (
+              <>
+                <p className="display text-3xl font-bold">
+                  {s.value}
+                  <span className="text-lg" style={{ color: i % 2 === 0 ? "var(--color-accent)" : "var(--color-accent-blue)" }}>{s.unit}</span>
+                </p>
+                <p className="mt-1 text-[0.8rem] leading-snug text-(--color-soft)">{s.label}</p>
+              </>
+            );
+            const href = (s as { href?: string }).href;
+            return href ? (
+              <Link
+                key={i}
+                href={localizedHref(locale, href)}
+                className="group block bg-(--color-paper) p-6 transition-colors hover:bg-(--color-paper-dim)"
+              >
+                {content}
+                <span className="mt-2 inline-flex items-center gap-1 text-[0.7rem] font-medium text-(--color-accent) opacity-60 transition-opacity group-hover:opacity-100">
+                  {dict.parcours.cardCta} →
+                </span>
+              </Link>
+            ) : (
+              <div key={i} className="bg-(--color-paper) p-6">{content}</div>
+            );
+          })}
+        </div>
       </section>
 
       {/* Preview */}

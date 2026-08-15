@@ -36,10 +36,10 @@
       "ctaContact": "Me contacter"
     },
     "stats": [
-      { "value": "~400", "unit": " EVP", "label": "suivis / semaine — service EASTMED via Le Havre" },
-      { "value": "2", "unit": " économies", "label": "insulaires comparées · mémoire de recherche" },
-      { "value": "50", "unit": "+", "label": "clients internationaux gérés au quotidien" },
-      { "value": "7", "unit": " projets", "label": "menés dans 4 pays" }
+      { "value": "~400", "unit": " EVP", "label": "conteneurs suivis / semaine — service EASTMED", "href": "/parcours/msc-eastmed" },
+      { "value": "2", "unit": " M€", "label": "term sheet signé en pre-seed · Ploutos", "href": "/parcours/ploutos" },
+      { "value": "50", "unit": "+", "label": "clients internationaux gérés au quotidien", "href": "/parcours/msc-eastmed" },
+      { "value": "Forbes", "unit": "", "label": "présélection 30 Under 30 Europe · Ploutos", "href": "/parcours/ploutos" }
     ],
     "orgsTitle": "Institutions et organisations",
     "orgs": [

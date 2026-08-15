@@ -36,10 +36,10 @@
       "ctaContact": "Get in touch"
     },
     "stats": [
-      { "value": "~400", "unit": " TEU", "label": "tracked / week — EASTMED service via Le Havre" },
-      { "value": "2", "unit": " economies", "label": "island economies compared · research thesis" },
-      { "value": "50", "unit": "+", "label": "international clients handled daily" },
-      { "value": "7", "unit": " projects", "label": "delivered across 4 countries" }
+      { "value": "~400", "unit": " TEU", "label": "containers tracked / week — EASTMED service", "href": "/parcours/msc-eastmed" },
+      { "value": "2", "unit": " M€", "label": "pre-seed term sheet signed · Ploutos", "href": "/parcours/ploutos" },
+      { "value": "50", "unit": "+", "label": "international clients handled daily", "href": "/parcours/msc-eastmed" },
+      { "value": "Forbes", "unit": "", "label": "30 Under 30 Europe shortlist · Ploutos", "href": "/parcours/ploutos" }
     ],
     "orgsTitle": "Institutions & organisations",
     "orgs": [
