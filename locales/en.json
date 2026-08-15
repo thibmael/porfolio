@@ -262,7 +262,8 @@
       ],
       "resultats": [
         "Distribution operations under way, over a total volume of 989,250 LLINs"
-      ]
+      ],
+      "enseignement": "Public health is won at the last mile: to deliver is already to protect."
     },
     {
       "slug": "wtc",
@@ -409,7 +410,9 @@
       "tags": ["Supply Chain", "Purchasing"],
       "imageAlt": "INSEEC — Omnes Education logo",
       "contexte": "Master in Purchasing and Supply Chain Management at INSEEC (Omnes Education), Marseille.",
-      "monRole": "Student."
+      "monRole": "Student.",
+      "highlights": ["Master's in Procurement & Supply Chain Management", "INSEEC · Omnes Education — Marseille", "Ongoing · 2025–2026"],
+      "enseignement": "Connecting procurement, logistics and data to steer a supply chain end to end."
     },
     {
       "slug": "bachelor-crea",
@@ -428,7 +431,9 @@
       "tags": ["Business", "Management"],
       "imageAlt": "CREA Geneva — Omnes Education logo",
       "contexte": "Bachelor in Business Management at CREA Geneva (Omnes Education), valedictorian, class of 2024.",
-      "monRole": "Student."
+      "monRole": "Student.",
+      "highlights": ["Bachelor in Business Management", "Top of the 2024 class", "CREA Geneva · Omnes Education"],
+      "enseignement": "Graduating top of the class means turning high standards into a working method."
     },
     {
       "slug": "lse",
@@ -447,7 +452,9 @@
       "tags": ["Development", "Public policy"],
       "imageAlt": "London School of Economics logo",
       "contexte": "Fields studied at the London School of Economics: economic development and policy in developing countries, public policy analysis, data analysis for management.",
-      "monRole": "Student."
+      "monRole": "Student.",
+      "highlights": ["Economic & political development of developing countries", "Public policy analysis", "Data analysis for management"],
+      "enseignement": "Reading a public policy through its data as much as its intentions."
     },
     {
       "slug": "harvardx",
@@ -466,7 +473,9 @@
       "tags": ["Justice", "Certification"],
       "imageAlt": "HarvardX logo",
       "contexte": "Justice Course Certification, HarvardX.",
-      "monRole": "Participant."
+      "monRole": "Participant.",
+      "highlights": ["« Justice » course certification", "Ethics, law and political philosophy", "HarvardX · 2023"],
+      "enseignement": "Deciding justly first means naming the principles that collide."
     },
     {
       "slug": "miray",
@@ -485,7 +494,9 @@
       "tags": ["Association", "Madagascar"],
       "imageAlt": "MIRAY association logo",
       "contexte": "MIRAY association: material support to families affected by food insecurity in southern Madagascar.",
-      "monRole": "Vice-president since 2020."
+      "monRole": "Vice-president since 2020.",
+      "highlights": ["Vice-president since 2020", "Material support to food-insecure families", "Fieldwork in southern Madagascar"],
+      "enseignement": "Aid is best run like logistics: as close to the ground, and as close to real needs, as possible."
     },
     {
       "slug": "basket",
@@ -504,7 +515,9 @@
       "tags": ["Sport", "Competition"],
       "imageAlt": "Photograph of the U16–U18 national team",
       "contexte": "Madagascar national basketball team, U16 to U18 categories, 2015–2016.",
-      "monRole": "Point guard and shooting guard."
+      "monRole": "Point guard and shooting guard.",
+      "highlights": ["National U16–U18 selection", "Point guard and shooting guard", "Madagascar · 2015–2016"],
+      "enseignement": "Elite sport teaches discipline, teamwork and composure under pressure early."
     },
     {
       "slug": "journal-etudiant",
@@ -523,7 +536,9 @@
       "tags": ["Media", "Column"],
       "imageAlt": "Journal de l'Étudiant logo",
       "contexte": "Malagasy online outlet with around 50,000 followers on social media. Editor-in-chief and author of the weekly column \"La Société c'est toi\".",
-      "monRole": "Editor-in-chief and columnist (2023–2024)."
+      "monRole": "Editor-in-chief and columnist (2023–2024).",
+      "highlights": ["≈ 50,000 social-media followers", "Weekly column « La Société c'est toi »", "Editor-in-chief · 2023–2024"],
+      "enseignement": "Reaching 50,000 people every week forces you to make the idea clear before making it clever."
     },
     {
       "slug": "inskahier",
@@ -542,7 +557,9 @@
       "tags": ["Media", "Editing"],
       "imageAlt": "Inskahier logo",
       "contexte": "Inskahier, INSCAE's student paper: editorial mentoring of a team of about ten columnists.",
-      "monRole": "Editor-in-chief (2022–2023)."
+      "monRole": "Editor-in-chief (2022–2023).",
+      "highlights": ["Editor-in-chief of INSCAE's journal", "Led around ten columnists", "2022–2023"],
+      "enseignement": "Leading a newsroom means giving others a voice before your own."
     }
   ],
   "profil": {

@@ -262,7 +262,8 @@
       ],
       "resultats": [
         "Opérations de distribution en cours, sur un volume total de 989 250 unités de MID"
-      ]
+      ],
+      "enseignement": "La santé publique se joue au dernier kilomètre : distribuer, c'est déjà protéger."
     },
     {
       "slug": "wtc",
@@ -409,7 +410,9 @@
       "tags": ["Supply Chain", "Achats"],
       "imageAlt": "Logo INSEEC — Omnes Education",
       "contexte": "Master Achats et Supply Chain Management à l'INSEEC (Omnes Education), Marseille.",
-      "monRole": "Étudiant."
+      "monRole": "Étudiant.",
+      "highlights": ["Master Achats & Supply Chain Management", "INSEEC · Omnes Education — Marseille", "En cours · 2025–2026"],
+      "enseignement": "Relier l'achat, la logistique et la donnée pour piloter une chaîne d'approvisionnement de bout en bout."
     },
     {
       "slug": "bachelor-crea",
@@ -428,7 +431,9 @@
       "tags": ["Business", "Management"],
       "imageAlt": "Logo CREA Genève — Omnes Education",
       "contexte": "Bachelor Business Management à CREA Genève (Omnes Education), major de promotion 2024.",
-      "monRole": "Étudiant."
+      "monRole": "Étudiant.",
+      "highlights": ["Bachelor Business Management", "Major de promotion 2024", "CREA Genève · Omnes Education"],
+      "enseignement": "Sortir major, c'est avoir transformé l'exigence en méthode de travail."
     },
     {
       "slug": "lse",
@@ -447,7 +452,9 @@
       "tags": ["Développement", "Politiques publiques"],
       "imageAlt": "Logo London School of Economics",
       "contexte": "Axes étudiés à la London School of Economics : développement économique et politique des pays en développement, analyse des politiques publiques, analyse de données pour le management.",
-      "monRole": "Étudiant."
+      "monRole": "Étudiant.",
+      "highlights": ["Développement économique des pays en développement", "Analyse des politiques publiques", "Analyse de données pour le management"],
+      "enseignement": "Lire une politique publique par ses données autant que par ses intentions."
     },
     {
       "slug": "harvardx",
@@ -466,7 +473,9 @@
       "tags": ["Justice", "Certification"],
       "imageAlt": "Logo HarvardX",
       "contexte": "Justice Course Certification, HarvardX.",
-      "monRole": "Participant."
+      "monRole": "Participant.",
+      "highlights": ["Certification du cours « Justice »", "Éthique, droit et philosophie politique", "HarvardX · 2023"],
+      "enseignement": "Décider avec justice suppose d'abord de nommer les principes qui s'opposent."
     },
     {
       "slug": "miray",
@@ -485,7 +494,9 @@
       "tags": ["Association", "Madagascar"],
       "imageAlt": "Logo de l'association MIRAY",
       "contexte": "Association MIRAY : appui matériel aux familles touchées par l'insécurité alimentaire dans le sud de Madagascar.",
-      "monRole": "Vice-président depuis 2020."
+      "monRole": "Vice-président depuis 2020.",
+      "highlights": ["Vice-président depuis 2020", "Appui aux familles en insécurité alimentaire", "Actions dans le sud de Madagascar"],
+      "enseignement": "L'aide se pense comme une logistique : au plus près du terrain, au plus juste des besoins."
     },
     {
       "slug": "basket",
@@ -504,7 +515,9 @@
       "tags": ["Sport", "Compétition"],
       "imageAlt": "Photographie de l'équipe nationale U16–U18",
       "contexte": "Équipe nationale de basket-ball de Madagascar, catégories U16 à U18, 2015–2016.",
-      "monRole": "Meneur et arrière."
+      "monRole": "Meneur et arrière.",
+      "highlights": ["Sélection nationale U16–U18", "Poste de meneur et arrière", "Madagascar · 2015–2016"],
+      "enseignement": "Le haut niveau apprend tôt la discipline, le collectif et la gestion de la pression."
     },
     {
       "slug": "journal-etudiant",
@@ -523,7 +536,9 @@
       "tags": ["Média", "Chronique"],
       "imageAlt": "Logo du Journal de l'Étudiant",
       "contexte": "Média en ligne malgache réunissant environ 50 000 abonnés sur les réseaux sociaux. Rédacteur en chef et auteur de la chronique hebdomadaire « La Société c'est toi ».",
-      "monRole": "Rédacteur en chef et chroniqueur (2023–2024)."
+      "monRole": "Rédacteur en chef et chroniqueur (2023–2024).",
+      "highlights": ["≈ 50 000 abonnés sur les réseaux", "Chronique hebdomadaire « La Société c'est toi »", "Rédacteur en chef · 2023–2024"],
+      "enseignement": "Toucher 50 000 personnes chaque semaine oblige à rendre l'idée limpide avant de la rendre brillante."
     },
     {
       "slug": "inskahier",
@@ -542,7 +557,9 @@
       "tags": ["Média", "Rédaction"],
       "imageAlt": "Logo d'Inskahier",
       "contexte": "Inskahier, journal étudiant de l'INSCAE : encadrement éditorial d'une équipe d'une dizaine de chroniqueurs.",
-      "monRole": "Rédacteur en chef (2022–2023)."
+      "monRole": "Rédacteur en chef (2022–2023).",
+      "highlights": ["Rédacteur en chef du journal de l'INSCAE", "Encadrement d'une dizaine de chroniqueurs", "2022–2023"],
+      "enseignement": "Diriger une rédaction, c'est faire exister la voix des autres avant la sienne."
     }
   ],
   "profil": {
