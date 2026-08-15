@@ -18,7 +18,8 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
   const preview = dict.home.previewSlugs
     .map((s) => projects.find((p) => p.slug === s))
     .filter((p): p is Project => Boolean(p));
-  const cvUrl = (locale === "fr" ? CV_FR_URL : CV_EN_URL) || localizedHref(locale, "/contact");
+  const cvUrl =
+    (locale === "fr" ? CV_FR_URL : CV_EN_URL) || CV_FR_URL || CV_EN_URL || localizedHref(locale, "/contact");
 
   return (
     <>

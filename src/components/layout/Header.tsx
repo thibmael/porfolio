@@ -13,7 +13,8 @@ export function Header({ locale, dict }: { locale: Locale; dict: Dictionary }) {
     { href: localizedHref(locale, "/profil"), label: dict.nav.profil },
     { href: localizedHref(locale, "/contact"), label: dict.nav.contact },
   ];
-  const cvUrl = (locale === "fr" ? CV_FR_URL : CV_EN_URL) || localizedHref(locale, "/contact");
+  const cvUrl =
+    (locale === "fr" ? CV_FR_URL : CV_EN_URL) || CV_FR_URL || CV_EN_URL || localizedHref(locale, "/contact");
 
   return (
     <header className="sticky top-0 z-40 border-b border-(--color-line) bg-(--color-paper)/85 backdrop-blur">

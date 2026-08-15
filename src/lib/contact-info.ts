@@ -7,7 +7,7 @@ export const EMAIL = "rthibaultme@popnbuy.eu";
 export const PHONE = "+33 7 44 42 28 14";
 export const LINKEDIN_URL = "https://www.linkedin.com/in/thibault-mahafaly";
 
-export const CV_FR_URL = "";
+export const CV_FR_URL = "/documents/cv-fr.pdf";
 export const CV_EN_URL = "";
 export const THESIS_PDF_URL = "/documents/memoire-master.pdf";
 
