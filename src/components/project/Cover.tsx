@@ -4,6 +4,12 @@ import { ScatterCloud } from "./ScatterCloud";
 /* Projects whose cover is a built-in data diagram rather than a photo slot. */
 const DIAGRAM_SLUGS = new Set(["galaxam-mid"]);
 
+/* Per-project focal point for cover images (object-position). Defaults to
+   centre; override where the subject sits off-centre in a tall/short crop. */
+const COVER_POSITION: Record<string, string> = {
+  "bachelor-crea": "center 28%",
+};
+
 function ImageGlyph() {
   return (
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" className="h-3.5 w-3.5" aria-hidden="true">
@@ -47,7 +53,13 @@ export function Cover({
     >
       {src ? (
         // eslint-disable-next-line @next/next/no-img-element
-        <img src={src} alt={alt} loading="lazy" className="absolute inset-0 h-full w-full object-cover" />
+        <img
+          src={src}
+          alt={alt}
+          loading="lazy"
+          className="absolute inset-0 h-full w-full object-cover"
+          style={COVER_POSITION[slug] ? { objectPosition: COVER_POSITION[slug] } : undefined}
+        />
       ) : diagram ? (
         <ScatterCloud />
       ) : (

@@ -21,19 +21,19 @@ export const PROJECT_MEDIA: Record<string, ProjectMedia> = {
   "msc-eastmed": { cover: "/images/experiences/msc-eastmed.jpg", logo: "", gallery: [] },
   "gefp-agoa": { cover: "/images/experiences/gefp-cover.jpg", logo: "", gallery: [] },
   "galaxam-mid": { cover: "/images/experiences/galaxam-mid-cover.jpg", logo: "", gallery: [] },
-  "memoire-master": { cover: "", document: "", gallery: [] },
+  "memoire-master": { cover: "/images/experiences/master-thesis-cover.jpg", document: "", gallery: [] },
   wtc: { cover: "/images/experiences/wtc-global-forum.jpg", logo: "", gallery: [] },
   "sig-geneve": { cover: "/images/experiences/sig-geneve.jpg", logo: "", gallery: [] },
   ploutos: { cover: "/images/experiences/ploutos-prototype.jpg", logo: "", gallery: ["/images/experiences/ploutos-1.jpg"] },
   popnbuy: { cover: "", logo: "", gallery: [] },
   "master-supply-chain": { cover: "", logo: "", gallery: [] },
   "bachelor-crea": { cover: "/images/education/crea-geneva.jpg", logo: "", gallery: [] },
-  lse: { cover: "", logo: "", gallery: [] },
+  lse: { cover: "/images/logos/lse.png", logo: "", gallery: [] },
   harvardx: { cover: "/images/education/harvardx.jpg", logo: "", gallery: [] },
   miray: { cover: "/images/engagements/miray.jpg", logo: "", gallery: ["/images/engagements/miray-1.jpg"] },
   basket: { cover: "/images/engagements/basket-madagascar.jpg", logo: "", gallery: ["/images/engagements/basket-1.jpg"] },
   "journal-etudiant": { cover: "/images/editorial/journal-etudiant.jpg", logo: "", gallery: ["/images/editorial/journal-etudiant-1.jpg"] },
-  inskahier: { cover: "", logo: "", gallery: [] },
+  inskahier: { cover: "/images/editorial/inskahier.jpg", logo: "", gallery: [] },
 };
 
 /* Suggested cover filename shown in the placeholder, per project. */

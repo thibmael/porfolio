@@ -83,7 +83,7 @@
 #### Mémoire de master — Auteur — *2024–2025*
 
 - **Couverture** → `public/images/experiences/master-thesis-cover.jpg`
-  ↳ Optionnel — couverture du mémoire. L'essentiel est le PDF (voir §4).  ☐
+  ↳ Optionnel — couverture du mémoire. L'essentiel est le PDF (voir §4).  ✔ FOURNI (page de titre)
 - **Galerie** (jusqu'à 3) :
   1. `public/images/experiences/master-thesis-1.jpg` — Page de méthodologie ou tableau de données  ☐
   2. `public/images/experiences/master-thesis-2.jpg` — Un graphique / résultat marquant  ☐
@@ -132,7 +132,7 @@
 #### London School of Economics — Développement, politiques publiques, données — *2022–2024*
 
 - **Couverture** → `public/images/education/lse.jpg`
-  ↳ Logo LSE (réutilisable depuis §1).  ☐
+  ↳ Logo LSE (réutilisable depuis §1).  ✔ FOURNI (logo réutilisé)
 - **Galerie** (jusqu'à 3) :
   1. `public/images/education/lse-1.jpg` — Campus LSE / Londres  ☐
   2. `public/images/education/lse-2.jpg` — Certificat ou intitulé de cours  ☐
@@ -179,7 +179,7 @@
 #### Inskahier — INSCAE — Rédacteur en chef — *2022–2023*
 
 - **Couverture** → `public/images/editorial/inskahier.jpg`
-  ↳ Logo ou couverture d'Inskahier (INSCAE).  ☐
+  ↳ Logo ou couverture d'Inskahier (INSCAE).  ✔ FOURNI
 - **Galerie** (jusqu'à 3) :
   1. `public/images/editorial/inskahier-1.jpg` — Une couverture / un numéro  ☐
   2. `public/images/editorial/inskahier-2.jpg` — Un article publié  ☐
