@@ -9,7 +9,7 @@ export const LINKEDIN_URL = "https://www.linkedin.com/in/thibault-mahafaly";
 
 export const CV_FR_URL = "";
 export const CV_EN_URL = "";
-export const THESIS_PDF_URL = "";
+export const THESIS_PDF_URL = "/documents/memoire-master.pdf";
 
 // Portrait photo shown in the hero. Drop a file in /public/images/ and set the
 // path here (e.g. "/images/portrait.jpg"). Empty renders a monogram placeholder.

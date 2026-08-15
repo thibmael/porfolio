@@ -194,7 +194,7 @@
 |---|---|---|
 | CV — français | `public/documents/cv-fr.pdf` | ☐ |
 | CV — anglais | `public/documents/cv-en.pdf` | ☐ |
-| Mémoire de master | `public/documents/memoire-master.pdf` | ☐ |
+| Mémoire de master | `public/documents/memoire-master.pdf` | ✔ (converti du .docx) |
 
 ---
 
