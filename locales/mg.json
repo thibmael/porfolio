@@ -1,0 +1,1004 @@
+{
+  "meta": {
+    "siteName": "Thibault Randrasana",
+    "defaultTitle": "Thibault M. E. Randrasana — Mpandinika ny varotra iraisam-pirenena, lojistika sy politika ho an'ny daholobe",
+    "defaultDescription": "Portfolio mifanentana an'i Thibault M. E. Randrasana : asa an-dranomasina, fandinihana ara-toekarena, tetikasa iraisam-pirenena, fandraharahana ary fikarohana ampiharina eto Madagasikara sy ao amin'ny Ranomasimbe Indiana."
+  },
+  "nav": {
+    "home": "Fandraisana",
+    "parcours": "Traikefa",
+    "profil": "Mombamomba",
+    "contact": "Fifandraisana",
+    "cv": "CV",
+    "languageSwitchLabel": "Hanova fiteny",
+    "themeToggle": "Hanova lokon'ny pejy",
+    "skipToContent": "Handeha any amin'ny votoaty"
+  },
+  "footer": {
+    "tagline": "Mpandinika ny varotra iraisam-pirenena, lojistika sy politika ho an'ny daholobe.",
+    "availability": "Malalaka amin'ny asa freelance, miaraka amin'ny asa feno andro.",
+    "rights": "Voatokana ny zo rehetra.",
+    "linkedin": "LinkedIn",
+    "linkedinPlaceholder": "[FENOINA : rohy LinkedIn]"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Portfolio",
+      "name": "Thibault M. E. Randrasana",
+      "title": "Mpandinika ny varotra iraisam-pirenena, lojistika sy politika ho an'ny daholobe.",
+      "subtitle": "Traikefa mamakivaky ny asa an-dranomasina, ny fandinihana ara-toekarena, ny tetikasa iraisam-pirenena, ny fandraharahana ary ny fikarohana ampiharina eto Madagasikara sy ao amin'ny Ranomasimbe Indiana.",
+      "personal": "Dinihiko ny rafitra mampifandray ny orinasa, ny andrim-panjakana ary ny faritra — avy eo dia ovako ho tetikasa, tolo-kevitra ary fanapahan-kevitra azo ampiharina ireo fandinihana ireo.",
+      "photoAlt": "Sarin'i Thibault M. E. Randrasana ho an'ny asa",
+      "photoFile": "/images/profile/thibault-portrait.jpg",
+      "available": "Malalaka amin'ny asa fanoloran-kevitra",
+      "ctaExplore": "Hijery ny traikefako",
+      "ctaCV": "Hisintona ny CV-ko",
+      "ctaContact": "Hifandray amiko"
+    },
+    "stats": [
+      {
+        "value": "~400",
+        "unit": " EVP",
+        "label": "kaontenera arahina / herinandro — tolotra EASTMED",
+        "href": "/parcours/msc-eastmed"
+      },
+      {
+        "value": "2",
+        "unit": " M€",
+        "label": "term sheet vita sonia tamin'ny pre-seed · Ploutos",
+        "href": "/parcours/ploutos"
+      },
+      {
+        "value": "50",
+        "unit": "+",
+        "label": "mpanjifa iraisam-pirenena tantanana isan'andro",
+        "href": "/parcours/msc-eastmed"
+      },
+      {
+        "value": "Forbes",
+        "unit": "",
+        "label": "voafantina mialoha 30 Under 30 Europe · Ploutos",
+        "href": "/parcours/ploutos"
+      }
+    ],
+    "orgsTitle": "Andrim-panjakana sy fikambanana",
+    "orgs": [
+      {
+        "id": "wtca",
+        "name": "WTC Association",
+        "alt": "World Trade Centers Association"
+      },
+      {
+        "id": "lse",
+        "name": "LSE",
+        "alt": "London School of Economics"
+      },
+      {
+        "id": "msc",
+        "name": "MSC",
+        "alt": "Mediterranean Shipping Company"
+      },
+      {
+        "id": "sig",
+        "name": "SIG",
+        "alt": "Services Industriels de Genève"
+      },
+      {
+        "id": "eu",
+        "name": "Vondrona Eoropeana",
+        "alt": "Vondrona Eoropeana"
+      }
+    ],
+    "proofs": [
+      "Fandinihana ZLECAf natao ho fanohanana ny Minisiteran'ny Indostrialisasiona sy ny Varotra eto Madagasikara",
+      "Manodidina ny 400 EVP arahina isan-kerinandro amin'ny tolotra EASTMED mandalo an'i Le Havre",
+      "Asa fikarohana momba ny fiankinan-doha an-dranomasin'ny nosy — Madagasikara & Maorisy",
+      "Traikefa sy tetikasa notontosaina teo amin'i Madagasikara, Soisa, Frantsa ary ny sehatra iraisam-pirenena"
+    ],
+    "previewTitle": "Topi-maso ny traikefa",
+    "previewCta": "Hijery ny traikefa sy tetikasa rehetra",
+    "previewSlugs": [
+      "msc-eastmed",
+      "wtc",
+      "galaxam-mid"
+    ]
+  },
+  "parcours": {
+    "title": "Traikefa",
+    "intro": "Tahirin-tsary misy tetikasa sy traikefa hita maso. Sivano, avy eo tsindrio ny karatra iray hisokafan'ny antsipiriany.",
+    "othersTitle": "Traikefa hafa nanorina ny lalako",
+    "filters": {
+      "typeLabel": "Karazana",
+      "zoneLabel": "Faritra",
+      "periodLabel": "Fotoana",
+      "all": "Rehetra",
+      "types": {
+        "pro": "Traikefa ara-matihanina",
+        "conseil": "Fanoloran-kevitra sy fandinihana",
+        "recherche": "Fikarohana",
+        "entrepreneuriat": "Fandraharahana",
+        "formation": "Fianarana",
+        "engagement": "Firotsahana an-tsehatra"
+      },
+      "zones": {
+        "madagascar": "Madagasikara",
+        "france": "Frantsa",
+        "suisse": "Soisa",
+        "europe": "Eoropa",
+        "international": "Iraisam-pirenena"
+      },
+      "periods": {
+        "recent": "Vao haingana",
+        "old": "Taloha"
+      },
+      "practiceLabel": "Sehatra",
+      "practices": {
+        "Consultant": "Mpanolo-tsaina"
+      }
+    },
+    "cardCta": "Hijery",
+    "empty": "Tsy misy tetikasa mifanaraka amin'ireo sivana ireo."
+  },
+  "detail": {
+    "highlightsTitle": "Zava-dehibe",
+    "contextTitle": "Sehatra",
+    "roleTitle": "Ny anjara asako",
+    "workTitle": "Asa vita",
+    "resultsTitle": "Vokatra",
+    "lessonTitle": "Izay nampianarin'ity traikefa ity ahy",
+    "galleryTitle": "Tahirin-tsary sy antontan-taratasy",
+    "factsRole": "Anjara asa",
+    "factsPeriod": "Fotoana",
+    "factsLocation": "Toerana",
+    "factsClient": "Mpampanao",
+    "factsFunding": "Famatsiam-bola",
+    "factsCategory": "Sokajy",
+    "prev": "Tetikasa teo aloha",
+    "back": "Hiverina amin'ny traikefa",
+    "next": "Tetikasa manaraka",
+    "thesisTocTitle": "Fanovozan-kevitry ny asa",
+    "thesisSummaryTitle": "Famintinana fototra",
+    "thesisMethodTitle": "Fomba fiasa",
+    "thesisDownload": "Hisintona ny asa (PDF)",
+    "thesisUnavailable": "Mbola tsy misy PDF an-tserasera",
+    "stepsTitle": "Dingan'ny tetikasa",
+    "evolvingTitle": "Fari-pahalalana (havaozina arakaraka ny tetikasa)",
+    "portsTitle": "Seranana ao anatin'ny faritra",
+    "externalLink": "Hijery ny tranonkala",
+    "mediaMore": "Toerana fanampiny ho an'ny sary"
+  },
+  "projects": [
+    {
+      "slug": "msc-eastmed",
+      "format": "featured",
+      "teinte": "blue",
+      "type": "pro",
+      "zones": [
+        "france",
+        "international"
+      ],
+      "period": "recent",
+      "org": "Mediterranean Shipping Company (MSC)",
+      "role": "Commercial Liner EASTMED",
+      "periode": "2025 — mbola miasa",
+      "location": "Frantsa · iraisam-pirenena",
+      "category": [
+        "Traikefa ara-matihanina",
+        "Fitaterana an-dranomasina"
+      ],
+      "summary": "Fametrahana vidiny, fanarahana ara-barotra ary fizarana toerana amin'ny trades EASTMED sy Afrika Avaratra.",
+      "metric": {
+        "value": "~400 EVP",
+        "label": "arahina isan-kerinandro mandalo an'i Le Havre"
+      },
+      "highlights": [
+        "mpanjifa iraisam-pirenena 50+ tantanana",
+        "seranana 11 ao anatin'ny faritra",
+        "Trades EASTMED & Afrika Avaratra"
+      ],
+      "tags": [
+        "Shipping",
+        "Pricing",
+        "Fahafahana"
+      ],
+      "imageAlt": "Sambo mpitatitra kaontenera amin'ny tolotra EASTMED",
+      "contexte": "Tafiditra ao amin'ny ekipa ara-barotr'i MSC, mpandraharaha voalohany eran-tany amin'ny fitaterana kaontenera, amin'ny tolotra an-tsipika EASTMED mampifandray an'i Eoropa amin'ny Mediterane Atsinanana sy Afrika Avaratra.",
+      "monRole": "Commercial Liner amin'ny faritra EASTMED : fanarahana ara-barotra isan'andro, fametrahana vidiny sy fizarana toerana, miaraka amin'ny fandrindrana ny seranana sy ny biraon'ny tambajotra.",
+      "travail": [
+        "Fametrahana ny vidiny sy fikirakirana ny tolo-bidy (tenders) sy fangatahana tsindraindray, tsirairay sy isan'andro",
+        "Fizarana toerana sy fanarahana ny fikorianan'ny varotra amin'ny trades EASTMED sy Afrika Avaratra",
+        "Fitantanana mpanjifa iraisam-pirenena maherin'ny 50",
+        "Fandrindrana ny asa miaraka amin'ny seranana sy ny biraon'ny tambajotra"
+      ],
+      "resultats": [
+        "Fanarahana tolotra manodidina ny 400 EVP isan-kerinandro mandalo an'i Le Havre, 3 ka hatramin'ny 4 ny fijanonana narahina"
+      ],
+      "enseignement": "Ny lojistikan'ny an-tsipika dia miankina amin'ny fifandanjana isan'andro eo amin'ny vidiny, ny toerana ary ny fahatokisana — rafitra izay isaky ny fanapahan-kevitra ara-barotra dia manana vokany amin'ny asa.",
+      "ports": [
+        "Fos",
+        "Le Havre",
+        "Montoir",
+        "Bordeaux",
+        "Brest",
+        "Dunkerque",
+        "Anvers",
+        "Rotterdam",
+        "Hambourg",
+        "Barcelone",
+        "Gênes"
+      ]
+    },
+    {
+      "slug": "memoire-master",
+      "format": "vertical",
+      "teinte": "rose",
+      "type": "recherche",
+      "zones": [
+        "madagascar",
+        "international"
+      ],
+      "period": "recent",
+      "org": "Asa fikarohana Master",
+      "role": "Mpanoratra",
+      "periode": "2024–2025",
+      "location": "Madagasikara · Maorisy",
+      "category": [
+        "Fikarohana",
+        "Lojistika"
+      ],
+      "summary": "Ny fifampiankinan'ny orinasa an-dranomasina sy ny firenena nosy — ohatra Madagasikara sy Maorisy.",
+      "metric": {
+        "value": "firenena 2",
+        "label": "fandinihana fampitahana · fomba mifangaro"
+      },
+      "highlights": [
+        "Fampitahana Madagasikara–Maorisy",
+        "Indices CNUCED & Banky Iraisam-pirenena",
+        "Famakiana boky + resadresaka"
+      ],
+      "tags": [
+        "Fikarohana",
+        "An-dranomasina",
+        "Maha-nosy"
+      ],
+      "imageAlt": "Fonon'ny asa fikarohana Master",
+      "contexte": "Asa fikarohana mandinika ny fiankinan-doha an-dranomasin'ny nosy, amin'ny alalan'ny fampitahana an'i Madagasikara sy Maorisy.",
+      "monRole": "Mpanoratra : fananganana ny olana, fanangonana sy fampiasana angona, fanaovana resadresaka, fanoratana ary tolo-kevitra.",
+      "travail": [
+        "Famakiana boky momba ny herin'ny an-dranomasina sy ny fiankinan-doha ara-lojistikan'ny nosy",
+        "Fampiasana angon'ny fifandraisana sy fahombiazana ara-lojistika (indices CNUCED sy Banky Iraisam-pirenena)",
+        "Fanaovana resadresaka amin'ny mpandray anjara amin'ny rojon-dojistika",
+        "Famoronana tolo-kevitra ho an'ny rojon-dojistika malagasy"
+      ],
+      "resultats": [
+        "Fafana fanadihadiana fampitahana Madagasikara–Maorisy",
+        "Tolo-kevitra ho an'i Madagasikara, ho an'i Maorisy ary ho an'ny nosy"
+      ],
+      "enseignement": "Ny fiankinan-doha an-dranomasin'ny nosy dia miankina betsaka amin'ny anatiny — fandaminana ny seranana, angona, fandrindrana — toy ny any ivelany.",
+      "thesis": {
+        "subtitle": "Ny fifampiankinan'ny orinasa an-dranomasina sy ny firenena nosy — ohatra Madagasikara sy Maorisy",
+        "methodology": "Fomba fiasa mifangaro : famakiana boky, fanadihadiana angon'ny fifandraisana sy fahombiazana ara-lojistika (Liner Shipping Connectivity Index an'ny CNUCED, Logistics Performance Index an'ny Banky Iraisam-pirenena) ary resadresaka.",
+        "toc": [
+          {
+            "part": "Fampidirana ankapobeny",
+            "chapters": []
+          },
+          {
+            "part": "Fizarana I — Rafitra ara-teôria : herin'ny an-dranomasina, fiankinan-doha ary fahefana ara-lojistika",
+            "chapters": [
+              "1.1 Ny ranomasina ho fototry ny varotra maneran-tany",
+              "1.2 Avy amin'ny herin'ny fanjakana an-dranomasina ho amin'ny orinasa tsy miankina",
+              "1.3 Famaritana ny fiankinan-doha an-dranomasina : tsy fitoviana, fanoloana, fiandrianana ara-lojistika",
+              "1.4 Kapitalisma ara-lojistika sy neôkôlonizasiona : rafitra fanampiny",
+              "1.5 Tolo-kevitra fikarohana sy fafana fanadihadiana"
+            ]
+          },
+          {
+            "part": "Fizarana II — Fandinihana fampitahana : Madagasikara sy Maorisy",
+            "chapters": [
+              "2.1 Fomba fiasa, safidin'ny tranga sy loharano",
+              "2.2 Vokatra fampitahana : fifandraisana, fahombiazana, krizy, anjara asan'ny Fanjakana",
+              "2.3 Famintinana fampitahana"
+            ]
+          },
+          {
+            "part": "Fizarana III — Tolo-kevitra",
+            "chapters": [
+              "3.1 Ho an'i Madagasikara",
+              "3.2 Ho an'i Maorisy",
+              "3.3 Tolo-kevitra iombonana ho an'ny nosy",
+              "3.4 Fetra sy lalam-pikarohana"
+            ]
+          },
+          {
+            "part": "Famaranana ankapobeny",
+            "chapters": []
+          }
+        ],
+        "summary": [
+          "Ny asa dia mandinika ny fiankinan-doha an-dranomasin'ny nosy manoloana ny orinasa lojistika iraisam-pirenena, sy ny fiantraikany amin'ny fifaninanana ara-barotra, ny fiandrianana ara-toekarena ary ny fahafahana mifampiraharaha.",
+          "Miainga amin'ny fampitahana Madagasikara–Maorisy, dia mamaritra ny fiandrianana ara-lojistika izy, tsy ho fialana amin'ny fifampiankinana, fa ho fahafahan'ny Fanjakana mahafantatra, mandrefy sy mitantana ny fiankinan-dohany.",
+          "Manolotra ivon-toerana nasionaly fanaraha-maso ny fikoriana izy, fomba fijery amin'ny coût rendu feno ary fanovaozana an-dranomasina ara-paritra."
+        ]
+      }
+    },
+    {
+      "slug": "gefp-agoa",
+      "format": "half",
+      "teinte": "rose",
+      "practice": "Mpanolo-tsaina",
+      "type": "conseil",
+      "zones": [
+        "madagascar"
+      ],
+      "period": "recent",
+      "org": "Ministère de l'Industrialisation et du Commerce de Madagascar",
+      "role": "Fanohanana mpanolo-tsaina zokiny",
+      "periode": "2025 — 6 volana",
+      "location": "Antananarivo, Madagasikara",
+      "category": [
+        "Fanoloran-kevitra sy fandinihana",
+        "Politika ho an'ny daholobe"
+      ],
+      "summary": "Fandinihana ny fahafahana avy amin'ny ZLECAf ho an'ny sehatry ny lamba sy fitafiana malagasy.",
+      "metric": {
+        "value": "~50 pejy",
+        "label": "tatitra, natolotra ny Fiadidiana"
+      },
+      "highlights": [
+        "Fandinihana ZLECAf lamba-fitafiana",
+        "Fanolorana teo anatrehan'ny Fiadidiana",
+        "Fanohanana ny fifampidinihana nasionaly"
+      ],
+      "tags": [
+        "ZLECAf",
+        "Textile",
+        "Étude"
+      ],
+      "imageAlt": "Fonon'ny tatitra fandinihana ZLECAf",
+      "contexte": "Fandinihana nanirahan'ny Minisiteran'ny Indostrialisasiona sy ny Varotra eto Madagasikara, novatsian'ny Vondrona Eoropeana tamin'ny alalan'ny Fandaharanasa fanohanana ny fampiroboroboana ny fanondranana sy ny fampidirana ara-paritra eto Madagasikara.",
+      "monRole": "Fanohanana mpanolo-tsaina zokiny : fikarohana an-taratasy, fanadihadiana sehatra, fandraisana anjara amin'ny fanoratana sy fanomanana ny fitaovana.",
+      "travail": [
+        "Fikarohana an-taratasy sy fanadihadiana ny tsena kontinanta afrikana eo ambanin'ny fitsipika ZLECAf",
+        "Fanadihadiana sehatra ampiharina amin'ny sehatry ny lamba-fitafiana malagasy",
+        "Fandraisana anjara amin'ny fanoratana ny tatitra sy ny fanomanana ny fitaovana fanolorana",
+        "Fandraisana anjara amin'ny fifampidinihana nasionaly sy fanohanana ny famaranana ny fandinihana"
+      ],
+      "resultats": [
+        "Tatitra fandinihana manodidina ny 50 pejy",
+        "Fitaovana fanolorana ho an'ny fifampidinihana nasionaly",
+        "Fanolorana famaranana farany teo anatrehan'ny Fiadidiana ny Repoblikan'i Madagasikara"
+      ],
+      "enseignement": "Manan-danja ny fandinihana raha azon'ireo manapa-kevitra ihany : ny fanolorana sy ny fampianarana dia manan-danja toy ny fanadihadiana mihitsy."
+    },
+    {
+      "slug": "galaxam-mid",
+      "format": "half",
+      "teinte": "blue",
+      "practice": "Mpanolo-tsaina",
+      "type": "conseil",
+      "zones": [
+        "madagascar"
+      ],
+      "period": "recent",
+      "org": "Galaxam Logistics × USAID",
+      "role": "Mpanolo-tsaina supply chain & business development",
+      "periode": "nanomboka mey 2026",
+      "location": "Madagasikara",
+      "category": [
+        "Fanoloran-kevitra sy fandinihana",
+        "Lojistika"
+      ],
+      "summary": "Fizarana amin'ny kilaometatra farany (Last Mile Delivery) ny lay fandrian-tsara maharitra (MID) manerana ny firenena, ho an'ny iraka novatsian'ny USAID.",
+      "metric": {
+        "value": "1 662 CSB",
+        "label": "distrika 63 voasarona"
+      },
+      "highlights": [
+        "Tambajotra nasionaly misy CSB 1 662",
+        "distrika 63 voasarona",
+        "989 250 MID — asa mbola mandeha"
+      ],
+      "tags": [
+        "Last Mile Delivery",
+        "USAID",
+        "Fahasalamam-bahoaka"
+      ],
+      "imageAlt": "Fizaran'ny ivon-toeram-pahasalamana fototra voasaron'ny fizarana",
+      "contexte": "Iraka novatsian'ny USAID ary notontosaina ho an'ny Galaxam Logistics SARL, orinasa fandalovana malagasy manana traikefa 25 taona.",
+      "monRole": "Mpanolo-tsaina supply chain sy business development.",
+      "travail": [
+        "Fanohanana ny fizarana amin'ny kilaometatra farany (Last Mile Delivery) amin'ny tambajotra nasionaly misy ivon-toeram-pahasalamana fototra (CSB) 1 662",
+        "Fandrindrana ny fandrakofana ny distrika 63 voakasika",
+        "Sehatra business development amin'ny iraka"
+      ],
+      "resultats": [
+        "Asa fizarana mbola mandeha, amin'ny habetsahana 989 250 MID"
+      ],
+      "enseignement": "Ny fahasalamam-bahoaka dia miankina amin'ny kilaometatra farany : ny mizara dia efa fiarovana."
+    },
+    {
+      "slug": "wtc",
+      "format": "standard",
+      "teinte": "rose",
+      "type": "pro",
+      "zones": [
+        "madagascar",
+        "international"
+      ],
+      "period": "recent",
+      "org": "WTC Antananarivo × WTC Ras Al Khaimah",
+      "role": "Project Manager",
+      "periode": "2025 — 6 volana",
+      "location": "Madagasikara · Ras Al Khaimah",
+      "category": [
+        "Fitantanana tetikasa",
+        "Fampandrosoana iraisam-pirenena"
+      ],
+      "summary": "Fananganana klioban'orinasa iombonan'ny World Trade Centers roa sy fampiroboroboana ny toerana roa.",
+      "metric": {
+        "value": "~500",
+        "label": "mpandray anjara tamin'ny Global Business Forum"
+      },
+      "highlights": [
+        "~100 World Trade Centers nisolo tena",
+        "Klioba iombonan'ny WTC roa",
+        "Global Business Forum"
+      ],
+      "tags": [
+        "WTC",
+        "Diplaomasia ara-toekarena",
+        "Tambajotra"
+      ],
+      "imageAlt": "Global Business Forum an'ny World Trade Centers",
+      "contexte": "Tetikasa notontosaina ho an'ny World Trade Centers any Antananarivo sy Ras Al Khaimah, iray tompony, mikendry ny hampifanakaiky ny tambajotram-barotra tsirairay.",
+      "monRole": "Project Manager : mandray anjara amin'ny fananganana klioban'orinasa iombonana sy mampiroborobo an'i Madagasikara sy Ras Al Khaimah amin'ny tambajotra roa.",
+      "travail": [
+        "Fandrindrana amin'ny tambajotra maneran-tany an'ny World Trade Centers sy ny mpiara-miombon'antoka iraisam-pirenena",
+        "Fandraisana anjaran'ny sehatra malagasy misy ny centres d'appels sy ny andrim-panjakana manamora ny raharaham-barotra",
+        "Fifandraisana amin'ny andrim-panjakana miandraikitra ny varotra",
+        "Fisoloana tena ny World Trade Centers roa tamin'ny Global Business Forum"
+      ],
+      "resultats": [
+        "Fandraisana anjara tamin'ny Global Business Forum — manodidina ny 500 mpandray anjara, World Trade Centers zato teo ho eo nisolo tena"
+      ],
+      "issue": "Nijanona ny tetikasa noho ny toe-draharaha ara-geopolitika teto Madagasikara.",
+      "enseignement": "Ny tetikasa iraisam-pirenena dia miankina amin'ny sehatra mihoatra azy : ny mahay manoratra izay natsangana dia manan-danja, na dia mijanona aza ny tetikasa."
+    },
+    {
+      "slug": "sig-geneve",
+      "format": "standard",
+      "teinte": "blue",
+      "type": "pro",
+      "zones": [
+        "suisse"
+      ],
+      "period": "recent",
+      "org": "Services Industriels de Genève",
+      "role": "Mpianatra mpanao stage — Fitantanana tetikasa fikarohana sy fandinihana mpanjifa",
+      "periode": "2024",
+      "location": "Genève, Soisa",
+      "category": [
+        "Fandinihana mpanjifa",
+        "Fifandraisana amin'ny mpanjifa"
+      ],
+      "summary": "Fitantanana sy famintinana ny fandinihana mpanjifa ao amin'ny Direction Relations Clients, sy famoronana fitaovana fanaraha-maso mirefy.",
+      "metric": {
+        "value": "5+",
+        "label": "fandinihana mpanjifa narahina, sehatra rehetra"
+      },
+      "highlights": [
+        "Workboard fanaraha-maso ny fandinihana mpanjifa",
+        "One-pagers famintinana isaky ny fandinihana",
+        "Fahafaham-po, fifamoivoizana maotina, rano"
+      ],
+      "tags": [
+        "Fandinihana mpanjifa",
+        "Data & famintinana",
+        "Fitantanana tetikasa"
+      ],
+      "imageAlt": "Services Industriels de Genève — fitantanana ny fandinihana mpanjifa",
+      "contexte": "Stage enim-bolana tao amin'ny Direction Relations Clients an'ny Services Industriels de Genève (SIG), mpamatsy angovo maro (herinaratra, rano, gazy, hafanana) ao amin'ny kantao Genève. Ny direction dia manao fandinihana mpanjifa amin'ny asa rehetran'ny vondrona.",
+      "monRole": "Mpianatra mpanao stage amin'ny fitantanana tetikasa fikarohana sy fandinihana mpanjifa : manao izay ho mora vakiana sy azo tantanina ny fandinihana rehetra mandeha, na inona na inona sehatra.",
+      "travail": [
+        "Famoronana fitaovana fanaraha-maso karazana workboard hahitana ny fandinihana mpanjifa rehetra mandeha, na inona na inona sehatra — natolotra ny mpanjifa anatiny",
+        "Fanoratana famintinana pejy iray (« one-pagers ») isaky ny fandinihana, mba hanamorana ny famakian'ny ekipa azy",
+        "Fandraisana anjara tamin'ny fandinihana mpanjifa mihoatra ny dimy amin'ny lohahevitra samihafa : fahafaham-pon'ny mpanjifa, fifamoivoizana maotina, rano"
+      ],
+      "resultats": [
+        "Fafana fitantanana tokana manome topi-maso ny fandinihana mpanjifa, noraisina ho fitaovana fanolorana anatiny",
+        "Famintinana pejy iray azo averina ampiasaina, manafaingana ny fandraisan'ny ekipa ny fandinihana"
+      ],
+      "enseignement": "Ny manao ho mora vakiana sy azo ampiharina ny vaovao miparitaka dia manan-danja toy ny fandinihana mihitsy : ny famintinana dia vokatra feno."
+    },
+    {
+      "slug": "ploutos",
+      "format": "standard",
+      "teinte": "blue",
+      "type": "entrepreneuriat",
+      "zones": [
+        "europe",
+        "international"
+      ],
+      "period": "recent",
+      "org": "Ploutos",
+      "role": "Mpiara-manorina",
+      "periode": "2021–2025",
+      "location": "Eoropa",
+      "category": [
+        "Fandraharahana",
+        "Start-up"
+      ],
+      "summary": "Fiaraha-manorina start-up Web2/Web3. Term sheet 2 M€ vita sonia tamin'ny pre-seed ; niankina tamin'ny prototype ny famoahana vola, tsy tratra.",
+      "metric": {
+        "value": "2 M€",
+        "label": "term sheet vita sonia, tsy navoaka ny vola"
+      },
+      "highlights": [
+        "MVP + maketa video natolotra",
+        "Voafantina mialoha Forbes 30 Under 30 Europe",
+        "Fandraisana anjara tamin'ny InnoStartup"
+      ],
+      "tags": [
+        "Start-up",
+        "Pre-seed",
+        "Vokatra"
+      ],
+      "imageAlt": "Prototype an'i Ploutos",
+      "contexte": "Start-up niarahana nanorina tamin'ny ekipa mpanorina 2 sy mpamorona rindrambaiko 5, voafantina mialoha ho Forbes 30 Under 30 Europe ary nanatrika ny InnoStartup.",
+      "monRole": "Mpiara-manorina : famolavolana vokatra, fampandrosoana ny tetikasa sy fifandraisana amin'ny mpampiasa vola.",
+      "travail": [
+        "Fanolorana MVP sy maketa video an'ny vokatra",
+        "Dingana fitsapana voafetra amin'ny akaiky, tsy nisy lisitra fiandrasana milamina",
+        "Voafantina mialoha ho Forbes 30 Under 30 Europe sy fandraisana anjara tamin'ny InnoStartup"
+      ],
+      "resultats": [
+        "Term sheet 2 M€ vita sonia tamin'ny pre-seed ; niankina tamin'ny fanolorana ny prototype ny famoahana vola, tsy tratra"
+      ],
+      "steps": [
+        "Term sheet vita sonia",
+        "Prototype natolotra",
+        "Prototype noheverina ho tsy ampy",
+        "Tsy navoaka ny vola",
+        "Nijanona ny tetikasa"
+      ],
+      "enseignement": "Ny fanoloran-tena hampiasa vola dia nanafoana ny fahafahana nanao fahadisoana teo amin'ny drafitra, izay tsy nanomana toe-javatra tsy fahombiazana mihitsy."
+    },
+    {
+      "slug": "popnbuy",
+      "format": "standard",
+      "teinte": "blue",
+      "type": "entrepreneuriat",
+      "zones": [
+        "europe"
+      ],
+      "period": "recent",
+      "org": "PopnBuy OÜ",
+      "role": "Mpanorina",
+      "periode": "2025 — mbola mandeha",
+      "location": "Estonia · Eoropa",
+      "category": [
+        "Fandraharahana",
+        "Vokatra nomerika"
+      ],
+      "summary": "Marketplace eoropeana momba ny live commerce : mivarotra ny vokatra mandritra ny fotoana video mivantana.",
+      "metric": {
+        "value": "50",
+        "label": "mpivarotra nifandraisana"
+      },
+      "highlights": [
+        "Tranonkala novolavolaina samirery (popnbuy.eu)",
+        "Orinasa voasoratra any Estonia",
+        "Live commerce video"
+      ],
+      "tags": [
+        "Live commerce",
+        "Marketplace",
+        "Estonia"
+      ],
+      "imageAlt": "Pejy fandraisan'i PopnBuy",
+      "externalLink": "https://popnbuy.eu",
+      "contexte": "Marketplace eoropeana momba ny live commerce ahafahan'ny mpivarotra, marika, mpamorona sy mpivarotra indray mivarotra ny vokany mandritra ny fotoana video mivantana. Orinasa voasoratra any Estonia, tetikasa mbola volavolaina.",
+      "monRole": "Mpanorina : famolavolana ny vokatra sy fampandrosoana ny tranonkala samirery, miaraka amin'ny fanampian'ny fitaovana IA.",
+      "travail": [
+        "Famolavolana sy fampandrosoana ny tranonkala samirery (popnbuy.eu)",
+        "Fisoratana ny orinasa any Estonia",
+        "Fitadiavana sy fifandraisana amin'ireo mpivarotra voalohany"
+      ],
+      "resultats": [
+        "mpivarotra 50 nifandraisana",
+        "Tranonkala an-tserasera ao amin'ny popnbuy.eu, tetikasa mbola volavolaina"
+      ],
+      "enseignement": "Ny manorina vokatra feno irery dia manery hametraka mazava tsara izay tena zava-dehibe ho an'ny mpampiasa voalohany."
+    },
+    {
+      "slug": "master-supply-chain",
+      "format": "compact",
+      "teinte": "blue",
+      "type": "formation",
+      "zones": [
+        "france"
+      ],
+      "period": "recent",
+      "org": "INSEEC — Omnes Education",
+      "role": "Master Achats sy Supply Chain Management",
+      "periode": "2025–2026",
+      "location": "Marseille, Frantsa",
+      "category": [
+        "Fianarana"
+      ],
+      "summary": "Master Achats sy Supply Chain Management.",
+      "metric": {
+        "value": "Master",
+        "label": "Achats & Supply Chain"
+      },
+      "tags": [
+        "Supply Chain",
+        "Fividianana"
+      ],
+      "imageAlt": "Logo INSEEC — Omnes Education",
+      "contexte": "Master Achats sy Supply Chain Management ao amin'ny INSEEC (Omnes Education), Marseille.",
+      "monRole": "Mpianatra.",
+      "highlights": [
+        "Master Achats & Supply Chain Management",
+        "INSEEC · Omnes Education — Marseille",
+        "Mbola mandeha · 2025–2026"
+      ],
+      "enseignement": "Mampifandray ny fividianana, ny lojistika ary ny angona mba hitantana rojon'ny famatsiana manontolo."
+    },
+    {
+      "slug": "bachelor-crea",
+      "format": "compact",
+      "teinte": "rose",
+      "type": "formation",
+      "zones": [
+        "suisse"
+      ],
+      "period": "recent",
+      "org": "CREA Genève — Omnes Education",
+      "role": "Bachelor Business Management",
+      "periode": "2024",
+      "location": "Genève, Soisa",
+      "category": [
+        "Fianarana"
+      ],
+      "summary": "Bachelor Business Management — voalohany tamin'ny andiany 2024.",
+      "metric": {
+        "value": "Voalohany",
+        "label": "tamin'ny andiany 2024"
+      },
+      "tags": [
+        "Business",
+        "Management"
+      ],
+      "imageAlt": "Logo CREA Genève — Omnes Education",
+      "contexte": "Bachelor Business Management tao amin'ny CREA Genève (Omnes Education), voalohany tamin'ny andiany 2024.",
+      "monRole": "Mpianatra.",
+      "highlights": [
+        "Bachelor Business Management",
+        "Voalohany tamin'ny andiany 2024",
+        "CREA Genève · Omnes Education"
+      ],
+      "enseignement": "Ny hivoaka voalohany dia midika fa novaina ho fomba fiasa ny fitakiana avo."
+    },
+    {
+      "slug": "lse",
+      "format": "compact",
+      "teinte": "blue",
+      "type": "formation",
+      "zones": [
+        "europe"
+      ],
+      "period": "recent",
+      "org": "London School of Economics",
+      "role": "Fampandrosoana, politika ho an'ny daholobe, angona",
+      "periode": "2022–2024",
+      "location": "Londres, Royaume-Uni",
+      "category": [
+        "Fianarana"
+      ],
+      "summary": "Fampandrosoana ara-toekarena sy ara-politikan'ny firenena an-dalam-pandrosoana, fanadihadiana ny politika ho an'ny daholobe, fanadihadiana angona ho an'ny fitantanana.",
+      "metric": {
+        "value": "LSE",
+        "label": "fampandrosoana & politika ho an'ny daholobe"
+      },
+      "tags": [
+        "Fampandrosoana",
+        "Politika ho an'ny daholobe"
+      ],
+      "imageAlt": "Logo London School of Economics",
+      "contexte": "Lohahevitra nianarana tao amin'ny London School of Economics : fampandrosoana ara-toekarena sy ara-politikan'ny firenena an-dalam-pandrosoana, fanadihadiana ny politika ho an'ny daholobe, fanadihadiana angona ho an'ny fitantanana.",
+      "monRole": "Mpianatra.",
+      "highlights": [
+        "Fampandrosoana ara-toekaren'ny firenena an-dalam-pandrosoana",
+        "Fanadihadiana ny politika ho an'ny daholobe",
+        "Fanadihadiana angona ho an'ny fitantanana"
+      ],
+      "enseignement": "Mamaky politika ho an'ny daholobe amin'ny alalan'ny angony toy ny amin'ny tanjony."
+    },
+    {
+      "slug": "harvardx",
+      "format": "compact",
+      "teinte": "rose",
+      "type": "formation",
+      "zones": [
+        "international"
+      ],
+      "period": "recent",
+      "org": "HarvardX",
+      "role": "Justice Course Certification",
+      "periode": "2023",
+      "location": "An-tserasera",
+      "category": [
+        "Fianarana"
+      ],
+      "summary": "Justice Course Certification (HarvardX).",
+      "metric": {
+        "value": "HarvardX",
+        "label": "Justice Course Certification"
+      },
+      "tags": [
+        "Justice",
+        "Certification"
+      ],
+      "imageAlt": "Logo HarvardX",
+      "contexte": "Justice Course Certification, HarvardX.",
+      "monRole": "Mpandray anjara.",
+      "highlights": [
+        "Certification ny taranja « Justice »",
+        "Etika, lalàna ary filozofia politika",
+        "HarvardX · 2023"
+      ],
+      "enseignement": "Ny fanapahan-kevitra ara-drariny dia mitaky ny hamantatra aloha ny foto-kevitra mifanohitra."
+    },
+    {
+      "slug": "miray",
+      "format": "compact",
+      "teinte": "rose",
+      "type": "engagement",
+      "zones": [
+        "madagascar"
+      ],
+      "period": "recent",
+      "org": "Association MIRAY",
+      "role": "Filoha lefitra",
+      "periode": "Nanomboka 2020",
+      "location": "Faritra atsimon'i Madagasikara",
+      "category": [
+        "Firotsahana an-tsehatra"
+      ],
+      "summary": "Filoha lefitry ny fikambanana MIRAY, hetsika any atsimon'i Madagasikara.",
+      "metric": {
+        "value": "Nanomboka 2020",
+        "label": "filoha lefitra"
+      },
+      "tags": [
+        "Fikambanana",
+        "Madagasikara"
+      ],
+      "imageAlt": "Logon'ny fikambanana MIRAY",
+      "contexte": "Fikambanana MIRAY : fanohanana ara-pitaovana ho an'ny fianakaviana voan'ny tsy fandriam-pahalemana ara-tsakafo any atsimon'i Madagasikara.",
+      "monRole": "Filoha lefitra nanomboka 2020.",
+      "highlights": [
+        "Filoha lefitra nanomboka 2020",
+        "Fanohanana ny fianakaviana tsy manana fiantohana ara-tsakafo",
+        "Hetsika any atsimon'i Madagasikara"
+      ],
+      "enseignement": "Ny fanampiana dia saintsainina toy ny lojistika : akaiky indrindra ny toerana, mifanaraka indrindra amin'ny filàna."
+    },
+    {
+      "slug": "basket",
+      "format": "compact",
+      "teinte": "blue",
+      "type": "engagement",
+      "zones": [
+        "madagascar"
+      ],
+      "period": "old",
+      "org": "Ekipam-pirenena baolina basket Madagasikara",
+      "role": "Meneur sy arrière (U16–U18)",
+      "periode": "2015–2016",
+      "location": "Madagasikara",
+      "category": [
+        "Firotsahana an-tsehatra"
+      ],
+      "summary": "Ekipam-pirenena baolina basket Madagasikara, sokajy U16 ka hatramin'ny U18.",
+      "metric": {
+        "value": "U16–U18",
+        "label": "ekipam-pirenena"
+      },
+      "tags": [
+        "Fanatanjahantena",
+        "Fifaninanana"
+      ],
+      "imageAlt": "Sarin'ny ekipam-pirenena U16–U18",
+      "contexte": "Ekipam-pirenena baolina basket Madagasikara, sokajy U16 ka hatramin'ny U18, 2015–2016.",
+      "monRole": "Meneur sy arrière.",
+      "highlights": [
+        "Fifantenam-pirenena U16–U18",
+        "Toerana meneur sy arrière",
+        "Madagasikara · 2015–2016"
+      ],
+      "enseignement": "Ny ambony lenta dia mampianatra haingana ny fifehezan-tena, ny fiaraha-miasa ary ny fitantanana ny fanerena."
+    },
+    {
+      "slug": "journal-etudiant",
+      "format": "compact",
+      "teinte": "rose",
+      "type": "engagement",
+      "zones": [
+        "madagascar"
+      ],
+      "period": "recent",
+      "org": "Journal de l'Étudiant",
+      "role": "Tonian-dahatsoratra sy mpanao gazety",
+      "periode": "2023–2024",
+      "location": "Madagasikara",
+      "category": [
+        "Famokarana lahatsoratra"
+      ],
+      "summary": "Haino aman-jery an-tserasera malagasy manangona mpanaraka 50 000 eo ho eo amin'ny tambajotra sosialy, miaraka amin'ny lahatsoratra isan-kerinandro « La Société c'est toi ».",
+      "metric": {
+        "value": "~50 000",
+        "label": "mpanaraka amin'ny tambajotra sosialy"
+      },
+      "tags": [
+        "Haino aman-jery",
+        "Lahatsoratra"
+      ],
+      "imageAlt": "Logon'ny Journal de l'Étudiant",
+      "contexte": "Haino aman-jery an-tserasera malagasy manangona mpanaraka 50 000 eo ho eo amin'ny tambajotra sosialy. Tonian-dahatsoratra sy mpanoratra ny lahatsoratra isan-kerinandro « La Société c'est toi ».",
+      "monRole": "Tonian-dahatsoratra sy mpanao gazety (2023–2024).",
+      "highlights": [
+        "≈ 50 000 mpanaraka amin'ny tambajotra",
+        "Lahatsoratra isan-kerinandro « La Société c'est toi »",
+        "Tonian-dahatsoratra · 2023–2024"
+      ],
+      "enseignement": "Ny mahatratra olona 50 000 isan-kerinandro dia manery hanao ny hevitra ho mazava alohan'ny hanaovana azy ho mamiratra."
+    },
+    {
+      "slug": "inskahier",
+      "format": "compact",
+      "teinte": "blue",
+      "type": "engagement",
+      "zones": [
+        "madagascar"
+      ],
+      "period": "recent",
+      "org": "Inskahier — INSCAE",
+      "role": "Tonian-dahatsoratra",
+      "periode": "2022–2023",
+      "location": "Madagasikara",
+      "category": [
+        "Famokarana lahatsoratra"
+      ],
+      "summary": "Gazetin'ny INSCAE, fitarihana mpanao gazety folo eo ho eo.",
+      "metric": {
+        "value": "~10",
+        "label": "mpanao gazety notarihina"
+      },
+      "tags": [
+        "Haino aman-jery",
+        "Fanoratana"
+      ],
+      "imageAlt": "Logon'i Inskahier",
+      "contexte": "Inskahier, gazetin'ny mpianatra ao INSCAE : fitarihana ara-panoratana ekipa mpanao gazety folo eo ho eo.",
+      "monRole": "Tonian-dahatsoratra (2022–2023).",
+      "highlights": [
+        "Tonian-dahatsoratry ny gazetin'ny INSCAE",
+        "Fitarihana mpanao gazety folo eo ho eo",
+        "2022–2023"
+      ],
+      "enseignement": "Ny mitarika fanoratana dia ny mampisy ny feon'ny hafa alohan'ny an'ny tena."
+    }
+  ],
+  "profil": {
+    "title": "Mombamomba",
+    "intro": "Niforona teo anelanelan'ny tontolo maro ny lalako : ny asa an-dranomasina, ny fandinihana ara-toekarena, ny andrim-panjakana, ny fandraharahana ary ny fikarohana. Izay mampifandray ireo traikefa ireo dia ny fahalianako amin'ny rafitra sarotra, ny fifandraisana miankin-doha ary ny fomba ahafahan'ny fikambanana mamerina ny fahafahany manapa-kevitra.",
+    "domainsTitle": "Sehatra iasana",
+    "domains": [
+      {
+        "label": "Politikan'ny varotra sy fampidirana ara-paritra",
+        "desc": "ZLECAf, AGOA ; fanadihadiana sehatra sy fahafahana ara-tsena."
+      },
+      {
+        "label": "Fitaterana an-dranomasina an-tsipika sy lojistika iraisam-pirenena",
+        "desc": "Fametrahana vidiny, fizarana toerana, fifandraisan'ny seranana."
+      },
+      {
+        "label": "Fandinihana fiatraikany isaky ny sehatra",
+        "desc": "Fikarohana an-taratasy, fanadihadiana, famokarana vokatra atolotra."
+      },
+      {
+        "label": "Fampandrosoana ara-toekaren'ny nosy",
+        "desc": "Fiankinan-doha ara-lojistika, fiandrianam-pirenena, rojon'ny famatsiana."
+      },
+      {
+        "label": "Fanadihadiana angona",
+        "desc": "Fikirakirana, fampisehoana ary famakiana azo ampiharina ny angona."
+      },
+      {
+        "label": "Fitantanana tetikasa iraisam-pirenena",
+        "desc": "Fandrindrana mpandray anjara ho an'ny daholobe sy tsy miankina, firenena maro."
+      }
+    ],
+    "zonesTitle": "Faritra ara-jeografika",
+    "zones": [
+      {
+        "label": "Madagasikara sy ny Ranomasimbe Indiana",
+        "note": "laharam-pahamehana"
+      },
+      {
+        "label": "Eoropa",
+        "note": "Frantsa, Soisa"
+      },
+      {
+        "label": "Afrika Atsinanana",
+        "note": "faharoa"
+      },
+      {
+        "label": "Iraisam-pirenena",
+        "note": "tetikasa firenena maro"
+      }
+    ],
+    "langTitle": "Fiteny",
+    "langs": [
+      {
+        "label": "Malagasy",
+        "note": "Tenin-dreny",
+        "levelPct": 100
+      },
+      {
+        "label": "Frantsay",
+        "note": "Miteny roa",
+        "levelPct": 100
+      },
+      {
+        "label": "Anglisy",
+        "note": "C1, TOEIC 980/990",
+        "levelPct": 90
+      }
+    ],
+    "toolsTitle": "Fitaovana",
+    "tools": [
+      "Excel",
+      "Tableau",
+      "Orange3",
+      "Data Science Studio",
+      "PowerPoint",
+      "Figma"
+    ]
+  },
+  "contact": {
+    "title": "Andao hanorina zavatra mahasoa.",
+    "intro": "Malalaka aho hifanakalo hevitra momba ny asa fandinihana, ny tetikasa fampandrosoana ara-toekarena, ny olana ara-lojistika iraisam-pirenena na ny fiaraha-miasa ara-pandraharahana.",
+    "emailLabel": "Mailaka",
+    "emailPlaceholder": "[FENOINA : adiresy mailaka]",
+    "phoneLabel": "Telefaonina",
+    "phonePlaceholder": "[FENOINA : laharan-telefaonina]",
+    "linkedinLabel": "LinkedIn",
+    "linkedinPlaceholder": "[FENOINA : rohy LinkedIn]",
+    "locationLabel": "Toerana",
+    "location": "Madagasikara · Eoropa",
+    "availabilityLabel": "Fahafahana",
+    "availability": "Freelance, miaraka amin'ny asa feno andro.",
+    "emailButton": "Handefa mailaka",
+    "linkedinButton": "Hijery LinkedIn",
+    "cvFr": "CV (Frantsay)",
+    "cvEn": "CV (Anglisy)",
+    "cvUnavailable": "Antontan-taratasy hampiana",
+    "formTitle": "Na mandefa hafatra",
+    "formName": "Anarana",
+    "formEmail": "Mailaka",
+    "formOrg": "Fikambanana",
+    "formMessage": "Hafatra",
+    "formSubmit": "Handefa",
+    "formNote": "Manokatra ny fandaharana mailaka mahazatra anao ity taratasy ity ; tsy misy angona alefa any amin'ny serivera."
+  },
+  "common": {
+    "close": "Hidina",
+    "loading": "Eo am-pakàna…",
+    "mediaPlaceholder": "Toeran'ny sary",
+    "fileLabel": "Rakitra andrasana"
+  }
+}

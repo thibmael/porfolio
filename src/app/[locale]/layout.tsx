@@ -65,6 +65,7 @@ export async function generateMetadata({
       languages: {
         fr: "/fr",
         en: "/en",
+        mg: "/mg",
       },
     },
     openGraph: {
@@ -72,7 +73,7 @@ export async function generateMetadata({
       description: dict.meta.defaultDescription,
       url: `/${locale}`,
       siteName: "Thibault M. E. Randrasana",
-      locale: locale === "fr" ? "fr_FR" : "en_US",
+      locale: locale === "fr" ? "fr_FR" : locale === "mg" ? "mg_MG" : "en_US",
       type: "website",
       images: [
         { url: "/og.jpg", width: 1200, height: 630, alt: dict.meta.defaultTitle },
