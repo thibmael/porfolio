@@ -12,6 +12,7 @@ export function MediaPlaceholder({
   rounded = "rounded-2xl",
   className = "",
   objectPosition,
+  priority = false,
 }: {
   src?: string;
   alt: string;
@@ -22,12 +23,20 @@ export function MediaPlaceholder({
   rounded?: string;
   className?: string;
   objectPosition?: string;
+  priority?: boolean;
 }) {
   return (
     <div className={`relative overflow-hidden ${rounded} ${className}`} style={{ aspectRatio: ratio }}>
       {src ? (
         // eslint-disable-next-line @next/next/no-img-element
-        <img src={src} alt={alt} loading="lazy" className={`h-full w-full object-cover ${bw ? "grayscale" : ""}`} style={objectPosition ? { objectPosition } : undefined} />
+        <img
+          src={src}
+          alt={alt}
+          loading={priority ? "eager" : "lazy"}
+          fetchPriority={priority ? "high" : undefined}
+          className={`h-full w-full object-cover ${bw ? "grayscale" : ""}`}
+          style={objectPosition ? { objectPosition } : undefined}
+        />
       ) : (
         <div
           role="img"

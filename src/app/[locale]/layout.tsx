@@ -9,6 +9,7 @@ import { Footer } from "@/components/layout/Footer";
 import { PageTransition } from "@/components/layout/PageTransition";
 import { CustomCursor } from "@/components/layout/CustomCursor";
 import { ScrollReveal } from "@/components/layout/ScrollReveal";
+import { Analytics } from "@vercel/analytics/next";
 import "../globals.css";
 
 // Set the saved theme before paint to avoid a flash of the wrong theme.
@@ -126,6 +127,7 @@ export default async function LocaleLayout({
           <PageTransition>{children}</PageTransition>
         </main>
         <Footer locale={locale as Locale} dict={dict} />
+        <Analytics />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(personJsonLd) }}

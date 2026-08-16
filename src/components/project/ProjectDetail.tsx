@@ -4,7 +4,7 @@ import type { Locale } from "@/lib/i18n-config";
 import type { Project } from "@/lib/project-types";
 import { teinteInk, teinteBg } from "@/lib/project-types";
 import { localizedHref } from "@/lib/routing";
-import { PROJECT_MEDIA, SUGGESTED_COVER, SUGGESTED_GALLERY } from "@/lib/project-media";
+import { PROJECT_MEDIA, SUGGESTED_COVER } from "@/lib/project-media";
 import { MediaPlaceholder } from "@/components/ui/MediaPlaceholder";
 import { Cover } from "./Cover";
 import { Accordion } from "@/components/ui/Accordion";
@@ -51,7 +51,6 @@ export function ProjectDetail({
   const media = PROJECT_MEDIA[project.slug] ?? {};
   const cover = media.cover || media.logo || "";
   const gallery = media.gallery ?? [];
-  const galleryHints = SUGGESTED_GALLERY[project.slug] ?? [];
   const filename = SUGGESTED_COVER[project.slug] ?? media.logo ?? undefined;
   const backHref = localizedHref(locale, "/parcours");
   const accent = teinteInk(project.teinte);
@@ -337,22 +336,22 @@ export function ProjectDetail({
         </div>
       )}
 
-      {/* gallery */}
-      <section className="mt-12">
-        <Head title={detail.galleryTitle} accent={accent} />
-        <div className="mt-4 grid grid-cols-2 gap-4 sm:grid-cols-3">
-          {[0, 1, 2].map((i) => (
-            <MediaPlaceholder
-              key={i}
-              src={gallery[i] || undefined}
-              alt={`${project.imageAlt} — ${i + 1}`}
-              ratio="4 / 3"
-              fileLabel={fileLabel}
-              filename={gallery[i] ? undefined : galleryHints[i]}
-            />
-          ))}
-        </div>
-      </section>
+      {/* gallery — only render real images; no empty placeholder frames */}
+      {gallery.filter(Boolean).length > 0 && (
+        <section className="mt-12">
+          <Head title={detail.galleryTitle} accent={accent} />
+          <div className="mt-4 grid grid-cols-2 gap-4 sm:grid-cols-3">
+            {gallery.filter(Boolean).map((src, i) => (
+              <MediaPlaceholder
+                key={i}
+                src={src}
+                alt={`${project.imageAlt} — ${i + 1}`}
+                ratio="4 / 3"
+              />
+            ))}
+          </div>
+        </section>
+      )}
 
       <ProjectNavigation
         prev={prev ? { href: localizedHref(locale, `/parcours/${prev.slug}`), org: prev.org } : undefined}

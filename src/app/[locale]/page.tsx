@@ -53,6 +53,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
             fileLabel={dict.common.fileLabel}
             rounded="rounded-3xl"
             objectPosition="center 22%"
+            priority
           />
         </div>
       </section>

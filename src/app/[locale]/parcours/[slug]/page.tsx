@@ -4,6 +4,7 @@ import { isLocale, locales, type Locale } from "@/lib/i18n-config";
 import { notFound } from "next/navigation";
 import { ProjectDetail } from "@/components/project/ProjectDetail";
 import type { Project } from "@/lib/project-types";
+import { PROJECT_MEDIA } from "@/lib/project-media";
 
 export function generateStaticParams() {
   const fr = getDictionary("fr");
@@ -21,10 +22,18 @@ export async function generateMetadata({
   const projects = getDictionary(locale).projects as unknown as Project[];
   const project = projects.find((p) => p.slug === slug);
   if (!project) return {};
+  const media = PROJECT_MEDIA[slug] ?? {};
+  const cover = media.cover || media.logo || "/og.jpg";
   return {
     title: `${project.org} — ${project.role}`,
     description: project.summary,
-    openGraph: { title: project.org, description: project.summary, type: "article" },
+    openGraph: {
+      title: project.org,
+      description: project.summary,
+      type: "article",
+      images: [{ url: cover, alt: project.imageAlt ?? project.org }],
+    },
+    twitter: { card: "summary_large_image", images: [cover] },
   };
 }
 
