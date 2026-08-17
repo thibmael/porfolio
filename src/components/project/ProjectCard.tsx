@@ -44,7 +44,7 @@ export function ProjectCard({
       style={arStyle}
     >
       <div className="absolute inset-0 transition-transform duration-500 group-hover:scale-[1.05]">
-        <Cover slug={project.slug} src={cover || undefined} alt={project.imageAlt} hint={cover ? undefined : true} hintClassName="bottom-3 right-3" />
+        <Cover slug={project.slug} src={cover || undefined} alt={project.imageAlt} />
       </div>
 
       {/* metric chip */}

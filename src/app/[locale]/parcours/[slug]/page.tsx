@@ -69,7 +69,6 @@ export default async function ProjectPage({
         locale={locale as Locale}
         prev={idx > 0 ? projects[idx - 1] : undefined}
         next={idx < projects.length - 1 ? projects[idx + 1] : undefined}
-        fileLabel={dict.common.fileLabel}
       />
       {articleJsonLd && (
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }} />

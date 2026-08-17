@@ -17,13 +17,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   return { title: getDictionary(locale).contact.title };
 }
 
-function CvLink({ href, label, unavailable }: { href: string; label: string; unavailable: string }) {
-  if (!href)
-    return (
-      <span className="rounded-full border border-dashed border-(--color-line) px-4 py-2 text-sm text-(--color-soft)">
-        {label} — {unavailable}
-      </span>
-    );
+function CvLink({ href, label }: { href: string; label: string }) {
+  if (!href) return null;
   return (
     <a href={href} download className="rounded-full border border-(--color-ink) px-4 py-2 text-sm font-medium transition-colors hover:bg-(--color-ink) hover:text-(--color-paper)">
       {label}
@@ -75,8 +70,8 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
           </dl>
 
           <div className="mt-8 flex flex-wrap gap-3">
-            <CvLink href={CV_FR_URL} label={c.cvFr} unavailable={c.cvUnavailable} />
-            <CvLink href={CV_EN_URL} label={c.cvEn} unavailable={c.cvUnavailable} />
+            <CvLink href={CV_FR_URL} label={c.cvFr} />
+            <CvLink href={CV_EN_URL} label={c.cvEn} />
           </div>
         </div>
 

@@ -4,7 +4,7 @@ import type { Locale } from "@/lib/i18n-config";
 import type { Project } from "@/lib/project-types";
 import { teinteInk, teinteBg } from "@/lib/project-types";
 import { localizedHref } from "@/lib/routing";
-import { PROJECT_MEDIA, SUGGESTED_COVER } from "@/lib/project-media";
+import { PROJECT_MEDIA } from "@/lib/project-media";
 import { MediaPlaceholder } from "@/components/ui/MediaPlaceholder";
 import { Cover } from "./Cover";
 import { Accordion } from "@/components/ui/Accordion";
@@ -39,19 +39,16 @@ export function ProjectDetail({
   locale,
   prev,
   next,
-  fileLabel,
 }: {
   project: Project;
   detail: DetailDict;
   locale: Locale;
   prev?: Project;
   next?: Project;
-  fileLabel: string;
 }) {
   const media = PROJECT_MEDIA[project.slug] ?? {};
   const cover = media.cover || media.logo || "";
   const gallery = media.gallery ?? [];
-  const filename = SUGGESTED_COVER[project.slug] ?? media.logo ?? undefined;
   const backHref = localizedHref(locale, "/parcours");
   const accent = teinteInk(project.teinte);
   const soft = teinteBg(project.teinte);
@@ -73,7 +70,7 @@ export function ProjectDetail({
 
       {/* cover banner */}
       <div className="relative mt-5 overflow-hidden rounded-3xl" style={{ aspectRatio: "16 / 7" }}>
-        <Cover slug={project.slug} src={cover || undefined} alt={project.imageAlt} hint={cover ? undefined : filename} hintClassName="left-5 top-5" />
+        <Cover slug={project.slug} src={cover || undefined} alt={project.imageAlt} />
         <div className="absolute inset-x-0 bottom-0 z-10 p-6 text-white sm:p-8">
           <div className="flex flex-wrap gap-2">
             {project.practice && (
