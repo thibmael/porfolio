@@ -1,8 +1,8 @@
 {
   "meta": {
     "siteName": "Thibault Randrasana",
-    "defaultTitle": "Thibault M. E. Randrasana — Mpandinika ny varotra iraisam-pirenena, lojistika sy politika ho an'ny daholobe",
-    "defaultDescription": "Portfolio mifanentana an'i Thibault M. E. Randrasana : asa an-dranomasina, fandinihana ara-toekarena, tetikasa iraisam-pirenena, fandraharahana ary fikarohana ampiharina eto Madagasikara sy ao amin'ny Ranomasimbe Indiana."
+    "defaultTitle": "Thibault M. E. Randrasana — Mpandinika, mpitantana tetikasa & product owner",
+    "defaultDescription": "Portfolio mifanentana an'i Thibault M. E. Randrasana — mpandinika, mpitantana tetikasa ary product owner : varotra iraisam-pirenena, lojistika, politika ho an'ny daholobe, fitantanana tetikasa ary vokatra nomerika, eto Madagasikara sy ao amin'ny Ranomasimbe Indiana."
   },
   "nav": {
     "home": "Fandraisana",
@@ -15,7 +15,7 @@
     "skipToContent": "Handeha any amin'ny votoaty"
   },
   "footer": {
-    "tagline": "Mpandinika ny varotra iraisam-pirenena, lojistika sy politika ho an'ny daholobe.",
+    "tagline": "Mpandinika, mpitantana tetikasa ary product owner — varotra iraisam-pirenena, lojistika sy politika ho an'ny daholobe.",
     "availability": "Malalaka amin'ny asa freelance, miaraka amin'ny asa feno andro.",
     "rights": "Voatokana ny zo rehetra.",
     "linkedin": "LinkedIn",
@@ -23,14 +23,14 @@
   },
   "home": {
     "hero": {
-      "eyebrow": "Portfolio",
+      "eyebrow": "Varotra iraisam-pirenena · Lojistika · Politika ho an'ny daholobe",
       "name": "Thibault M. E. Randrasana",
-      "title": "Mpandinika ny varotra iraisam-pirenena, lojistika sy politika ho an'ny daholobe.",
-      "subtitle": "Traikefa mamakivaky ny asa an-dranomasina, ny fandinihana ara-toekarena, ny tetikasa iraisam-pirenena, ny fandraharahana ary ny fikarohana ampiharina eto Madagasikara sy ao amin'ny Ranomasimbe Indiana.",
+      "title": "Mpandinika · Mpitantana tetikasa · Product owner",
+      "subtitle": "Traikefa mamakivaky ny asa an-dranomasina, ny fandinihana ara-toekarena, ny fitantanana tetikasa, ny fandraharahana ary ny fikarohana ampiharina eto Madagasikara sy ao amin'ny Ranomasimbe Indiana.",
       "personal": "Dinihiko ny rafitra mampifandray ny orinasa, ny andrim-panjakana ary ny faritra — avy eo dia ovako ho tetikasa, tolo-kevitra ary fanapahan-kevitra azo ampiharina ireo fandinihana ireo.",
       "photoAlt": "Sarin'i Thibault M. E. Randrasana ho an'ny asa",
       "photoFile": "/images/profile/thibault-portrait.jpg",
-      "available": "Malalaka amin'ny asa fanoloran-kevitra",
+      "available": "Malalaka : fanoloran-kevitra, fitantanana tetikasa & product ownership",
       "ctaExplore": "Hijery ny traikefako",
       "ctaCV": "Hisintona ny CV-ko",
       "ctaContact": "Hifandray amiko"
@@ -894,7 +894,7 @@
   ],
   "profil": {
     "title": "Mombamomba",
-    "intro": "Niforona teo anelanelan'ny tontolo maro ny lalako : ny asa an-dranomasina, ny fandinihana ara-toekarena, ny andrim-panjakana, ny fandraharahana ary ny fikarohana. Izay mampifandray ireo traikefa ireo dia ny fahalianako amin'ny rafitra sarotra, ny fifandraisana miankin-doha ary ny fomba ahafahan'ny fikambanana mamerina ny fahafahany manapa-kevitra.",
+    "intro": "Niforona teo anelanelan'ny tontolo maro ny lalako : ny asa an-dranomasina, ny fandinihana ara-toekarena, ny andrim-panjakana, ny fandraharahana ary ny fikarohana. Izay mampifandray ireo traikefa ireo dia ny fahalianako amin'ny rafitra sarotra, ny fifandraisana miankin-doha ary ny fomba ahafahan'ny fikambanana mamerina ny fahafahany manapa-kevitra. Miasa ho mpandinika sy ho mpitantana tetikasa ary product owner aho.",
     "domainsTitle": "Sehatra iasana",
     "domains": [
       {
@@ -918,8 +918,8 @@
         "desc": "Fikirakirana, fampisehoana ary famakiana azo ampiharina ny angona."
       },
       {
-        "label": "Fitantanana tetikasa iraisam-pirenena",
-        "desc": "Fandrindrana mpandray anjara ho an'ny daholobe sy tsy miankina, firenena maro."
+        "label": "Fitantanana tetikasa & Product Ownership",
+        "desc": "Famaritana, fanomezana laharam-pahamehana ny vokatra ary fandrindrana mpandray anjara ho an'ny daholobe sy tsy miankina, amin'ny sehatra firenena maro."
       }
     ],
     "zonesTitle": "Faritra ara-jeografika",
@@ -971,7 +971,7 @@
   },
   "contact": {
     "title": "Andao hanorina zavatra mahasoa.",
-    "intro": "Malalaka aho hifanakalo hevitra momba ny asa fandinihana, ny tetikasa fampandrosoana ara-toekarena, ny olana ara-lojistika iraisam-pirenena na ny fiaraha-miasa ara-pandraharahana.",
+    "intro": "Malalaka aho hifanakalo hevitra momba ny asa fandinihana, ny fitantanana tetikasa na ny product ownership, ny tetikasa fampandrosoana ara-toekarena, ny olana ara-lojistika iraisam-pirenena na ny fiaraha-miasa ara-pandraharahana.",
     "emailLabel": "Mailaka",
     "emailPlaceholder": "[FENOINA : adiresy mailaka]",
     "phoneLabel": "Telefaonina",

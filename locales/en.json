@@ -1,8 +1,8 @@
 {
   "meta": {
     "siteName": "Thibault Randrasana",
-    "defaultTitle": "Thibault M. E. Randrasana — International trade, logistics & public policy analyst",
-    "defaultDescription": "Interactive portfolio of Thibault M. E. Randrasana: maritime operations, economic studies, international projects, entrepreneurship and applied research in Madagascar and the Indian Ocean."
+    "defaultTitle": "Thibault M. E. Randrasana — Analyst, project manager & product owner",
+    "defaultDescription": "Interactive portfolio of Thibault M. E. Randrasana — analyst, project manager and product owner: international trade, logistics, public policy, project management and digital product, in Madagascar and the Indian Ocean."
   },
   "nav": {
     "home": "Home",
@@ -15,7 +15,7 @@
     "skipToContent": "Skip to content"
   },
   "footer": {
-    "tagline": "Analyst in international trade, logistics and public policy.",
+    "tagline": "Analyst, project manager and product owner — international trade, logistics and public policy.",
     "availability": "Available freelance, alongside a full-time position.",
     "rights": "All rights reserved.",
     "linkedin": "LinkedIn",
@@ -23,14 +23,14 @@
   },
   "home": {
     "hero": {
-      "eyebrow": "Portfolio",
+      "eyebrow": "International trade · Logistics · Public policy",
       "name": "Thibault M. E. Randrasana",
-      "title": "Analyst in international trade, logistics and public policy.",
-      "subtitle": "A path across maritime operations, economic studies, international projects, entrepreneurship and applied research in Madagascar and the Indian Ocean.",
+      "title": "Analyst · Project manager · Product owner",
+      "subtitle": "A path across maritime operations, economic studies, project management, product entrepreneurship and applied research, in Madagascar and the Indian Ocean.",
       "personal": "I explore the systems that connect companies, institutions and territories — then turn those analyses into projects, recommendations and operational decisions.",
       "photoAlt": "Professional photograph of Thibault M. E. Randrasana",
       "photoFile": "/images/profile/thibault-portrait.jpg",
-      "available": "Available for consulting assignments",
+      "available": "Available: consulting, project management & product ownership",
       "ctaExplore": "Explore my work",
       "ctaCV": "Download my CV",
       "ctaContact": "Get in touch"
@@ -564,7 +564,7 @@
   ],
   "profil": {
     "title": "Profile",
-    "intro": "My path took shape across several environments: maritime operations, economic studies, institutions, entrepreneurship and research. What connects these experiences is my interest in complex systems, relationships of dependence, and how organisations can regain room for decision.",
+    "intro": "My path took shape across several environments: maritime operations, economic studies, institutions, entrepreneurship and research. What connects these experiences is my interest in complex systems, relationships of dependence, and how organisations can regain room for decision. I work as an analyst as much as a project manager and product owner.",
     "domainsTitle": "Areas of intervention",
     "domains": [
       { "label": "Trade policy and regional integration", "desc": "AfCFTA, AGOA; sector diagnostics and market opportunities." },
@@ -572,7 +572,7 @@
       { "label": "Sectoral impact studies", "desc": "Desk research, analysis, deliverable production." },
       { "label": "Economic development of island states", "desc": "Logistics dependence, sovereignty, supply chains." },
       { "label": "Data analysis", "desc": "Processing, visualising and reading data operationally." },
-      { "label": "International project management", "desc": "Coordinating public and private actors, multi-country." }
+      { "label": "Project management & product ownership", "desc": "Scoping, product prioritisation and coordination of public and private actors, in a multi-country context." }
     ],
     "zonesTitle": "Geographic areas",
     "zones": [
@@ -592,7 +592,7 @@
   },
   "contact": {
     "title": "Let's build something useful.",
-    "intro": "I'm available to discuss study assignments, economic-development projects, international logistics challenges or entrepreneurial collaborations.",
+    "intro": "I'm available to discuss study assignments, project management or product ownership, economic-development projects, international logistics challenges or entrepreneurial collaborations.",
     "emailLabel": "Email",
     "emailPlaceholder": "[TO COMPLETE: email address]",
     "phoneLabel": "Phone",

@@ -1,8 +1,8 @@
 {
   "meta": {
     "siteName": "Thibault Randrasana",
-    "defaultTitle": "Thibault M. E. Randrasana — Analyste commerce international, logistique et politiques publiques",
-    "defaultDescription": "Portfolio interactif de Thibault M. E. Randrasana : opérations maritimes, études économiques, projets internationaux, entrepreneuriat et recherche appliquée à Madagascar et dans l'océan Indien."
+    "defaultTitle": "Thibault M. E. Randrasana — Analyste, chef de projet & product owner",
+    "defaultDescription": "Portfolio interactif de Thibault M. E. Randrasana — analyste, chef de projet et product owner : commerce international, logistique, politiques publiques, gestion de projet et produit digital, à Madagascar et dans l'océan Indien."
   },
   "nav": {
     "home": "Accueil",
@@ -15,7 +15,7 @@
     "skipToContent": "Aller au contenu"
   },
   "footer": {
-    "tagline": "Analyste en commerce international, logistique et politiques publiques.",
+    "tagline": "Analyste, chef de projet et product owner — commerce international, logistique et politiques publiques.",
     "availability": "Disponible en freelance, en parallèle d'un poste à temps plein.",
     "rights": "Tous droits réservés.",
     "linkedin": "LinkedIn",
@@ -23,14 +23,14 @@
   },
   "home": {
     "hero": {
-      "eyebrow": "Portfolio",
+      "eyebrow": "Commerce international · Logistique · Politiques publiques",
       "name": "Thibault M. E. Randrasana",
-      "title": "Analyste en commerce international, logistique et politiques publiques.",
-      "subtitle": "Un parcours entre opérations maritimes, études économiques, projets internationaux, entrepreneuriat et recherche appliquée à Madagascar et dans l'océan Indien.",
+      "title": "Analyste · Chef de projet · Product Owner",
+      "subtitle": "Un parcours entre opérations maritimes, études économiques, gestion de projet, entrepreneuriat produit et recherche appliquée, à Madagascar et dans l'océan Indien.",
       "personal": "J'explore les systèmes qui relient les entreprises, les institutions et les territoires — puis je transforme ces analyses en projets, recommandations et décisions opérationnelles.",
       "photoAlt": "Photographie professionnelle de Thibault M. E. Randrasana",
       "photoFile": "/images/profile/thibault-portrait.jpg",
-      "available": "Disponible pour missions de conseil",
+      "available": "Disponible : conseil, gestion de projet & product ownership",
       "ctaExplore": "Explorer mon parcours",
       "ctaCV": "Télécharger mon CV",
       "ctaContact": "Me contacter"
@@ -564,7 +564,7 @@
   ],
   "profil": {
     "title": "Profil",
-    "intro": "Mon parcours s'est construit entre plusieurs environnements : les opérations maritimes, les études économiques, les institutions, l'entrepreneuriat et la recherche. Ce qui relie ces expériences est mon intérêt pour les systèmes complexes, les relations de dépendance et la manière dont les organisations peuvent reprendre de la marge de décision.",
+    "intro": "Mon parcours s'est construit entre plusieurs environnements : les opérations maritimes, les études économiques, les institutions, l'entrepreneuriat et la recherche. Ce qui relie ces expériences est mon intérêt pour les systèmes complexes, les relations de dépendance et la manière dont les organisations peuvent reprendre de la marge de décision. J'interviens aussi bien comme analyste que comme chef de projet et product owner.",
     "domainsTitle": "Domaines d'intervention",
     "domains": [
       { "label": "Politiques commerciales et intégration régionale", "desc": "ZLECAf, AGOA ; diagnostic de filières et opportunités de marché." },
@@ -572,7 +572,7 @@
       { "label": "Études d'impact sectorielles", "desc": "Recherche documentaire, analyse, production de livrables." },
       { "label": "Développement économique des États insulaires", "desc": "Dépendance logistique, souveraineté, chaînes d'approvisionnement." },
       { "label": "Analyse de données", "desc": "Traitement, visualisation et lecture opérationnelle des données." },
-      { "label": "Gestion de projets internationaux", "desc": "Coordination d'acteurs publics et privés, multi-pays." }
+      { "label": "Gestion de projet & Product Ownership", "desc": "Cadrage, priorisation produit et coordination d'acteurs publics et privés, en contexte multi-pays." }
     ],
     "zonesTitle": "Zones géographiques",
     "zones": [
@@ -592,7 +592,7 @@
   },
   "contact": {
     "title": "Construisons quelque chose d'utile.",
-    "intro": "Je suis disponible pour échanger sur des missions d'étude, des projets de développement économique, des problématiques de logistique internationale ou des collaborations entrepreneuriales.",
+    "intro": "Je suis disponible pour échanger sur des missions d'étude, de la gestion de projet ou du product ownership, des projets de développement économique, des problématiques de logistique internationale ou des collaborations entrepreneuriales.",
     "emailLabel": "Email",
     "emailPlaceholder": "[À COMPLÉTER : adresse email]",
     "phoneLabel": "Téléphone",
