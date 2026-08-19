@@ -36,10 +36,10 @@
       "ctaCV": "Télécharger mon CV",
       "ctaContact": "Me contacter"
     },
-    "statsLead": "Un profil qui conçoit et pilote : de la gestion de projet au product ownership, en passant par l'entrepreneuriat. Deux produits menés de l'idée au lancement (Ploutos, PopnBuy) et des projets internationaux coordonnés de bout en bout.",
+    "statsLead": "Un profil qui conçoit et pilote : de la gestion de projet au product ownership, en passant par l'entrepreneuriat. Deux produits conçus et menés jusqu'au MVP (Ploutos, PopnBuy) et des projets internationaux coordonnés en équipe.",
     "stats": [
       { "value": "2", "unit": " MVP", "label": "produits conçus & livrés comme Product Owner · Ploutos & PopnBuy", "href": "/parcours/popnbuy" },
-      { "value": "~500", "unit": "", "label": "participants réunis au Global Business Forum · Project Manager, WTC", "href": "/parcours/wtc" },
+      { "value": "~500", "unit": "", "label": "participants au Global Business Forum · j'y ai présenté et représenté les WTC", "href": "/parcours/wtc" },
       { "value": "2", "unit": " M€", "label": "term sheet signé en pre-seed · Ploutos", "href": "/parcours/ploutos" },
       { "value": "Forbes", "unit": "", "label": "présélection 30 Under 30 Europe · Ploutos", "href": "/parcours/ploutos" }
     ],
