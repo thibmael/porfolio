@@ -58,6 +58,19 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
         </div>
       </section>
 
+      {/* Personal manifesto — the line that defines the work */}
+      <section className="mx-auto max-w-4xl px-6 pt-10" data-reveal>
+        <figure className="relative pl-6">
+          <span aria-hidden className="display pointer-events-none absolute -top-4 left-0 text-5xl leading-none text-(--color-accent-soft) sm:text-6xl">“</span>
+          <blockquote className="display text-2xl font-semibold leading-snug text-(--color-ink) sm:text-3xl">
+            {dict.motto}
+          </blockquote>
+          <figcaption className="mt-3 text-xs font-semibold uppercase tracking-widest text-(--color-soft)">
+            {dict.home.hero.name}
+          </figcaption>
+        </figure>
+      </section>
+
       {/* References band — quiet, borderless strip: a line of trust, not a box */}
       <section className="mx-auto max-w-6xl px-6 pt-10" data-reveal>
         <p className="text-center text-[0.7rem] font-semibold uppercase tracking-widest text-(--color-soft)">
@@ -86,6 +99,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
 
       {/* Stats band — the bold, structured counterpart to the quiet logo strip */}
       <section className="mx-auto max-w-6xl px-6 pt-12" data-reveal>
+        <p className="measure mb-5 text-sm leading-relaxed text-(--color-soft)">{dict.home.statsLead}</p>
         <div className="grid grid-cols-2 gap-px overflow-hidden rounded-2xl border border-(--color-line) bg-(--color-line) sm:grid-cols-4">
           {dict.home.stats.map((s, i) => {
             const content = (

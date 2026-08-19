@@ -4,6 +4,7 @@
     "defaultTitle": "Thibault M. E. Randrasana — Analyst, project manager & product owner",
     "defaultDescription": "Interactive portfolio of Thibault M. E. Randrasana — analyst, project manager and product owner: international trade, logistics, public policy, project management and digital product, in Madagascar and the Indian Ocean."
   },
+  "motto": "The world where I'd have my place won't exist until I've built it.",
   "nav": {
     "home": "Home",
     "parcours": "Work",
@@ -35,10 +36,11 @@
       "ctaCV": "Download my CV",
       "ctaContact": "Get in touch"
     },
+    "statsLead": "A profile that builds and steers: from project management to product ownership, by way of entrepreneurship. Two products taken from idea to launch (Ploutos, PopnBuy) and international projects coordinated end to end.",
     "stats": [
-      { "value": "~400", "unit": " TEU", "label": "containers tracked / week — EASTMED service", "href": "/parcours/msc-eastmed" },
+      { "value": "2", "unit": " MVP", "label": "products designed & shipped as Product Owner · Ploutos & PopnBuy", "href": "/parcours/popnbuy" },
+      { "value": "~500", "unit": "", "label": "attendees convened at the Global Business Forum · Project Manager, WTC", "href": "/parcours/wtc" },
       { "value": "2", "unit": " M€", "label": "pre-seed term sheet signed · Ploutos", "href": "/parcours/ploutos" },
-      { "value": "50", "unit": "+", "label": "international clients handled daily", "href": "/parcours/msc-eastmed" },
       { "value": "Forbes", "unit": "", "label": "30 Under 30 Europe shortlist · Ploutos", "href": "/parcours/ploutos" }
     ],
     "orgsTitle": "Institutions & organisations",

@@ -22,12 +22,17 @@ const cardTint = (t: Teinte) => ({
 export default async function ProfilPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   if (!isLocale(locale)) notFound();
-  const p = getDictionary(locale).profil;
+  const dict = getDictionary(locale);
+  const p = dict.profil;
 
   return (
     <div className="mx-auto max-w-5xl px-6 py-14">
       <h1 className="display text-4xl sm:text-5xl">{p.title}</h1>
-      <p className="measure mt-6 text-lg leading-relaxed text-(--color-ink)">{p.intro}</p>
+      <figure className="relative mt-8 pl-6">
+        <span aria-hidden className="display pointer-events-none absolute -top-4 left-0 text-5xl leading-none text-(--color-accent-soft) sm:text-6xl">“</span>
+        <blockquote className="display measure text-xl font-semibold leading-snug text-(--color-ink) sm:text-2xl">{dict.motto}</blockquote>
+      </figure>
+      <p className="measure mt-8 text-lg leading-relaxed text-(--color-ink)">{p.intro}</p>
 
       {/* Domains */}
       <section className="mt-14">

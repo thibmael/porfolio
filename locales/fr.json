@@ -4,6 +4,7 @@
     "defaultTitle": "Thibault M. E. Randrasana — Analyste, chef de projet & product owner",
     "defaultDescription": "Portfolio interactif de Thibault M. E. Randrasana — analyste, chef de projet et product owner : commerce international, logistique, politiques publiques, gestion de projet et produit digital, à Madagascar et dans l'océan Indien."
   },
+  "motto": "Le monde dans lequel j'aurais ma place n'existera pas tant que je ne l'aurai pas créé.",
   "nav": {
     "home": "Accueil",
     "parcours": "Parcours",
@@ -35,10 +36,11 @@
       "ctaCV": "Télécharger mon CV",
       "ctaContact": "Me contacter"
     },
+    "statsLead": "Un profil qui conçoit et pilote : de la gestion de projet au product ownership, en passant par l'entrepreneuriat. Deux produits menés de l'idée au lancement (Ploutos, PopnBuy) et des projets internationaux coordonnés de bout en bout.",
     "stats": [
-      { "value": "~400", "unit": " EVP", "label": "conteneurs suivis / semaine — service EASTMED", "href": "/parcours/msc-eastmed" },
+      { "value": "2", "unit": " MVP", "label": "produits conçus & livrés comme Product Owner · Ploutos & PopnBuy", "href": "/parcours/popnbuy" },
+      { "value": "~500", "unit": "", "label": "participants réunis au Global Business Forum · Project Manager, WTC", "href": "/parcours/wtc" },
       { "value": "2", "unit": " M€", "label": "term sheet signé en pre-seed · Ploutos", "href": "/parcours/ploutos" },
-      { "value": "50", "unit": "+", "label": "clients internationaux gérés au quotidien", "href": "/parcours/msc-eastmed" },
       { "value": "Forbes", "unit": "", "label": "présélection 30 Under 30 Europe · Ploutos", "href": "/parcours/ploutos" }
     ],
     "orgsTitle": "Institutions et organisations",

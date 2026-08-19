@@ -4,6 +4,7 @@
     "defaultTitle": "Thibault M. E. Randrasana — Mpandinika, mpitantana tetikasa & product owner",
     "defaultDescription": "Portfolio mifanentana an'i Thibault M. E. Randrasana — mpandinika, mpitantana tetikasa ary product owner : varotra iraisam-pirenena, lojistika, politika ho an'ny daholobe, fitantanana tetikasa ary vokatra nomerika, eto Madagasikara sy ao amin'ny Ranomasimbe Indiana."
   },
+  "motto": "Tsy hisy ny tontolo hisy toerako raha tsy izaho no efa namorona azy.",
   "nav": {
     "home": "Fandraisana",
     "parcours": "Traikefa",
@@ -35,24 +36,25 @@
       "ctaCV": "Hisintona ny CV-ko",
       "ctaContact": "Hifandray amiko"
     },
+    "statsLead": "Profil mamorona sy mitantana : manomboka amin'ny fitantanana tetikasa ka hatramin'ny product ownership, mandalo amin'ny fandraharahana. Vokatra roa nentina hatramin'ny hevitra ka hatramin'ny fandefasana (Ploutos, PopnBuy) sy tetikasa iraisam-pirenena narindra manontolo.",
     "stats": [
       {
-        "value": "~400",
-        "unit": " EVP",
-        "label": "kaontenera arahina / herinandro — tolotra EASTMED",
-        "href": "/parcours/msc-eastmed"
+        "value": "2",
+        "unit": " MVP",
+        "label": "vokatra noforonina & natolotra amin'ny maha Product Owner · Ploutos & PopnBuy",
+        "href": "/parcours/popnbuy"
+      },
+      {
+        "value": "~500",
+        "unit": "",
+        "label": "mpandray anjara nangonina tamin'ny Global Business Forum · Project Manager, WTC",
+        "href": "/parcours/wtc"
       },
       {
         "value": "2",
         "unit": " M€",
         "label": "term sheet vita sonia tamin'ny pre-seed · Ploutos",
         "href": "/parcours/ploutos"
-      },
-      {
-        "value": "50",
-        "unit": "+",
-        "label": "mpanjifa iraisam-pirenena tantanana isan'andro",
-        "href": "/parcours/msc-eastmed"
       },
       {
         "value": "Forbes",
